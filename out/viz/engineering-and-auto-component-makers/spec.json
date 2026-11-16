@@ -1,0 +1,43 @@
+{
+ "top": [
+  ["14%", " of the 391 filer companies sit in Industrials, Engineering & Auto, the largest single sector."],
+  ["99", " filings in 2026 through 27 August, already past 2023's record 97."],
+  ["64%", " of filer companies have never gone beyond their initial DRHP."]
+ ],
+ "sections": [
+  {"h2": "Industrials, Engineering & Auto is the largest filer sector, at 14% of companies",
+   "chart": {"type": "bars",
+             "title": "Industrials, Engineering & Auto has more filer companies than any other sector",
+             "sub": "Companies with at least one SEBI DRHP filing, by sector, Aug 2019 to Aug 2026.",
+             "source": "SEBI public-issue filings register; sector grouping is this analysis's own.",
+             "unit": "companies",
+             "accent": "Industrials, Engineering & Auto",
+             "table": {"id": "T2", "label": 0, "value": 1, "rows": "top:8", "sort": "desc"}},
+   "means": "The sector that gets the least coverage is the one with the most companies on file.",
+   "todo": "Readers tracking India's IPO pipeline should look beyond consumer-tech names to industrial filers.",
+   "numbers": {"table": "T2"}},
+  {"h2": "2026 has already passed 2023 as the record year for SEBI filings",
+   "chart": {"type": "bars",
+             "title": "Filings reached 99 by 27 August, past 2023's 97 with four months left",
+             "sub": "SEBI public-issue filings per year (DRHP, Updated DRHP, Addendum, Corrigendum); 2026 runs to 27 August.",
+             "source": "SEBI public-issue filings register, Aug 2019 to 27 Aug 2026.",
+             "unit": "filings",
+             "accent": "2026 (through 27 Aug)",
+             "table": {"id": "T1", "label": 0, "value": 1, "rows": "top:8"}},
+   "means": "Filing volume rose from one filing in 2019 to a plateau of 80 to 100 a year from 2023 onward.",
+   "todo": "Anyone counting the pipeline should compare 2026 against the full-year records, not a partial year.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Most filer companies have not gone beyond their initial DRHP",
+   "chart": {"type": "bars",
+             "title": "Two in three of the 391 filers have never filed an amendment to their DRHP",
+             "sub": "Companies by latest filing stage, Aug 2019 to Aug 2026.",
+             "source": "SEBI public-issue filings register, Aug 2019 to 27 Aug 2026.",
+             "unit": "companies",
+             "accent": "DRHP only (no amendment yet)",
+             "table": {"id": "T3", "label": 0, "value": 1, "rows": "top:4"}},
+   "means": "Most companies on file are still early in the process, with the observation letter valid for only 12 months.",
+   "todo": "Treat a DRHP on file as a company that has started the process, and check its observation-letter date before expecting a listing.",
+   "numbers": {"table": "T3"}}
+ ],
+ "derived": {}
+}

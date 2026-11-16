@@ -1,0 +1,23 @@
+{"top": [["298", " votes for the 131st Amendment against 352 needed, so the bill fell in the Lok Sabha on 17 April 2026."], ["50 years", " since seat allocation was frozen in 1976, and Census 2027 ends that freeze."], ["3", " constitutional amendment bills moved since December 2024, and none has passed."]],
+ "sections": [
+  {"h2": "The 131st Amendment fell 54 votes short in the Lok Sabha",
+   "chart": {"type":"bars", "title":"Yes votes reached 298 of the 352 needed; 230 voted no",
+             "sub":"Votes on the Constitution (131st Amendment) Bill, Lok Sabha, 17 April 2026.",
+             "source":"Drishti IAS; The South First; Vision IAS.",
+             "unit":"votes", "accent":"Yes votes", "ref":[352,"352 votes needed"],
+             "rows":[["Yes votes",298],["No votes",230],["Votes needed",352]]},
+   "means": "The bill would have enlarged the Lok Sabha to 850 seats and brought women's reservation forward, but it was defeated.",
+   "todo": "Parliament must agree a seat formula before Census 2027 unfreezes allocation, so the next bill has to win the support the 131st lacked.",
+   "numbers": {"table":"T1"}},
+  {"h2": "Governors: courts dropped their own timelines, so only Parliament can set them",
+   "chart": {"type":"flow", "title":"Courts set timelines in 2025, then dropped them, leaving the fix to Parliament",
+             "events": [["1988","Sarkaria Commission asks for time limits on Governors' assent to bills"],["April 2025","Supreme Court sets timelines in the Tamil Nadu case"],["20 November 2025","Presidential Reference opinion: no judicially imposed timelines, no deemed assent",true]]},
+   "means": "Governors' assent has been recommended for reform since 1988, and the November 2025 opinion left no court-set deadline.",
+   "todo": "A fixed timeline for assent under Article 200 needs a constitutional amendment, so Parliament must draft one."},
+  {"h2": "Two bills in committee have had their deadlines extended into the Winter Session",
+   "chart": {"type":"flow", "title":"Both committee bills got deadline extensions into the 2026 Winter Session",
+             "events": [["December 2024","One Nation One Election bill (129th) introduced by 269 votes to 196 and sent to a JPC"],["July 2026","JPC on the 130th Amendment defers adopting its draft report"],["29 July 2026","Lok Sabha extends the 129th Bill's deadline to the first day of the last week of Winter Session"],["31 July 2026","Lok Sabha extends the 130th Bill's deadline to the last week of Winter Session",true]]},
+   "means": "The One Nation One Election and 130th Amendment bills are still with joint committees, and neither has reported.",
+   "todo": "Both committees need to table reports by the Winter Session deadline, since a third extension would leave the bills unresolved."}
+ ],
+ "derived": {}}

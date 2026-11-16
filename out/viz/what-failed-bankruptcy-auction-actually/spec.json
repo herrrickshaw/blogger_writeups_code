@@ -1,0 +1,47 @@
+{
+ "top": [
+  ["25%", " then 10%: the cuts Athena Chhattisgarh Power's reserve price took across three auction rounds in five weeks."],
+  ["9,528", " of 9,531 listed IBBI liquidation notices were captured in the 24 July 2026 scrape."],
+  ["13+ yrs", " after Dunlop India's 2013 winding-up order, its most valuable property is still contested."]
+ ],
+ "sections": [
+  {"h2": "Under the pre-2024 rule, a failed auction cut the reserve price 25%, then 10%",
+   "chart": {"type": "bars",
+             "title": "Athena's reserve price fell in two steps, the maximum the old rule allowed",
+             "sub": "Athena Chhattisgarh Power reserve price per auction round, Rs crore.",
+             "source": "IBBI liquidation-auction-notice register, scraped 24 Jul 2026.",
+             "unit": "cr",
+             "accent": "22 Dec 2021",
+             "table": {"id": "T1", "label": 1, "value": 2, "rows": "top:3", "sort": "none"}},
+   "means": "Athena Chhattisgarh Power's three rounds, 22 Dec 2021 to 24 Jan 2022, match the pre-2024 markdown schedule step for step.",
+   "todo": "Read repeat listings case by case, because Ind-Barath's prices move both ways when each listing bundles different asset blocks.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Land and buildings lead the register, ahead of plant and machinery",
+   "chart": {"type": "bars",
+             "title": "Land-type listings, split across three spellings, outnumber plant and machinery",
+             "sub": "Notices by asset type as described in the free-text scrape.",
+             "source": "IBBI liquidation-auction-notice register, scraped 24 Jul 2026.",
+             "unit": "notices",
+             "accent": "Plant & Machinery (both spellings)",
+             "table": {"id": "T2", "label": 0, "value": 1, "rows": "top:7", "sort": "desc"}},
+   "means": "Three land wordings total 370 notices (157, 120 and 93), more than the 147 for plant and machinery.",
+   "todo": "Merge the near-duplicate asset wordings in the scrape before quoting any single land count.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Dunlop India's 2013 winding-up has not yet cleared its most valuable property",
+   "chart": {"type": "flow",
+             "title": "Thirteen years after the winding-up order, the best asset is still changing hands",
+             "sub": "Dated events in the Dunlop India case, as reported in this post.",
+             "source": "Calcutta High Court orders; 17 March 2026 judgment, indiankanoon.org.",
+             "events": [
+               ["2011", "Sahaganj (Hooghly) plant suspended"],
+               ["2012", "Ambattur (Chennai) plant suspended"],
+               ["31 January 2013", "Calcutta High Court orders the company wound up"],
+               ["May 2013", "Appeal dismissed"],
+               ["2013", "Division bench flags an allegation that roughly ₹2,300 crore of properties were transferred"],
+               ["17 March 2026", "Judgment lets an official-liquidator auction stand, with rival claimants still holding rights", true]
+             ]},
+   "means": "The 2013 winding-up order was followed by suspensions, an allegation of transfers and a 2026 judgment that left the key asset contested.",
+   "todo": "Verify the Dunlop chain against the court record, since the post relied on secondary sources it did not re-verify."}
+ ],
+ "derived": {"370": "157+120+93"}
+}

@@ -1,0 +1,105 @@
+{
+ "top": [
+  [
+   "Rs 3",
+   " a litre off maize ethanol, which falls from Rs 71.86 to Rs 68.86 but stays the tender's dearest feedstock."
+  ],
+  [
+   "26.4%",
+   " of last year's allocation, about 276 crore litres, came from cane juice, sugar syrup and B-heavy molasses, which this tender does not buy."
+  ],
+  [
+   "1,100",
+   " crore litres sought for November 2026 to October 2027, with grain expected to supply almost all of it."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Maize ethanol falls Rs 3 a litre but stays the dearest feedstock",
+   "chart": {
+    "type": "bars",
+    "title": "Maize, at Rs 68.86, stays Rs 4.86 a litre above damaged grain",
+    "sub": "Price paid per litre of ethanol, Rs, by feedstock, ESY 2026-27 tender (basic rate plus incentive).",
+    "source": "BPCL e-tender 26985; tender 22376.",
+    "unit": "Rs per litre",
+    "accent": "Maize, with incentive",
+    "rows": [
+     [
+      "Maize, with incentive",
+      68.86,
+      "was 71.86 in ESY 2025-26"
+     ],
+     [
+      "Damaged food grains",
+      64.0
+     ],
+     [
+      "FCI rice",
+      60.32
+     ],
+     [
+      "C-heavy molasses, other feedstocks",
+      57.97
+     ]
+    ]
+   },
+   "means": "The basic rates are unchanged, so the only price cut is the maize incentive, and maize still costs the most of any feedstock still bought.",
+   "todo": "Distillers should press for the maize incentive cut to be reviewed, as the All India Distillers' Association has asked, before the bids close on 29 October."
+  },
+  {
+   "h2": "Cane juice, sugar and B-heavy supply, 26.4% last year, is not sought",
+   "chart": {
+    "type": "bars",
+    "title": "Cane juice, sugar syrup and B-heavy molasses, 26% of last year's supply, are not sought",
+    "sub": "Share of last year's allocation (about 1,048 crore litres), % by feedstock.",
+    "source": "ChiniMandi data via BioEnergy Times; tender 26985.",
+    "unit": "%",
+    "accent": "Cane juice, sugar, syrup",
+    "rows": [
+     [
+      "Cane juice, sugar, syrup",
+      15.8,
+      "not bought this year"
+     ],
+     [
+      "B-heavy molasses",
+      10.5,
+      "not bought this year"
+     ],
+     [
+      "C-heavy molasses",
+      1.2,
+      "still bought"
+     ]
+    ]
+   },
+   "means": "Cane-based ethanol supplied about a quarter of last year's allocation, and this tender removes it entirely, leaving grain to carry the programme.",
+   "todo": "Watch the offers from distilleries built on cane juice and B-heavy molasses, since the post says it cannot see whether those plants will keep running."
+  },
+  {
+   "h2": "Allocation flips from sugar-first to cheapest-first, putting maize last",
+   "chart": {
+    "type": "flow",
+    "title": "Maize moves from equal footing with grain to last in line",
+    "events": [
+     [
+      "ESY 2025-26",
+      "Zones short of supply take all offers; surplus zones fill sugar, syrup and cane juice before molasses and grain"
+     ],
+     [
+      "ESY 2026-27",
+      "No zones; cooperative sugar mills and long-term-contract plants come first, then the cheapest feedstock first"
+     ],
+     [
+      "ESY 2026-27",
+      "Maize comes last, after C-heavy molasses, other feedstocks, FCI rice and damaged grain",
+      true
+     ]
+    ]
+   },
+   "means": "Because maize is the dearest feedstock, it is allocated only after cheaper offers run out, unless the plant has a long-term contract or is a cooperative.",
+   "todo": "Read the allocation outcome by feedstock once awards are made, since every award is provisional and can be cut under the pending Supreme Court cases."
+  }
+ ],
+ "derived": {}
+}

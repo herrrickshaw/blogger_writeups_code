@@ -17,3 +17,25 @@ Unverified leads from the rewrite agents: each needs a human check against the p
 - `indian-it-in-ai-era`: Exhibit 4 heading says revenue per head rose "everywhere" but text says four of five; Exhibit 3 "up 2.3%" to about 6.0mn, but 5.80 to 6.0 is about 3.4%.
 - `14500-crore-for-92-gwh-indias-storage`: table T3 row "2023 and 2025 battery VGF" shows 43.3 GWh (and the 179.6 total uses it); the text says 43.8 GWh (13.8 + 30).
 - `the-world-bank-says-496-million-indians`: top bullet pairs Gini 23 (2023-24) with 62 (2023), different years; World Bank quoted as "unusually large" in one place and "unprecedented" in another.
+
+## Wave 15 (16 Nov 2026)
+- `engineering-and-auto-component-makers`: text gives Consumer Internet 26 companies and 7.4% share, table T2 has 28 and 7.2%; intro says Industrials is "14% of the filings" but 14.1% is a company share (60 of 488 filings is about 12%).
+- `india-and-mercosur-are-expanding-450`: T1 balances sum to -4,861, stated total -4,860 (rounding); the 2024-25 comparison uses press figures from a different source.
+- `indias-oil-fields-are-running-down-3696`: crude import dependence is 88.2% in the body but the ThePrint source line says 88.7%.
+- `india-got-record-945-billion-of-fdi`: 2025-26 net FDI is $7.65 bn in text but 7.7 in T2 (Parliament cites $6.95 bn); 2020-21 net is "about $43 bn" in text, 44.0 in T2.
+- `india-ended-63-years-of-state-nuclear`: chart source line says SHANTI "took effect on 21 Dec 2025" and the net-read says "law for nine months", both contradicting the post's own "not yet in force" update.
+- `indias-constitution-set-deadline`: header says "Revised 26 October 2026" but the checks cite 7 November 2026.
+- `the-cluster-automotive-piece-left-out`: NATRAX conversion (Rs 1,653 crore, about $200 million) is loose, not checked against an exchange rate.
+- `the-sme-growth-fund-is-indias-fourth`: SRI Budget 2026-27 top-up is Rs 2,000 crore in one source and Rs 4,000 crore in another.
+- `indias-2026-27-ethanol-tender-drops`: cane shares 15.8% + 10.5% = 26.3%, stated 26.4% (276/1,048 is also 26.3%).
+- `europes-export-credit-agencies-are`: post says direct deals are "an order of magnitude smaller" than infrastructure programmes; EUR 372m against EUR 2.15bn is about 6x.
+- `what-failed-bankruptcy-auction-actually`: top bullet says 9,531 notices but only 9,528 were captured.
+- `indias-lock-imports-hit-19784-million`: "roughly two orders of magnitude" is wrong (2,000 to 60 is about 33-fold); the 2019 GI filing's 3,125 manufacturers contradicts the ~60 active manufacturers from the same year.
+- `cough-syrup-in-lollipop-for-babies`: melatonin 7% is a share of visits, not a rise; the post mixes bases.
+- `abha-what-indias-14-digit-health-id`: post says growth "accelerated rather than plateaued" but its own year-end table shows additions falling from about 21.6 crore (2024) to 12.3 crore (2025).
+- `if-india-paid-brics-in-rupees-scenario`: takeaway says the usable share is "a quarter" but 93.4/321.8 is 29%; post calls the UAE balanced while T1 shows a $26.5bn deficit; section 4 chart says 30% while text says 29.8%; T1 residuals sum to 228.4 and imports to 321.9 against stated 228.5 and 321.8.
+- `idbi-banks-rescuers-put-in-54000-crore`: LIC's grown money said to be Rs 3,392 crore above what comes back, but 46,273 - 42,461 = 3,812.
+- `green-gold-what-spirulina-actually-is`: China's share of world spirulina given as 45% and as 55-65%.
+- `gobardhan-aims-for-12-times-todays`: the 19% divides 217-plant output by 132-plant capacity; 288/920 gives 31%.
+- `sugar-at-5570-kilo-why-cane-acreage`: section 1 says UP's gain "very nearly offset everyone else's losses" but listed losses total 0.60 lakh ha against UP's 0.36; listed state changes net to -0.13 against a national -0.31.
+- `574-gw-and-counting-indias-wind-fleet`: state table sums to about 58,516 MW against 58,520.32 MW; body uses 57.4 GW and 58.5 GW, the update 59.2 GW for September.

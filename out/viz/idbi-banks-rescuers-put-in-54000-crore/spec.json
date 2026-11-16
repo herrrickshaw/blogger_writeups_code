@@ -1,0 +1,18 @@
+{"top": [["₹54,158 crore", " of new capital went into IDBI Bank from the government and LIC since 2010-11."], ["1.37×", " book value: the price of ₹81 a share for the 60.72% Fairfax is buying."], ["31.8% → 2.1%", " gross bad loans, September 2018 to September 2026."]],
+ "sections": [
+  {"h2": "Government and LIC put in ₹54,158 crore of new capital since 2010-11",
+   "chart": {"type": "bars", "title": "The government's ₹27,441 crore included ₹12,438 crore of bonds, not cash", "sub": "New capital put into IDBI Bank, ₹ crore.", "source": "CAG, DFS, SEBI, CARE, PIB; this blog's arithmetic.", "unit": "₹ crore", "accent": "Government", "rows": [["Government", 27441, "incl. ₹12,438 crore of bonds"], ["LIC", 26717, "shares bought 2018-19"]]},
+   "means": "Between 2010-11 and October 2019 the government and LIC together put ₹54,158 crore of new capital into the bank.",
+   "todo": "Set the government's bond interest against its gain, since the post says it pays that interest every year until the bonds mature.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Both owners get back more than they put in, before growth at 7% is counted",
+   "chart": {"type": "bars", "title": "Before growth at 7% a year, each owner gets back about 1.5 to 1.6 times its money", "sub": "Money put in against value out (stake at ₹81 plus dividends), ₹ crore.", "source": "CAG, DFS, SEBI, CARE, PIB; this blog's arithmetic.", "unit": "₹ crore", "accent": "Government: value out", "rows": [["Government: put in", 27441, "since 2010-11"], ["Government: value out", 41860, "whole 45.48% stake at ₹81 + dividends"], ["LIC: put in", 26717, "shares bought 2018-19"], ["LIC: value out", 42461, "19% kept + 30.24% sold, at ₹81 + dividends"]]},
+   "means": "On the post's figures, the government's whole stake at ₹81 plus dividends comes to about ₹41,860 crore, against ₹27,441 crore put in.",
+   "todo": "Repeat the comparison with the money put in grown at 7% a year, as the post does, before quoting any profit.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Gross bad loans fell from 31.78% to 2.1% over the period of the rescue",
+   "chart": {"type": "bars", "title": "Gross bad loans fell from a 31.78% peak in September 2018 to 2.1% in September 2026", "sub": "Gross bad loans as a share of loans, %.", "source": "Reserve Bank of India; the post's own figures.", "unit": "%", "accent": "Sep 2026", "rows": [["Sep 2018 (peak)", 31.78], ["Sep 2026", 2.1]]},
+   "means": "The bank's gross bad loans fell from 31.78% of loans at the September 2018 peak to 2.1% in September 2026.",
+   "todo": "Check the September 2026 accounts against the March 2026 book value, since the 1.37 times price rests on them."}
+ ],
+ "derived": {}}

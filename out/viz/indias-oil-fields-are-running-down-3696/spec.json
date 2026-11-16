@@ -1,0 +1,174 @@
+{
+ "top": [
+  [
+   "−22%",
+   " crude output since 2015-16, from 36.96 MMT to 28.70 MMT in 2024-25."
+  ],
+  [
+   "43.45%",
+   " of India's crude came from Mumbai Offshore in FY2024-25."
+  ],
+  [
+   "11.8%",
+   " of domestic petroleum product consumption was made from indigenous crude in FY2024-25."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "PSC oil fell faster than ONGC's nomination oil over the decade",
+   "chart": {
+    "type": "line",
+    "title": "Both operator regimes declined, and PSC oil fell by 42%",
+    "sub": "Crude oil production by regime, MMT: ONGC on nomination, and private operators under production-sharing contracts (PSC). Each point is the fiscal year starting in the year shown.",
+    "source": "DGH, India's Hydrocarbon Outlook 2024-25.",
+    "unit": "MMT",
+    "accent": "PSC",
+    "series": {
+     "ONGC": [
+      [
+       2014,
+       22.26
+      ],
+      [
+       2015,
+       22.37
+      ],
+      [
+       2016,
+       22.21
+      ],
+      [
+       2017,
+       22.25
+      ],
+      [
+       2018,
+       21.04
+      ],
+      [
+       2019,
+       20.63
+      ],
+      [
+       2020,
+       20.18
+      ],
+      [
+       2021,
+       19.45
+      ],
+      [
+       2022,
+       19.49
+      ],
+      [
+       2023,
+       19.21
+      ],
+      [
+       2024,
+       18.47
+      ]
+     ],
+     "PSC": [
+      [
+       2014,
+       11.78
+      ],
+      [
+       2015,
+       11.36
+      ],
+      [
+       2016,
+       10.53
+      ],
+      [
+       2017,
+       10.06
+      ],
+      [
+       2018,
+       9.87
+      ],
+      [
+       2019,
+       8.44
+      ],
+      [
+       2020,
+       7.37
+      ],
+      [
+       2021,
+       7.25
+      ],
+      [
+       2022,
+       6.53
+      ],
+      [
+       2023,
+       6.8
+      ],
+      [
+       2024,
+       6.79
+      ]
+     ]
+    }
+   },
+   "means": "PSC oil fell from 11.78 to 6.79 MMT, a loss of 42%, while ONGC's nomination fields fell by a smaller share.",
+   "todo": "Read the operator columns separately rather than the national total when judging the decline.",
+   "numbers": {
+    "table": "T1"
+   }
+  },
+  {
+   "h2": "Production targets were missed in every category in FY2024-25",
+   "chart": {
+    "type": "bars",
+    "title": "Every category missed its FY2024-25 target, by 6–13%",
+    "sub": "Actual production as a share of target, %.",
+    "source": "DGH, India's Hydrocarbon Outlook 2024-25; PPAC.",
+    "unit": "%",
+    "accent": "Country — oil (TMT)",
+    "table": {
+     "id": "T3",
+     "label": 0,
+     "value": 3,
+     "rows": "top:5"
+    }
+   },
+   "means": "Each category achieved between 87.0% and 93.9% of its target, so the targets work as aspirations rather than forecasts.",
+   "todo": "Check any production projection against the achievement column, not the target column.",
+   "numbers": {
+    "table": "T3"
+   }
+  },
+  {
+   "h2": "Mumbai Offshore supplies 43.45% of India's crude, so supply rests on one basin",
+   "chart": {
+    "type": "bars",
+    "title": "Three basins supply 78% of crude, and Mumbai Offshore alone 43.45%",
+    "sub": "Share of FY2024-25 national crude production, %.",
+    "source": "DGH, India's Hydrocarbon Outlook 2024-25.",
+    "unit": "%",
+    "accent": "Mumbai Offshore",
+    "table": {
+     "id": "T2",
+     "label": 0,
+     "value": 2,
+     "rows": "top:7",
+     "sort": "desc"
+    }
+   },
+   "means": "Mumbai Offshore alone supplies 43.45% of national crude, so the national total depends heavily on one basin.",
+   "todo": "Plan replacement supply against the 43.45% share this basin provides, not against incremental drilling elsewhere.",
+   "numbers": {
+    "table": "T2"
+   }
+  }
+ ],
+ "derived": {}
+}

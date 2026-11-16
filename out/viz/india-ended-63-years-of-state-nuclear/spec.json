@@ -1,0 +1,44 @@
+{
+ "top": [
+  ["100 GW", " is the 2047 target, an eleven-fold rise from 9 GW today; the 20+ GW of private projects are announced, not built."],
+  ["Not in force", " SHANTI is enacted, but its licensing rules are still in draft and no private licence has been reported."]
+ ],
+ "sections": [
+  {"h2": "Reaching 100 GW by 2047 means an eleven-fold rise from 9 GW today",
+   "chart": {"type": "bars",
+             "title": "NPCIL, NTPC and private developers must together cover the 100 GW target",
+             "sub": "Installed capacity and the 2047 target, GW, split by developer.",
+             "source": "Government capacity target; industry NPCIL/NTPC/private split, as reported in the post.",
+             "unit": "GW",
+             "accent": "2047 Target",
+             "rows": [["Current capacity", 9, "today"], ["NPCIL (projected)", 50, "50+ GW"], ["NTPC (stated plans)", 30], ["Private (announced)", 20, "20+ GW, since SHANTI was enacted"], ["2047 Target", 100, "TERI puts investment at Rs 25 lakh crore"]]},
+   "means": "The split gives NPCIL the largest share, with NTPC and private developers adding the rest, so the target depends on all three.",
+   "todo": "Track each developer's commissioned capacity against its announced share so the 2047 target can be checked."},
+  {"h2": "SHANTI cleared Parliament in under a week, yet its licensing rules are still in draft",
+   "chart": {"type": "flow",
+             "title": "The Act became law in December 2025, but licensing waits on rules not yet final",
+             "events": [
+               ["15 December 2025", "Bill introduced in the Lok Sabha"],
+               ["17 December 2025", "Passed by the Lok Sabha"],
+               ["18 December 2025", "Passed by the Rajya Sabha"],
+               ["20 December 2025", "Presidential assent"],
+               ["21 December 2025", "Published in the Gazette of India as Act No. 39 of 2025"],
+               ["23 July 2026", "Government tells the Rajya Sabha private applications wait for the rules"],
+               ["14 August 2026", "Draft SHANTI Rules published; comments closed 4 September"],
+               ["28 October 2026", "No commencement notification found on the DAE Acts page", true]
+             ]},
+   "means": "The Act was passed quickly, but the public record shows no commencement notification and no final rules, so private companies cannot yet apply.",
+   "todo": "Publish the commencement notification and final SHANTI Rules, and state the date from which private licence applications are accepted."},
+  {"h2": "Foreign reactor projects stay stalled on supplier liability, not on the ownership ban",
+   "chart": {"type": "bars",
+             "title": "Each stalled foreign project plans six reactors, blocked by supplier liability",
+             "sub": "Planned reactors per stalled foreign-vendor project.",
+             "source": "Vajiram & Ravi and Rau's IAS coverage, as cited in the post.",
+             "unit": "reactors",
+             "accent": "Jaitapur",
+             "rows": [["EDF, Jaitapur, Maharashtra", 6, "stalled over a decade"], ["Westinghouse, Kovvada, Andhra Pradesh", 6, "stalled over a decade"]]},
+   "means": "Both planned foreign projects have sat stalled for over a decade because vendors will not accept open-ended supplier liability, which SHANTI does not fix.",
+   "todo": "Pass the separate supplier-liability reform so that foreign vendors can bid for Jaitapur and Kovvada."}
+ ],
+ "derived": {}
+}

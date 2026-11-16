@@ -1,0 +1,36 @@
+{
+ "top": [
+  ["15-18 days", " for a spirulina batch to reach harvestable density, against 90-120 days for a cereal crop."],
+  ["46-67%", " cut in child malnutrition reported in one study, yet a National Institute of Nutrition trial saw beta-carotene fall 40%."],
+  ["45-65%", " of world spirulina production comes from China, depending on which estimate is used."]
+ ],
+ "sections": [
+  {"h2": "A spirulina batch is ready in 15-18 days, against 90-120 for a cereal crop",
+   "chart": {"type":"bars", "title":"One spirulina pond can turn over several batches in a cereal crop's cycle",
+             "sub":"Days from start to harvestable density, per cycle.",
+             "source":"Cultivation and crop-cycle figures as stated in the post, Section 1.",
+             "unit":"days", "accent":"Spirulina batch",
+             "rows":[["Spirulina batch",[15,18]],["Cereal crop cycle",[90,120]]]},
+   "means": "Batches take roughly 15-18 days, so one pond can harvest several times in a season, while cereal cycles take 90-120 days.",
+   "todo": "Check the batch-cycle figures against a grower's own harvest log before using them in any farm-income plan."},
+  {"h2": "One study reports a 46-67% cut in malnutrition, yet a trial saw beta-carotene fall 40%",
+   "chart": {"type":"bars", "title":"Reported malnutrition gains and a counter-finding point in opposite directions",
+             "sub":"Percent change as reported; the negative bar is a fall in beta-carotene, not a gain.",
+             "source":"Haryana and Karnataka programme reporting; National Institute of Nutrition trial coverage, as cited in the post.",
+             "unit":"%", "accent":"Child malnutrition, reduction reported",
+             "rows":[["Child malnutrition, reduction reported in one study",[46,67]],["Beta-carotene in children, drop in NIN trial",-40]]},
+   "means": "Pilot programmes report large malnutrition cuts, but a national institute trial found beta-carotene falling, so the case remains unsettled.",
+   "todo": "Wait for independently verified trial results before treating spirulina as a supplement for malnourished children.",
+   "numbers": {"table":"T1"}},
+  {"h2": "China produces 45-65% of world spirulina, depending on the estimate",
+   "chart": {"type":"bars", "title":"Estimates of China's share differ by source, so quote it as a range",
+             "sub":"China's share of world spirulina production, %, by source.",
+             "source":"China Ministry of Agriculture (2025) and other industry trackers, as cited in the post.",
+             "unit":"%", "accent":"China, Ministry of Agriculture 2025",
+             "rows":[["China, Ministry of Agriculture 2025",45],["China, other industry trackers",[55,65]]]},
+   "means": "China's own agriculture ministry puts its share at 45%, while other industry trackers put it at 55-65%, and the post reports both.",
+   "todo": "Quote China's share as a range with both sources named, since the estimates differ by source.",
+   "numbers": {"table":"T3"}}
+ ],
+ "derived": {}
+}

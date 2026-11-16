@@ -1,0 +1,19 @@
+{"top": [["41.5%", " of India's $774.98bn import bill is BRICS trade, but only $93.4bn of it can be netted and settled in rupees."], ["$228.5bn", " a year would have to be held as rupees by partners, $112.1bn of it by China."], ["29.8%", " export coverage of BRICS imports in FY2025-26, down from 44% in FY2016-17."]],
+ "sections": [
+  {"h2": "China and Russia hold most of the $228.5bn rupee residual each year",
+   "chart": {"type": "bars", "title": "China and Russia make up most of the residual rupee claim", "sub": "Residual trade (imports not covered by exports), US$ billion, FY2025-26.", "source": "Ministry of Commerce & Industry, TradeStat; author's calculation.", "unit": "$bn", "accent": "China", "table": {"id": "T1", "label": 0, "value": 5, "rows": "top:5", "sort": "desc"}},
+   "means": "The residual is the rupee balance a partner must hold after both legs net out, and China alone accounts for $112.1bn of it.",
+   "todo": "Treat the China and Russia residuals as vendor financing to be negotiated on price, not assumed as settlement.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Export coverage of BRICS imports fell from 44% to 29.8% in a decade",
+   "chart": {"type": "bars", "title": "The share of BRICS imports that exports cover has shrunk for a decade", "sub": "Exports to BRICS as a share of imports from BRICS, %.", "source": "Ministry of Commerce & Industry, TradeStat; author's calculation.", "unit": "%", "accent": "FY2025-26", "rows": [["FY2016-17", 44], ["FY2025-26", 29.8, "latest full year"]]},
+   "means": "Because exports cover a smaller share of imports each year, the part of BRICS trade that can be settled in rupees without building claims is shrinking.",
+   "todo": "Focus rupee settlement on the partners where the table shows trade closest to balance, not on China or Russia.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Only netting is sustainable; full settlement needs $228.5bn of rupee claims a year",
+   "chart": {"type": "bars", "title": "Netting alone would settle $93.4bn a year, against $17.8bn today", "sub": "Gross BRICS import demand removed from the dollar, US$ billion a year.", "source": "Author's scenario model on Ministry of Commerce TradeStat data, FY2025-26.", "unit": "$bn", "accent": "S2 netting only", "rows": [["S1 status quo", 17.8], ["S2 netting only", 93.4, "sustainable"], ["S3 full BRICS imports", 321.8, "needs $228.5bn of residual claims"]]},
+   "means": "Netting is sustainable, while full BRICS settlement creates rupee claims that partners must absorb every year.",
+   "todo": "Pursue S2 netting and payment-friction fixes, and do not plan on S3 unless partners are willing to hold rupees.",
+   "numbers": {"table": "T2"}}
+ ],
+ "derived": {}}

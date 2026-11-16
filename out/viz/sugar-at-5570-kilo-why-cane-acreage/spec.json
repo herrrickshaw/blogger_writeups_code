@@ -1,0 +1,56 @@
+{
+ "top": [
+  ["99.3 lakh tonnes", " of sugar from Maharashtra to 31 March 2026, up from 80.26 a year earlier."],
+  ["28 lakh tonnes", " of sugar diverted to ethanol in 2025-26 to 30 June 2026, down from 35."],
+  ["₹55.70/kg", " spot sugar on 20 August 2026, up from ₹48.18 on 20 July."]
+ ],
+ "sections": [
+  {"h2": "Cane area is flat nationally, and Uttar Pradesh gained the most",
+   "chart": {"type":"bars",
+             "title":"Uttar Pradesh's 0.36 lakh ha gain is larger than any other state's change",
+             "sub":"Change in sugarcane area, kharif 2026 against kharif 2025, lakh hectares, mid-August.",
+             "source":"Ministry of Agriculture sowing data, via ChiniMandi.",
+             "unit":"lakh ha",
+             "accent":"Uttar Pradesh",
+             "rows":[["Uttar Pradesh",0.36],["Haryana",0.11],["Uttarakhand",-0.20],["Maharashtra",-0.14],["Punjab",-0.14],["Madhya Pradesh",-0.12]]},
+   "means": "National cane area is 58.31 lakh hectares against 58.62 a year earlier, because Uttar Pradesh's gain of 0.36 lakh hectares outweighs the change in every other state.",
+   "todo": "Check the next sowing report to see whether Uttar Pradesh's gain holds, since the national total depends on it."
+  },
+  {"h2": "Maharashtra's sugar output rose to 99.3 lakh tonnes, from 80.26 a year earlier",
+   "chart": {"type":"bars",
+             "title":"Maharashtra leads 2025-26 output, ahead of Uttar Pradesh and Karnataka",
+             "sub":"Sugar production by state, 2025-26 to 31 March 2026, lakh tonnes.",
+             "source":"Figures as given in the original post's table.",
+             "unit":"lakh tonnes",
+             "accent":"Maharashtra",
+             "table":{"id":"T1","label":0,"value":1,"rows":"top:3","sort":"desc"}},
+   "means": "Maharashtra's rise from 80.26 to 99.3 lakh tonnes accounts for most of the national gain of about 9 per cent to 272.31 lakh tonnes.",
+   "todo": "Recheck these state figures against the full-season ISMA total before using them as a final production ranking.",
+   "numbers": {"table":"T1"}
+  },
+  {"h2": "Sugar diverted to ethanol fell to 28 lakh tonnes in 2025-26, from 35 the year before",
+   "chart": {"type":"bars",
+             "title":"Diversion has swung between 24 and 43 lakh tonnes, and fell again in 2025-26",
+             "sub":"Sugar diverted to ethanol by Ethanol Supply Year (December to November), lakh tonnes.",
+             "source":"Government figures as reported in the original post.",
+             "unit":"lakh tonnes",
+             "accent":"2025-26 (to 30 June 2026)",
+             "table":{"id":"T2","label":0,"value":1,"rows":"top:4"}},
+   "means": "Diversion fell from 35 to 28 lakh tonnes, still above the 24 lakh tonnes of 2023-24, when restrictions applied.",
+   "todo": "Watch the ESY 2026-27 diversion figure against the 2.5–3.5 million tonne range the post cites, since it tests whether the price pullback holds.",
+   "numbers": {"table":"T2"}
+  },
+  {"h2": "Spot sugar rose from ₹48.18 to ₹55.70 a kg in one month",
+   "chart": {"type":"bars",
+             "title":"Spot sugar climbed within a month, the price move behind the diversion pullback",
+             "sub":"Spot sugar price, ₹ per kg, on two dated readings.",
+             "source":"Rates as quoted in the original post.",
+             "unit":"₹/kg",
+             "accent":"20 August 2026",
+             "rows":[["20 July 2026",48.18],["20 August 2026",55.70]]},
+   "means": "Spot sugar rose from ₹48.18 to ₹55.70 a kg between 20 July and 20 August 2026, the period the post cites for the price spike.",
+   "todo": "Recheck the spot price before the 2026-27 diversion decision, because the post's October update says ex-mill prices have since fallen about 20 per cent."
+  }
+ ],
+ "derived": {}
+}
