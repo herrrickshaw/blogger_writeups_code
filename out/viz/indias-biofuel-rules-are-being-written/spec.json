@@ -1,0 +1,28 @@
+{"top": [["8 : 1", " Supreme Court majority placing industrial and denatured alcohol under State power (Lalta Prasad Vaish, 2024)."], ["3.92 / 9.26", " crore litres allotted vs bid by one dedicated ethanol plant, the cut that started the VINP case."]],
+ "sections": [
+  {"h2": "States won the alcohol case 8–1, and the majority never mentions fuel",
+   "chart": {"type": "bars", "title": "Eight judges put industrial alcohol under State power; one dissented",
+             "sub": "Number of judges in the Lalta Prasad Vaish bench, by side.", "source": "Supreme Court of India, State of U.P. v. Lalta Prasad Vaish (23 Oct 2024).",
+             "unit": "judges", "accent": "States (majority)",
+             "rows": [["States (majority)", 8], ["Centre (dissent)", 1]]},
+   "means": "The majority's test very likely places fuel ethanol under State regulation, which is the post's own inference rather than the court's words.",
+   "todo": "Watch State permit and fee rules on fuel ethanol and the first challenges to them."},
+  {"h2": "VINP got 3.92 crore litres of the 9.26 it bid, less than half",
+   "chart": {"type": "bars", "title": "The tender allotted a dedicated plant less than half its bid volume",
+             "sub": "Crore litres, VINP Distilleries, Tender 22376 for 2025–26.", "source": "Karnataka High Court judgment, 16 Jun 2026; Tender 22376.",
+             "unit": "crore litres", "accent": "Bid",
+             "rows": [["Bid", 9.26], ["Allotted", 3.92]]},
+   "means": "The cut left the plant with less than half its bid, and that allocation dispute started the VINP case.",
+   "todo": "Check the outcome of the Supreme Court hearing listed for 23 September 2026, which the post does not report."},
+  {"h2": "The Supreme Court set aside the Karnataka orders, leaving the offtake merits open",
+   "chart": {"type": "flow", "events": [
+               ["Dec 2025 to Jan 2026", "Karnataka High Court orders the allotment revised in line with clause 6.8"],
+               ["26 Feb 2026", "Supreme Court sets both orders aside; supplies well under way", true],
+               ["16 Jun 2026", "Karnataka High Court rules for VINP and orders a reconsideration within four weeks"],
+               ["30 Jun and 4 Aug 2026", "Supreme Court orders status quo, then approves an interim Q4 allocation for all bidders"],
+               ["23 September 2026", "Supreme Court hearing listed on the merits"]]},
+   "means": "Every order so far has been interim, so whether clause 6.8 binds the OMCs is still open for the next tender cycle.",
+   "todo": "Track how the Supreme Court rules on clause 6.8 and whether LTOA disputes go to writ courts or arbitration.",
+   "numbers": {"table": "T1"}}
+ ],
+ "derived": {}}

@@ -1,0 +1,49 @@
+{
+ "top": [
+  ["about $41 billion", " of three-year consumer costs that Judge Katsas set against a $0.5 billion energy-security benefit in his 2025 dissent."],
+  ["70%", " of 2023–25 exempted gallons is reallocated to other refiners, roughly 0.99 billion RINs in 2026."]
+ ],
+ "sections": [
+  {"h2": "Reallocation: EPA's 70% rule moves 0.99 billion RINs in 2026 and 1.04 billion in 2027",
+   "chart": {"type": "bars",
+             "title": "Reallocated RINs come to close to a billion in each year",
+             "sub": "RINs reallocated from 2023–25 exempted gallons, billion.",
+             "source": "EPA, Final Renewable Fuel Standards for 2026 and 2027; DTN, 27 Mar 2026.",
+             "unit": "bn RINs",
+             "accent": "2026",
+             "rows": [["2026", 0.99], ["2027", 1.04]]},
+   "means": "EPA's Set 2 rule reallocates 70% of 2023–25 exempted gallons, roughly 0.99 billion RINs in 2026 and 1.04 billion in 2027.",
+   "todo": "Watch the DC Circuit ruling on the 70% reallocation, since compliance applies unless a court orders otherwise."},
+  {"h2": "Dermen: the restitution ordered was $442.6 million, more than double the money judgment",
+   "chart": {"type": "bars",
+             "title": "Washakie's restitution order was more than twice its money judgment",
+             "sub": "Amounts ordered in United States v. Dermen, $ million.",
+             "source": "United States v. Dermen, 10th Cir. No. 23-4074 (9 Jul 2025).",
+             "unit": "$ million",
+             "accent": "Restitution ordered",
+             "rows": [["Restitution ordered", 442.6], ["Money judgment", 181.8]]},
+   "means": "The court ordered $442.6 million in restitution and a $181.8 million money judgment in the Washakie Renewable Energy scheme.",
+   "todo": "Credit buyers should screen for the red flags the post lists: circular counterparty flows, below-market resales to related parties, and processing that leaves no physical trace."},
+  {"h2": "Katsas set about $41 billion of consumer costs against a $0.5 billion security benefit",
+   "chart": {"type": "bars",
+             "title": "Consumer costs outweighed the quantified energy-security benefit by a wide margin",
+             "sub": "Three-year figures from Judge Katsas's 2025 partial dissent, $ billion.",
+             "source": "Center for Biological Diversity v. EPA, D.C. Cir. No. 23-1177 (20 Jun 2025).",
+             "unit": "$ billion",
+             "accent": "Consumer costs",
+             "rows": [["Consumer costs", 41], ["Energy-security benefit", 0.5]]},
+   "means": "Judge Katsas's partial dissent in the 2025 volume case set these two figures against each other and would have vacated the volumes.",
+   "todo": "Watch whether refiners' challenges to the 2026–27 rule reuse this cost argument, which the post calls the blueprint for them."},
+  {"h2": "Refiners won the exemption fights in three rulings from 2023 to 2026",
+   "chart": {"type": "flow",
+             "events": [
+               ["Nov 2023", "5th Cir. (Calumet / Wynnewood): refiners won on the 2022 denials, later vacated on venue"],
+               ["Aug 2024", "D.C. Cir. (Sinclair Wyoming): the blanket denial of 105 petitions did not survive"],
+               ["Apr 2026", "D.C. Cir. (Alon Refining Krotz Springs): 2024 exemption eligibility widened", true]
+             ]},
+   "numbers": {"table": "T1"},
+   "means": "Each of these three rulings went to refiners, and the Supreme Court's Calumet decision then fixed the DC Circuit as the venue for these denials.",
+   "todo": "Track EPA's remand decisions on the 2016–2024 petitions after Sinclair and Alon, and how many RINs come back to the market."}
+ ],
+ "derived": {}
+}

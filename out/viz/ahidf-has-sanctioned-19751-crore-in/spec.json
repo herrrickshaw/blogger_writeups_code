@@ -1,0 +1,17 @@
+{"top": [["358", " of 11,201 filed applications have been disbursed, after 916 were sanctioned by a lender."], ["39%", " of the ₹19,750.8 crore sanctioned loan value has been disbursed (₹7,770.4 crore)."]],
+ "sections": [
+  {"h2": "Only 14% of the 11,201 filed applications were marked eligible",
+   "chart": {"type": "bars", "title": "Only 358 of 11,201 filed applications have been disbursed", "sub": "Applications at each stage of the AHIDF portal, count.", "source": "AHIDF live dashboard (SIDBI/Udyami Mitra), updated 10 August 2026.", "unit": "applications", "accent": "Disbursed", "table": {"id": "T1", "label": 0, "value": 1, "rows": "top:4"}},
+   "means": "The portal's counters show the pipeline narrowing at each stage, from 11,201 filed to 358 disbursed.",
+   "todo": "Publish average sanction-to-first-disbursement times so readers can separate normal construction lag from stuck applications.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Only 39% of sanctioned loan value has been disbursed",
+   "chart": {"type": "bars", "title": "₹7,770.4 crore of ₹19,750.8 crore sanctioned has been disbursed", "sub": "Loan amount, ₹ crore, as on the portal's 10 August 2026 update.", "source": "AHIDF live dashboard (SIDBI/Udyami Mitra), updated 10 August 2026.", "unit": "₹ crore", "accent": "Disbursed loans", "rows": [["Sanctioned loans", 19750.8, "lender-sanctioned"], ["Disbursed loans", 7770.4, "39% of sanctioned"]]},
+   "means": "Most sanctioned value had not been disbursed at the snapshot date, and the dashboard cannot say how much of that is normal lag.",
+   "todo": "Report disbursed and undisbursed value by sanction year so the construction lag can be measured rather than assumed."},
+  {"h2": "Maharashtra accounts for the largest share of applications filed",
+   "chart": {"type": "bars", "title": "Maharashtra leads with 2,261 applications, ahead of Uttar Pradesh's 1,490", "sub": "Applications filed on the portal, by state, count.", "source": "AHIDF live dashboard (SIDBI/Udyami Mitra), updated 10 August 2026.", "unit": "applications", "accent": "Maharashtra", "rows": [["Maharashtra", 2261], ["Uttar Pradesh", 1490], ["Karnataka", 1122], ["Madhya Pradesh", 794]]},
+   "means": "Maharashtra's 2,261 applications lead the state counts, but the dashboard is a live snapshot that can shift.",
+   "todo": "Re-run the state and district counts on a fixed date and keep a revision history, so changes can be tracked."}
+ ],
+ "derived": {}}

@@ -39,3 +39,23 @@ Unverified leads from the rewrite agents: each needs a human check against the p
 - `gobardhan-aims-for-12-times-todays`: the 19% divides 217-plant output by 132-plant capacity; 288/920 gives 31%.
 - `sugar-at-5570-kilo-why-cane-acreage`: section 1 says UP's gain "very nearly offset everyone else's losses" but listed losses total 0.60 lakh ha against UP's 0.36; listed state changes net to -0.13 against a national -0.31.
 - `574-gw-and-counting-indias-wind-fleet`: state table sums to about 58,516 MW against 58,520.32 MW; body uses 57.4 GW and 58.5 GW, the update 59.2 GW for September.
+
+## Wave 16 (16 Nov 2026)
+- `india-exports-naphtha-and-benzene-its`: section 2 says benzene shows "four straight years of growth" but the data has one base year and three annual rises.
+- `india-wants-emergency-braking-in-every`: "~43 lakh" is 46.43 minus 3.9, about 42.5 (loose rounding); top bullet "~35,000" deaths against 34,578 in the body.
+- `lemon-cultivation-in-india-steady-trees`: Andhra Pradesh given as 7.31 and 9.06 lakh t/yr in section 4 (the post flags but does not reconcile it).
+- `indias-12385-project-investment-grid`: "Healthcare ... less than a third of its disclosed value" is unsupported (33.0/76.4 is about 43%); the flagship nine sum to $126.7bn, not the $126.6bn stated.
+- `new-zealand-opens-every-tariff-line-to`: T1 says 30% + 35.6% of lines, which does not sum to the stated 70%; "eighteen months after they began" looks like about 19 months (16 Mar 2025 to 20 Oct 2026); 2025-26 exports are 566 in the post but about 480 in another report.
+- `do-cbse-past-papers-actually-help`: Physics electric field is "2023 to 2026" in one section and 2022-2026 elsewhere; partner-cycle counts differ (14 of 20 papers vs 14 papers).
+- `the-diesel-truck-isnt-why-your-eggs`: body says eggs reached Rs 8.50-9 by Sept 2026 but the Nov update says eggs fell from Rs 687 to Rs 546 per 100 in July-August; table T1 r4 "crop is now scarce" describes 2024-25, not the current season.
+- `samudra-manthan-pays-up-to-rs-675-crore`: "$50-75 million" is half of $100-145 million only up to $72.5 million, not $75 million.
+- `indias-biofuel-rules-are-being-written`: lists the 23 Sep 2026 Supreme Court hearing as upcoming; no outcome is reported as of 16 Nov 2026.
+- `indias-ev-localisation-deadline-just`: T2 heading says "four times for buses, five for trucks" but its rows show three e-bus and four e-truck amendments; row r5 says "third" and "fifth". (Also: the China pause lapse stated as upcoming was extended on 9 Nov; see out/freshness/updates-2026-11-15/.)
+- `ahidf-has-sanctioned-19751-crore-in`: fund outlay given as Rs 29,610.25 crore and later Rs 29,110.25 crore for the same window.
+- `city-gas-just-became-indias-largest-gas`: pool "shrank 3.0%" in one paragraph and total gas "fell 3.6%" in another (71,314 to 68,753 against the table's 69,048).
+- `india-has-auctioned-141-commercial-coal`: share said to have "doubled" but 10.9% to 20.2% is about 1.85 times.
+- `refiners-won-exemption-fight-biofuels`: the updates give both 100% and 70% reallocation of exempted volumes; not reconciled (the Nov 2026 EPA proposal in the trade press says 100%).
+- `india-has-legalised-e100-for-flex-fuel`: Rs 72.1 plus about Rs 36 of tax is about Rs 108, not the Rs 109 stated.
+- `indias-military-quantum-plan-has-four`: the 2024-25 "budget 427 / revised 86" and "released 43.07" conflict with the separate 62.36 actual-spending analysis; the 1,460-1,740 range is rounded from 1,463 and 1,741.
+- `fbil-rates-vs-tradestat-volumes-does-fx`: section 3 calls Russia "5th by import value"; it is 3rd (55,363.11 vs UAE 63,888.81 and China 131,620.29).
+- `doubling-indias-csr-profit-trigger`: the 3.1% compares a 2025-26 estimate with 2024-25 spend (the post flags it).

@@ -1,0 +1,41 @@
+{
+ "top": [
+  ["57.7%", " of India's 10,885 plant-variety certificates are cereals, 6,280 in all, while farmers hold 49.3%."],
+  ["151", " spice certificates, a dated 31 July 2026 snapshot, against 6,280 for cereals."]
+ ],
+ "sections": [
+  {"h2": "Cereals make up 57.7% of certificates, 6,280 of 10,885",
+   "chart": {"type": "bars",
+             "title": "Cereals outnumber every other crop category on the register",
+             "sub": "Certificates issued by crop category, as on 31 Aug 2026.",
+             "source": "PPV&FR Authority homepage, captured 31 Aug 2026.",
+             "unit": "certificates",
+             "accent": "Cereals",
+             "table": {"id": "T1", "label": 0, "value": 1, "rows": "top:8", "sort": "desc"}},
+   "means": "Cereals account for 6,280 of 10,885 certificates, more than any other crop category.",
+   "todo": "Treat the category boundaries as approximate, since the Authority publishes no methodology note.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Farmers hold 49.3% of certificates, just under half",
+   "chart": {"type": "bars",
+             "title": "Farmer registrations are just under half of the 10,885 total",
+             "sub": "Certificates issued by registration type, as on 31 Aug 2026.",
+             "source": "PPV&FR Authority registration-type chart, captured 31 Aug 2026.",
+             "unit": "certificates",
+             "accent": "Farmer",
+             "table": {"id": "T2", "label": 0, "value": 1, "rows": "top:5", "sort": "desc"}},
+   "means": "Farmers hold 5,368 of 10,885 certificates, so the farmer route is real but not a majority.",
+   "todo": "Quote the 49.3% share from the Authority's own chart, not the 52.6% figure from an uncorroborated snippet.",
+   "numbers": {"table": "T2"}},
+  {"h2": "Spices hold 151 certificates against 6,280 for cereals",
+   "chart": {"type": "bars",
+             "title": "Spices are a small slice of the register and no longer reported separately",
+             "sub": "Certificates issued; spices are a dated 31 July 2026 snapshot, cereals as on 31 August 2026.",
+             "source": "PPV&FR Authority homepage, captured 31 Jul and 31 Aug 2026.",
+             "unit": "certificates",
+             "accent": "Spices",
+             "rows": [["Cereals", 6280, "31 Aug 2026"], ["Spices", 151, "31 Jul 2026 snapshot"]]},
+   "means": "Spices appear only as a dated July snapshot of 151 certificates, while cereals stand at 6,280 in August.",
+   "todo": "Treat the spice IP gap as a named, quantifiable constraint and track it on a dated basis."}
+ ],
+ "derived": {}
+}

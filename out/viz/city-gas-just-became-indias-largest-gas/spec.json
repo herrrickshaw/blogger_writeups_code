@@ -1,0 +1,42 @@
+{
+ "top": [
+  ["4,964", " MMSCM of city gas in Q1 FY2026-27 beat fertiliser's 4,703, the first sustained period with city gas on top."],
+  ["23.9%", " of India's gas now goes to city gas, up from 11.4% in FY2015-16."],
+  ["1,446", " MMSCM of June 2026 fertiliser gas was imported RLNG, against 850 for city gas."]
+ ],
+ "sections": [
+  {"h2": "City gas passed fertiliser as India's top gas consumer in Q1 FY2026-27",
+   "chart": {"type": "bars",
+             "title": "City gas led fertiliser in the quarter, 4,964 to 4,703 MMSCM",
+             "sub": "Consumption, MMSCM, Q1 FY2026-27, provisional.",
+             "source": "PPAC, Natural Gas Current-Year Sectoral Consumption workbook (NG-C), provisional.",
+             "unit": "MMSCM",
+             "accent": "City gas (CGD)",
+             "rows": [["City gas (CGD)", 4964, "Q1 FY2026-27"], ["Fertiliser", 4703], ["Power", 1907]]},
+   "means": "City gas was ahead of fertiliser in each of April, May and June 2026, although one quarter is not yet a fiscal year.",
+   "todo": "Track the monthly city gas and fertiliser split through the Rabi season to see whether the lead holds.",
+   "numbers": {"table": "T2"}},
+  {"h2": "City gas now takes 23.9% of India's gas, up from 11.4% in FY2015-16",
+   "chart": {"type": "bars",
+             "title": "City gas is second only to fertiliser's 28.5% share of gas use",
+             "sub": "Share of total gas consumption, FY2025-26, %.",
+             "source": "PPAC, Natural Gas Historical Sectoral Consumption workbook (NG-H), provisional.",
+             "unit": "%",
+             "accent": "City gas distribution",
+             "table": {"id": "T1", "label": 0, "value": 4, "rows": "top:5", "sort": "desc"}},
+   "means": "City gas's share rose from 11.4% to 23.9% over the decade, while power's share fell from 22.8% to 11.5%.",
+   "todo": "Publish the rule that allocates domestic gas between kitchens, vehicles and fertiliser plants, since city gas is now the largest lever on urban fuel bills.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Fertiliser burned more imported gas than city gas in June 2026, 1,446 against 850 MMSCM",
+   "chart": {"type": "bars",
+             "title": "Fertiliser's June gas was 87% imported; city gas's was 49%",
+             "sub": "Imported LNG (RLNG) burned in June 2026, MMSCM.",
+             "source": "PPAC, Snapshot of India's Oil & Gas Data, July-26 edition; NG-C, provisional.",
+             "unit": "MMSCM",
+             "accent": "Fertiliser, RLNG",
+             "rows": [["Fertiliser, RLNG", 1446, "87% of its June burn"], ["City gas, RLNG", 850, "49% of its June burn"]]},
+   "means": "Fertiliser's LNG exposure means every dollar on the LNG price flows through urea production cost into the fertiliser subsidy.",
+   "todo": "Budget the fertiliser subsidy against the LNG price, not only against the domestic gas allocation."}
+ ],
+ "derived": {}
+}

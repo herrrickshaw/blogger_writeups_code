@@ -1,0 +1,41 @@
+{
+ "top": [
+  ["12,385", " listed opportunities across 42 sectors, each counted as one line whatever its size."],
+  ["$81.7bn", " of the flagship list's $126.6bn sits in two entire national schemes, not single projects."]
+ ],
+ "sections": [
+  {"h2": "Healthcare lists more opportunities than Waste & Water, but discloses less value",
+   "chart": {"type": "bars",
+             "title": "On disclosed value, Healthcare falls behind Waste & Water, the reverse of the count",
+             "sub": "Disclosed sector value, $bn. Only three of the 42 sectors disclose one.",
+             "source": "India Investment Grid analytics chart (DPIIT/Invest India).",
+             "unit": "$bn",
+             "accent": "Healthcare",
+             "table": {"id": "T1", "label": 0, "value": 2, "rows": "top:3", "sort": "desc"}},
+   "means": "Healthcare lists 1,153 opportunities against Waste & Water's 1,020, yet discloses $33.0bn to its $76.4bn.",
+   "todo": "Show disclosed sector value next to every opportunity count, so a leaderboard of listings is not read as a leaderboard of capital.",
+   "numbers": {"table": "T1"}},
+  {"h2": "Two national schemes top the flagship list, not single projects",
+   "chart": {"type": "bars",
+             "title": "The two largest flagship entries are whole national schemes",
+             "sub": "Value of each listed flagship 'project', $bn.",
+             "source": "India Investment Grid flagship-projects list.",
+             "unit": "$bn",
+             "accent": "Pradhan Mantri Gram Sadak Yojana Project",
+             "table": {"id": "T2", "label": 0, "value": 1, "rows": "top:9", "sort": "desc"}},
+   "means": "The two largest entries, Pradhan Mantri Gram Sadak Yojana at $46.9bn and Jal Jeevan Mission at $34.8bn, are whole national schemes.",
+   "todo": "Tag each flagship entry as a discrete build or a national scheme before summing their values into one pipeline total."},
+  {"h2": "22 of 42 sectors, including Healthcare, have no identified central incentive scheme",
+   "chart": {"type": "bars",
+             "title": "22 of 42 sectors have no identified central incentive lane",
+             "sub": "Number of listed sectors, by whether a central incentive scheme was matched.",
+             "source": "India Investment Grid; incentive-scheme cross-reference as stated in the original post.",
+             "unit": "sectors",
+             "accent": "Sectors with none identified",
+             "rows": [["Sectors with a named central incentive", 20],
+                      ["Sectors with none identified", 22]]},
+   "means": "Of 42 sectors, 22 have no identified central incentive scheme, and those sectors hold 5,088 of the 12,385 listed opportunities.",
+   "todo": "Check each of the 22 unmatched sectors against a wider set of instruments before reading their listing counts as policy backing."}
+ ],
+ "derived": {"81.7": "46.9+34.8"}
+}

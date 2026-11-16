@@ -1,0 +1,125 @@
+{
+ "top": [
+  [
+   "3.1%",
+   " of CSR money sits with the 11,204 companies that would leave under the Rs 10 crore profit trigger."
+  ],
+  [
+   "93",
+   " firms spending Rs 50 crore or more give 42.4% of CSR money."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Companies that would leave are 46.2% of spenders but hold 3.1% of the money",
+   "chart": {
+    "type": "bars",
+    "title": "Leavers are close to half of spenders but about 3% of the money",
+    "sub": "Share of CSR spenders and of CSR money, %.",
+    "source": "MCA estimate of 2025-26 obligation vs 2024-25 spend; IICA India CSR Factbook 2024-25.",
+    "unit": "%",
+    "accent": "Share of companies leaving",
+    "rows": [
+     [
+      "Share of companies leaving",
+      46.2,
+      "11,204 of 24,228"
+     ],
+     [
+      "Their obligation, share of CSR money",
+      3.1,
+      "of Rs 40,794 cr"
+     ]
+    ]
+   },
+   "means": "The 11,204 companies that would leave are about 46% of CSR spenders, but their obligation is about 3.1% of the money.",
+   "todo": "Ask the ministry to publish which states and causes the Rs 1,282 crore estimate reaches before the Bill is passed."
+  },
+  {
+   "h2": "93 firms spending Rs 50 crore or more give 42.4% of CSR money",
+   "chart": {
+    "type": "bars",
+    "title": "Most CSR money comes from a few large spenders, not many small ones",
+    "sub": "Share of the Rs 40,794 crore spent in 2024-25, %.",
+    "source": "IICA India CSR Factbook 2024-25, from the MCA National CSR Data Portal.",
+    "unit": "%",
+    "accent": "Rs 50 cr+ spend (93 firms)",
+    "rows": [
+     [
+      "Under Rs 1 cr spend (20,019 firms)",
+      13.3
+     ],
+     [
+      "Rs 50 cr+ spend (93 firms)",
+      42.4
+     ]
+    ]
+   },
+   "means": "Most spenders are small, but the 93 largest firms hold 42.4% of CSR money, so the small-firm exit moves few rupees.",
+   "todo": "Publish spend shares for the Rs 1-10 cr and Rs 10-50 cr bands separately, which the Factbook gives only together.",
+   "numbers": {
+    "table": "T2"
+   }
+  },
+  {
+   "h2": "Reported CSR spending rose from Rs 10,066 crore to Rs 40,794 crore since 2014-15",
+   "chart": {
+    "type": "bars",
+    "title": "Reported CSR spend rose from Rs 10,066 crore in FY15 to Rs 40,794 crore in FY25",
+    "sub": "Reported CSR spend, Rs crore. FY19 to FY21 are earlier portal snapshots, not strictly comparable.",
+    "source": "IICA India CSR Factbook (MCA portal).",
+    "unit": "Rs crore",
+    "accent": "FY25",
+    "rows": [
+     [
+      "FY15",
+      10066
+     ],
+     [
+      "FY16",
+      14517
+     ],
+     [
+      "FY17",
+      14543
+     ],
+     [
+      "FY18",
+      17099
+     ],
+     [
+      "FY19",
+      20197
+     ],
+     [
+      "FY20",
+      24966
+     ],
+     [
+      "FY21",
+      26211
+     ],
+     [
+      "FY22",
+      27141
+     ],
+     [
+      "FY23",
+      30932
+     ],
+     [
+      "FY24",
+      34909
+     ],
+     [
+      "FY25",
+      40794
+     ]
+    ]
+   },
+   "means": "Reported CSR spend grew 13% to 17% a year in each of the last three years, so the loss from the Bill is small by comparison.",
+   "todo": "Check actual 2025-26 CSR spending against the ministry's Rs 1,282 crore estimate once the Factbook reports it."
+  }
+ ],
+ "derived": {}
+}
