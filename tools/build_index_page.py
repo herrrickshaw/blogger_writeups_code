@@ -222,7 +222,7 @@ FILTER_JS = """<script>//<![CDATA[
       .catch(function(){ srv={q:qs,slugs:null}; });
   }
   function apply(){
-    var m=selM.value, d=selD.value, t=selT.value, terms=(q.value||'').toLowerCase().split(/\s+/).filter(Boolean), shown=0;
+    var m=selM.value, d=selD.value, t=selT.value, terms=(q.value||'').toLowerCase().split(/\\s+/).filter(Boolean), shown=0;
     rows.forEach(function(r){
       var hay=r._hay||(r._hay=(r.textContent||'').toLowerCase());
       var kw=r._kw||(r._kw=(r.getAttribute('data-kw')||'').toLowerCase());

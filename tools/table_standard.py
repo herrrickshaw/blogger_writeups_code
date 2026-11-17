@@ -28,7 +28,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from units_in_header import audit_table, text as celltext, _TABLE, _ROW, _CELL  # noqa: E402
+from units_in_header import UNITS, audit_table, text as celltext, _TABLE, _ROW, _CELL  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 MARKER = "gs-table-v1"
@@ -102,7 +102,7 @@ def hoist(table_html):
         bycol.setdefault(col, [head, set()])[1].add(unit)
 
     for col, (head, unitset) in bycol.items():
-        unit = " ".join(_pretty(u) for u in sorted(unitset, key=len, reverse=True))
+        unit = _label(unitset)
         # Verify every body cell in the column can be stripped before changing any.
         plan = []
         ok = True
@@ -129,7 +129,7 @@ def hoist(table_html):
 
         pers = {p for _, _, _, p in plan if p}
         if len(pers) == 1:
-            unit = unit + pers.pop()
+            unit = _label(unitset, pers.pop())
         elif pers:
             continue          # mixed denominators cannot be hoisted
         for raw, before, after, _p in plan:
@@ -152,8 +152,20 @@ _PRETTY = {"%": "%", "$": "US$", "₹": "₹", "&#8377;": "₹", "€": "€",
            "cr": "crore", "qtl": "quintal", "mt": "MT"}
 
 
+_CANON = {u.lower(): u for u in UNITS}   # audit_table lowercases; restore house casing
+_CURRENCY = {"₹", "&#8377;", "$", "us$", "€", "usd", "eur", "inr", "jpy", "krw", "brl"}
+
+
 def _pretty(u):
-    return _PRETTY.get(u.lower(), u)
+    return _PRETTY.get(u.lower(), _CANON.get(u.lower(), u))
+
+
+def _label(unitset, per=""):
+    """Header label: currency first ("₹ crore", "US$ bn"), and a per-unit
+    suffix ("/qtl") is not also spelled out as a standalone unit."""
+    us = [u for u in unitset if not per or "/" + u.lower() != per.lower()]
+    us.sort(key=lambda u: (u.lower() not in _CURRENCY, -len(u)))
+    return " ".join(_pretty(u) for u in us) + per
 
 
 def ensure_style(doc):
