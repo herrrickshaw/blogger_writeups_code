@@ -21,6 +21,22 @@ Format:
 
 ## Open
 
+- [ ] PLI at 58% of its clock: 76% of the investment, 64% of the output, 28% of the jobs
+      Source: NITI Aayog and IIM Ahmedabad, "Impact Assessment of PLI Schemes" (Nov 2026),
+      niti.gov.in/sites/default/files/2026-11/Impact-Assessment-of-PLI-Schemes.pdf, free;
+      Introduction "Evaluation Benchmarking" paras 2-9, Table 1 (outlay), Table 3 (disbursement).
+      Argument: the government's own mid-course assessment shows PLI is ahead of its schedule on
+      investment, level on output, and well behind on jobs (28% of target at 58% of duration, 31%
+      of the annual target in FY2025-26), with only 18.51% of the Rs 1.91 lakh crore outlay paid.
+      Checks needed: (1) read sector chapters 1-14 and Table 4 for per-scheme figures; the colour
+      grades in Table 2 are lost in text extraction, read them off the PDF; (2) NITI disclaims data
+      authenticity and the method is "natural trend" comparison with a 50% screening threshold, so
+      say "reported" and not "caused"; (3) reconcile against the blog's own PLI disbursal figures
+      in `indias-food-processing-story-pli-scheme` and the 14-schemes post before reuse; the
+      food-processing post says PLI beats its job target, check what NITI chapter 13 says for that
+      scheme; (4) nominal values, per the report's own warning.
+      Logged: 2026-11-18 from the NITI PLI impact assessment register entry
+
 - [ ] 57.8% of India's plant-variety rights are cereals. Spices get 151.
       Source: PPV&FR Authority registry — homepage certificate counter with crop-category
       breakdown, 10,802 certificates as of 31.07.2026 (verified by direct fetch
@@ -871,3 +887,25 @@ queue or SOURCE_REGISTER.
       Opens: Germany–India goods trade. Manifest dedup 2026-10-31: `German` matches only an
       instrument note; no title on the corridor. Nearest posts: the TEPA piece (EFTA goods) and
       `half-of-indias-import-bill-is`; cite both as the blog's own reporting, never as confirmation.
+
+- [ ] Health and general insurance grievances rose 45% in a year; the number still unresolved at year end
+      nearly doubled.
+      Source: IRDAI, Annual Report 2024-25, Part II.6 Grievances (pp. 81-84, Tables II.15-II.19), free
+      PDF, read in full 2026-11-17 via the lifeinscouncil.org mirror (listing page
+      irdai.gov.in/document-detail?documentId=8375620). Backing series: Handbook on Indian Insurance
+      Statistics and the Bima Bharosa portal (both IRDAI, free).
+      Argument: General & Health grievances went from 94,843 to 1,37,361 (+44.8%) while life stayed flat
+      at about 1.2 lakh, and the pending count at year end went from 5,056 to 9,606, with public-sector
+      insurers alone from 4,055 to 8,201; the regulator's own per-lakh rate is 15.72 for life against 5.29
+      for General & Health, so the growth is in the larger book rather than the worse-rated one.
+      Checks needed: (1) 🔴 reconcile the report's "69% claims related" with 88,841 / 1,37,361 = 64.7%
+      before printing either; (2) get the report's definition of "attended" and "pending", do not call it
+      a backlog without it; (3) compare with the FY 2025-26 report if published by then; (4) say the counts
+      are Bima Bharosa-registered only; (5) do not rank named insurers from sector-level tables;
+      (6) rule 8 applies: "What would fix this" section, e.g. publish insurer-wise pending by age band
+      and a resolved-in-favour rate for General & Health as Table II.16 does for life unfair practices.
+      Logged: 2026-11-17 from the IRDAI Annual Report register entry
+      Opens: insurance claims and grievance redressal. Manifest dedup 2026-11-17: `[Bb]ima [Bb]harosa`,
+      `[Rr]epudiat` and title-line `[Gg]rievance` returned 0 hits. Nearest posts
+      `premium-now-claim-later-float-indias` and `india-built-offshore-insurance-hub-it`; cite as the
+      blog's own reporting, never as confirmation.
