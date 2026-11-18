@@ -21,6 +21,9 @@ Already covered on the blog (skip): MMDR Amendment Act 2026 state mining levies 
 | 10 | **FCRA Amendment Bill 2026: assets vest in a Designated Authority** | Joint committee deliberating on 19 Nov; one-year maximum jail term instead of five. Governance topic, off the blog's core energy and trade theme. | Introduced 25 Mar 2026; committee 12 Aug | PRS bill page | Off-theme; lowest priority |
 | 11 | **ASEAN-India Trade in Goods Agreement review** | Summit on 17 Nov; the review is meant to fix the trade imbalance. Needs AITIGA trade figures from the Trade tracker. | Summit highlights only | Drishti 18 Nov | None |
 
+## Status, 18 Nov 2026
+All 11 topics were drafted the same day as `out/post-*.html` with builders in `out/research/<dir>/build.py` (pli-2026, dpiit-100-2026, fom-2026, discom-2026, ethanol-quality-2026, corporate-laws-2026, special-session-2026, air-epi-2026, agrivoltaics-2026, fcra-2026, asean-2026). Not published.
+
 ## Suggested first batch
 1 (PLI scorecard), 2 (China deficit and PVC) and 3 (FOM tonnage and subsidy). Each has a number the blog can recompute. Topics 4 and 5 wait for the committee reports.
 
