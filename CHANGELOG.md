@@ -20739,3 +20739,32 @@ scheduled sync
 **Changed**
 
 - `learning-ai-for-free-youtube-channels` — 23,966 → 24,085 bytes (+119)
+
+## 2026-11-18T23:27:16+00:00 — 529 posts live
+
+Nov 2026 backlog published
+
+
+**Added**
+
+- `fcra-amendment-bill-2026-new-authority` **v1.0.0** — FCRA Amendment Bill 2026: a new authority takes assets, jail cut to 1 year (20,829 bytes)
+- `mahanadi-coalfields-ipo-rs-8981-crore` **v1.0.0** — Mahanadi Coalfields IPO: Rs 8,981 crore offer, all proceeds to Coal India (31,370 bytes)
+- `coal-gasification-9-applications-in-two` **v1.0.0** — Coal gasification: 9 applications in two rounds for a Rs 37,500 crore scheme (31,852 bytes)
+- `indias-retail-inflation-609-in-october` **v1.0.0** — India's retail inflation: 6.09% in October 2026, above the RBI's 6% upper limit (38,995 bytes)
+- `indias-wholesale-inflation-1229-in` **v1.0.0** — India's wholesale inflation: 12.29% in October 2026, fuel and power up 32.84% (31,886 bytes)
+- `indias-power-demand-in-october-2026-160` **v1.0.0** — India's power demand in October 2026: 160 billion units, coal stocks at six days (31,268 bytes)
+- `indias-power-mix-q2-2026-27-coal-42-of` **v1.0.0** — India's power mix, Q2 2026-27: coal 42% of capacity but 66% of generation (30,968 bytes)
+- `india-us-trade-deal-november-2026-10` **v1.0.0** — India-US trade deal, November 2026: 10% duty in force, agreement text unsigned (28,918 bytes)
+- `indias-2026-monsoon-87-of-normal-rain` **v1.0.0** — India's 2026 monsoon: 87% of normal rain, reservoirs low, a very strong El Niño (33,239 bytes)
+- `indias-crude-basket-120-in-october-89` **v1.0.0** — India's crude basket: $120 in October, $89 on 10 November; pump prices frozen (32,095 bytes)
+- `indias-rupee-rs-9369-dollar-on-11` **v1.0.0** — India's rupee: Rs 93.69 a dollar on 11 November, 3% above its early-October low (31,542 bytes)
+- `delimitation-bill-298-votes-in-april` **v1.0.0** — Delimitation bill: 298 votes in April, 361 needed now, NDA holds 320 seats (24,844 bytes)
+- `indias-pli-schemes-rs-35354-crore-paid` **v1.0.0** — India's PLI schemes: Rs 35,354 crore paid, 18.5% of outlay, jobs at 28% of target (32,480 bytes)
+- `indias-100-item-import-push-pvc` **v1.0.0** — India's 100-item import push: PVC capacity meets 39% of demand (29,803 bytes)
+- `biogas-manure-2065-lakh-tonnes-sold-rs` **v1.0.0** — Biogas manure: 20.65 lakh tonnes sold, Rs 111.72 crore subsidy, 149 clearances (31,135 bytes)
+- `discom-losses-at-down-to-1504-in-fy25` **v1.0.0** — Discom losses: AT&C down to 15.04% in FY25, smart meters 28% installed (32,794 bytes)
+- `ethanol-2026-27-11-billion-litres` **v1.0.0** — Ethanol 2026-27: 11 billion litres tendered, cane juice and B-heavy molasses excluded (30,522 bytes)
+- `corporate-laws-amendment-bill-2026-what` **v1.0.0** — Corporate Laws (Amendment) Bill 2026: what the joint committee changed in August (23,303 bytes)
+- `indias-air-epi-rank-176-of-177-96-of` **v1.0.0** — India's air: EPI rank 176 of 177, 9.6% of solar output lost, Delhi AQI 290 (28,330 bytes)
+- `pm-kusum-24-of-grid-plants-built` **v1.0.0** — PM-KUSUM: 24% of grid plants built; agrivoltaics estimates span 5 to 2,129 GW (29,015 bytes)
+- `india-asean-trade-5155-billion-deficit` **v1.0.0** — India-ASEAN trade: $51.55 billion deficit in FY2026, goods pact review runs into 2027 (24,394 bytes)
