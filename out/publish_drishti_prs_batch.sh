@@ -18,4 +18,4 @@ ins special-session-2026 "out/post-delimitation-amendment-votes-needed-winter-se
 ins air-epi-2026 "out/post-india-epi-2026-air-quality-solar-output-nov-2026.html" "India's air: EPI rank 176 of 177, 9.6% of solar output lost, Delhi AQI 290"
 ins agrivoltaics-2026 "out/post-india-pm-kusum-agrivoltaics-nov-2026.html" "PM-KUSUM: 24% of grid plants built; agrivoltaics estimates span 5 to 2,129 GW"
 ins fcra-2026 "out/post-fcra-amendment-bill-2026-designated-authority.html" "FCRA Amendment Bill 2026: a new authority takes assets, jail cut to 1 year"
-ins asean-2026 "out/post-india-asean-trade-deficit-aitiga-review-nov-2026.html" "India-ASEAN trade: $51.55 billion deficit in FY2026, goods pact review runs into 2027"
+ins asean-2026 "out/post-india-asean-trade-deficit-aitiga-review-nov-2026.html" "India-ASEAN trade: \$51.55 billion deficit in FY2026, goods pact review runs into 2027"
