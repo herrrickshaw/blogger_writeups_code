@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-11-15T02:34:27.000+05:30",
+  "updated": "2026-11-19T04:59:35.429+05:30",
   "labels": [],
-  "bytes": 925128,
-  "sha256": "2809917ce32669d76a8c25ec1a7317832b6d296b52ed2f5bb454d34bb885389a",
+  "bytes": 988558,
+  "sha256": "ef6379716d133d35506ac6cbb40c20e34c91c2d96e863f57227bbdc59f58fe49",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "76.0.0",
+  "version": "77.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2538,6 +2538,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "77.0.0",
+      "date": "2026-11-19T10:43:02+00:00",
+      "level": "major",
+      "reason": "figures changed (+34/-6 distinct numbers)",
+      "bytes": [
+        925128,
+        988558
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
