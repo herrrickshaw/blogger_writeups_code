@@ -1,0 +1,279 @@
+<style>/*gs-typo-unify-v1*/
+.artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide,.stat{font-family:Georgia,'Times New Roman',serif!important;}
+.artx p,.fertx p,.ecx p,.mapx p,.idx p,.wrap p,.slide p,.stat p,
+.artx li,.fertx li,.ecx li,.mapx li,.idx li,.wrap li,.slide li,.stat li,
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,
+.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,
+.artx blockquote,.fertx blockquote,.ecx blockquote,.mapx blockquote,.idx blockquote,.wrap blockquote,.slide blockquote,.stat blockquote
+{font-family:Georgia,'Times New Roman',serif!important;}
+.artx h1,.fertx h1,.ecx h1,.mapx h1,.idx h1,.wrap h1,.slide h1,.stat h1,
+.artx h2,.fertx h2,.ecx h2,.mapx h2,.idx h2,.wrap h2,.slide h2,.stat h2,
+.artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
+{font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
+body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<title>The Grain Value Loop — Integrated Rice Biorefinery Pitch</title>
+<style>
+  :root{
+    --paper:#f7f5ef; --panel:#fffefb; --ink:#1b2019; --ink2:#55605108;
+    --ink-2:#54604f; --ink-3:#8a917f; --hair:#e2ddd0; --line:#cfc9ba;
+    --green:#2f7a4f; --green-d:#1f5637; --gold:#b7791f; --gold-soft:#f3ead6;
+    --blue:#3b6ea5; --green-soft:#e6efe7; --band:#efece2;
+  }
+  
+  :root[data-theme="dark"]{
+    --paper:#12140f; --panel:#191c15; --ink:#eef0e8; --ink-2:#aab19c; --ink-3:#79806d;
+    --hair:#2a2e22; --line:#343829; --green:#4ea877; --green-d:#7cc79c; --gold:#d6a24a;
+    --gold-soft:#241f12; --blue:#6aa0d6; --green-soft:#17251b; --band:#1b1e16;
+  }
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--band);color:var(--ink);
+    font:16px/1.55 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+  .mono{font-family:"SF Mono",Menlo,Consolas,monospace}
+  .deck{max-width:1000px;margin:0 auto;padding:22px 16px 80px}
+  .slide{background:var(--paper);border:1px solid var(--hair);border-radius:14px;
+    padding:44px 48px;margin-bottom:20px;min-height:540px;position:relative;
+    box-shadow:0 1px 3px rgba(0,0,0,.04);display:flex;flex-direction:column}
+  .slide::before{content:attr(data-n)" / 27";position:absolute;top:20px;right:26px;
+    font-family:"SF Mono",Menlo,monospace;font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+  .eyebrow{font-family:"SF Mono",Menlo,monospace;font-size:12px;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--green)}
+  h1{font-size:clamp(30px,5.2vw,50px);line-height:1.08;font-weight:600;text-wrap:balance;margin:16px 0}
+  h2{font-size:clamp(22px,3.4vw,30px);line-height:1.16;font-weight:600;text-wrap:balance;margin:6px 0 18px}
+  h3{font-size:15px;font-family:"SF Mono",Menlo,monospace;text-transform:uppercase;
+    letter-spacing:.08em;color:var(--gold);margin:18px 0 8px;font-weight:700}
+  p{margin:0 0 12px}.lead{font-size:19px;color:var(--ink-2)}
+  strong{font-weight:600}
+  .cover{background:linear-gradient(150deg,var(--green-d),var(--green));color:#fff;border:none}
+  .cover .eyebrow,.cover h3{color:#dff0e5}
+  .cover h1{color:#fff}.cover p{color:#eaf3ec}
+  .cover::before{color:#bcd8c6}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .card{background:var(--panel);border:1px solid var(--hair);border-radius:10px;padding:16px 18px}
+  .card .k{font-family:"SF Mono",Menlo,monospace;font-size:12px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em}
+  .card .v{font-size:27px;font-weight:600;margin:3px 0}
+  .card .s{font-size:13px;color:var(--ink-2)}
+  .accent{color:var(--green)}.gold{color:var(--gold)}
+  table{border-collapse:collapse;width:100%;font-size:14px;margin:6px 0}
+  th{text-align:left;font-family:"SF Mono",Menlo,monospace;font-size:11px;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--ink-3);border-bottom:2px solid var(--line);padding:7px 10px 7px 0}
+  td{padding:7px 10px 7px 0;border-bottom:1px solid var(--hair);vertical-align:top}
+  td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;font-family:"SF Mono",Menlo,monospace;font-size:13px}
+  tr.hl td{background:var(--green-soft)}
+  ul{margin:0 0 12px;padding-left:20px}li{margin-bottom:7px}
+  .flow{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;margin:14px 0}
+  .step{flex:1;min-width:120px;background:var(--panel);border:1px solid var(--hair);padding:12px 14px;position:relative}
+  .step:not(:last-child){border-right:none}
+  .step .t{font-weight:600;font-size:15px}.step .d{font-size:12.5px;color:var(--ink-2)}
+  .arrow{color:var(--gold);font-size:20px;align-self:center;padding:0 4px}
+  .pill{display:inline-block;font-family:"SF Mono",Menlo,monospace;font-size:11px;
+    padding:2px 8px;border-radius:20px;background:var(--gold-soft);color:var(--gold);margin:2px 4px 2px 0}
+  .foot{margin-top:auto;padding-top:16px;font-size:12px;color:var(--ink-3);font-family:"SF Mono",Menlo,monospace}
+  .big{font-size:clamp(40px,8vw,76px);font-weight:600;line-height:1;color:var(--green)}
+  .note{border-left:3px solid var(--gold);padding:2px 0 2px 16px;color:var(--ink-2);font-size:15px;margin:12px 0}
+  @media(max-width:680px){.grid2,.grid3{grid-template-columns:1fr}.slide{padding:30px 24px}.step{border-right:1px solid var(--hair)!important}}
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,td,th,tr.hl td{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
+</style>
+<div class="deck">
+
+<!-- 1 COVER -->
+<section class="slide cover" data-n="01">
+  <div class="gs-head-order" style="display:flex;flex-direction:column">
+  <p class="lead" style="order:4;max-width:60ch">An integrated rice biorefinery model that turns the byproducts India's
+  government already procures — and currently gives away — into edible oil, food-grade derivatives, energy,
+  and exports. Feedstock the state owns; demand the state can contract.</p>
+  <div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
+  <div class="eyebrow" style="order:2">Investment &amp; policy concept · India · 2026</div>
+  <h1 style="order:3">Rice biorefinery proposal: byproducts of about 520 LMT of rice go to millers free</h1>
+  </div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </section><style>
+.xv-top,.xv,.xv-flow,.xv-so,.xv-n{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.xv-top{border-left:4px solid #2251FF;background:#F4F7FB;padding:1rem 1.1rem;margin:1.2rem 0 1.8rem;border-radius:0 10px 10px 0}
+.xv-top .xv-eb{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#43535F;font-weight:700;margin:0 0 .6rem}
+.xv-top ul{list-style:none;margin:0;padding:0}
+.xv-top li{margin:0 0 .85rem;padding:0;line-height:1.45;color:#0B1F2D;font-size:1rem}
+.xv-top li:last-child{margin-bottom:0}
+.xv-top .xv-k{display:block;font-size:1.65rem;font-weight:800;letter-spacing:-.02em;line-height:1.15;color:#0B1F2D}
+.xv{margin:1.1rem 0 1.4rem;padding:0;max-width:640px}
+.xv figcaption{margin:0 0 .7rem}
+.xv .xv-t{display:block;font-size:1.05rem;font-weight:700;line-height:1.35;color:#0B1F2D}
+.xv .xv-u{display:block;font-size:.82rem;color:#43535F;margin-top:.15rem;line-height:1.4}
+.xv .xv-key{font-size:.8rem;color:#43535F;margin:0 0 .5rem;line-height:1.4}
+.xv .xv-key i{display:inline-block;width:2px;height:.9em;background:#0B1F2D;vertical-align:-.1em;margin-right:.35em}
+.xv .xv-r{margin:0 0 .7rem}
+.xv .xv-l{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem;font-size:.88rem;line-height:1.3;color:#0B1F2D;margin:0 0 .22rem}
+.xv .xv-l>span{min-width:0}
+.xv .xv-l small{color:#43535F;font-size:.92em}
+.xv .xv-tk{position:relative;display:flex;align-items:center;min-height:16px}
+.xv .xv-b{display:block;height:14px;min-width:3px;background:#A9B4BF;border-radius:0 4px 4px 0;flex:none}
+.xv .xv-b.xv-float{border-radius:4px}
+.xv .xv-hi .xv-b{background:#2251FF}
+.xv .xv-v{font-size:.88rem;font-weight:600;color:#0B1F2D;white-space:nowrap;font-variant-numeric:tabular-nums;flex:none}
+.xv .xv-hi .xv-v{font-weight:800}
+.xv .xv-tk.xv-div{display:block;height:14px}
+.xv .xv-div .xv-b{position:absolute;top:0;border-radius:4px}
+.xv .xv-div .xv-neg{background:#7d8a96}
+.xv .xv-hi .xv-div .xv-neg,.xv .xv-hi.xv-divrow .xv-neg{background:#2251FF}
+.xv .xv-none{display:block;flex:1;height:12px;border:1.5px dashed #2251FF;background:#E9EEFF;border-radius:4px}
+.xv .xv-m{position:absolute;top:-3px;bottom:-3px;width:2px;background:#0B1F2D}
+.xv .xv-svg{display:block;width:100%;height:auto}
+.xv .xv-svg.xv-wide{display:none}
+@media (min-width:600px){.xv .xv-svg.xv-narrow{display:none}.xv .xv-svg.xv-wide{display:block}}
+.xv .xv-leg{font-size:.8rem;color:#43535F;margin:.1rem 0 .5rem}
+.xv .xv-leg span{margin-right:.9rem;white-space:nowrap}
+.xv .xv-leg i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:.35rem}
+.xv .xv-s{font-size:.75rem;color:#43535F;margin:.6rem 0 0;line-height:1.45}
+.xv-flow{list-style:none;margin:1rem 0 1.4rem;padding:0 0 0 18px;border-left:2px solid #D9E1E8;max-width:640px}
+.xv-flow li{position:relative;margin:0 0 1rem;padding:0 0 0 .4rem;line-height:1.45;font-size:.92rem;color:#0B1F2D}
+.xv-flow li::before{content:"";position:absolute;left:-24px;top:.3rem;width:10px;height:10px;border-radius:50%;background:#A9B4BF;box-shadow:0 0 0 3px #fff}
+.xv-flow li.xv-hi::before{background:#2251FF}
+.xv-flow b{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#43535F}
+.xv-sec .xv-so{font-size:.98rem;line-height:1.55;color:#0B1F2D;background:#F4F7FB;border-radius:8px;padding:.75rem .9rem;margin:.4rem 0 1.6rem}
+.xv-sec .xv-so p{margin:0;max-width:none}
+.xv-sec .xv-so p+p{margin-top:.55rem}
+.xv-sec .xv-so b{color:#0B1F2D}
+.xv-n{margin:.2rem 0 1.4rem;font-size:.85rem}
+.xv-n summary{cursor:pointer;color:#0b5394;font-weight:600;padding:.3rem 0}
+.xv-n table{margin:.5rem 0 0}
+</style>
+<div class="xv-top"><p class="xv-eb">Top line</p><ul><li><span class="xv-k">₹21,087 cr</span> a year of imports could be replaced by processing the byproducts the state already holds.</li><li><span class="xv-k">168 LMT</span> of edible oil imported a year, against 122 LMT of domestic edible oil.</li></ul></div>
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 2 November 2026.</b> The questions left open in the 13 October note below are now answered by the oil companies&rsquo; 2026-27 ethanol tender, opened on 16 October: the 72 lakh tonnes of FCI rice runs to 30 June 2027 (so it is the 2026-27 allocation), the requirement that 40% of grain offers come from FCI rice has been dropped and replaced by a cap of 108 crore litres of FCI-rice ethanol a quarter, and the maize incentive mentioned below has been cut from &#8377;5.79 to &#8377;2.79 a litre, so maize ethanol now fetches &#8377;68.86 a litre instead of &#8377;71.86. Details: <a href="https://blog.vertistratsolution.com/2026/10/indias-2026-27-ethanol-tender-drops.html">India&rsquo;s 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First</a>. <i>The original text below is unchanged.</i></div><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 27 October 2026.</b> Feed&rsquo;s share of India&rsquo;s maize crop was given as 60&ndash;70%. The upper end rests on a single source (DownToEarth); the slide now says &ldquo;about 60%&rdquo;. India becoming a net maize importer in 2024 is confirmed.</div><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 13 October 2026.</b> The 40% FCI-rice clause and its 30 June 2026 sunset, described below as &ldquo;the live instrument&rdquo;, applied to ethanol supply year 2025-26, which ends on 31 October 2026. Press reports say about 7.2 million tonnes of FCI rice has been allocated for ethanol in 2026-27 (up from 5.5 million), with the issue price rising from &#8377;2,320 to &#8377;2,390 a quintal from 1 November 2026; one S&amp;P Global item attributes the 7.2 million to 2025-26 instead, so the year is unclear. Whether the 40% condition carries into the new OMC tender has not been confirmed. Sources: <a href="https://bioenergytimes.com/higher-fci-rice-allocation-for-ethanol-to-support-e20-target-ease-grain-stockpile/" rel="noopener">Bioenergy Times</a>, <a href="https://www.newsbytesapp.com/news/india/india-allocates-72-million-tons-fci-rice-for-ethanol-2026-27/tldr" rel="noopener">NewsBytes</a>. <i>The original text below is unchanged.</i></div><p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>
+<section class="xv-sec"><h2 class="gb-h2">Edible-oil imports cost ₹1,68,000 cr a year; the food subsidy costs ₹2,05,000 cr</h2>
+<figure class="xv" aria-labelledby="xv1"><figcaption><span class="xv-t" id="xv1">Edible-oil imports are the third-largest line in the listed spend, after MSP and food</span><span class="xv-u">Annual spend lines, ₹ crore.</span></figcaption><div class="xv-r" title="MSP paid to ~1.3 cr farmers: ₹232,000 cr"><div class="xv-l"><span>MSP paid to ~1.3 cr farmers</span><b class="xv-v">₹232,000 cr</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="Food subsidy (free grain, 80 cr): ₹205,000 cr"><div class="xv-l"><span>Food subsidy (free grain, 80 cr)</span><b class="xv-v">₹205,000 cr</b></div><div class="xv-tk"><i class="xv-b" style="width:88.36%"></i></div></div><div class="xv-r xv-hi" title="Edible-oil imports: ₹168,000 cr"><div class="xv-l"><span>Edible-oil imports</span><b class="xv-v">₹168,000 cr</b></div><div class="xv-tk"><i class="xv-b" style="width:72.41%"></i></div></div><div class="xv-r" title="Pulse imports: ₹31,000 cr"><div class="xv-l"><span>Pulse imports</span><b class="xv-v">₹31,000 cr</b></div><div class="xv-tk"><i class="xv-b" style="width:13.36%"></i></div></div><div class="xv-r" title="Excess-stock carry (~330 LMT over buffer): ₹18,000 cr"><div class="xv-l"><span>Excess-stock carry (~330 LMT over buffer)</span><b class="xv-v">₹18,000 cr</b></div><div class="xv-tk"><i class="xv-b" style="width:7.76%"></i></div></div><div class="xv-r" title="Rice bran given away free: ₹7,650 cr"><div class="xv-l"><span>Rice bran given away free</span><b class="xv-v">₹7,650 cr</b></div><div class="xv-tk"><i class="xv-b" style="width:3.30%"></i></div></div><p class="xv-s">Post spend table (MSP KMS 2025-26; DGCI&S).</p></figure>
+<div class="xv-so"><p><b>What it means:</b> Edible-oil imports are a large recurring cost, and the post treats domestic processing as the way to recover part of it.</p><p><b>What to do:</b> Redirect the oil spend to domestic processing and jobs, as the post proposes.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Processing could replace ₹21,087 cr of imports a year; ₹11,000 cr is capturable now</h2>
+<figure class="xv" aria-labelledby="xv2"><figcaption><span class="xv-t" id="xv2">About ₹11,000 cr of the ₹21,087 cr is capturable now</span><span class="xv-u">Annual values, ₹ crore.</span></figcaption><div class="xv-r xv-hi" title="Import substitution (processing): ₹21,087 cr"><div class="xv-l"><span>Import substitution (processing)</span><b class="xv-v">₹21,087 cr</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="of which capturable now: ₹11,000 cr"><div class="xv-l"><span>of which capturable now</span><b class="xv-v">₹11,000 cr</b></div><div class="xv-tk"><i class="xv-b" style="width:52.16%"></i></div></div><div class="xv-r" title="Byproduct monetised (bran → RBO): ₹7,650 cr"><div class="xv-l"><span>Byproduct monetised (bran → RBO)</span><b class="xv-v">₹7,650 cr</b></div><div class="xv-tk"><i class="xv-b" style="width:36.28%"></i></div></div><div class="xv-r" title="Excess-stock carry avoided (up to): ₹18,000 cr"><div class="xv-l"><span>Excess-stock carry avoided (up to)</span><b class="xv-v">₹18,000 cr</b></div><div class="xv-tk"><i class="xv-b" style="width:85.36%"></i></div></div><p class="xv-s">Post import-substitution table; DGCI&S import values.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> The capturable part comes from rice bran oil, cottonseed oil and soy and sunflower crush, per the post's stream-by-stream estimate.</p><p><b>What to do:</b> Ring-fence the commercial arm and contract the offtake, as the post recommends.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Edible-oil imports (168 LMT) exceed domestic edible oil (122 LMT)</h2>
+<figure class="xv" aria-labelledby="xv3"><figcaption><span class="xv-t" id="xv3">Edible-oil imports at 168 LMT outweigh the 122 LMT of domestic edible oil</span><span class="xv-u">Annual volumes, lakh metric tonnes.</span></figcaption><div class="xv-r" title="Domestic edible oil: 122 LMT"><div class="xv-l"><span>Domestic edible oil</span><b class="xv-v">122 LMT</b></div><div class="xv-tk"><i class="xv-b" style="width:72.62%"></i></div></div><div class="xv-r xv-hi" title="Edible oil imported: 168 LMT"><div class="xv-l"><span>Edible oil imported</span><b class="xv-v">168 LMT</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="Rice bran oil: 10 LMT"><div class="xv-l"><span>Rice bran oil</span><b class="xv-v">10 LMT</b></div><div class="xv-tk"><i class="xv-b" style="width:5.95%"></i></div></div><p class="xv-s">Post supply-balance table.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> Byproduct oil competes with imports rather than with food grain, so the post argues it does not compete with people's food supply.</p><p><b>What to do:</b> Build the byproduct oil routes first, as the post's sequencing proposes.</p></div></section>
+<h2 class="gb-h2" id="fixes">What would fix this</h2>
+<ul>
+<li><b>The Department of Food and Public Distribution should publish each year the tonnage of bran and husk generated from custom-milled government paddy and what millers are charged for it</b>, so that the ₹7,650 crore byproduct transfer becomes an official figure rather than an estimate.</li>
+<li><b>FCI should publish annually the carrying cost of rice and wheat stocks held above buffer norms</b>, so that the roughly ₹18,000 crore cost of excess stock, and the 2&ndash;2.4 times buffer-norm rice carry-over, are reported by the holder of the stock.</li>
+<li><b>The civil supplies departments of Karnataka, Gujarat, Andhra Pradesh, Maharashtra, Telangana and Kerala should publish per-commodity spending on edible oil and pulses in their PDS</b>, so that the state oil subsidy can be sized beyond Tamil Nadu&rsquo;s ₹3,800 crore.</li>
+<li><b>The Department of Agriculture &amp; Farmers Welfare should publish a single state-wise registry of FPOs formed under all implementing agencies, not SFAC alone</b>, so that siting decisions that match feedstock to farmer aggregation rest on complete counts.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+<details class="xv-n"><summary>Table: Feedstock the state already owns</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Input</th><th>Indicative price, ₹/qtl</th><th>Source / basis</th></tr></thead><tbody><tr><td>Paddy (common)</td><td>2,369</td><td>MSP KMS 2025-26 · govt CMR procurement (~832 LMT)</td></tr><tr><td>Rice bran</td><td>2,000 (20/kg)</td><td>NCDC DPR · to oil extractors; 16–22% oil</td></tr><tr><td>Rice husk</td><td>200</td><td>NCDC DPR · fuel-grade; ~20% of paddy</td></tr><tr><td>Broken rice</td><td>1,500</td><td>NCDC DPR · poha/starch/ethanol feedstock</td></tr><tr><td>De-oiled bran (DORB)</td><td>1,500 (credit)</td><td>feed byproduct — the credit that makes RBO viable</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Margin and IRR — ranked, government-DPR-backed</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Product</th><th>Net margin, %</th><th>IRR, %</th><th>DPR source</th></tr></thead><tbody><tr><td>Poha / murmura</td><td>10–15</td><td>&lt;3y payback</td><td>NIFTEM-T PMFME ✓</td></tr><tr><td>RBO solvent extraction</td><td>8–15</td><td>—</td><td>IMARC/EIRI</td></tr><tr><td>Rice mill (anchor)</td><td>8.5–15</td><td>19</td><td>NCDC ✓</td></tr><tr><td>Maize wet-milling (starch)</td><td>12–20</td><td>22–28</td><td>industry</td></tr><tr><td>Dal mill</td><td>~5.3</td><td>25–31</td><td>RACP + NIFTEM ✓</td></tr><tr><td>Roller flour mill</td><td>3–5.5</td><td>20–29</td><td>RACP ✓</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: ₹21,000 cr/yr across the crops the state holds</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Stream</th><th>Import ₹/t (DGCI&amp;S)</th><th>Savings ₹ cr/yr</th><th>Offtake</th></tr></thead><tbody><tr><td>Rice bran oil</td><td>97,970</td><td>7,544 (gross import value displaced, not price×volume savings)</td><td>frying/HoReCa + fortification</td></tr><tr><td>Pulses (dal margin)</td><td>50,888–74,163</td><td>~7,000</td><td>dal millers + PDS</td></tr><tr><td>Cottonseed oil</td><td>98,766</td><td>1,975</td><td>food processing</td></tr><tr><td>Maize starch</td><td>37,170</td><td>1,115</td><td>food/pharma/paper</td></tr><tr><td>Husk → silica</td><td>86,730</td><td>867</td><td>tyre/industrial</td></tr><tr><td>Protein · gluten · Vit-E · lecithin</td><td>115k–17.7m</td><td>~1,900</td><td>processors + export</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Import-substitution savings estimate</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Stream</th><th>₹/kg edge</th><th>₹ cr/yr</th></tr></thead><tbody><tr><td>Rice bran oil (7.7 LMT)</td><td>45</td><td>7,544</td></tr><tr><td>Cottonseed oil (2 LMT)</td><td>~10</td><td>1,975</td></tr><tr><td>Soy/sun crush — cake + forex*</td><td>system</td><td>~1,500</td></tr><tr><td>Capturable now</td><td></td><td>~₹11,000 cr/yr</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Byproduct oil isn't fuel-vs-food — it competes with imports, not the plate</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Route</th><th>Feedstock</th><th>Competes with food?</th></tr></thead><tbody><tr><td>Grain → ethanol</td><td>broken/surplus grain</td><td>partially — the debate lives here</td></tr><tr><td>Bran → RBO</td><td>milling byproduct</td><td>No — rice still feeds people</td></tr><tr><td>Cottonseed → oil</td><td>cotton byproduct</td><td>No</td></tr><tr><td>Husk → silica/energy</td><td>byproduct</td><td>No</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: From 440 lakh ha of rice to a 52-LMT ethanol slice — is there "sufficient grain"? Yes.</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>2021</th><th>2022</th><th>2023</th><th>2024</th></tr></thead><tbody><tr><td>297</td><td>317</td><td>253</td><td>326</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: From 440 lakh ha of rice to a 52-LMT ethanol slice — is there "sufficient grain"? Yes.</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Now 1,050</th><th>E20 1,350</th><th>E27 1,650</th><th>E30 2,000</th></tr></thead><tbody><tr><td>52 ✅</td><td>79 ✅</td><td>105 ✅</td><td>136 ⚠️</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: The 40% clause — evaluated</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Verdict</th><th></th></tr></thead><tbody><tr><td>✅ Converts idle surplus → guaranteed offtake</td><td>good</td></tr><tr><td>✅ Cap + sunset + Q4-bar = stock discipline</td><td>right instinct</td></tr><tr><td>⚠️ Fixed cap, not a live stock trigger</td><td>blunt</td></tr><tr><td>⚠️ ₹2,320/qtl — ₹5.8/kg below OMSS</td><td>subsidy</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Maize substitution protects the rice buffer — but maize is already stretched</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Now</th><th>E20</th><th>E27</th><th>E30</th></tr></thead><tbody><tr><td>~90</td><td>~140</td><td>~219</td><td>~311 LMT</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Production volumes</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Measure</th><th>LMT</th></tr></thead><tbody><tr><td>Rice procured</td><td>~520</td></tr><tr><td>Wheat procured</td><td>300</td></tr><tr><td>Paddy milled/yr</td><td>~850</td></tr><tr><td>Rice bran oil</td><td>~10</td></tr><tr><td>Domestic edible oil</td><td>122</td></tr><tr><td>Edible oil imported</td><td>168</td></tr><tr><td>Oilseeds grown</td><td>409.9</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: The oil subsidy is real, state-run, and spent on imports</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>State</th><th>Oil in PDS</th><th>Pulse in PDS</th><th>Card price</th><th>Spend ₹cr/yr</th></tr></thead><tbody><tr><td>Tamil Nadu</td><td>Palmolein 1 L/card</td><td>Tur dal 1 kg</td><td>oil ₹25/L · dal ₹30/kg</td><td>3,800</td></tr><tr><td>Karnataka</td><td>Palm oil + Indira kit</td><td>Tur/moong 1 kg</td><td>dal ~₹38/kg</td><td>~360*</td></tr><tr><td>Gujarat</td><td>Edible oil + sugar</td><td>Chana + tur dal</td><td>subsidised</td><td>n/p</td></tr><tr><td>Andhra Pradesh</td><td>—</td><td>Tur dal 500 g</td><td>subsidised</td><td>n/p</td></tr><tr><td>Maharashtra</td><td>—</td><td>Chana + urad</td><td>₹35/kg</td><td>n/p</td></tr><tr><td>Telangana</td><td>—</td><td>Red gram dal</td><td>subsidised</td><td>n/p</td></tr><tr><td>Kerala (Supplyco)</td><td>Oil (below-mkt)</td><td>Pulses</td><td>ltd subsidy</td><td>n/p</td></tr><tr><td>Centre (NAFED)</td><td>—</td><td>5.5 LMT → 11 states</td><td>varies</td><td>6,999†</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: What the system costs now</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Line item</th><th>₹ cr</th></tr></thead><tbody><tr><td>MSP paid to ~1.3 cr farmers</td><td>2,32,000</td></tr><tr><td>Food subsidy (free grain, 80 cr)</td><td>2,05,000</td></tr><tr><td>Edible-oil imports</td><td>1,68,000</td></tr><tr><td>Pulse imports</td><td>31,000</td></tr><tr><td>Excess-stock carry (~330 LMT over buffer)</td><td>18,000</td></tr><tr><td>Rice bran given away free</td><td>7,650</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: What processing recovers</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Line item</th><th>₹ cr</th></tr></thead><tbody><tr><td>Import substitution (processing)</td><td>21,087</td></tr><tr><td>— of which capturable now</td><td>~11,000</td></tr><tr><td>Byproduct monetised (bran → RBO)</td><td>7,650</td></tr><tr><td>Excess-stock carry avoided</td><td>up to 18,000</td></tr><tr><td>Processing-margin uplift</td><td>3–5×</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: The grain and the farmers are in different states — design for it</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>State</th><th>FCI storage LMT</th><th>SFAC FPOs</th></tr></thead><tbody><tr><td>Madhya Pradesh</td><td>200</td><td>348</td></tr><tr><td>Punjab</td><td>175</td><td>78</td></tr><tr><td>Haryana</td><td>100</td><td>119</td></tr><tr><td>Uttar Pradesh</td><td>47</td><td>758</td></tr><tr><td>Bihar</td><td>21</td><td>312</td></tr><tr><td>Andhra Pradesh</td><td>25</td><td>247</td></tr><tr><td>Rajasthan</td><td>16</td><td>225</td></tr><tr><td>Maharashtra</td><td>24</td><td>213</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Sources cited in the article</summary><ul><li><a href="https://bioenergytimes.com/higher-fci-rice-allocation-for-ethanol-to-support-e20-target-ease-grain-stockpile/">Bioenergy Times</a></li><li><a href="https://www.newsbytesapp.com/news/india/india-allocates-72-million-tons-fci-rice-for-ethanol-2026-27/tldr">NewsBytes</a></li></ul></details>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
+<style>/*gs-light-lock-v1*/:root,:root[data-theme="dark"],:root[data-theme="light"]{--paper:#f7f5ef!important;--panel:#fffefb!important;--ink:#1b2019!important;--ink2:#55605108!important;--ink-2:#54604f!important;--ink-3:#8a917f!important;--hair:#e2ddd0!important;--line:#cfc9ba!important;--green:#2f7a4f!important;--green-d:#1f5637!important;--gold:#b7791f!important;--gold-soft:#f3ead6!important;--blue:#3b6ea5!important;--green-soft:#e6efe7!important;--band:#efece2!important;color-scheme:light!important;}</style>
+<style>/*gs-dark-panel-guard*/.post-body thead th{background:#111!important}.post-body thead th,.post-body thead th *{color:#fff!important}.post-body thead th a,.post-body thead th a *{color:#cfe3ff!important}.post-body tr:first-child th{background:#111!important}.post-body tr:first-child th,.post-body tr:first-child th *{color:#fff!important}.post-body tr:first-child th a,.post-body tr:first-child th a *{color:#cfe3ff!important}.cover{background:linear-gradient(150deg,#1f5637,#2f7a4f)!important}.cover,.cover *{color:#fff!important}.cover a,.cover a *{color:#cfe3ff!important}.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a!important}.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"],.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"] *{color:#fff!important}.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"] a,.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"] a *{color:#cfe3ff!important}</style>

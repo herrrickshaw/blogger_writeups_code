@@ -1,0 +1,248 @@
+<div class="artx conx">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.conx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.conx h1,.conx h2,.conx h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.conx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.conx{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.conx,.conx p,.conx li,.conx td,.conx th{color:var(--ink)!important}
+.conx{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.conx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.conx h1{margin:0 0 10px;font-size:1.5rem}
+.conx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.conx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.conx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.conx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.conx .stat span{font-size:.8rem}
+.conx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.conx .tw{overflow-x:auto}
+.conx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.conx th,.conx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.conx th:first-child,.conx td:first-child{text-align:left}
+.conx th{background:var(--accent);color:#fff!important;font-weight:600}
+.conx tr:nth-child(even){background:var(--panel)}
+
+.conx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.conx .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.conx .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.conx .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.conx .chip-good{background:var(--good-soft);color:var(--good)}
+.conx .chip-warn{background:var(--panel);color:var(--accent)}
+.conx .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.conx .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.conx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.conx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.conx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Census 2027 ends India's 50-year freeze on seat allocation, and the April 2026 attempt to replace it failed. Here are the constitutional reforms that commissions and courts keep flagging, and where each one stands.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">India &middot; Governance &middot; Constitutional reform</p>
+<h1 style="order:3">India's constitutional reforms in 2026: Census 2027 ends the 50-year seat freeze</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<style>
+.xv-top,.xv,.xv-flow,.xv-so,.xv-n{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.xv-top{border-left:4px solid #2251FF;background:#F4F7FB;padding:1rem 1.1rem;margin:1.2rem 0 1.8rem;border-radius:0 10px 10px 0}
+.xv-top .xv-eb{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#43535F;font-weight:700;margin:0 0 .6rem}
+.xv-top ul{list-style:none;margin:0;padding:0}
+.xv-top li{margin:0 0 .85rem;padding:0;line-height:1.45;color:#0B1F2D;font-size:1rem}
+.xv-top li:last-child{margin-bottom:0}
+.xv-top .xv-k{display:block;font-size:1.65rem;font-weight:800;letter-spacing:-.02em;line-height:1.15;color:#0B1F2D}
+.xv{margin:1.1rem 0 1.4rem;padding:0;max-width:640px}
+.xv figcaption{margin:0 0 .7rem}
+.xv .xv-t{display:block;font-size:1.05rem;font-weight:700;line-height:1.35;color:#0B1F2D}
+.xv .xv-u{display:block;font-size:.82rem;color:#43535F;margin-top:.15rem;line-height:1.4}
+.xv .xv-key{font-size:.8rem;color:#43535F;margin:0 0 .5rem;line-height:1.4}
+.xv .xv-key i{display:inline-block;width:2px;height:.9em;background:#0B1F2D;vertical-align:-.1em;margin-right:.35em}
+.xv .xv-r{margin:0 0 .7rem}
+.xv .xv-l{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem;font-size:.88rem;line-height:1.3;color:#0B1F2D;margin:0 0 .22rem}
+.xv .xv-l>span{min-width:0}
+.xv .xv-l small{color:#43535F;font-size:.92em}
+.xv .xv-tk{position:relative;display:flex;align-items:center;min-height:16px}
+.xv .xv-b{display:block;height:14px;min-width:3px;background:#A9B4BF;border-radius:0 4px 4px 0;flex:none}
+.xv .xv-b.xv-float{border-radius:4px}
+.xv .xv-hi .xv-b{background:#2251FF}
+.xv .xv-v{font-size:.88rem;font-weight:600;color:#0B1F2D;white-space:nowrap;font-variant-numeric:tabular-nums;flex:none}
+.xv .xv-hi .xv-v{font-weight:800}
+.xv .xv-tk.xv-div{display:block;height:14px}
+.xv .xv-div .xv-b{position:absolute;top:0;border-radius:4px}
+.xv .xv-div .xv-neg{background:#7d8a96}
+.xv .xv-hi .xv-div .xv-neg,.xv .xv-hi.xv-divrow .xv-neg{background:#2251FF}
+.xv .xv-none{display:block;flex:1;height:12px;border:1.5px dashed #2251FF;background:#E9EEFF;border-radius:4px}
+.xv .xv-m{position:absolute;top:-3px;bottom:-3px;width:2px;background:#0B1F2D}
+.xv .xv-svg{display:block;width:100%;height:auto}
+.xv .xv-svg.xv-wide{display:none}
+@media (min-width:600px){.xv .xv-svg.xv-narrow{display:none}.xv .xv-svg.xv-wide{display:block}}
+.xv .xv-leg{font-size:.8rem;color:#43535F;margin:.1rem 0 .5rem}
+.xv .xv-leg span{margin-right:.9rem;white-space:nowrap}
+.xv .xv-leg i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:.35rem}
+.xv .xv-s{font-size:.75rem;color:#43535F;margin:.6rem 0 0;line-height:1.45}
+.xv-flow{list-style:none;margin:1rem 0 1.4rem;padding:0 0 0 18px;border-left:2px solid #D9E1E8;max-width:640px}
+.xv-flow li{position:relative;margin:0 0 1rem;padding:0 0 0 .4rem;line-height:1.45;font-size:.92rem;color:#0B1F2D}
+.xv-flow li::before{content:"";position:absolute;left:-24px;top:.3rem;width:10px;height:10px;border-radius:50%;background:#A9B4BF;box-shadow:0 0 0 3px #fff}
+.xv-flow li.xv-hi::before{background:#2251FF}
+.xv-flow b{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#43535F}
+.xv-sec .xv-so{font-size:.98rem;line-height:1.55;color:#0B1F2D;background:#F4F7FB;border-radius:8px;padding:.75rem .9rem;margin:.4rem 0 1.6rem}
+.xv-sec .xv-so p{margin:0;max-width:none}
+.xv-sec .xv-so p+p{margin-top:.55rem}
+.xv-sec .xv-so b{color:#0B1F2D}
+.xv-n{margin:.2rem 0 1.4rem;font-size:.85rem}
+.xv-n summary{cursor:pointer;color:#0b5394;font-weight:600;padding:.3rem 0}
+.xv-n table{margin:.5rem 0 0}
+</style>
+<div class="xv-top"><p class="xv-eb">Top line</p><ul><li><span class="xv-k">298</span> votes for the 131st Amendment against 352 needed, so the bill fell in the Lok Sabha on 17 April 2026.</li><li><span class="xv-k">50 years</span> since seat allocation was frozen in 1976, and Census 2027 ends that freeze.</li><li><span class="xv-k">3</span> constitutional amendment bills moved since December 2024, and none has passed.</li></ul></div>
+<div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 7 November 2026.</b> Three open points are now settled. The One Nation One Election committee has not reported: on 29 July 2026 the Lok Sabha extended its deadline to the last week of the 2026 Winter Session (<a href="https://deccanherald.com/india/lok-sabha-grants-extension-to-panel-on-one-nation-one-election-till-winter-session-4091438">Deccan Herald</a>). The challenge to the 2023 Election Commission appointments law produced a split verdict on 23 September 2026 on whether a larger bench should hear it, and the matter went to the Chief Justice; there is no ruling on the Act itself, and a recall plea is pending (<a href="https://visionias.in/current-affairs/upsc-daily-news-summary/article/2026-09-24/the-indian-express/polity-and-governance/supreme-court-split-verdict-on-cec-appointment-law-reference-plea-matter-goes-to-cji">Vision IAS summary of The Indian Express</a>; <a href="https://www.livelaw.in/top-stories/plea-in-supreme-court-seeks-recall-of-cec-law-verdict-citing-justice-sc-sharmas-sons-association-with-eci-552343">LiveLaw</a>). The Lok Sabha Deputy Speaker post is still vacant; opposition MPs raised it again in March 2026 (<a href="https://www.indiatodayne.in/assam/story/gaurav-gogoi-flags-constitutional-vacuum-over-absence-of-deputy-speaker-in-ls-1357869-2026-03-11">India Today NE</a>). The text and scorecard have been updated.</div><p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>
+<section class="xv-sec"><h2 class="gb-h2">The 131st Amendment fell 54 votes short in the Lok Sabha</h2>
+<figure class="xv" aria-labelledby="xv1"><figcaption><span class="xv-t" id="xv1">Yes votes reached 298 of the 352 needed; 230 voted no</span><span class="xv-u">Votes on the Constitution (131st Amendment) Bill, Lok Sabha, 17 April 2026.</span></figcaption><p class="xv-key"><i></i>352 votes needed</p><div class="xv-r xv-hi" title="Yes votes: 298 votes"><div class="xv-l"><span>Yes votes</span><b class="xv-v">298 votes</b></div><div class="xv-tk"><i class="xv-b" style="width:84.66%"></i><i class="xv-m" style="left:100.00%" aria-hidden="true"></i></div></div><div class="xv-r" title="No votes: 230 votes"><div class="xv-l"><span>No votes</span><b class="xv-v">230 votes</b></div><div class="xv-tk"><i class="xv-b" style="width:65.34%"></i><i class="xv-m" style="left:100.00%" aria-hidden="true"></i></div></div><div class="xv-r" title="Votes needed: 352 votes"><div class="xv-l"><span>Votes needed</span><b class="xv-v">352 votes</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i><i class="xv-m" style="left:100.00%" aria-hidden="true"></i></div></div><p class="xv-s">Drishti IAS; The South First; Vision IAS.</p></figure>
+<details class="xv-n"><summary>Show the numbers</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Reform</th><th>Flagged by</th><th>Status, Oct 2026</th><th>Amendment needed?</th></tr></thead><tbody><tr><td>Delimitation formula / freeze</td><td>The Constitution's own deadline; southern states; 1976 and 2001 amendments</td><td>Stalled 131st defeated Apr 2026</td><td>Yes</td></tr><tr><td>Women's reservation timing</td><td>106th Amendment</td><td>Waiting on delimitation</td><td>Only to bring it forward</td></tr><tr><td>Simultaneous elections</td><td>Kovind Committee; Law Commission 170th, 22nd</td><td>In JPC 129th Bill</td><td>Yes</td></tr><tr><td>Removing jailed ministers</td><td>Government bill</td><td>In JPC report due Winter Session</td><td>Yes</td></tr><tr><td>Governor's assent timelines, tenure</td><td>Sarkaria, NCRWC, Punchhi; SC Nov 2025</td><td>No bill</td><td>Yes</td></tr><tr><td>Anti-defection adjudicator</td><td>Goswami, Law Commission 170th, NCRWC, SC 2020</td><td>No bill</td><td>Yes</td></tr><tr><td>Article 356 safeguards</td><td>Sarkaria, Punchhi, Bommai</td><td>No bill</td><td>Advisable</td></tr><tr><td>Judicial appointments</td><td>SC 2015, NCRWC</td><td>Unsettled Memorandum of Procedure</td><td>Depends on the model</td></tr><tr><td>Election Commission appointments</td><td>Goswami, Law Commission 255th, NCRWC, SC 2023</td><td>In court split verdict 23 Sep 2026; larger bench</td><td>Yes, to protect it in the Constitution</td></tr></tbody></table></div></details>
+<div class="xv-so"><p><b>What it means:</b> The bill would have enlarged the Lok Sabha to 850 seats and brought women's reservation forward, but it was defeated.</p><p><b>What to do:</b> Parliament must agree a seat formula before Census 2027 unfreezes allocation, so the next bill has to win the support the 131st lacked.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Governors: courts dropped their own timelines, so only Parliament can set them</h2>
+<ol class="xv-flow"><li><b>1988</b>Sarkaria Commission asks for time limits on Governors' assent to bills</li><li><b>April 2025</b>Supreme Court sets timelines in the Tamil Nadu case</li><li class="xv-hi"><b>20 November 2025</b>Presidential Reference opinion: no judicially imposed timelines, no deemed assent</li></ol>
+<div class="xv-so"><p><b>What it means:</b> Governors' assent has been recommended for reform since 1988, and the November 2025 opinion left no court-set deadline.</p><p><b>What to do:</b> A fixed timeline for assent under Article 200 needs a constitutional amendment, so Parliament must draft one.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Two bills in committee have had their deadlines extended into the Winter Session</h2>
+<ol class="xv-flow"><li><b>December 2024</b>One Nation One Election bill (129th) introduced by 269 votes to 196 and sent to a JPC</li><li><b>July 2026</b>JPC on the 130th Amendment defers adopting its draft report</li><li><b>29 July 2026</b>Lok Sabha extends the 129th Bill's deadline to the first day of the last week of Winter Session</li><li class="xv-hi"><b>31 July 2026</b>Lok Sabha extends the 130th Bill's deadline to the last week of Winter Session</li></ol>
+<div class="xv-so"><p><b>What it means:</b> The One Nation One Election and 130th Amendment bills are still with joint committees, and neither has reported.</p><p><b>What to do:</b> Both committees need to table reports by the Winter Session deadline, since a third extension would leave the bills unresolved.</p></div></section>
+<details class="xv-n"><summary>Table: The scorecard</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Reform</th><th>Flagged by</th><th>Status, Oct 2026</th><th>Amendment needed?</th></tr></thead><tbody><tr><td>Delimitation formula / freeze</td><td>The Constitution's own deadline; southern states; 1976 and 2001 amendments</td><td>Stalled 131st defeated Apr 2026</td><td>Yes</td></tr><tr><td>Women's reservation timing</td><td>106th Amendment</td><td>Waiting on delimitation</td><td>Only to bring it forward</td></tr><tr><td>Simultaneous elections</td><td>Kovind Committee; Law Commission 170th, 22nd</td><td>In JPC 129th Bill</td><td>Yes</td></tr><tr><td>Removing jailed ministers</td><td>Government bill</td><td>In JPC report due Winter Session</td><td>Yes</td></tr><tr><td>Governor's assent timelines, tenure</td><td>Sarkaria, NCRWC, Punchhi; SC Nov 2025</td><td>No bill</td><td>Yes</td></tr><tr><td>Anti-defection adjudicator</td><td>Goswami, Law Commission 170th, NCRWC, SC 2020</td><td>No bill</td><td>Yes</td></tr><tr><td>Article 356 safeguards</td><td>Sarkaria, Punchhi, Bommai</td><td>No bill</td><td>Advisable</td></tr><tr><td>Judicial appointments</td><td>SC 2015, NCRWC</td><td>Unsettled Memorandum of Procedure</td><td>Depends on the model</td></tr><tr><td>Election Commission appointments</td><td>Goswami, Law Commission 255th, NCRWC, SC 2023</td><td>In court split verdict 23 Sep 2026; larger bench</td><td>Yes, to protect it in the Constitution</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Sources cited in the article</summary><ul><li><a href="https://deccanherald.com/india/lok-sabha-grants-extension-to-panel-on-one-nation-one-election-till-winter-session-4091438">Deccan Herald</a></li><li><a href="https://visionias.in/current-affairs/upsc-daily-news-summary/article/2026-09-24/the-indian-express/polity-and-governance/supreme-court-split-verdict-on-cec-appointment-law-reference-plea-matter-goes-to-cji">Vision IAS summary of The Indian Express</a></li><li><a href="https://www.livelaw.in/top-stories/plea-in-supreme-court-seeks-recall-of-cec-law-verdict-citing-justice-sc-sharmas-sons-association-with-eci-552343">LiveLaw</a></li><li><a href="https://www.indiatodayne.in/assam/story/gaurav-gogoi-flags-constitutional-vacuum-over-absence-of-deputy-speaker-in-ls-1357869-2026-03-11">India Today NE</a></li><li><a href="https://www.drishtiias.com/daily-updates/daily-news-analysis/defeat-of-the-constitution-131st-amendment-bill-2026/print_manually">Defeat of the 131st Amendment Bill</a></li><li><a href="https://www.drishtiias.com/daily-updates/daily-news-analysis/delimitation-in-india/print_manually">Delimitation in India</a></li><li><a href="https://visionias.in/current-affairs/news-today/2026-04-18/polity-and-governance/constitution-131st-amendment-bill-2026-defeated-in-lok-sabha">131st Amendment defeated</a></li><li><a href="https://thesouthfirst.com/topstory/lok-sabha-defeats-constitution-131st-amendment-bill/">Lok Sabha defeats 131st Amendment</a></li><li><a href="https://www.theweek.in/magazine/theweek/cover/2026/02/07/the-delimitation-dilemma-why-indias-north-south-divide-is-at-a-breaking-point.html">The delimitation dilemma</a></li><li><a href="https://deccanherald.com/india/joint-panel-examining-bill-to-remove-pm-cms-gets-extension-of-deadline-to-submit-report-4094349">JPC deadline extended</a></li><li><a href="https://www.sentinelassam.com/more-news/national-news/jpc-defers-draft-report-on-130th-constitution-amendment-bill-seeks-more-consultations">JPC defers draft report</a></li><li><a href="https://www.businesstoday.in/amp/india/story/one-nation-one-election-bill-tabled-in-lok-sabha-gets-backing-from-tdp-457577-2024-12-17">ONOE Bill sent to JPC</a></li><li><a href="https://issi.org.pk/issue-brief-on-one-nation-one-election-where-is-india-heading">One Nation One Election brief</a></li><li><a href="https://theleaflet.in/leaflet-reports/no-timelines-for-governorpresident-to-act-on-bills-for-assent-no-deemed-assent-decisions-under-articles-200-201-not-justiciable-says-supreme-court">Presidential Reference opinion</a></li><li><a href="https://scroll.in/latest/1088686/no-timelines-for-governors-president-to-act-on-bills-says-supreme-court">No timelines for governors</a></li></ul></details>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

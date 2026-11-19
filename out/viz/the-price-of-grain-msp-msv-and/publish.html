@@ -1,0 +1,170 @@
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="dek">How India prices its harvest — for farmers, for ration shops, for distilleries,
+  for the world market — and why pairing the Minimum Support <em>Price</em> with a Minimum
+  Support <em>Volume</em> is the design that creates value on both sides of the ledger.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div style="order:2" class="eyebrow">Policy analysis · Indian agriculture · July 2026</div>
+<h1 style="order:3">India's grain prices: 6 administered prices for 1 kg of rice, from MSP to MSV</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="wrap"><style>
+.xv-top,.xv,.xv-flow,.xv-so,.xv-n{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.xv-top{border-left:4px solid #2251FF;background:#F4F7FB;padding:1rem 1.1rem;margin:1.2rem 0 1.8rem;border-radius:0 10px 10px 0}
+.xv-top .xv-eb{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#43535F;font-weight:700;margin:0 0 .6rem}
+.xv-top ul{list-style:none;margin:0;padding:0}
+.xv-top li{margin:0 0 .85rem;padding:0;line-height:1.45;color:#0B1F2D;font-size:1rem}
+.xv-top li:last-child{margin-bottom:0}
+.xv-top .xv-k{display:block;font-size:1.65rem;font-weight:800;letter-spacing:-.02em;line-height:1.15;color:#0B1F2D}
+.xv{margin:1.1rem 0 1.4rem;padding:0;max-width:640px}
+.xv figcaption{margin:0 0 .7rem}
+.xv .xv-t{display:block;font-size:1.05rem;font-weight:700;line-height:1.35;color:#0B1F2D}
+.xv .xv-u{display:block;font-size:.82rem;color:#43535F;margin-top:.15rem;line-height:1.4}
+.xv .xv-key{font-size:.8rem;color:#43535F;margin:0 0 .5rem;line-height:1.4}
+.xv .xv-key i{display:inline-block;width:2px;height:.9em;background:#0B1F2D;vertical-align:-.1em;margin-right:.35em}
+.xv .xv-r{margin:0 0 .7rem}
+.xv .xv-l{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem;font-size:.88rem;line-height:1.3;color:#0B1F2D;margin:0 0 .22rem}
+.xv .xv-l>span{min-width:0}
+.xv .xv-l small{color:#43535F;font-size:.92em}
+.xv .xv-tk{position:relative;display:flex;align-items:center;min-height:16px}
+.xv .xv-b{display:block;height:14px;min-width:3px;background:#A9B4BF;border-radius:0 4px 4px 0;flex:none}
+.xv .xv-b.xv-float{border-radius:4px}
+.xv .xv-hi .xv-b{background:#2251FF}
+.xv .xv-v{font-size:.88rem;font-weight:600;color:#0B1F2D;white-space:nowrap;font-variant-numeric:tabular-nums;flex:none}
+.xv .xv-hi .xv-v{font-weight:800}
+.xv .xv-tk.xv-div{display:block;height:14px}
+.xv .xv-div .xv-b{position:absolute;top:0;border-radius:4px}
+.xv .xv-div .xv-neg{background:#7d8a96}
+.xv .xv-hi .xv-div .xv-neg,.xv .xv-hi.xv-divrow .xv-neg{background:#2251FF}
+.xv .xv-none{display:block;flex:1;height:12px;border:1.5px dashed #2251FF;background:#E9EEFF;border-radius:4px}
+.xv .xv-m{position:absolute;top:-3px;bottom:-3px;width:2px;background:#0B1F2D}
+.xv .xv-svg{display:block;width:100%;height:auto}
+.xv .xv-svg.xv-wide{display:none}
+@media (min-width:600px){.xv .xv-svg.xv-narrow{display:none}.xv .xv-svg.xv-wide{display:block}}
+.xv .xv-leg{font-size:.8rem;color:#43535F;margin:.1rem 0 .5rem}
+.xv .xv-leg span{margin-right:.9rem;white-space:nowrap}
+.xv .xv-leg i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:.35rem}
+.xv .xv-s{font-size:.75rem;color:#43535F;margin:.6rem 0 0;line-height:1.45}
+.xv-flow{list-style:none;margin:1rem 0 1.4rem;padding:0 0 0 18px;border-left:2px solid #D9E1E8;max-width:640px}
+.xv-flow li{position:relative;margin:0 0 1rem;padding:0 0 0 .4rem;line-height:1.45;font-size:.92rem;color:#0B1F2D}
+.xv-flow li::before{content:"";position:absolute;left:-24px;top:.3rem;width:10px;height:10px;border-radius:50%;background:#A9B4BF;box-shadow:0 0 0 3px #fff}
+.xv-flow li.xv-hi::before{background:#2251FF}
+.xv-flow b{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#43535F}
+.xv-sec .xv-so{font-size:.98rem;line-height:1.55;color:#0B1F2D;background:#F4F7FB;border-radius:8px;padding:.75rem .9rem;margin:.4rem 0 1.6rem}
+.xv-sec .xv-so p{margin:0;max-width:none}
+.xv-sec .xv-so p+p{margin-top:.55rem}
+.xv-sec .xv-so b{color:#0B1F2D}
+.xv-n{margin:.2rem 0 1.4rem;font-size:.85rem}
+.xv-n summary{cursor:pointer;color:#0b5394;font-weight:600;padding:.3rem 0}
+.xv-n table{margin:.5rem 0 0}
+</style>
+<div class="xv-top"><p class="xv-eb">Top line</p><ul><li><span class="xv-k">36.3%</span> of the rice harvest is procured at MSP; wheat reaches 22.6%, and no other crop passes 14.8%.</li><li><span class="xv-k">109%</span> year-to-year swing in tur procurement, against 24% for rice.</li><li><span class="xv-k">29%</span> below its MSP is the landed price of imported tur (CIF ₹5,659 vs ₹8,000).</li></ul></div>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agriculture_in_India_tractor_farming_Punjab_preparing_field_for_a_wheat_crop_without_burning_previous_crop_stalk.jpg/960px-Agriculture_in_India_tractor_farming_Punjab_preparing_field_for_a_wheat_crop_without_burning_previous_crop_stalk.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="A farmer preparing a field for wheat sowing in Punjab, India" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Wheat farming in Punjab, India — one of only two crops, alongside rice, where the Minimum Support Price guarantee actually reaches a sizeable share of the harvest (36.3% of rice and 22.6% of wheat). <a href="https://commons.wikimedia.org/wiki/File:Agriculture_in_India_tractor_farming_Punjab_preparing_field_for_a_wheat_crop_without_burning_previous_crop_stalk.jpg" rel="noopener noreferrer">Agriculture in India tractor farming Punjab preparing field for a wheat crop without burning previous crop stalk</a>, CIAT, CC BY-SA 2.0, via Wikimedia Commons.</figcaption>
+</figure><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 7 November 2026.</b> Kharif marketing season 2026-27 began on 1 October, so the paddy MSP in force is now &#8377;2,441 a quintal for common paddy (&#8377;2,461 for Grade A), up &#8377;72 from the &#8377;2,369 used in the tables below; the Cabinet approved it on 13 May 2026 (<a href="https://www.devdiscourse.com/article/Newsalert/3906514-govt-raises-paddy-msp-by-rs-72-to-rs-2441-per-quintal-for-2026-27-kharif-marketing-season-ib-minister-ashwini-vaishnaw">Devdiscourse</a>, <a href="https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/051326-india-hikes-minimum-support-price-for-kharif-paddy-in-my-2026-27">S&amp;P Global</a>). On this piece&rsquo;s own conversion (&divide; 0.67 milling outturn) that is about &#8377;3,643 a quintal in rice terms, against &#8377;3,536. The paddy procurement target for the season is 708.64 lakh tonnes, reported as the lowest in six years, and the permitted share of broken grains in procured raw rice has been cut from 25% to 10% (5% for parboiled, from 16%) (<a href="https://eng.ruralvoice.in/paddy-procurement-target-for-kharif-2026-27-set-at-708.64-lmt-lowest-in-six-years">Rural Voice</a>, <a href="https://agronfoodprocessing.com/india-sets-708-64-lmt-paddy-procurement-target-for-2026-27-kharif-season/">Agro &amp; Food Processing</a>; search summaries). The tables have not been redrawn.</div><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 27 October 2026.</b> The 9 October note below repeated a press description of the wheat MSP rise for 2027-28 as &ldquo;the smallest percentage rise in 17 years&rdquo;. That could not be verified against the official MSP series, and the note now says so. All MSP levels, the &#8377;1,264 cost of production and the procurement figures were confirmed against PIB.</div><p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>
+<section class="xv-sec"><h2 class="gb-h2">Rice and wheat carry the MSP guarantee; no other crop passes 15% of its harvest</h2>
+<figure class="xv" aria-labelledby="xv1"><figcaption><span class="xv-t" id="xv1">Only rice (36.3%) and wheat (22.6%) pass 15% of their harvest</span><span class="xv-u">Share of the harvest reached by procurement at MSP, %.</span></figcaption><div class="xv-r xv-hi" title="Rice: 36.3%"><div class="xv-l"><span>Rice <small>FCI + states</small></span><b class="xv-v">36.3%</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="Wheat: 22.6%"><div class="xv-l"><span>Wheat <small>FCI + states</small></span><b class="xv-v">22.6%</b></div><div class="xv-tk"><i class="xv-b" style="width:62.26%"></i></div></div><div class="xv-r" title="Ragi: 14.8%"><div class="xv-l"><span>Ragi <small>states (PDS mandates)</small></span><b class="xv-v">14.8%</b></div><div class="xv-tk"><i class="xv-b" style="width:40.77%"></i></div></div><div class="xv-r" title="Mustard: 8.8%"><div class="xv-l"><span>Mustard <small>NAFED/PSS</small></span><b class="xv-v">8.8%</b></div><div class="xv-tk"><i class="xv-b" style="width:24.24%"></i></div></div><p class="xv-s">Procurement series cited in the post.</p></figure>
+<details class="xv-n"><summary>Show the numbers</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Crop</th><th>Share, %</th><th>Agency</th><th>Reading</th></tr></thead><tbody><tr><td>Rice</td><td>36.3</td><td>FCI + states</td><td>standing operation</td></tr><tr><td>Wheat</td><td>22.6</td><td>FCI + states</td><td>standing operation</td></tr><tr><td>Ragi</td><td>14.8</td><td>states (PDS mandates)</td><td>scheme-driven</td></tr><tr><td>Mustard</td><td>8.8</td><td>NAFED/PSS</td><td>crash-year episodes</td></tr><tr><td>Jowar / bajra / moong</td><td>4–8</td><td>mixed</td><td>episodic</td></tr><tr><td>Gram, sunflower, groundnut, masur</td><td>&lt;2</td><td>NAFED/PSS</td><td>token</td></tr><tr><td>Tur, urad, soybean, maize</td><td>≈0</td><td>—</td><td>notification only</td></tr></tbody></table></div></details>
+<div class="xv-so"><p><b>What it means:</b> Rice and wheat are the only crops where the MSP promise has a standing buyer, so the other MSP crops are largely promises without a purchaser.</p><p><b>What to do:</b> Publish a per-crop volume ratio before sowing for the crops with no standing procurement, starting with the grain book's buy rows.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Rice and wheat procurement swings least; tur, bajra and maize swing most</h2>
+<figure class="xv" aria-labelledby="xv2"><figcaption><span class="xv-t" id="xv2">Rice and wheat vary 21-24% a year; tur, bajra and maize vary 109-120%</span><span class="xv-u">Year-to-year coefficient of variation of procured volume, %.</span></figcaption><div class="xv-r xv-hi" title="Rice: 24%"><div class="xv-l"><span>Rice</span><b class="xv-v">24%</b></div><div class="xv-tk"><i class="xv-b" style="width:14.72%"></i></div></div><div class="xv-r" title="Wheat: 21%"><div class="xv-l"><span>Wheat</span><b class="xv-v">21%</b></div><div class="xv-tk"><i class="xv-b" style="width:12.88%"></i></div></div><div class="xv-r" title="Gram: 80%"><div class="xv-l"><span>Gram</span><b class="xv-v">80%</b></div><div class="xv-tk"><i class="xv-b" style="width:49.08%"></i></div></div><div class="xv-r" title="Tur: 109%"><div class="xv-l"><span>Tur</span><b class="xv-v">109%</b></div><div class="xv-tk"><i class="xv-b" style="width:66.87%"></i></div></div><div class="xv-r" title="Bajra: 110%"><div class="xv-l"><span>Bajra</span><b class="xv-v">110%</b></div><div class="xv-tk"><i class="xv-b" style="width:67.48%"></i></div></div><div class="xv-r" title="Maize: 120%"><div class="xv-l"><span>Maize</span><b class="xv-v">120%</b></div><div class="xv-tk"><i class="xv-b" style="width:73.62%"></i></div></div><div class="xv-r" title="Urad: 143%"><div class="xv-l"><span>Urad</span><b class="xv-v">143%</b></div><div class="xv-tk"><i class="xv-b" style="width:87.73%"></i></div></div><div class="xv-r" title="Soybean: 163%"><div class="xv-l"><span>Soybean</span><b class="xv-v">163%</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><p class="xv-s">Procurement series cited in the post.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> A purchase guarantee whose volume swings by more than 100% a year gives a farmer no reliable basis for choosing what to sow.</p><p><b>What to do:</b> Announce each crop's purchase volume before sowing, so that the guarantee holds in a bad year as well as a good one.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Tur imports land 29% below its MSP, so tur buying needs duty coordination</h2>
+<figure class="xv" aria-labelledby="xv3"><figcaption><span class="xv-t" id="xv3">Tur imports land at ₹5,659 a quintal, below its ₹8,000 MSP</span><span class="xv-u">Tur MSP against FY26 CIF import price, ₹ per quintal.</span></figcaption><div class="xv-r" title="Tur MSP: ₹8,000/qtl"><div class="xv-l"><span>Tur MSP <small>buys at</small></span><b class="xv-v">₹8,000/qtl</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r xv-hi" title="Tur import CIF, FY26: ₹5,659/qtl"><div class="xv-l"><span>Tur import CIF, FY26 <small>duty-free to Mar-2026</small></span><b class="xv-v">₹5,659/qtl</b></div><div class="xv-tk"><i class="xv-b" style="width:70.74%"></i></div></div><p class="xv-s">DGCI&S; MSP as cited in the post.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> Duty-free imports at ₹5,659 undercut the ₹8,000 MSP, so any domestic tur buffer would compete directly with cheaper imports.</p><p><b>What to do:</b> Set tariff policy alongside any tur volume guarantee before the first quintal is bought.</p></div></section>
+<h2 class="gb-h2" id="fixes">What would fix this</h2>
+<ul>
+<li><b>FCI should publish the economic cost of rice and wheat each year broken down by cost head &mdash; acquisition, incidentals, milling, freight, storage and interest</b>, so that the top rung of the price ladder is a published figure rather than an order-of-magnitude estimate near ₹4,000 a quintal.</li>
+<li><b>The Department of Agriculture &amp; Farmers Welfare should publish procurement as a share of production for every MSP crop, by state and season, in one annual table</b>, so that the gap between 23 announced prices and the two crops where procurement is a standing operation is visible officially.</li>
+<li><b>CACP should report in each season&rsquo;s price policy report the share of Agmarknet mandi records below MSP for each crop</b>, so that the distress this piece measured on a single day &mdash; such as 92% of bajra and 93% of ragi reports below MSP &mdash; is tracked across seasons.</li>
+<li><b>MoSPI should publish, from its latest farm-household survey, the crop-wise share of sellers who sold to a procurement agency</b>, so that MSP coverage is no longer cited from the 2012&ndash;13 NSS 70th round.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+<details class="xv-n"><summary>Table: Volume — the share of the harvest the promise reaches</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Crop</th><th>Share, %</th><th>Agency</th><th>Reading</th></tr></thead><tbody><tr><td>Rice</td><td>36.3</td><td>FCI + states</td><td>standing operation</td></tr><tr><td>Wheat</td><td>22.6</td><td>FCI + states</td><td>standing operation</td></tr><tr><td>Ragi</td><td>14.8</td><td>states (PDS mandates)</td><td>scheme-driven</td></tr><tr><td>Mustard</td><td>8.8</td><td>NAFED/PSS</td><td>crash-year episodes</td></tr><tr><td>Jowar / bajra / moong</td><td>4–8</td><td>mixed</td><td>episodic</td></tr><tr><td>Gram, sunflower, groundnut, masur</td><td>&lt;2</td><td>NAFED/PSS</td><td>token</td></tr><tr><td>Tur, urad, soybean, maize</td><td>≈0</td><td>—</td><td>notification only</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: The grain book: what the state would buy, and where it would sell</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Crop</th><th>θ</th><th>MSP (buys at)</th><th>Mandi today (% reports &lt; MSP)</th><th>Sells to → at</th></tr></thead><tbody><tr><td>Bajra</td><td>0.20</td><td>2,775</td><td>2,382 (92%)</td><td>PDS/ICDS millet mandates; feed mills</td></tr><tr><td>Ragi</td><td>0.20</td><td>4,886</td><td>3,550 (93%)</td><td>state PDS (Karnataka model)</td></tr><tr><td>Jowar</td><td>0.20</td><td>3,699</td><td>3,400 (56%)</td><td>PDS + feed</td></tr><tr><td>Maize</td><td>0.15–0.25</td><td>2,400</td><td>2,200 (75%)</td><td>ethanol distilleries → ₹2,291 (NAFED loop); feed. Export FOB ≈ ₹1,890–2,110 — not a channel</td></tr><tr><td>Tur</td><td>0.20–0.30</td><td>8,000</td><td>7,531 (70%)</td><td>dal-mill e-auctions (NAFED buffer model). Import CIF ₹5,659 (−29% vs MSP), duty-free to Mar-2026 — duty coordination is a precondition</td></tr><tr><td>Moong</td><td>0.20–0.30</td><td>8,768</td><td>6,901 (84%)</td><td>dal mills; PDS pulse pilot</td></tr><tr><td>Groundnut</td><td>0.10–0.15</td><td>7,263</td><td>7,000 (55%)</td><td>own-account crushing (HAFED oil-mill model); HPS exports viable</td></tr><tr><td>Wheat</td><td>0.30 hold</td><td>2,425</td><td>2,500 (19%)</td><td>OMSS to millers → ₹2,550 reserve; NFSA</td></tr><tr><td>Paddy/rice</td><td>0.35 hold</td><td>2,369</td><td>2,385 (36%)</td><td>NFSA ₹300; ethanol ₹2,320; OMSS ₹2,250–2,800. Export FOB ≈ ₹2,910–3,080 (differs from the ~₹3,111–3,606 record-year/$390-per-tonne basis used in Section 3) vs ₹3,536 state cost — exit blocked</td></tr><tr><td>Gram</td><td>dormant</td><td>5,650</td><td>5,900 (22%)</td><td>—</td></tr><tr><td>Urad</td><td>dormant</td><td>7,800</td><td>8,800 (31%)</td><td>—</td></tr><tr><td>Mustard / soybean</td><td>dormant</td><td>5,950 / 5,328</td><td>7,400 / 7,050 (4% / 2%)</td><td>—</td></tr><tr><td>Cotton</td><td>0.15 floor</td><td>7,710</td><td>8,400 (23%)</td><td>CCI → mills (dormant today)</td></tr><tr><td>Perishables</td><td>0</td><td>—</td><td>—</td><td>deficiency payments on e-NAM clearing prices + contracted processors</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Sources cited in the article</summary><ul><li><a href="https://www.devdiscourse.com/article/Newsalert/3906514-govt-raises-paddy-msp-by-rs-72-to-rs-2441-per-quintal-for-2026-27-kharif-marketing-season-ib-minister-ashwini-vaishnaw">Devdiscourse</a></li><li><a href="https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/051326-india-hikes-minimum-support-price-for-kharif-paddy-in-my-2026-27">S&amp;P Global</a></li><li><a href="https://eng.ruralvoice.in/paddy-procurement-target-for-kharif-2026-27-set-at-708.64-lmt-lowest-in-six-years">Rural Voice</a></li><li><a href="https://agronfoodprocessing.com/india-sets-708-64-lmt-paddy-procurement-target-for-2026-27-kharif-season/">Agro &amp; Food Processing</a></li><li><a href="https://commons.wikimedia.org/wiki/File:Agriculture_in_India_tractor_farming_Punjab_preparing_field_for_a_wheat_crop_without_burning_previous_crop_stalk.jpg">Agriculture in India tractor farming Punjab preparing field for a wheat crop without burning previous crop stalk</a></li></ul></details>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

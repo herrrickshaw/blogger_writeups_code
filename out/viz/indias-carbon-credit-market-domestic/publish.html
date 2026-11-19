@@ -1,0 +1,186 @@
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="dek">Two threads on this blog — urea-heavy fertiliser policy and the bio-fertiliser/green-credit response to it — both point toward the same unfinished question: what happens once India starts pricing the emissions those sectors are being asked to cut? This is the third piece, on the market itself.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
+<h1 style="order:3">India's carbon credit market: the domestic compliance scheme and Article 6.2</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="artx"><style>
+.xv-top,.xv,.xv-flow,.xv-so,.xv-n{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.xv-top{border-left:4px solid #2251FF;background:#F4F7FB;padding:1rem 1.1rem;margin:1.2rem 0 1.8rem;border-radius:0 10px 10px 0}
+.xv-top .xv-eb{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#43535F;font-weight:700;margin:0 0 .6rem}
+.xv-top ul{list-style:none;margin:0;padding:0}
+.xv-top li{margin:0 0 .85rem;padding:0;line-height:1.45;color:#0B1F2D;font-size:1rem}
+.xv-top li:last-child{margin-bottom:0}
+.xv-top .xv-k{display:block;font-size:1.65rem;font-weight:800;letter-spacing:-.02em;line-height:1.15;color:#0B1F2D}
+.xv{margin:1.1rem 0 1.4rem;padding:0;max-width:640px}
+.xv figcaption{margin:0 0 .7rem}
+.xv .xv-t{display:block;font-size:1.05rem;font-weight:700;line-height:1.35;color:#0B1F2D}
+.xv .xv-u{display:block;font-size:.82rem;color:#43535F;margin-top:.15rem;line-height:1.4}
+.xv .xv-key{font-size:.8rem;color:#43535F;margin:0 0 .5rem;line-height:1.4}
+.xv .xv-key i{display:inline-block;width:2px;height:.9em;background:#0B1F2D;vertical-align:-.1em;margin-right:.35em}
+.xv .xv-r{margin:0 0 .7rem}
+.xv .xv-l{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem;font-size:.88rem;line-height:1.3;color:#0B1F2D;margin:0 0 .22rem}
+.xv .xv-l>span{min-width:0}
+.xv .xv-l small{color:#43535F;font-size:.92em}
+.xv .xv-tk{position:relative;display:flex;align-items:center;min-height:16px}
+.xv .xv-b{display:block;height:14px;min-width:3px;background:#A9B4BF;border-radius:0 4px 4px 0;flex:none}
+.xv .xv-b.xv-float{border-radius:4px}
+.xv .xv-hi .xv-b{background:#2251FF}
+.xv .xv-v{font-size:.88rem;font-weight:600;color:#0B1F2D;white-space:nowrap;font-variant-numeric:tabular-nums;flex:none}
+.xv .xv-hi .xv-v{font-weight:800}
+.xv .xv-tk.xv-div{display:block;height:14px}
+.xv .xv-div .xv-b{position:absolute;top:0;border-radius:4px}
+.xv .xv-div .xv-neg{background:#7d8a96}
+.xv .xv-hi .xv-div .xv-neg,.xv .xv-hi.xv-divrow .xv-neg{background:#2251FF}
+.xv .xv-none{display:block;flex:1;height:12px;border:1.5px dashed #2251FF;background:#E9EEFF;border-radius:4px}
+.xv .xv-m{position:absolute;top:-3px;bottom:-3px;width:2px;background:#0B1F2D}
+.xv .xv-svg{display:block;width:100%;height:auto}
+.xv .xv-svg.xv-wide{display:none}
+@media (min-width:600px){.xv .xv-svg.xv-narrow{display:none}.xv .xv-svg.xv-wide{display:block}}
+.xv .xv-leg{font-size:.8rem;color:#43535F;margin:.1rem 0 .5rem}
+.xv .xv-leg span{margin-right:.9rem;white-space:nowrap}
+.xv .xv-leg i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:.35rem}
+.xv .xv-s{font-size:.75rem;color:#43535F;margin:.6rem 0 0;line-height:1.45}
+.xv-flow{list-style:none;margin:1rem 0 1.4rem;padding:0 0 0 18px;border-left:2px solid #D9E1E8;max-width:640px}
+.xv-flow li{position:relative;margin:0 0 1rem;padding:0 0 0 .4rem;line-height:1.45;font-size:.92rem;color:#0B1F2D}
+.xv-flow li::before{content:"";position:absolute;left:-24px;top:.3rem;width:10px;height:10px;border-radius:50%;background:#A9B4BF;box-shadow:0 0 0 3px #fff}
+.xv-flow li.xv-hi::before{background:#2251FF}
+.xv-flow b{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#43535F}
+.xv-sec .xv-so{font-size:.98rem;line-height:1.55;color:#0B1F2D;background:#F4F7FB;border-radius:8px;padding:.75rem .9rem;margin:.4rem 0 1.6rem}
+.xv-sec .xv-so p{margin:0;max-width:none}
+.xv-sec .xv-so p+p{margin-top:.55rem}
+.xv-sec .xv-so b{color:#0B1F2D}
+.xv-n{margin:.2rem 0 1.4rem;font-size:.85rem}
+.xv-n summary{cursor:pointer;color:#0b5394;font-weight:600;padding:.3rem 0}
+.xv-n table{margin:.5rem 0 0}
+</style>
+<div class="xv-top"><p class="xv-eb">Top line</p><ul><li><span class="xv-k">490</span> obligated entities under CCTS, from two notified batches in about three months (8 Oct 2025 to 13 Jan 2026).</li><li><span class="xv-k">5.8%</span> aluminium reduction target under the GEI rules; cement is 3.4%, chlor-alkali 7.5%, pulp and paper 7.1%.</li><li><span class="xv-k">13.8878</span> tCO2e per tonne: the 2023-24 baseline GEI of Vedanta's Jharsuguda smelter, against 1.1875 at Nalco's Damanjodi refinery.</li></ul></div>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ambuja_Cements_Limited_20020400.jpg/960px-Ambuja_Cements_Limited_20020400.jpg" alt="Ambuja Cements factory at Dhulagarh, Howrah, India" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Cement is one of the first-batch sectors obligated under India's new Carbon Credit Trading Scheme, alongside chlor-alkali, pulp and paper, and aluminium. <a href="https://commons.wikimedia.org/wiki/File:Ambuja_Cements_Limited_20020400.jpg" rel="noopener noreferrer">Ambuja Cements Limited 20020400.jpg</a>, Biswarup Ganguly, CC BY-SA 3.0, via Wikimedia Commons.</figcaption>
+</figure><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 7 November 2026.</b> Trading of Carbon Credit Certificates has not started. At a hearing on 23 October 2026 the electricity regulator CERC admitted the petitions of PXIL, IEX and HPX for certificate contracts, recorded that the Bureau of Energy Efficiency had yet to frame the Detailed Procedure the regulations require, and listed the petitions for 12 January 2027. The iron and steel targets described below are still a revised draft of 26 June 2026 (about 253&ndash;255 plants), not a final notification, and fertiliser has no draft targets. Sources: <a href="https://cercind.gov.in/2026/ROP/453-MP-2026-Ors_231026.pdf">CERC record of proceedings, 23 October 2026</a>, <a href="https://madhyamamonline.com/india/centre-issues-revised-draft-emission-targets-for-iron-and-steel-sector-1534723">Madhyamam (revised steel draft)</a>.</div><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 26 October 2026.</b> CCTS has nine designated sectors, of which seven had notified targets by January 2026: aluminium (including secondary aluminium), cement, chlor-alkali, pulp and paper, petroleum refining, petrochemicals and textiles. Iron and steel and fertiliser are the other two. The table below counted secondary aluminium separately as an eighth sector; it is corrected. The 490 entities are unchanged.</div><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 22 October 2026.</b> This post says it could not establish whether the February 2023 list of Article 6.2 activities had been revised. It has been. Carbon Pulse reported in July 2024 that India expanded the list and added a list for Article 6.4. MoEFCC's orders page now lists a further revised list of Article 6.2 activities, and a 2025 NDAIAPA notification that supersedes the one dated 30 May 2022. One report dates a revised list to 30 September 2025. We have not read the revised list, so whether compressed biogas is still eligible is unconfirmed. Check it before relying on the &ldquo;third leg&rdquo; argument below. Sources: <a href="https://carbon-pulse.com/306856/">Carbon Pulse</a>, <a href="https://moef.gov.in/index.php/orders/update?archive=1">MoEFCC orders</a>, <a href="https://www.corpseed.com/knowledge-centre/author/sagar-sharma?page=3">Corpseed</a>. <i>The original text below is unchanged.</i></div><p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>
+<section class="xv-sec"><h2 class="gb-h2">Obligated entities reached 490 across two notified CCTS batches in three months</h2>
+<figure class="xv" aria-labelledby="xv1"><figcaption><span class="xv-t" id="xv1">The first batch carried 282 of the 490 obligated entities, the second 208</span><span class="xv-u">Obligated entities by notified batch.</span></figcaption><div class="xv-r" title="First batch: 282 entities"><div class="xv-l"><span>First batch</span><b class="xv-v">282 entities</b></div><div class="xv-tk"><i class="xv-b" style="width:57.55%"></i></div></div><div class="xv-r" title="Second batch: 208 entities"><div class="xv-l"><span>Second batch</span><b class="xv-v">208 entities</b></div><div class="xv-tk"><i class="xv-b" style="width:42.45%"></i></div></div><div class="xv-r xv-hi" title="Total: 490 entities"><div class="xv-l"><span>Total</span><b class="xv-v">490 entities</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><p class="xv-s">G.S.R. 739(E), 8 Oct 2025; PIB release, 22 Jan 2026.</p></figure>
+<details class="xv-n"><summary>Show the numbers</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Batch</th><th>Notification</th><th>Sectors</th><th>Obligated entities</th><th>Avg. GEI reduction target (2-yr, where known)</th></tr></thead><tbody><tr><td>First batch</td><td>G.S.R. 739(E), 8 Oct 2025</td><td>Aluminium, Cement, Chlor-Alkali, Pulp &amp; Paper</td><td>282</td><td>Aluminium 5.8% · Cement 3.4% · Chlor-alkali 7.5% · Pulp &amp; Paper 7.1%</td></tr><tr><td>Second batch</td><td>Notified 13.01.2026 (per PIB, 22 Jan 2026 release)</td><td>Petroleum Refineries, Petrochemicals, Textiles, Secondary Aluminium</td><td>208</td><td>Not specified in the sources gathered here</td></tr><tr><td>Total (as of Jan 2026)</td><td>—</td><td>Seven of nine designated sectors (secondary aluminium counted within aluminium)</td><td>490</td><td>—</td></tr></tbody></table></div></details>
+<div class="xv-so"><p><b>What it means:</b> Obligated entities came from two notified batches, 282 in the first and 208 in the second, for 490 in total.</p><p><b>What to do:</b> Watch the next PIB notification batch, since the post says Fertiliser and Iron & Steel are designated but not yet targeted.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Aluminium smelters carry far higher carbon intensity than refineries</h2>
+<figure class="xv" aria-labelledby="xv2"><figcaption><span class="xv-t" id="xv2">Smelter baselines sit far above refinery baselines within the same sector</span><span class="xv-u">2023-24 baseline GEI, tCO2e per tonne of product, sample plants.</span></figcaption><div class="xv-r xv-hi" title="Hindalco Industries Ltd, Hirakud Smelter: 19.2 tCO2e/t"><div class="xv-l"><span>Hindalco Industries Ltd, Hirakud Smelter</span><b class="xv-v">19.1963</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="Nalco Smelter &amp; Power Complex, Angul: 17.35 tCO2e/t"><div class="xv-l"><span>Nalco Smelter &amp; Power Complex, Angul</span><b class="xv-v">17.3505</b></div><div class="xv-tk"><i class="xv-b" style="width:90.38%"></i></div></div><div class="xv-r" title="Vedanta Ltd, Jharsuguda Smelter II: 13.89 tCO2e/t"><div class="xv-l"><span>Vedanta Ltd, Jharsuguda Smelter II</span><b class="xv-v">13.8878</b></div><div class="xv-tk"><i class="xv-b" style="width:72.35%"></i></div></div><div class="xv-r" title="National Aluminium Company Ltd, Damanjodi: 1.19 tCO2e/t"><div class="xv-l"><span>National Aluminium Company Ltd, Damanjodi</span><b class="xv-v">1.1875</b></div><div class="xv-tk"><i class="xv-b" style="width:6.19%"></i></div></div><div class="xv-r" title="Hindalco Industries Ltd, Belgaum: 0.55 tCO2e/t"><div class="xv-l"><span>Hindalco Industries Ltd, Belgaum</span><b class="xv-v">0.5453</b></div><div class="xv-tk"><i class="xv-b" style="width:2.84%"></i></div></div><p class="xv-s">GEI Target Rules, 2025 (final schedules, G.S.R. 739(E)).</p></figure>
+<details class="xv-n"><summary>Show the numbers</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Sector / sub-sector</th><th>Plant</th><th>State</th><th>Registration ID</th><th>Baseline GEI 2023-24 (tCO2e/t)</th><th>Target 2025-26 (tCO2e/t)</th><th>Target 2026-27 (tCO2e/t)</th></tr></thead><tbody><tr><td>Aluminium — Smelter</td><td>Vedanta Ltd, Jharsuguda Smelter II</td><td>Odisha</td><td>ALMOE001OD</td><td>13.8878</td><td>13.7232</td><td>13.2965</td></tr><tr><td>Aluminium — Smelter</td><td>Nalco Smelter &amp; Power Complex, Angul</td><td>Odisha</td><td>ALMOE006OD</td><td>17.3505</td><td>17.0937</td><td>16.4260</td></tr><tr><td>Aluminium — Smelter</td><td>Hindalco Industries Ltd, Hirakud Smelter</td><td>Odisha</td><td>ALMOE007OD</td><td>19.1963</td><td>18.8819</td><td>18.0637</td></tr><tr><td>Aluminium — Refinery</td><td>National Aluminium Company Ltd, Damanjodi</td><td>Odisha</td><td>ALMOE012OD</td><td>1.1875</td><td>1.1704</td><td>1.1259</td></tr><tr><td>Aluminium — Refinery</td><td>Hindalco Industries Ltd, Belgaum</td><td>Karnataka</td><td>ALMOE009KA</td><td>0.5453</td><td>0.5384</td><td>0.5207</td></tr><tr><td>Cement</td><td>J K Cement, Mudhol</td><td>Karnataka</td><td>CMTOE001KA</td><td>0.4455</td><td>0.4440</td><td>0.4402</td></tr><tr><td>Cement</td><td>Dalmia Cement (Bharat) Ltd, Belgaum</td><td>Karnataka</td><td>CMTOE002KA</td><td>0.4894</td><td>0.4878</td><td>0.4836</td></tr></tbody></table></div></details>
+<div class="xv-so"><p><b>What it means:</b> Electrolytic smelting, not alumina refining, is where nearly all of the aluminium sector's carbon intensity sits, so a sector-wide 5.8% target bites very differently at each.</p><p><b>What to do:</b> Read any sector-wide reduction target against plant-level baselines before judging what it means for a specific plant.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Compressed bio-gas is on India's Article 6.2 eligible list, notified in 2023</h2>
+<ol class="xv-flow"><li><b>30 May 2022</b>NDAIAPA notified by Gazette as the National Designated Authority for the Paris Agreement</li><li class="xv-hi"><b>17 Feb 2023</b>MoEFCC finalises the eligible Article 6.2 activities; compressed bio-gas is item 5</li></ol>
+<div class="xv-so"><p><b>What it means:</b> The Article 6.2 host list, notified on 17 February 2023, includes compressed bio-gas, so the CBG carbon leg rests on a primary notice.</p><p><b>What to do:</b> Check whether MoEFCC has revised the list, since its stated initial three-year window has now elapsed.</p></div></section>
+<h2 class="gb-h2" id="fixes">What would fix this</h2>
+<ul>
+<li><b>The Ministry of Environment, Forest and Climate Change should publish, with each final GEI-target notification, a plant-wise table of every baseline and target changed since the draft, with a stated reason</b>, so that moves like Jharsuguda Smelter II’s re-baselining are explained by the regulator, not discovered by comparing gazettes.</li>
+<li><b>The Ministry of Environment, Forest and Climate Change should publish a dated timetable for draft and final GEI targets for the fertiliser sector</b>, which remains designated under CCTS without even a draft notification, so that obligated plants and readers know when the compliance cost is expected to land.</li>
+<li><b>The National Designated Authority for the Implementation of the Paris Agreement should publish whether the February 2023 Article 6.2 activity list has been revised or extended, and keep a dated version history online</b>, since its stated three-year initial window has now elapsed.</li>
+<li><b>The National Designated Authority for the Implementation of the Paris Agreement should maintain a public register of Article 6.2 project authorisations and mitigation outcomes transferred, by project and buyer country</b>, so that eligibility for activities such as compressed biogas can be distinguished from actual transactions.</li>
+<li><b>The Bureau of Energy Efficiency should publish a single consolidated document on the CCTS Offset Mechanism covering eligible project types, crediting rules and how offset credits interact with Compliance Mechanism certificates</b>, so that the scheme’s second pillar is as legible as the first.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+<details class="xv-n"><summary>What this piece could not establish</summary><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 22 October 2026.</b> This post says it could not establish whether the February 2023 list of Article 6.2 activities had been revised. It has been. Carbon Pulse reported in July 2024 that India expanded the list and added a list for Article 6.4. MoEFCC's orders page now lists a further revised list of Article 6.2 activities, and a 2025 NDAIAPA notification that supersedes the one dated 30 May 2022. One report dates a revised list to 30 September 2025. We have not read the revised list, so whether compressed biogas is still eligible is unconfirmed. Check it before relying on the &ldquo;third leg&rdquo; argument below. Sources: <a href="https://carbon-pulse.com/306856/">Carbon Pulse</a>, <a href="https://moef.gov.in/index.php/orders/update?archive=1">MoEFCC orders</a>, <a href="https://www.corpseed.com/knowledge-centre/author/sagar-sharma?page=3">Corpseed</a>. <i>The original text below is unchanged.</i></div></details>
+<details class="xv-n"><summary>Table: Part 1 — The Domestic Market: CCTS and the Indian Carbon Market</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Batch</th><th>Notification</th><th>Sectors</th><th>Obligated entities</th><th>Avg. GEI reduction target (2-yr, where known)</th></tr></thead><tbody><tr><td>First batch</td><td>G.S.R. 739(E), 8 Oct 2025</td><td>Aluminium, Cement, Chlor-Alkali, Pulp &amp; Paper</td><td>282</td><td>Aluminium 5.8% · Cement 3.4% · Chlor-alkali 7.5% · Pulp &amp; Paper 7.1%</td></tr><tr><td>Second batch</td><td>Notified 13.01.2026 (per PIB, 22 Jan 2026 release)</td><td>Petroleum Refineries, Petrochemicals, Textiles, Secondary Aluminium</td><td>208</td><td>Not specified in the sources gathered here</td></tr><tr><td>Total (as of Jan 2026)</td><td>—</td><td>Seven of nine designated sectors (secondary aluminium counted within aluminium)</td><td>490</td><td>—</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Part 2 — What the Company-Level Numbers Actually Show</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Sector / sub-sector</th><th>Plant</th><th>State</th><th>Registration ID</th><th>Baseline GEI 2023-24 (tCO2e/t)</th><th>Target 2025-26 (tCO2e/t)</th><th>Target 2026-27 (tCO2e/t)</th></tr></thead><tbody><tr><td>Aluminium — Smelter</td><td>Vedanta Ltd, Jharsuguda Smelter II</td><td>Odisha</td><td>ALMOE001OD</td><td>13.8878</td><td>13.7232</td><td>13.2965</td></tr><tr><td>Aluminium — Smelter</td><td>Nalco Smelter &amp; Power Complex, Angul</td><td>Odisha</td><td>ALMOE006OD</td><td>17.3505</td><td>17.0937</td><td>16.4260</td></tr><tr><td>Aluminium — Smelter</td><td>Hindalco Industries Ltd, Hirakud Smelter</td><td>Odisha</td><td>ALMOE007OD</td><td>19.1963</td><td>18.8819</td><td>18.0637</td></tr><tr><td>Aluminium — Refinery</td><td>National Aluminium Company Ltd, Damanjodi</td><td>Odisha</td><td>ALMOE012OD</td><td>1.1875</td><td>1.1704</td><td>1.1259</td></tr><tr><td>Aluminium — Refinery</td><td>Hindalco Industries Ltd, Belgaum</td><td>Karnataka</td><td>ALMOE009KA</td><td>0.5453</td><td>0.5384</td><td>0.5207</td></tr><tr><td>Cement</td><td>J K Cement, Mudhol</td><td>Karnataka</td><td>CMTOE001KA</td><td>0.4455</td><td>0.4440</td><td>0.4402</td></tr><tr><td>Cement</td><td>Dalmia Cement (Bharat) Ltd, Belgaum</td><td>Karnataka</td><td>CMTOE002KA</td><td>0.4894</td><td>0.4878</td><td>0.4836</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Sources cited in the article</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:Ambuja_Cements_Limited_20020400.jpg">Ambuja Cements Limited 20020400.jpg</a></li><li><a href="https://cercind.gov.in/2026/ROP/453-MP-2026-Ors_231026.pdf">CERC record of proceedings, 23 October 2026</a></li><li><a href="https://madhyamamonline.com/india/centre-issues-revised-draft-emission-targets-for-iron-and-steel-sector-1534723">Madhyamam (revised steel draft)</a></li><li><a href="https://carbon-pulse.com/306856/">Carbon Pulse</a></li><li><a href="https://moef.gov.in/index.php/orders/update?archive=1">MoEFCC orders</a></li><li><a href="https://www.corpseed.com/knowledge-centre/author/sagar-sharma?page=3">Corpseed</a></li></ul></details>
+
+<h2>Sources</h2>
+<ul class="sources">
+<li>PIB, Ministry of Environment, Forest and Climate Change, "Government notifies Greenhouse Gas Emission Intensity Targets for 208 more Carbon-intensive Industries," 22 January 2026 (Release ID 2217239).</li>
+<li>PIB, Ministry of Environment, Forest and Climate Change, "Activities finalised to be considered for trading of carbon credits under Article 6.2 mechanism to facilitate transfer of emerging technologies and mobilise international finance in India," 17 February 2023 (Release ID 1900216).</li>
+<li>Carbon Credit Trading Scheme, 2023 — notified by the Government of India, S.O. 2825(E), 28 June 2023, under clause (w) of Section 14, read with Section 14AA, of the Energy Conservation Act, 2001 (as amended in 2022).</li>
+<li>Greenhouse Gas Emission Intensity Target Rules, 2025 (Draft) — G.S.R. 234(अ)/S.O. 234(अ), Gazette No. 195, 16 April 2025, published for public comment.</li>
+<li>Greenhouse Gas Emission Intensity Target Rules, 2025 (Final) — G.S.R. 739(E), Gazette No. 655, 8 October 2025.</li>
+<li>Gazette Notification dated 30 May 2022 notifying the National Designated Authority for the Implementation of the Paris Agreement (NDAIAPA).</li>
+<li>Law-firm ESG commentary on the Greenhouse Gases Emission Intensity Target Rules, 2025 (secondary legal/ESG analysis, cited generically).</li>
+</ul>
+
+<div class="callout"><strong>Update:</strong> the "worth tracking" thread above — Fertiliser and Iron &amp; Steel remaining CCTS-designated sectors without notified GEI targets — turns out to matter beyond India's borders too. A follow-up piece, <a href="https://blog.vertistratsolution.com/2026/08/greenhouse-emissions-reduction-and-cbam.html">"Greenhouse Emissions Reduction and CBAM Compliance — Real or Ideal Gases?"</a>, finds that those exact two sectors are also where India's quantified EU CBAM export exposure concentrates (~$20.7bn), and covers the India-EU FTA's CBAM provisions and the India-EFTA TEPA alongside it.</div>
+<div class="callout"><strong>Update, 27 September 2026:</strong> Iron &amp; Steel has moved, though it's not resolved. MoEFCC issued a <em>revised draft</em> GEI-target notification for 255 iron and steel units on 26 June 2026 (public 2 July), naming JSW Steel, Tata Steel, SAIL and ArcelorMittal Nippon Steel among the covered plants, with a 60-day objection window and 2026-27 as the compliance-year target. That is a status change from "not yet notified at all" to "draft published, pending finalisation" — this piece's own re-check found no equivalent movement on the Fertiliser side, which remains without a final or draft GEI-target notification as of this update. Source: LKS Attorneys, SteelOrbis and Madhyamam coverage of the 26 June 2026 draft notification.</div>
+<p class="disclaimer">This analysis is based on publicly available government notifications, gazette documents, and press releases cited in the article above. It is provided for informational and research purposes only and does not constitute investment, legal, or policy advice.</p>
+
+<p>GOBARdhan is part of a wider biofuels policy cluster on this blog: see the dedicated piece on <a href="https://blog.vertistratsolution.com/2026/08/cow-dung-already-flew-rocket-engine.html">India's biogas programme and cattle-dung feedstock</a>, and the coverage of <a href="https://blog.vertistratsolution.com/2026/10/indias-ethanol-surplus-buys-about-five.html">India's ethanol overcapacity and the sustainable aviation fuel (SAF) pathway</a>.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

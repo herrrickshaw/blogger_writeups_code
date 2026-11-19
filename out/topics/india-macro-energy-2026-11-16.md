@@ -44,3 +44,6 @@ power-demand and coal-stock squeeze, the RBI rate hike or the October trade prin
 
 Not recommended without a primary source first: topic 8's crude and basket numbers (one aggregator), and any CREA figure
 until the report itself is read (all CREA numbers here come from a PTI summary).
+
+## Status, 19 Nov 2026
+Topic 11 (growth against inflation) built: `out/research/growth-inflation-mpc-2026/build.py` -> `out/post-india-growth-inflation-rbi-mpc-december-2026.html`. Not published. rbi.org.in is blocked from the cloud session, so the RBI's October figures (quarterly CPI 4.9, 6.0, 5.7; growth 7.2, 6.9, 6.8) come from search excerpts of the press release and secondary reports; check them against the statement on the Mac before publishing. Best published before the 30 Nov GDP release.
