@@ -1,4 +1,4 @@
-# Language audit — Europe Wants Green Steel It Can’t Afford to Make. Why CBAM Should Be Rolled Out More Gently
+# Language audit — European green steel: up to twice the cost, and CBAM shuts out cheaper imports
 
 *https://blog.vertistratsolution.com/2026/10/europe-wants-green-steel-it-cant-afford.html*
 

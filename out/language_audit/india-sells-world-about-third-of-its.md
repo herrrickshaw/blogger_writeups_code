@@ -1,4 +1,4 @@
-# Language audit — India Sells the World About a Third of Its Oleoresins. The US Just Put Duties of Up to 31% on the Biggest One.
+# Language audit — Indian oleoresins: about a third of the world market, US duties of up to 31%
 
 *https://blog.vertistratsolution.com/2026/09/india-sells-world-about-third-of-its.html*
 

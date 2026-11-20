@@ -1,4 +1,4 @@
-# Language audit — Cheap Yen, Rupee Roads: Where the Carry Trade Meets Project Bonds
+# Language audit — Yen borrowing for rupee project bonds: hedging cancels about the whole rate gap
 
 *https://blog.vertistratsolution.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html*
 

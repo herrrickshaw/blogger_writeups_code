@@ -1,4 +1,4 @@
-# Language audit — Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade-Old Accounting Fix It Still Hasn't Made
+# Language audit — Indian Railways: ₹98 spent to earn ₹100, and a 2015 accounting reform not yet made
 
 *https://blog.vertistratsolution.com/2026/08/indian-railways-98-to-earn-100-business.html*
 

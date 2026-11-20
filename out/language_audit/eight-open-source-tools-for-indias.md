@@ -1,4 +1,4 @@
-# Language audit — Eight Open-Source Tools for India’s Trade Data, From HS Chapters to Chemical Codes and Forex, and Which One Answers Which Question
+# Language audit — India's trade data: 8 open-source tools and the question each one answers
 
 *https://blog.vertistratsolution.com/2026/11/eight-open-source-tools-for-indias.html*
 

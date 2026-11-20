@@ -1,4 +1,4 @@
-# Language audit — A 17% Rural Pay Rise That Nobody Received
+# Language audit — Rural wages in India: a sample revision made growth look 3 times faster
 
 *https://blog.vertistratsolution.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html*
 

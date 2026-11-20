@@ -1,4 +1,4 @@
-# Language audit — $0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing
+# Language audit — Diesel backup for data centres and towers: $0.28 a unit, about 3 times grid power
 
 *https://blog.vertistratsolution.com/2026/08/028-unit-diesel-math-behind-indias-data.html*
 

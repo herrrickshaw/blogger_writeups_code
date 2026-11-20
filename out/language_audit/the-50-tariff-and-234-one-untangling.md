@@ -1,4 +1,4 @@
-# Language audit — From 50% to 10%: How Three Tariff Regimes and a Supreme Court Ruling Reshaped What Hits India's Exports
+# Language audit — US tariffs on Indian goods: from 50% in August 2025 to 10% since 24 July 2026
 
 *https://blog.vertistratsolution.com/2026/09/the-50-tariff-and-234-one-untangling.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into Gas. The Manure Left Over Is What India's Tired Fields Need.
+# Language audit — Cotton stalk biogas in India: hard to digest, with manure for depleted soils
 
 *https://blog.vertistratsolution.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html*
 

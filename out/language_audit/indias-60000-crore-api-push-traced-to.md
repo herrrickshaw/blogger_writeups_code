@@ -1,4 +1,4 @@
-# Language audit — India's ₹60,000 Crore API Push, Traced to Its Six Actual Schemes
+# Language audit — India's ₹60,000 crore API push: at least 6 existing schemes added together
 
 *https://blog.vertistratsolution.com/2026/09/indias-60000-crore-api-push-traced-to.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn't Growing, and Ethanol Is Losing the Diversion Race
+# Language audit — Sugar in India at ₹55.70 a kilo: flat cane area, mills favour sugar over ethanol
 
 *https://blog.vertistratsolution.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out
+# Language audit — Cocoa blockchain tracing: TradeLens closed after 5 years and a deadline is 4 months away
 
 *https://blog.vertistratsolution.com/2026/08/cocoas-blockchain-reckoning-one.html*
 

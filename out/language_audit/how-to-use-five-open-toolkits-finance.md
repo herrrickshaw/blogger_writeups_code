@@ -1,4 +1,4 @@
-# Language audit — How to use five open toolkits: finance models, documents, care audits
+# Language audit — How to use 5 open toolkits: finance models, documents, care audits
 
 *https://blog.vertistratsolution.com/2026/10/how-to-use-five-open-toolkits-finance.html*
 

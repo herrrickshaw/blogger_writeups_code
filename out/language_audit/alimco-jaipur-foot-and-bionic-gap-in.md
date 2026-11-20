@@ -1,4 +1,4 @@
-# Language audit — ALIMCO, Jaipur Foot, and the Bionic Gap in India's Artificial-Limb System
+# Language audit — Artificial limbs in India: low-cost reach to millions, almost none motorised
 
 *https://blog.vertistratsolution.com/2026/09/alimco-jaipur-foot-and-bionic-gap-in.html*
 

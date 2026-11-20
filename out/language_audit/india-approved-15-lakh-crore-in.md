@@ -1,4 +1,4 @@
-# Language audit — India Approved ₹1.5 Lakh Crore in Manufacturing Subsidies. Parliament's Own Answers Show How Little of It Has Actually Been Paid.
+# Language audit — Manufacturing subsidies in India: ₹1.5 lakh crore approved, a small part paid out
 
 *https://blog.vertistratsolution.com/2026/08/india-approved-15-lakh-crore-in.html*
 

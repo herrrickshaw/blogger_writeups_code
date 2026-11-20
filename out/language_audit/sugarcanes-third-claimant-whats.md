@@ -1,4 +1,4 @@
-# Language audit — Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant
+# Language audit — India's first PLA bioplastic plant: the sugar feedstock it ferments
 
 *https://blog.vertistratsolution.com/2026/08/sugarcanes-third-claimant-whats.html*
 

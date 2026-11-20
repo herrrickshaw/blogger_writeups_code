@@ -1,4 +1,4 @@
-# Language audit — DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production
+# Language audit — India's oil and gas exploration blocks: 172 awarded, 1 has reached production
 
 *https://blog.vertistratsolution.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html*
 

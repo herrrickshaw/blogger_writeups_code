@@ -1,4 +1,4 @@
-# Language audit — The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain
+# Language audit — India's ethanol and biofuel supply chain: digitisation through ERP and lab software
 
 *https://blog.vertistratsolution.com/2026/08/the-software-behind-still-whats.html*
 

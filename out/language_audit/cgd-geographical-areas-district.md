@@ -1,4 +1,4 @@
-# Language audit — CGD Geographical Areas — District Allotment Map (Part 1 of 3)
+# Language audit — City gas distribution areas: district map through bidding Round 12A, part 1 of 3
 
 *https://blog.vertistratsolution.com/2026/07/cgd-geographical-areas-district.html*
 

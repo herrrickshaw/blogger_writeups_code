@@ -1,4 +1,4 @@
-# Language audit — India Wants 15% of Its Energy From Gas by 2030. The Official Energy Balance Shows Gas's Share Falling
+# Language audit — Gas in India's energy mix: share down from 7.5% to 7.0%, against a 15% target
 
 *https://blog.vertistratsolution.com/2026/10/india-wants-15-of-its-energy-from-gas.html*
 

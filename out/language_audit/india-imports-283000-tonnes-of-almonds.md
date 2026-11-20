@@ -1,4 +1,4 @@
-# Language audit — India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade
+# Language audit — Almonds in India: 283,000 tonnes imported and 4,100 grown, priced around Diwali
 
 *https://blog.vertistratsolution.com/2026/08/india-imports-283000-tonnes-of-almonds.html*
 

@@ -1,4 +1,4 @@
-# Language audit — PNGRB Wants Prepaid Smart Meters on Every New Gas Connection From 2027, All of Them by 2030
+# Language audit — PNGRB smart meters: prepaid on new gas connections from 2027, all by 2030
 
 *https://blog.vertistratsolution.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html*
 

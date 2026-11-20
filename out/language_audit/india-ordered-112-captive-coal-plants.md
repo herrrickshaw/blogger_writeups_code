@@ -1,4 +1,4 @@
-# Language audit — India Ordered 112 Captive Coal Plants to Run Flat Out as Exchange Prices Rose 50% in a Month, With Coal Stocks Steady
+# Language audit — Captive coal plants: 112 ordered to full output as exchange prices rose 50%
 
 *https://blog.vertistratsolution.com/2026/10/india-ordered-112-captive-coal-plants.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Earnings Drift and Piotroski Work Only Where Trading Is Thin
+# Language audit — Earnings drift and Piotroski F-score: both work in thinly traded stocks
 
 *https://blog.vertistratsolution.com/2026/10/earnings-drift-and-piotroski-work-only.html*
 

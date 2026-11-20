@@ -1,4 +1,4 @@
-# Language audit — Dr. Reddy's Cut Its Semaglutide Guidance in Half After an API Impurity It Caught Itself
+# Language audit — Dr Reddy's semaglutide: FY27 pen guidance halved after a self-detected impurity
 
 *https://blog.vertistratsolution.com/2026/09/dr-reddys-cut-its-semaglutide-guidance.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It
+# Language audit — Ethanol distilleries: zero-liquid-discharge rule and the treatment-capacity gap
 
 *https://blog.vertistratsolution.com/2026/08/not-drop-out-ethanols-zero-liquid.html*
 

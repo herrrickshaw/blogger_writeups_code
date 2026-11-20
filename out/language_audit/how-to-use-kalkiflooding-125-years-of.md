@@ -1,4 +1,4 @@
-# Language audit — How to use kalki_flooding: 125 years of Indian city rainfall extremes from IMD gridded data
+# Language audit — How to use kalki_flooding: 125 years of Indian city rainfall extremes from IMD data
 
 *https://blog.vertistratsolution.com/2026/10/how-to-use-kalkiflooding-125-years-of.html*
 

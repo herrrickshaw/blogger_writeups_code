@@ -1,4 +1,4 @@
-# Language audit — ICRA Rates Most of India's Economy Stable. Three Sectors Got Hit by the Same Shock
+# Language audit — ICRA outlook for India: most sectors stable, 3 downgraded by one shared cause
 
 *https://blog.vertistratsolution.com/2026/09/icra-rates-most-of-indias-economy.html*
 

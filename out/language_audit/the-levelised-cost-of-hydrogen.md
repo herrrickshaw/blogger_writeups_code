@@ -1,4 +1,4 @@
-# Language audit — The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target
+# Language audit — Levelised cost of hydrogen: what India's $1.50/kg target requires
 
 *https://blog.vertistratsolution.com/2026/08/the-levelised-cost-of-hydrogen.html*
 

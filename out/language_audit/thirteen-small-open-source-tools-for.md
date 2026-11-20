@@ -1,4 +1,4 @@
-# Language audit — Thirteen Small Open-Source Tools for Developers and AI Users, From a Local Claude Fallback to an LFS Duplicate Audit, and What Each One Is For
+# Language audit — Open-source tools for developers and AI users: 13 small tools and what each one does
 
 *https://blog.vertistratsolution.com/2026/11/thirteen-small-open-source-tools-for.html*
 

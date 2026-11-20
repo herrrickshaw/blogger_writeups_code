@@ -1,4 +1,4 @@
-# Language audit — The 50/30/20 Rule — and the Case for Flipping It to Save First
+# Language audit — 50/30/20 budgeting rule: how it splits income, and a version that saves 50% first
 
 *https://blog.vertistratsolution.com/2026/08/the-503020-rule-is-elizabeth-warrens.html*
 

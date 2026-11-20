@@ -1,4 +1,4 @@
-# Language audit — India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.
+# Language audit — India's refined fuel exports: $53 billion, with 5% going to its neighbours
 
 *https://blog.vertistratsolution.com/2026/08/india-sells-world-53-billion-of-fuel.html*
 

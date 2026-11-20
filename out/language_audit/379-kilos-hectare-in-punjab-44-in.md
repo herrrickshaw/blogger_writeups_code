@@ -1,4 +1,4 @@
-# Language audit — 379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Map Is a Crop Map
+# Language audit — Urea use by Indian state: 379 kilos a hectare in Punjab, 44 in Kerala
 
 *https://blog.vertistratsolution.com/2026/08/379-kilos-hectare-in-punjab-44-in.html*
 

@@ -1,4 +1,4 @@
-# Language audit — The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim
+# Language audit — Rule of 72 and Rule of 114: turning an interest rate into doubling and tripling times
 
 *https://blog.vertistratsolution.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html*
 

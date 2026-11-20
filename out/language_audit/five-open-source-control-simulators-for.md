@@ -1,4 +1,4 @@
-# Language audit — Five Open-Source Control Simulators for EV Batteries, Hydrogen Electrolysers and Prosthetic Hands, and Which to Start With
+# Language audit — Open-source control simulators: 5 for EV batteries, electrolysers and prosthetic hands
 
 *https://blog.vertistratsolution.com/2026/11/five-open-source-control-simulators-for.html*
 

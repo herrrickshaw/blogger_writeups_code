@@ -1,4 +1,4 @@
-# Language audit — Re-Spinning the Charkha
+# Language audit — Indian textiles and petrochemicals: the backward integration from cloth to crude
 
 *https://blog.vertistratsolution.com/2026/08/re-spinning-charkha.html*
 

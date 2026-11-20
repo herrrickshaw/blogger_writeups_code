@@ -1,4 +1,4 @@
-# Language audit — India Built an Offshore Insurance Hub. It Writes $12 Million of Direct Cover a Year.
+# Language audit — GIFT City insurance hub: 94% reinsurance, $12.42 million direct cover in FY2024-25
 
 *https://blog.vertistratsolution.com/2026/09/india-built-offshore-insurance-hub-it.html*
 

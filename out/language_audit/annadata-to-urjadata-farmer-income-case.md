@@ -1,4 +1,4 @@
-# Language audit — Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending
+# Language audit — Ethanol blending in India: how the payments reach farmers, and the maize limit
 
 *https://blog.vertistratsolution.com/2026/08/annadata-to-urjadata-farmer-income-case.html*
 

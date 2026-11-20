@@ -1,4 +1,4 @@
-# Language audit — India's Draft Steel Policy Plans 604 Mt by 2047. Its Own Coal Forecast Means More Blast Furnaces, Not Fewer
+# Language audit — India's draft steel policy: 604 Mt by 2047, blast furnaces keep 43–57% of output
 
 *https://blog.vertistratsolution.com/2026/10/indias-draft-steel-policy-plans-604-mt.html*
 

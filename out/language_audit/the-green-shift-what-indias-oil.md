@@ -1,4 +1,4 @@
-# Language audit — The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate
+# Language audit — Oil ministry's Green Shift report: scope 1+2 emissions at about 4% of global CO₂
 
 *https://blog.vertistratsolution.com/2026/08/the-green-shift-what-indias-oil.html*
 

@@ -1,4 +1,4 @@
-# Language audit — The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power
+# Language audit — Wind-assist rotors: a 1920s spinning-cylinder design now on 22 ships
 
 *https://blog.vertistratsolution.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html*
 

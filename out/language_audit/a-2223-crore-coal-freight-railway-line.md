@@ -1,4 +1,4 @@
-# Language audit — A ₹2,223 Crore Coal-Freight Railway Line Is Being Acquired One Farm Plot at a Time
+# Language audit — ₹2,223 crore coal-freight railway: land acquired one survey number at a time
 
 *https://blog.vertistratsolution.com/2026/09/a-2223-crore-coal-freight-railway-line.html*
 

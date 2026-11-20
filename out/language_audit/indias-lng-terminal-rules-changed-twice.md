@@ -1,4 +1,4 @@
-# Language audit — India's LNG Terminal Rules Changed Twice in 2025. A Concrete Platform at Kakinada Is Testing How Far They Stretch
+# Language audit — India's LNG terminal rules: 2 changes in 2025, tested by a concrete platform at Kakinada
 
 *https://blog.vertistratsolution.com/2026/09/indias-lng-terminal-rules-changed-twice.html*
 

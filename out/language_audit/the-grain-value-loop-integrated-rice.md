@@ -1,4 +1,4 @@
-# Language audit — The Grain Value Loop — Integrated Rice Biorefinery Pitch
+# Language audit — Rice biorefinery proposal: byproducts of about 520 LMT of rice go to millers free
 
 *https://blog.vertistratsolution.com/2026/07/the-grain-value-loop-integrated-rice.html*
 

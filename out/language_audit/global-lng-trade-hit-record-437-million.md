@@ -1,4 +1,4 @@
-# Language audit — Global LNG Trade Hit a Record 437 Million Tonnes in 2025 — Almost Double What It Was a Decade Ago
+# Language audit — Global LNG trade: record 437 million tonnes in 2025, nearly double a decade ago
 
 *https://blog.vertistratsolution.com/2026/09/global-lng-trade-hit-record-437-million.html*
 

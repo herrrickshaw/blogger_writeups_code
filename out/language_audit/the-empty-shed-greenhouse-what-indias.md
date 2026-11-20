@@ -1,4 +1,4 @@
-# Language audit — The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses
+# Language audit — Polyhouse farming in India: higher yields than open fields, and a retrofit case
 
 *https://blog.vertistratsolution.com/2026/08/the-empty-shed-greenhouse-what-indias.html*
 

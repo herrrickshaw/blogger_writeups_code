@@ -1,4 +1,4 @@
-# Language audit — Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five
+# Language audit — Europe's landlocked gas importers: 5 states, 28 bcm, costlier pipeline imports
 
 *https://blog.vertistratsolution.com/2026/08/winter-is-coming-for-europes-landlocked.html*
 

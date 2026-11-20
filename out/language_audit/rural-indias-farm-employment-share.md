@@ -1,4 +1,4 @@
-# Language audit — Rural India's Farm-Employment Share Dropped 5.6 Points in Six Months. Structural Shift or Just the Season? The Data Can't Yet Say.
+# Language audit — India's rural farm-employment share: down 5.6 points in 2 quarters, cause unclear
 
 *https://blog.vertistratsolution.com/2026/09/rural-indias-farm-employment-share.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Petroleum Trade Pairings and the US Crude Storage Picture
+# Language audit — US crude storage and petroleum trade pairings: reserves, Cushing and OPEC output
 
 *https://blog.vertistratsolution.com/2026/08/petroleum-trade-pairings-and-us-crude.html*
 

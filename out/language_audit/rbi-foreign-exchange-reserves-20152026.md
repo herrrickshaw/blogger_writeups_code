@@ -1,4 +1,4 @@
-# Language audit — RBI Foreign Exchange Reserves — 2015–2026
+# Language audit — RBI foreign exchange reserves, 2015–2026: monthly and weekly data with the rupee
 
 *https://blog.vertistratsolution.com/2026/08/rbi-foreign-exchange-reserves-20152026.html*
 

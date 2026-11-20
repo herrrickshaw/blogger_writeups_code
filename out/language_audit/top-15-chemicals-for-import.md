@@ -1,4 +1,4 @@
-# Language audit — The Top 15 Import-Substitution Chemicals, Code by Code
+# Language audit — Import-substitution chemicals: the top 15, tier by tier and code by code
 
 *https://blog.vertistratsolution.com/2026/07/top-15-chemicals-for-import.html*
 

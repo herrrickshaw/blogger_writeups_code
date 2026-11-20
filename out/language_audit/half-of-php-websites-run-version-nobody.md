@@ -1,4 +1,4 @@
-# Language audit — Half of PHP Websites Run a Version Nobody Patches. What a Hacked Site Gives Away About Its Company
+# Language audit — PHP websites: about half run a version that no longer gets security fixes
 
 *https://blog.vertistratsolution.com/2026/10/half-of-php-websites-run-version-nobody.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Indian Medicine Depends Heavily on Chinese Imports
+# Language audit — Indian medicines: dependence on Chinese imports and the BIOSECURE opportunity
 
 *https://blog.vertistratsolution.com/2026/08/india-cannot-sell-china-free-medicine.html*
 

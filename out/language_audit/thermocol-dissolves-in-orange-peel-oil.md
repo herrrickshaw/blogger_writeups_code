@@ -1,4 +1,4 @@
-# Language audit — Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins
+# Language audit — Thermocol in orange-peel oil: dissolving shown in 1998, recycling cost unmeasured
 
 *https://blog.vertistratsolution.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html*
 

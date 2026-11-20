@@ -1,4 +1,4 @@
-# Language audit — India Polishes the World's Diamonds With Chinese Powder. Grinding Up Its Lab-Grown Stones Won't Fix That.
+# Language audit — Diamond polishing powder: India imported ₹239.5 crore in 2024–25, mostly from China
 
 *https://blog.vertistratsolution.com/2026/09/india-polishes-worlds-diamonds-with.html*
 

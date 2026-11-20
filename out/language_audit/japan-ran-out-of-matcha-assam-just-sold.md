@@ -1,4 +1,4 @@
-# Language audit — Japan Ran Out of Matcha. Assam Just Sold Its First Five Kilos.
+# Language audit — Matcha supply: Japan's tencha shortage and Assam's first 5 kilograms sold
 
 *https://blog.vertistratsolution.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html*
 

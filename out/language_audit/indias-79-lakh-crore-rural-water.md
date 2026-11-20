@@ -1,4 +1,4 @@
-# Language audit — India's ₹7.9 Lakh Crore Rural Water Pipeline: What 'Upcoming' Actually Means, State by State
+# Language audit — Jal Jeevan Mission: ₹7.9 lakh crore of upcoming rural water schemes by state
 
 *https://blog.vertistratsolution.com/2026/08/indias-79-lakh-crore-rural-water.html*
 

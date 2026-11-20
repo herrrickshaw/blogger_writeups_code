@@ -1,4 +1,4 @@
-# Language audit — Delhi's Smog Towers Failed the Test. A 44-Year-Old Army Programme Didn't.
+# Language audit — Delhi's smog towers and purifiers: almost no measured effect at city scale
 
 *https://blog.vertistratsolution.com/2026/09/delhis-smog-towers-failed-test-44-year.html*
 

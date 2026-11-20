@@ -1,4 +1,4 @@
-# Language audit — States Won the Right to Tax Mines in 2024. A 45-Minute Law Took It Back, Along With Up to Rs 2 Lakh Crore of Dues
+# Language audit — Mining taxes: MMDR Amendment Act 2026 cancels up to Rs 2 lakh crore of state dues
 
 *https://blog.vertistratsolution.com/2026/10/states-won-right-to-tax-mines-in-2024.html*
 

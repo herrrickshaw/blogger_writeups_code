@@ -1,4 +1,4 @@
-# Language audit — The FCC Lever: Trading Petrol Yield for LPG, and Where India Is Building Room to Store the Difference
+# Language audit — LPG from Indian refineries: ethanol offers of 17.76 billion litres against 10.5 billion
 
 *https://blog.vertistratsolution.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html*
 

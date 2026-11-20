@@ -1,4 +1,4 @@
-# Language audit — India's Approved Solar-Cell Makers Can Now Make 37.8 GW a Year. Rooftop Projects Have Until 31 December to Use Them
+# Language audit — India's approved solar-cell list: 37.8 GW a year, rooftop exemption ends 31 December 2026
 
 *https://blog.vertistratsolution.com/2026/10/indias-approved-solar-cell-makers-can.html*
 

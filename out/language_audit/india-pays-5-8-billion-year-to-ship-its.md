@@ -1,4 +1,4 @@
-# Language audit — India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.
+# Language audit — India's oil shipping bill: $5-8 billion a year, with 20% of cargo on Indian vessels
 
 *https://blog.vertistratsolution.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html*
 

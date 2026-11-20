@@ -1,4 +1,4 @@
-# Language audit — One Nation, One GST Rate: What a True Flat Tax Would Take, and Why Not Even Singapore Has One
+# Language audit — A single GST rate for India: what a flat tax would take, and Singapore has none
 
 *https://blog.vertistratsolution.com/2026/09/one-nation-one-gst-rate-what-true-flat.html*
 

@@ -1,4 +1,4 @@
-# Language audit — RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines
+# Language audit — India's ethanol programme: credit designs from the US RIN, EU RED and Brazil's CBIO
 
 *https://blog.vertistratsolution.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html*
 

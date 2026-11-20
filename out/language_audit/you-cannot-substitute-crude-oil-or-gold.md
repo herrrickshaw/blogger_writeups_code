@@ -1,4 +1,4 @@
-# Language audit — You Cannot Substitute Crude Oil or Gold. That Is 40% of India's Import Bill.
+# Language audit — India's import bill: 40% is crude oil and gold, which cannot be substituted
 
 *https://blog.vertistratsolution.com/2026/08/you-cannot-substitute-crude-oil-or-gold.html*
 

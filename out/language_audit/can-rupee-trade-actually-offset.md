@@ -1,4 +1,4 @@
-# Language audit — Can Rupee Trade Actually Offset the Inflation India Is Importing?
+# Language audit — Rupee trade settlement and imported inflation in India: the evidence from Russia
 
 *https://blog.vertistratsolution.com/2026/08/can-rupee-trade-actually-offset.html*
 

@@ -1,4 +1,4 @@
-# Language audit — India Doesn't Have One Quality Regulator. It Has 37 — and One Just Repealed Itself Before It Started.
+# Language audit — India's quality regulators: 37 bodies, 1 repealed before it started
 
 *https://blog.vertistratsolution.com/2026/09/india-doesnt-have-one-quality-regulator.html*
 

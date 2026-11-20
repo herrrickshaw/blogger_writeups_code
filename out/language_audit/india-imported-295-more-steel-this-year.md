@@ -1,4 +1,4 @@
-# Language audit — India Imported 29.5% More Steel This Year Despite a Safeguard Duty. The Open Houses Are About Something Else
+# Language audit — India's steel imports: up 29.5% this year despite an 11.5% safeguard duty
 
 *https://blog.vertistratsolution.com/2026/10/india-imported-295-more-steel-this-year.html*
 

@@ -1,4 +1,4 @@
-# Language audit — How India Actually Plans to Hit Net Zero: Eleven Scenarios, a Rising Coal Curve, and a ₹20,000 Crore Bet on Carbon Capture
+# Language audit — India's net zero pathways: all 11 scenarios have coal rising before it falls
 
 *https://blog.vertistratsolution.com/2026/08/how-india-actually-plans-to-hit-net.html*
 

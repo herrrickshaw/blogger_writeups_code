@@ -1,4 +1,4 @@
-# Language audit — The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely
+# Language audit — Detergent and diaper chemicals in India: LAB exported, SAP mostly imported
 
 *https://blog.vertistratsolution.com/2026/09/the-detergent-chemical-india-exports.html*
 

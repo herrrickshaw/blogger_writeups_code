@@ -1,4 +1,4 @@
-# Language audit — India Solved Carbon-Credit Banking With No Limit At All. Trading Still Hasn't Started.
+# Language audit — Carbon credits in India: banking has no limit or expiry, trading not yet live
 
 *https://blog.vertistratsolution.com/2026/09/india-solved-carbon-credit-banking-with.html*
 

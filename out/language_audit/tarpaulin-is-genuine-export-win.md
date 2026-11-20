@@ -1,4 +1,4 @@
-# Language audit — Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story
+# Language audit — Technical textiles in India: tarpaulin exports succeed, highway geotextiles do not
 
 *https://blog.vertistratsolution.com/2026/08/tarpaulin-is-genuine-export-win.html*
 

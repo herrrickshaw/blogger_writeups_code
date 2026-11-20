@@ -1,4 +1,4 @@
-# Language audit — A Kilo of Crude Fish Oil Sells for About Rs 650. In Capsules It Retails for Rs 7,500 or More. India's Fishers Sell Only the Fish
+# Language audit — Fish oil in India: crude sells for about Rs 650 a kilo, Rs 7,500 or more in capsules
 
 *https://blog.vertistratsolution.com/2026/10/a-kilo-of-crude-fish-oil-sells-for.html*
 

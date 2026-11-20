@@ -1,4 +1,4 @@
-# Language audit — The National Beekeeping & Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It
+# Language audit — National Beekeeping & Honey Mission: India 2nd in honey exports, purity test optional
 
 *https://blog.vertistratsolution.com/2026/08/the-national-beekeeping-honey-mission.html*
 

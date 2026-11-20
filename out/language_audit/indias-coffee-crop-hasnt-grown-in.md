@@ -1,4 +1,4 @@
-# Language audit — India's Coffee Crop Hasn't Grown in a Decade. Its Export Earnings Have.
+# Language audit — India's coffee sector: crop flat for a decade, export earnings up
 
 *https://blog.vertistratsolution.com/2026/08/indias-coffee-crop-hasnt-grown-in.html*
 

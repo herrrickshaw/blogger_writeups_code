@@ -1,4 +1,4 @@
-# Language audit — From Fuel to Fibre: India's Textile Import-Substitution Loop
+# Language audit — Textile import substitution in India: ethanol blending, fibre and PM MITRA
 
 *https://blog.vertistratsolution.com/2026/08/from-fuel-to-fibre-indias-textile.html*
 

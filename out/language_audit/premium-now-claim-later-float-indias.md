@@ -1,4 +1,4 @@
-# Language audit — Premium Now, Claim Later: The Float India's Car Boom Is Building
+# Language audit — India's car insurance float: premiums paid before claims, growing with car sales
 
 *https://blog.vertistratsolution.com/2026/08/premium-now-claim-later-float-indias.html*
 

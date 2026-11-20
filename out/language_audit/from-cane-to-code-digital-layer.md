@@ -1,4 +1,4 @@
-# Language audit — From Cane to Code: The Digital Layer Underneath India's E20 Milestone
+# Language audit — Ethanol blending beyond E20: AI in mills and fields, no blockchain tracing yet
 
 *https://blog.vertistratsolution.com/2026/08/from-cane-to-code-digital-layer.html*
 

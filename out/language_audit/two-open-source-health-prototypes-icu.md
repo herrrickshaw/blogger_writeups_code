@@ -1,4 +1,4 @@
-# Language audit — Two Open-Source Health Prototypes, an ICU Vitals Dashboard and a Capsule-Endoscopy Screener, and Why Neither Is a Medical Device
+# Language audit — Open-source health prototypes: an ICU vitals dashboard and a capsule-endoscopy screener
 
 *https://blog.vertistratsolution.com/2026/11/two-open-source-health-prototypes-icu.html*
 

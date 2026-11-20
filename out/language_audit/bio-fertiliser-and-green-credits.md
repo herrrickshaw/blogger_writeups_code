@@ -1,4 +1,4 @@
-# Language audit — Bio-Fertiliser and Green Credits: Regrowing India's Arid Land
+# Language audit — Bio-fertiliser and green credits: where they could meet on India's arid land
 
 *https://blog.vertistratsolution.com/2026/08/bio-fertiliser-and-green-credits.html*
 

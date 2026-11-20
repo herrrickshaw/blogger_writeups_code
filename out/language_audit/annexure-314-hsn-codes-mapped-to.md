@@ -1,4 +1,4 @@
-# Language audit — Annexure: 314 HSN Codes Mapped to Technical-Textile Segments
+# Language audit — Annexure: 314 HSN codes mapped to technical-textile segments
 
 *https://blog.vertistratsolution.com/2026/08/annexure-314-hsn-codes-mapped-to.html*
 

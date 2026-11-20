@@ -1,4 +1,4 @@
-# Language audit — India's 8-Digit Trade Book, Searchable
+# Language audit — India's 8-digit trade book: a searchable table and how to read its flags
 
 *https://blog.vertistratsolution.com/2026/08/indias-8-digit-trade-book-searchable.html*
 

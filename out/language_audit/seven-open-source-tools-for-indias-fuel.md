@@ -1,4 +1,4 @@
-# Language audit — Seven Open-Source Tools for India’s Fuel and Power Data: Petrol Pumps, CNG Areas, Ethanol Blends, Used Oil and Discom Debt, and Which One to Use
+# Language audit — India's fuel and power data: 7 open-source tools from petrol pumps to discom debt
 
 *https://blog.vertistratsolution.com/2026/11/seven-open-source-tools-for-indias-fuel.html*
 

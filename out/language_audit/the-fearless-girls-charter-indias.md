@@ -1,4 +1,4 @@
-# Language audit — The Fearless Girl's Charter — India's Market Asks 2026
+# Language audit — India's market asks for 2026: a charter of 8 asks, read 3 ways
 
 *https://blog.vertistratsolution.com/2026/07/the-fearless-girls-charter-indias.html*
 

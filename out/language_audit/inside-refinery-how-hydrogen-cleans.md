@@ -1,4 +1,4 @@
-# Language audit — Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price
+# Language audit — Hydrogen in Indian refineries: needed for 10 ppm BS-VI diesel, mostly from fossil gas
 
 *https://blog.vertistratsolution.com/2026/08/inside-refinery-how-hydrogen-cleans.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has
+# Language audit — Green debt for Indian issuers: the REC EuroYen bond and Climate Bonds Standard
 
 *https://blog.vertistratsolution.com/2026/08/raising-green-debt-globally-rec-euroyen.html*
 

@@ -1,4 +1,4 @@
-# Language audit — India's Wholesale Prices Next to Everyone Else's: What Survives the Methodology Check
+# Language audit — India's wholesale prices, 14 years: the 2021–24 rise and fall was global in shape
 
 *https://blog.vertistratsolution.com/2026/08/indias-wholesale-prices-next-to.html*
 

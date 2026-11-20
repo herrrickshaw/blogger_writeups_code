@@ -1,4 +1,4 @@
-# Language audit — India Raised the DAP Subsidy 18% This Kharif. Imported DAP Still Costs About Rs 30,000 a Tonne More Than It Earns
+# Language audit — DAP subsidy in kharif 2026: up 18%, while imports lose about Rs 30,000 a tonne
 
 *https://blog.vertistratsolution.com/2026/10/india-raised-dap-subsidy-18-this-kharif.html*
 

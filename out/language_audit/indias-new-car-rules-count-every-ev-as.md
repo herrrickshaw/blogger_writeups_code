@@ -1,4 +1,4 @@
-# Language audit — India's New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.
+# Language audit — India's car efficiency rules: each battery EV counts as 3 cars, above other markets
 
 *https://blog.vertistratsolution.com/2026/10/indias-new-car-rules-count-every-ev-as.html*
 

@@ -1,4 +1,4 @@
-# Language audit — PMFBY Advertises a 5:1 Return to Farmers. Farmers Put In About a Fifth of the Premium. Governments Put In the Rest.
+# Language audit — PMFBY crop insurance: 5-to-1 return, farmers pay about a fifth of the premium
 
 *https://blog.vertistratsolution.com/2026/09/pmfby-advertises-51-return-to-farmers.html*
 

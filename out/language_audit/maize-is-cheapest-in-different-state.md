@@ -1,4 +1,4 @@
-# Language audit — Maize Is Cheapest in a Different State Every Few Months. Rice Barely Moves.
+# Language audit — Maize and rice prices in India: maize is cheapest in a different state every few months
 
 *https://blog.vertistratsolution.com/2026/10/maize-is-cheapest-in-different-state.html*
 

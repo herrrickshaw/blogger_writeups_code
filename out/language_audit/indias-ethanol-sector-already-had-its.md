@@ -1,4 +1,4 @@
-# Language audit — India's Ethanol Sector Already Had Its IPOs. Here's Who's Listed, Who Just Joined, and What's Still Pending
+# Language audit — Ethanol IPOs in India: Godavari Biorefineries and TruAlt listed, one more pending
 
 *https://blog.vertistratsolution.com/2026/09/indias-ethanol-sector-already-had-its.html*
 

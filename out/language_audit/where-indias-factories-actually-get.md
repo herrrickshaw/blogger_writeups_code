@@ -1,4 +1,4 @@
-# Language audit — Where India’s Factories Actually Get Built — IEM State & Sector Analysis
+# Language audit — Factory investment in India: 63.3% in Gujarat, Odisha and Maharashtra, 2021-2025
 
 *https://blog.vertistratsolution.com/2026/08/where-indias-factories-actually-get.html*
 

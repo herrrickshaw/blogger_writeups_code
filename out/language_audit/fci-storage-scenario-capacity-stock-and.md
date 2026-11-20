@@ -1,4 +1,4 @@
-# Language audit — FCI Storage Scenario — Capacity, Stock, and the Road to 2,150 LMT
+# Language audit — FCI grain storage: about 147 LMT owned of roughly 482 LMT, with 70% hired
 
 *https://blog.vertistratsolution.com/2026/07/fci-storage-scenario-capacity-stock-and.html*
 

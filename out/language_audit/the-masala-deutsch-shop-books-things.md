@@ -1,4 +1,4 @@
-# Language audit — The Masala Deutsch Shop — Books & Things From the Articles
+# Language audit — The Masala Deutsch shop: books from the articles and items from the author's shelf
 
 *https://blog.vertistratsolution.com/2026/08/the-masala-deutsch-shop-books-things.html*
 

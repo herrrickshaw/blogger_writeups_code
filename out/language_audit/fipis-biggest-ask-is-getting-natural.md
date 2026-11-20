@@ -1,4 +1,4 @@
-# Language audit — FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened
+# Language audit — FIPI's main lobbying demand: natural gas under GST, not yet adopted
 
 *https://blog.vertistratsolution.com/2026/09/fipis-biggest-ask-is-getting-natural.html*
 

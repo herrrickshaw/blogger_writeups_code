@@ -1,4 +1,4 @@
-# Language audit — From Diesel to CNG: Where the Switch Actually Pays
+# Language audit — Diesel to CNG in India: the case is a ₹40-per-litre price gap between buyers
 
 *https://blog.vertistratsolution.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html*
 

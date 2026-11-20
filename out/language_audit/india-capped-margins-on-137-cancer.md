@@ -1,4 +1,4 @@
-# Language audit — India Capped Margins on 137 Cancer Drugs. Common Medicines Outside Price Control Carry Markups of Up to 1,800%
+# Language audit — Cancer drug margins in India: capped at 30% on 137 medicines from 9 November
 
 *https://blog.vertistratsolution.com/2026/10/india-capped-margins-on-137-cancer.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Lemon Cultivation in India: Steady Trees, Volatile Prices
+# Language audit — Lemon cultivation in India: about 3.05 lakh hectares and volatile prices
 
 *https://blog.vertistratsolution.com/2026/08/lemon-cultivation-in-india-steady-trees.html*
 

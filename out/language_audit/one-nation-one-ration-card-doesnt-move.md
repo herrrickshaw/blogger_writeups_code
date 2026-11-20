@@ -1,4 +1,4 @@
-# Language audit — One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It
+# Language audit — FCI grain: ethanol tenders move large volumes, ration card portability moves none
 
 *https://blog.vertistratsolution.com/2026/09/one-nation-one-ration-card-doesnt-move.html*
 

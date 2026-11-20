@@ -1,4 +1,4 @@
-# Language audit — India Has Funded 3 Lakh Machines to Stop Stubble Burning. About 4,500 of Them Collect Straw
+# Language audit — Crop residue machines in India: 3 lakh subsidised, about 4,500 collect straw
 
 *https://blog.vertistratsolution.com/2026/10/india-has-funded-3-lakh-machines-to.html*
 

@@ -1,4 +1,4 @@
-# Language audit — India's Display Fab Scheme Got Two Billion-Dollar Bids and Approved Neither. Then It Redefined "Display Fab" Small Enough to Claim One Anyway.
+# Language audit — India's display fab scheme: 2 billion-dollar bids, neither approved, then redefined
 
 *https://blog.vertistratsolution.com/2026/09/indias-display-fab-scheme-got-two.html*
 

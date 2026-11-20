@@ -1,4 +1,4 @@
-# Language audit — Where India Actually Burns Its Fuel: Sixteen Years of State-Level Sales
+# Language audit — State fuel sales in India: diesel-to-petrol ratio fell from 4.6 to 2.3 over 16 years
 
 *https://blog.vertistratsolution.com/2026/08/where-india-actually-burns-its-fuel.html*
 

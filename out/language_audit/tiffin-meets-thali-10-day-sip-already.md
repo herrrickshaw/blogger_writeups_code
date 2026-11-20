@@ -1,4 +1,4 @@
-# Language audit — Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fractional Stock Investing Still Doesn't.
+# Language audit — Daily investing in India: ₹10-a-day SIP exists, fractional stock investing does not
 
 *https://blog.vertistratsolution.com/2026/08/tiffin-meets-thali-10-day-sip-already.html*
 

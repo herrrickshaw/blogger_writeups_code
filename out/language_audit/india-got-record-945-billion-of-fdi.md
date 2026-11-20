@@ -1,4 +1,4 @@
-# Language audit — India Got a Record $94.5 Billion of FDI Last Year. Net of Exits and Investment Abroad, $7.7 Billion Stayed
+# Language audit — India's net FDI: $7.7 billion stayed of a record $94.5 billion last year
 
 *https://blog.vertistratsolution.com/2026/10/india-got-record-945-billion-of-fdi.html*
 

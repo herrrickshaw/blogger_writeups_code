@@ -1,4 +1,4 @@
-# Language audit — Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead
+# Language audit — Infant medicine: evidence points to 2 mm tablets, not cough-syrup lollipops
 
 *https://blog.vertistratsolution.com/2026/10/cough-syrup-in-lollipop-for-babies.html*
 

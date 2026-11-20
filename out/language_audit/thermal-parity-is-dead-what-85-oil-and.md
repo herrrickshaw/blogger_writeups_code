@@ -1,4 +1,4 @@
-# Language audit — Thermal Parity Is Dead: What $85 Oil and a $7 Gas Ceiling Actually Say About Decoupling
+# Language audit — Oil-gas decoupling: $85 oil, a $7 gas ceiling and India's crude-linked formula
 
 *https://blog.vertistratsolution.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html*
 

@@ -1,4 +1,4 @@
-# Language audit — ₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls
+# Language audit — Maize ethanol: priciest feedstock at ₹71.86 a litre, while kharif area fell 9.7%
 
 *https://blog.vertistratsolution.com/2026/08/7186-litre-why-maize-is-indias-priciest.html*
 

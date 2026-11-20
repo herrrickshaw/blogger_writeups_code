@@ -1,4 +1,4 @@
-# Language audit — OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.
+# Language audit — Oil-safety standards in India: API signs FIPI, OISD and PNGRB as partners
 
 *https://blog.vertistratsolution.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html*
 

@@ -1,4 +1,4 @@
-# Language audit — India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)
+# Language audit — India's fuel retail outlets: a map of 82k geocoded sites, part 2 of 3
 
 *https://blog.vertistratsolution.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html*
 

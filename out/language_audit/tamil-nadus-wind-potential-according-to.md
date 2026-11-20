@@ -1,4 +1,4 @@
-# Language audit — Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table
+# Language audit — Tamil Nadu wind power: about a third of 33,799 MW onshore potential built
 
 *https://blog.vertistratsolution.com/2026/08/tamil-nadus-wind-potential-according-to.html*
 

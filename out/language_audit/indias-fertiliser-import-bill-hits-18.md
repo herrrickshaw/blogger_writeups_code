@@ -1,4 +1,4 @@
-# Language audit — India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why
+# Language audit — India's fertiliser import bill: set for a record $18 billion, up 76% in a year
 
 *https://blog.vertistratsolution.com/2026/08/indias-fertiliser-import-bill-hits-18.html*
 

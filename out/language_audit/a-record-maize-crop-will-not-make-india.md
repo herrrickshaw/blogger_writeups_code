@@ -1,4 +1,4 @@
-# Language audit — A Record Maize Crop Will Not Make India a Hyaluronic Acid Producer. The World’s Entire Supply Fits Inside 13,000 Tonnes of Grain
+# Language audit — Hyaluronic acid from Indian maize: sugar is about 3% of its selling price
 
 *https://blog.vertistratsolution.com/2026/11/a-record-maize-crop-will-not-make-india.html*
 

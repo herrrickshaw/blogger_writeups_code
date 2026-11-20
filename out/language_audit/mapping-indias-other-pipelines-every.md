@@ -1,4 +1,4 @@
-# Language audit — Mapping India's Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company
+# Language audit — India's oil pipelines by company: crude, petrol-diesel and LPG lines mapped
 
 *https://blog.vertistratsolution.com/2026/09/mapping-indias-other-pipelines-every.html*
 

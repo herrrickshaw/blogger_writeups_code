@@ -1,4 +1,4 @@
-# Language audit — Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story
+# Language audit — Automotive textiles in India: airbags and seat belts import-heavy, tyre cord not
 
 *https://blog.vertistratsolution.com/2026/08/airbags-and-seat-belts-are-import-heavy.html*
 

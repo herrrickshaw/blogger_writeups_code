@@ -1,4 +1,4 @@
-# Language audit — Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year
+# Language audit — Project returns and cost of capital: about 79% of the gap persists each year
 
 *https://blog.vertistratsolution.com/2026/09/textbooks-say-project-returns-converge.html*
 

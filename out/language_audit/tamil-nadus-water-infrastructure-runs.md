@@ -1,4 +1,4 @@
-# Language audit — Tamil Nadu's Water Infrastructure Runs on Three Separate Money Streams, and Only One of Them Explains the Number You've Heard
+# Language audit — Tamil Nadu's water infrastructure: 3 funding streams, one behind ₹4,250 crore
 
 *https://blog.vertistratsolution.com/2026/08/tamil-nadus-water-infrastructure-runs.html*
 

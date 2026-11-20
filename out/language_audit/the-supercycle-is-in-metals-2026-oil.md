@@ -1,4 +1,4 @@
-# Language audit — The Supercycle Is in Metals; the 2026 Oil Spike Is a Shock
+# Language audit — 2026 commodity prices: World Bank expects 16% rise, mostly from the Strait of Hormuz
 
 *https://blog.vertistratsolution.com/2026/10/the-supercycle-is-in-metals-2026-oil.html*
 

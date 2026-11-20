@@ -1,4 +1,4 @@
-# Language audit — India's Rs 3,030 Crore Chemical Parks Copy the Bulk-Drug Parks. Those Released 6% of Their Money in Six Years
+# Language audit — India's Rs 3,030 crore chemical parks: bulk-drug park model released 6% in 6 years
 
 *https://blog.vertistratsolution.com/2026/10/indias-rs-3030-crore-chemical-parks.html*
 

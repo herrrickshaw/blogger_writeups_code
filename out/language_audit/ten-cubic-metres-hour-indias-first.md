@@ -1,4 +1,4 @@
-# Language audit — Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It
+# Language audit — India's green fuel bunkering rules: detailed circular, 10 Nm³/hour hydrogen pilot
 
 *https://blog.vertistratsolution.com/2026/08/ten-cubic-metres-hour-indias-first.html*
 

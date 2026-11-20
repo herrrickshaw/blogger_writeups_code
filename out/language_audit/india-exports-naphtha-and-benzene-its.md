@@ -1,4 +1,4 @@
-# Language audit — India Exports the Naphtha and Benzene Its Own Pharma Industry Needs — Mostly to China
+# Language audit — India's naphtha exports to China: doubled to $2.4bn in FY2025-26
 
 *https://blog.vertistratsolution.com/2026/09/india-exports-naphtha-and-benzene-its.html*
 

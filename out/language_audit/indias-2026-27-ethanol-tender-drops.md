@@ -1,4 +1,4 @@
-# Language audit — India's 2026-27 Ethanol Tender Drops Cane Juice, Cuts Maize by Rs 3 a Litre and Flips From Sugar-First to Cheapest-First
+# Language audit — India's 2026-27 ethanol tender: no cane juice, and maize cut by Rs 3 a litre
 
 *https://blog.vertistratsolution.com/2026/10/indias-2026-27-ethanol-tender-drops.html*
 

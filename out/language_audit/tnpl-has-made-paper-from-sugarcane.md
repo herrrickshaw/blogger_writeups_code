@@ -1,4 +1,4 @@
-# Language audit — TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.
+# Language audit — TNPL paper from sugarcane waste since 1984: its industry body is asking for trees
 
 *https://blog.vertistratsolution.com/2026/09/tnpl-has-made-paper-from-sugarcane.html*
 

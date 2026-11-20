@@ -1,4 +1,4 @@
-# Language audit — India Is Piping Jet Fuel to Five New Airports at Once. Only Six Had It Before
+# Language audit — Jet fuel pipelines in India: 6 new lines for 5 new or expanding airports
 
 *https://blog.vertistratsolution.com/2026/09/india-is-piping-jet-fuel-to-five-new.html*
 

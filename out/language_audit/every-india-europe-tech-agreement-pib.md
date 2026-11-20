@@ -1,4 +1,4 @@
-# Language audit — Sixteen Years, Nine Countries: What India and Europe Actually Signed on Technology
+# Language audit — India and Europe on technology: agreements signed with 9 countries over 16 years
 
 *https://blog.vertistratsolution.com/2026/08/every-india-europe-tech-agreement-pib.html*
 

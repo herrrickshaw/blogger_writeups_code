@@ -1,4 +1,4 @@
-# Language audit — GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding CBG Deals Within a Year. BPCL's Has Gone Quiet.
+# Language audit — TruAlt Bioenergy CBG deals: GAIL and Sumitomo signed binding deals, BPCL has not
 
 *https://blog.vertistratsolution.com/2026/09/gail-and-sumitomo-both-turned-their.html*
 

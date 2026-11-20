@@ -1,4 +1,4 @@
-# Language audit — The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans
+# Language audit — Water for India's chip fabs: what Taiwan's crisis shows about ultrapure water demand
 
 *https://blog.vertistratsolution.com/2026/08/the-water-bill-nobody-mentions-what.html*
 

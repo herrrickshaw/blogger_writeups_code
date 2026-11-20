@@ -1,4 +1,4 @@
-# Language audit — 57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There
+# Language audit — India's wind power by state: 57.4 GW installed, under a tenth of the potential
 
 *https://blog.vertistratsolution.com/2026/08/574-gw-and-counting-indias-wind-fleet.html*
 

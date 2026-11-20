@@ -1,4 +1,4 @@
-# Language audit — India's State-by-State Investment Directory: 66 Confirmed Deals, Sector by Sector
+# Language audit — India's state-by-state investment directory: 66 confirmed deals, sector by sector
 
 *https://blog.vertistratsolution.com/2026/08/we-fact-checked-66-investment.html*
 

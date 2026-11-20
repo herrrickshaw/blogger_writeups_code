@@ -1,4 +1,4 @@
-# Language audit — Sixteen Crops, Twenty Years: Where India’s Harvest Grew From More Land and Where From Better Yields
+# Language audit — India's crop growth over 20 years: land versus yield for 16 crops
 
 *https://blog.vertistratsolution.com/2026/10/sixteen-crops-twenty-years-where-indias.html*
 

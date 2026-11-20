@@ -1,4 +1,4 @@
-# Language audit — India's Ethanol Plants Are Sitting on Food-Grade CO2. Its Spice-Extract Industry Needs Exactly That. Nobody's Named the Deal.
+# Language audit — Food-grade CO2 from ethanol plants: spice extractors need it, no deal documented
 
 *https://blog.vertistratsolution.com/2026/09/indias-ethanol-plants-are-sitting-on.html*
 

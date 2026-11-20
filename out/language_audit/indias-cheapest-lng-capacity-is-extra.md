@@ -1,4 +1,4 @@
-# Language audit — India's Cheapest LNG Capacity Is an Extra Tank at Dahej. Its Newer Terminals Run a Quarter Full
+# Language audit — LNG terminals in India: Dahej ran at 92% in April–May 2026, newer ones at 24–37%
 
 *https://blog.vertistratsolution.com/2026/10/indias-cheapest-lng-capacity-is-extra.html*
 

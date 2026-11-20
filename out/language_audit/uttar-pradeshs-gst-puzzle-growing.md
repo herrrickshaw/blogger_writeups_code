@@ -1,4 +1,4 @@
-# Language audit — Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't
+# Language audit — Uttar Pradesh's GST: domestic collection fell 11.0% in FY2025-26, then recovered
 
 *https://blog.vertistratsolution.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html*
 

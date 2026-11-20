@@ -1,4 +1,4 @@
-# Language audit — Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets
+# Language audit — India's chemical imports: a registry of 827 HSN-8 codes screened for import substitution
 
 *https://blog.vertistratsolution.com/2026/08/chemical-import-substitution-hsn-8-registry.html*
 

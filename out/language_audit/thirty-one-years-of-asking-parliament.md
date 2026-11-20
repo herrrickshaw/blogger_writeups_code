@@ -1,4 +1,4 @@
-# Language audit — Thirty-One Years of Asking Parliament the Same Question About Fertiliser
+# Language audit — Fertiliser questions in India's Parliament: 31 years, Namrup raised every year
 
 *https://blog.vertistratsolution.com/2026/08/thirty-one-years-of-asking-parliament.html*
 

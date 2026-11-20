@@ -1,4 +1,4 @@
-# Language audit — One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out of — the World's Biofuel Carbon-Credit Systems
+# Language audit — GCAM and biofuel credits: 5 models gave −0.95 to roughly 41 grams of CO₂e per megajoule
 
 *https://blog.vertistratsolution.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html*
 

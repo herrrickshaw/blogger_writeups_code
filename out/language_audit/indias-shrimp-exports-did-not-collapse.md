@@ -1,4 +1,4 @@
-# Language audit — India's Shrimp Exports Did Not Collapse. The Code Did.
+# Language audit — Shrimp exports from India: the apparent collapse is a product-code change
 
 *https://blog.vertistratsolution.com/2026/08/indias-shrimp-exports-did-not-collapse.html*
 

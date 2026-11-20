@@ -1,4 +1,4 @@
-# Language audit — PET Recycling Already Cuts Emissions 60%+. The New MOEFCC Rules Are About Making That System Traceable
+# Language audit — PET recycling in India: over 60% lower emissions, new rules require traceability
 
 *https://blog.vertistratsolution.com/2026/08/pet-recycling-already-cuts-emissions-60.html*
 

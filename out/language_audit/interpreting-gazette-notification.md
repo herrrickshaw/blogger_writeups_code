@@ -1,4 +1,4 @@
-# Language audit — Interpreting the Gazette Notification
+# Language audit — India's gazette notifications: the Gazette Trail database holds 2,637 of them
 
 *https://blog.vertistratsolution.com/2026/09/interpreting-gazette-notification.html*
 

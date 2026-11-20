@@ -1,4 +1,4 @@
-# Language audit — Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why
+# Language audit — Wheat MSP for 2027-28: up ₹25 or 1.0%, with 480 lakh tonnes in the central pool
 
 *https://blog.vertistratsolution.com/2026/10/wheats-support-price-rose-by-25.html*
 

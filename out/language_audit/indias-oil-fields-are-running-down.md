@@ -1,4 +1,4 @@
-# Language audit — India's Oil Fields Are Running Down. The Policy to Squeeze More Out of Them Is Eight Years Old, and Its Best Techniques Are Still Pilots.
+# Language audit — India's oil fields: output down from 36.96 to 28.70 million tonnes in a decade
 
 *https://blog.vertistratsolution.com/2026/09/indias-oil-fields-are-running-down.html*
 

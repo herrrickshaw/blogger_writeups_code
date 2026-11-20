@@ -1,4 +1,4 @@
-# Language audit — Ethanol's Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers
+# Language audit — Ethanol distilleries in India: coal boilers, the briquette gap and US carbon capture
 
 *https://blog.vertistratsolution.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler
+# Language audit — Bagasse: about 75% liquefied in 9 minutes in one lab study, no cost study found
 
 *https://blog.vertistratsolution.com/2026/10/bagasse-is-one-crop-residue-already.html*
 

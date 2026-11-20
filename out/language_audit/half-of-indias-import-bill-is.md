@@ -1,4 +1,4 @@
-# Language audit — Half of India's Import Bill Is Commodities. Recycling and Import Substitution Are the Only Two Exits.
+# Language audit — India's import bill: commodities make up half of the $776 bn total in FY2025-26
 
 *https://blog.vertistratsolution.com/2026/08/half-of-indias-import-bill-is.html*
 

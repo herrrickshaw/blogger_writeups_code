@@ -1,4 +1,4 @@
-# Language audit — Eight Open-Source Tools for Tracking India’s Gazette, Parliament, Clearances, Incentives and Regulators, and What Each One Answers
+# Language audit — Indian government records: 8 open-source tools for gazette, Parliament and clearances
 
 *https://blog.vertistratsolution.com/2026/11/eight-open-source-tools-for-tracking.html*
 

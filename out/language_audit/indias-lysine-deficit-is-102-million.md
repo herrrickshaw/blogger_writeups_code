@@ -1,4 +1,4 @@
-# Language audit — India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part
+# Language audit — India's lysine imports: $106 million a year, unit price down 18.7% in FY26
 
 *https://blog.vertistratsolution.com/2026/10/indias-lysine-deficit-is-102-million.html*
 

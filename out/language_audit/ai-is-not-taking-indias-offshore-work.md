@@ -1,4 +1,4 @@
-# Language audit — AI Is Not Taking India's Offshore Work Evenly: A Sector-by-Sector Check, and the Government Backlogs the Same Skills Could Clear
+# Language audit — AI and India's offshore services: fewer fresher hires and lower prices rather than layoffs
 
 *https://blog.vertistratsolution.com/2026/10/ai-is-not-taking-indias-offshore-work.html*
 

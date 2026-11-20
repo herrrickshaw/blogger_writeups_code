@@ -1,4 +1,4 @@
-# Language audit — If India Paid BRICS in Rupees: A Scenario Model of De-Dollarising 41% of the Import Bill
+# Language audit — India's BRICS trade in rupees: $228.5bn exposure, $93.4bn reroutable to rupee settlement
 
 *https://blog.vertistratsolution.com/2026/08/if-india-paid-brics-in-rupees-scenario.html*
 

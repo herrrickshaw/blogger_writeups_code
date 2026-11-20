@@ -1,4 +1,4 @@
-# Language audit — Green Gold: What Spirulina Actually Is, and Isn't, Good For
+# Language audit — Spirulina: what the cyanobacterium Arthrospira platensis is and is not good for
 
 *https://blog.vertistratsolution.com/2026/08/green-gold-what-spirulina-actually-is.html*
 

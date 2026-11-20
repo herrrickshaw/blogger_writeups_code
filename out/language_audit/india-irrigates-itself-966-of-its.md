@@ -1,4 +1,4 @@
-# Language audit — India Irrigates Itself. 96.6% of Its Irrigation Schemes Are Privately Owned.
+# Language audit — India's minor irrigation: 96.6% of 23.14 million schemes privately owned in 2017-18
 
 *https://blog.vertistratsolution.com/2026/09/india-irrigates-itself-966-of-its.html*
 

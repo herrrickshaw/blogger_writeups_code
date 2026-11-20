@@ -1,4 +1,4 @@
-# Language audit — Indian IT in an AI Era
+# Language audit — Indian IT services in the AI era: measured data shows AI helping, not hurting
 
 *https://blog.vertistratsolution.com/2026/08/indian-it-in-ai-era.html*
 

@@ -1,4 +1,4 @@
-# Language audit — IPA Digital Twin — Reportage: Latest Updates (15 Sep – 9 Nov 2026)
+# Language audit — IPA Digital Twin: scheme-tagged press releases, 15 Sep to 9 Nov 2026
 
 *https://blog.vertistratsolution.com/2026/08/ipa-digital-twin-reportage-latest.html*
 

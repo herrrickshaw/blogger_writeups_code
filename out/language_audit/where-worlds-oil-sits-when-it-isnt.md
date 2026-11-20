@@ -1,4 +1,4 @@
-# Language audit — Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026
+# Language audit — Global oil storage: onshore tanks and floating barrels in the 2026 Hormuz shock
 
 *https://blog.vertistratsolution.com/2026/08/where-worlds-oil-sits-when-it-isnt.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Nature Versus Nurture: India's Fertiliser-Fed Food Security
+# Language audit — India's fertiliser-fed food security: demand forecast, import bill and gas grid
 
 *https://blog.vertistratsolution.com/2026/08/nature-versus-nurture-indias-fertiliser.html*
 

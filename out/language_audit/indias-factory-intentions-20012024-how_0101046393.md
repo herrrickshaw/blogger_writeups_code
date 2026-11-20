@@ -1,4 +1,4 @@
-# Language audit — India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants
+# Language audit — Factory plans filed in India, 2001 to 2018: 15% cited by a later production report
 
 *https://blog.vertistratsolution.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html*
 

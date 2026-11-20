@@ -1,4 +1,4 @@
-# Language audit — Endoscopes Never Made India's PLI List. At 57% Export Coverage, They Didn't Need To.
+# Language audit — Endoscopes and India's PLI scheme: never listed, at 57% export coverage
 
 *https://blog.vertistratsolution.com/2026/09/endoscopes-never-made-indias-pli-list.html*
 

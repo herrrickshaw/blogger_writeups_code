@@ -1,4 +1,4 @@
-# Language audit — Doubling India’s CSR Profit Trigger Removes 11,204 Companies but About 3% of the Money
+# Language audit — Doubling India's CSR trigger: 11,204 companies released, about 3% of the money
 
 *https://blog.vertistratsolution.com/2026/11/doubling-indias-csr-profit-trigger.html*
 

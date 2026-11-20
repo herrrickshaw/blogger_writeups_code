@@ -1,4 +1,4 @@
-# Language audit — What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index
+# Language audit — Model stock portfolios: 7 checked against the index, 1 clear outperformer
 
 *https://blog.vertistratsolution.com/2026/08/what-seven-model-stock-portfolios-look.html*
 

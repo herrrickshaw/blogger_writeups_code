@@ -1,4 +1,4 @@
-# Language audit — Cow Dung Already Flew a Rocket Engine. India's Biogas Programme Could Feed the Next One.
+# Language audit — Rocket fuel from biogas: cattle manure methane ran a Japanese engine in 2023
 
 *https://blog.vertistratsolution.com/2026/08/cow-dung-already-flew-rocket-engine.html*
 

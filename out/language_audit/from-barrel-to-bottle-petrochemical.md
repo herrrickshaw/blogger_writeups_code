@@ -1,4 +1,4 @@
-# Language audit — From Barrel to Bottle: The Petrochemical Pivot Also Makes a Lighter LPG Cylinder
+# Language audit — Composite LPG cylinders: about half the weight of steel ones at around 15.3 kg
 
 *https://blog.vertistratsolution.com/2026/08/from-barrel-to-bottle-petrochemical.html*
 

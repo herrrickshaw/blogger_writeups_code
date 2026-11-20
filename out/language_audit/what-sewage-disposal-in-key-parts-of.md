@@ -1,4 +1,4 @@
-# Language audit — What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs
+# Language audit — Sewage disposal in Tamil Nadu: costs checked, no confirmed compressed biogas project
 
 *https://blog.vertistratsolution.com/2026/09/what-sewage-disposal-in-key-parts-of.html*
 

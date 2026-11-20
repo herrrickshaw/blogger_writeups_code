@@ -1,4 +1,4 @@
-# Language audit — India's Cotton Yield Fell From 566 kg to Under 450 Since 2013. Kaala Cotton Isn't Grown Where That Drop Hurts Most.
+# Language audit — India's cotton yield: 566 kg/ha in 2013-14, under 450 kg/ha by 2024-25
 
 *https://blog.vertistratsolution.com/2026/09/indias-cotton-yield-fell-from-566-kg-to.html*
 

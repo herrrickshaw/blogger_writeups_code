@@ -1,4 +1,4 @@
-# Language audit — India Doesn’t Need a Blockchain to Pay Its Farmers. It May Need One to Agree on Who Owns the Land
+# Language audit — Blockchain for Indian farmers: land records are a stronger use case than payments
 
 *https://blog.vertistratsolution.com/2026/11/india-doesnt-need-blockchain-to-pay-its.html*
 

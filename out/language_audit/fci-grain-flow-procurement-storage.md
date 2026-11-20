@@ -1,4 +1,4 @@
-# Language audit — FCI Grain Flow — Procurement · Storage · Disposal Dashboard
+# Language audit — FCI grain flow dashboard: rice and wheat procurement, storage and disposal
 
 *https://blog.vertistratsolution.com/2026/07/fci-grain-flow-procurement-storage.html*
 

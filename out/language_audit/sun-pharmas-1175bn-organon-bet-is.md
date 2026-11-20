@@ -1,4 +1,4 @@
-# Language audit — Sun Pharma's $11.75bn Organon Bet Is Bigger Than the RBI Rule Written to Fund It
+# Language audit — Sun Pharma's $11.75 billion Organon deal: an RBI dispensation needed to fund it
 
 *https://blog.vertistratsolution.com/2026/09/sun-pharmas-1175bn-organon-bet-is.html*
 

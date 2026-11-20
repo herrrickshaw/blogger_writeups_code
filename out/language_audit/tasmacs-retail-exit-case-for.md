@@ -1,4 +1,4 @@
-# Language audit — TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops
+# Language audit — TASMAC's retail exit: the case for privatizing 2,500 of Tamil Nadu's 4,048 liquor shops
 
 *https://blog.vertistratsolution.com/2026/08/tasmacs-retail-exit-case-for.html*
 

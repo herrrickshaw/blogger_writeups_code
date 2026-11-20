@@ -1,4 +1,4 @@
-# Language audit — GOBARdhan Aims for 12 Times Today's Biogas Output. The Mandate Meant to Buy It Covers Less Than Half
+# Language audit — GOBARdhan biogas: target 12 times today's output, mandate absorbs under half
 
 *https://blog.vertistratsolution.com/2026/10/gobardhan-aims-for-12-times-todays.html*
 

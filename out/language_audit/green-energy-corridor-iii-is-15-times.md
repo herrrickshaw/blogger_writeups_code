@@ -1,4 +1,4 @@
-# Language audit — Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished
+# Language audit — Green Energy Corridor III: 15 times the size of phase II, with phases I and II incomplete
 
 *https://blog.vertistratsolution.com/2026/10/green-energy-corridor-iii-is-15-times.html*
 

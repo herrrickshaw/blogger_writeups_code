@@ -1,4 +1,4 @@
-# Language audit — India's EV Localisation Deadline Just Split in Two, Because of the One Part China Still Controls
+# Language audit — India's EV localisation deadline: split in two over the one input China controls
 
 *https://blog.vertistratsolution.com/2026/09/indias-ev-localisation-deadline-just.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Seven Open-Source Tools for Stock-Market Research, From Ticker Lists to Valuation Models, and Where Each One Stops
+# Language audit — Stock-market research: 7 open-source tools, from ticker lists to valuation models
 
 *https://blog.vertistratsolution.com/2026/11/seven-open-source-tools-for-stock.html*
 

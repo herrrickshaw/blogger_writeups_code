@@ -1,4 +1,4 @@
-# Language audit — Financing the Fuel-to-Chemicals Pivot: How Indian Oil's ₹15,000 Crore Debt Raise Fits a Much Bigger Pattern
+# Language audit — Indian Oil's ₹15,000 crore debt raise: funding the fuel-to-chemicals shift
 
 *https://blog.vertistratsolution.com/2026/08/financing-fuel-to-chemicals-pivot-how.html*
 

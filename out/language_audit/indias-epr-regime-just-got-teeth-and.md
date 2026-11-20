@@ -1,4 +1,4 @@
-# Language audit — India's EPR Regime Just Got Teeth — and a Battery Recycling Policy Brief Explains Where It Still Bites Nothing
+# Language audit — India's EPR rules: plastic loophole closed, battery scrap enforcement gap documented
 
 *https://blog.vertistratsolution.com/2026/08/indias-epr-regime-just-got-teeth-and.html*
 

@@ -1,4 +1,4 @@
-# Language audit — India's Food Processing Story: A PLI Scheme Beating Its Own Targets, and a Cold-Chain Gap That Isn't Closing
+# Language audit — Food processing in India: PLI beats its job target, cold-chain gap remains
 
 *https://blog.vertistratsolution.com/2026/08/indias-food-processing-story-pli-scheme.html*
 

@@ -1,4 +1,4 @@
-# Language audit — India Forest, Wildlife & CRZ Clearances — PARIVESH
+# Language audit — India's forest, wildlife and coastal clearances: 1.05 million ha in the PARIVESH pipeline
 
 *https://blog.vertistratsolution.com/2026/07/india-forest-wildlife-crz-clearances.html*
 

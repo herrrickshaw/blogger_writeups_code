@@ -1,4 +1,4 @@
-# Language audit — AI Tools Edition 04: DeepSeek Put Its Agent and Its Inference Engine on GitHub. They Drew 47,000 Stars in Under Four Weeks
+# Language audit — AI tools edition 04: DeepSeek's agent and inference engine drew 47,000 GitHub stars
 
 *https://blog.vertistratsolution.com/2026/11/ai-tools-edition-04-deepseek-put-its.html*
 

@@ -1,4 +1,4 @@
-# Language audit — AHIDF Has Sanctioned ₹19,751 Crore in Animal-Husbandry Loans. Only 39% of It Has Reached a Bank Account.
+# Language audit — Animal Husbandry Infrastructure Development Fund: 39% of ₹19,751 crore disbursed
 
 *https://blog.vertistratsolution.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html*
 

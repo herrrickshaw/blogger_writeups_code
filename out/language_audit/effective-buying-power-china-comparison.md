@@ -1,4 +1,4 @@
-# Language audit — Effective Buying Power & the China Comparison — Rupee Real Exchange Rate
+# Language audit — Rupee real exchange rate: nominal and inflation-adjusted, with a China comparison
 
 *https://blog.vertistratsolution.com/2026/08/effective-buying-power-china-comparison.html*
 

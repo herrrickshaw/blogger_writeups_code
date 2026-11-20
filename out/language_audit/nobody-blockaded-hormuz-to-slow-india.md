@@ -1,4 +1,4 @@
-# Language audit — Nobody Blockaded Hormuz to Slow India-Europe Trade. The Corridor Meant to Bypass It Is Getting Built Faster Anyway.
+# Language audit — India-Europe trade corridor: construction speeds up after the 2026 Hormuz blockade
 
 *https://blog.vertistratsolution.com/2026/09/nobody-blockaded-hormuz-to-slow-india.html*
 

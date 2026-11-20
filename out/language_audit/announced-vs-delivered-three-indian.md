@@ -1,4 +1,4 @@
-# Language audit — Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers
+# Language audit — State industrial policies in India: targets in 5 policies checked against delivery
 
 *https://blog.vertistratsolution.com/2026/08/announced-vs-delivered-three-indian.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier
+# Language audit — EU LNG imports: a record 146 bcm in 2025, nearly three-fifths from the US
 
 *https://blog.vertistratsolution.com/2026/08/europe-bought-record-amount-of-lng-and.html*
 

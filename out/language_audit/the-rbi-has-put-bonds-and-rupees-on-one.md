@@ -1,4 +1,4 @@
-# Language audit — The RBI Has Put Bonds and Rupees on One Ledger. The Hard Part Is Telling It What Happens Off It.
+# Language audit — RBI's Unified Markets Interface: pilots settled ₹1,025 crore of tokenised corporate bonds
 
 *https://blog.vertistratsolution.com/2026/10/the-rbi-has-put-bonds-and-rupees-on-one.html*
 

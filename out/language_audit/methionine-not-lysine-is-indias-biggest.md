@@ -1,4 +1,4 @@
-# Language audit — Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case
+# Language audit — India's amino-acid deficit: $354 million, 48% of it methionine from petrochemicals
 
 *https://blog.vertistratsolution.com/2026/10/methionine-not-lysine-is-indias-biggest.html*
 

@@ -1,4 +1,4 @@
-# Language audit — Electrification Is LNG's Biggest Decarbonization Lever. The Grid Is What Actually Limits It
+# Language audit — LNG decarbonization: electrification is the biggest lever, limited by the grid
 
 *https://blog.vertistratsolution.com/2026/09/electrification-is-lngs-biggest.html*
 

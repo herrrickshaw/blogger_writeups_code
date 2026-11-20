@@ -1,4 +1,4 @@
-# Language audit — Who Collects India's GST, and Who Actually Gets It Back
+# Language audit — India's GST by state: 5 states generate over 40% and get a fraction back
 
 *https://blog.vertistratsolution.com/2026/08/who-collects-indias-gst-and-who.html*
 

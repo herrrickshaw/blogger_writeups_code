@@ -1,4 +1,4 @@
-# Language audit — The Cluster the Automotive Piece Left Out: Pitching Madhya Pradesh as India's Sixth Hub
+# Language audit — Pithampur auto cluster: 120 large units and about 25,000 jobs, pitched as India's 6th hub
 
 *https://blog.vertistratsolution.com/2026/08/the-cluster-automotive-piece-left-out.html*
 

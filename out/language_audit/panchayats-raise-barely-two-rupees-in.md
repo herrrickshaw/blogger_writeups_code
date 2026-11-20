@@ -1,4 +1,4 @@
-# Language audit — Panchayats Raise Barely Two Rupees in Tax for Every Hundred They Receive, 33 Years After the 73rd Amendment
+# Language audit — Village panchayat revenue in 2022-23: 2.1% from own taxes, 94% from grants
 
 *https://blog.vertistratsolution.com/2026/11/panchayats-raise-barely-two-rupees-in.html*
 

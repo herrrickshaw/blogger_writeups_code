@@ -1,11 +1,11 @@
-# Language audit — India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like.
+# Language audit — Jute: India grows about 60% of world output, Bangladesh has about 70% of exports
 
 *https://blog.vertistratsolution.com/2026/09/india-leads-world-in-jute-and-ranks.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...It Sounds Like.  India grows roughly 60 per cent of the world's jute and is the world's ...
+  context: ... 70% of exports  India grows roughly 60 per cent of the world's jute and is the world's ...
   suggested: percent
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...adesh, the number-two producer, does 70 per cent of the world's jute exporting. India's ...

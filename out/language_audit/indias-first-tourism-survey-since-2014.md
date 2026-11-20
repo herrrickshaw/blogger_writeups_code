@@ -1,4 +1,4 @@
-# Language audit — India's First Tourism Survey Since 2014-15 Finds Pilgrimage Is 48% of Overnight Trips and Holidays 22%. The Ministry's 428 Crore Visits Are Not Comparable With It
+# Language audit — India's first tourism survey since 2014-15: pilgrimage is 48% of overnight trips
 
 *https://blog.vertistratsolution.com/2026/10/indias-first-tourism-survey-since-2014.html*
 

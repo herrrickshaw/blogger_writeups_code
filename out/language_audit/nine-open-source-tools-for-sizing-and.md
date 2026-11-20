@@ -1,4 +1,4 @@
-# Language audit — Nine Open-Source Tools for Sizing and Costing India’s Biofuel, Gas and Refining Plants, and Which One to Start With
+# Language audit — India's biofuel, gas and refining plants: 9 open-source sizing and costing tools
 
 *https://blog.vertistratsolution.com/2026/11/nine-open-source-tools-for-sizing-and.html*
 

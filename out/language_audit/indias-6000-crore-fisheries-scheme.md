@@ -1,4 +1,4 @@
-# Language audit — India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.
+# Language audit — PM-MKSSY fisheries scheme: ₹4.73 crore paid out of ₹6,000 crore allocated
 
 *https://blog.vertistratsolution.com/2026/08/indias-6000-crore-fisheries-scheme.html*
 

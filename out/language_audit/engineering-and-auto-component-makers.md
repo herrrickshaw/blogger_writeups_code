@@ -1,4 +1,4 @@
-# Language audit — Engineering and Auto-Component Makers File More SEBI DRHPs Than Any Other Sector — Not Tech, Not Finance
+# Language audit — SEBI IPO filings since 2019: engineering and auto-component makers file the most
 
 *https://blog.vertistratsolution.com/2026/09/engineering-and-auto-component-makers.html*
 

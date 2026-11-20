@@ -1,4 +1,4 @@
-# Language audit — India Finally Has a Rule for Used Motor Oil. Nobody Can Price What It Costs Yet.
+# Language audit — Used motor oil in India: rules changed in 2023, the cost is not yet estimated
 
 *https://blog.vertistratsolution.com/2026/08/what-actually-happens-to-indias-used.html*
 

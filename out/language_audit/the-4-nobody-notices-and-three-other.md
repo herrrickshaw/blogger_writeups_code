@@ -1,4 +1,4 @@
-# Language audit — The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System
+# Language audit — India's food system backstops: GIC Re's 4% cession, PMFBY, forecasts, rations
 
 *https://blog.vertistratsolution.com/2026/09/the-4-nobody-notices-and-three-other.html*
 

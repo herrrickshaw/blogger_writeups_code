@@ -1,4 +1,4 @@
-# Language audit — Nano Urea Works as a Supplement and Fails as a Substitute. The Rulebook Now Agrees.
+# Language audit — Nano urea: a supplement, not a substitute, under the rules revised in March 2026
 
 *https://blog.vertistratsolution.com/2026/08/nano-urea-works-as-supplement-and-fails.html*
 

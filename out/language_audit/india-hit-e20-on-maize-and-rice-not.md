@@ -1,4 +1,4 @@
-# Language audit — India Hit E20 on Maize and Rice, Not Sugarcane
+# Language audit — India's E20 ethanol target: reached mainly with maize and rice, not sugarcane
 
 *https://blog.vertistratsolution.com/2026/08/india-hit-e20-on-maize-and-rice-not.html*
 

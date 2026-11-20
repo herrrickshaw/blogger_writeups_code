@@ -1,4 +1,4 @@
-# Language audit — The Balkan Relish India Already Has the Ingredients For: Making the Case for Ajvar
+# Language audit — Ajvar, the Balkan relish: India already grows its ingredients and has a tariff heading
 
 *https://blog.vertistratsolution.com/2026/08/the-balkan-relish-india-already-has.html*
 

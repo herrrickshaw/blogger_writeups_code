@@ -1,4 +1,4 @@
-# Language audit — Every Litre of Petrol Pays ₹5 for Roads. Electric Vehicles Pay Nothing — and the Gap Is Still Small Enough to Fix.
+# Language audit — Road and Infrastructure Cess: ₹5 a litre on petrol, ₹2 on diesel, none on EVs
 
 *https://blog.vertistratsolution.com/2026/10/every-litre-of-petrol-pays-5-for-roads.html*
 

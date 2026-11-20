@@ -1,4 +1,4 @@
-# Language audit — Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold
+# Language audit — Rupee trade with China: China would hold $112.2 billion of rupees a year
 
 *https://blog.vertistratsolution.com/2026/08/securitising-deficit-what-it-would.html*
 

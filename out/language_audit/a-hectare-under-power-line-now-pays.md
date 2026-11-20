@@ -1,4 +1,4 @@
-# Language audit — A Hectare Under a Power Line Now Pays Three to Six Times What One Over a Pipeline Does
+# Language audit — Land under power lines: 30–60% of market value paid, against 10% for pipelines
 
 *https://blog.vertistratsolution.com/2026/10/a-hectare-under-power-line-now-pays.html*
 

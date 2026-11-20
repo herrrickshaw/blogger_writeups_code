@@ -1,4 +1,4 @@
-# Language audit — India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare
+# Language audit — India's health ID: optional since 2021, while tax numbers are issued in about 10 minutes
 
 *https://blog.vertistratsolution.com/2026/10/india-tracks-every-taxpayer-in-minutes.html*
 

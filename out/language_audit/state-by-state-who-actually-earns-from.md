@@ -1,4 +1,4 @@
-# Language audit — State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30
+# Language audit — State tax from ethanol blending in India: Rs 17,863 crore net loss at E20, by state
 
 *https://blog.vertistratsolution.com/2026/08/state-by-state-who-actually-earns-from.html*
 

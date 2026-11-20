@@ -1,4 +1,4 @@
-# Language audit — Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing
+# Language audit — MRI and CT scanners made in India: PLI applicants and the demand they target
 
 *https://blog.vertistratsolution.com/2026/08/whos-actually-building-mri-and-ct.html*
 

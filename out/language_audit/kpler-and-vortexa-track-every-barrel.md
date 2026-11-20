@@ -1,4 +1,4 @@
-# Language audit — Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way.
+# Language audit — India's import tracking: Kpler and Vortexa cover oil, not used cooking oil
 
 *https://blog.vertistratsolution.com/2026/09/kpler-and-vortexa-track-every-barrel.html*
 

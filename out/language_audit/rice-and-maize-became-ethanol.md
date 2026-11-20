@@ -1,4 +1,4 @@
-# Language audit — Rice and Maize Became Ethanol Commodities With a Price, a Buyer and a Warehouse. Straw Has Only the Buyer
+# Language audit — Straw for power in India: 2023 benchmark price, no grades, index or warehouse receipts
 
 *https://blog.vertistratsolution.com/2026/10/rice-and-maize-became-ethanol.html*
 

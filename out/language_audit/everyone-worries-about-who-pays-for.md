@@ -1,15 +1,9 @@
-# Language audit — Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part
+# Language audit — CO2 pipelines in India: $0.70 to $4.19 a tonne, with capture the main cost
 
 *https://blog.vertistratsolution.com/2026/09/everyone-worries-about-who-pays-for.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[GRAMMAR/IN_WHO]** Did you mean “whom”?
-  context: Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelin...
-  suggested: Whom
-- **[GRAMMAR/IN_WHO]** Did you mean “whom”?
-  context: ... September 2026  Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelin...
-  suggested: Whom
 - **[GRAMMAR/MASS_AGREEMENT]** Consider using third-person verb forms for singular and mass nouns.
   context: ...9 per tonne, depending on which storage sink the network is built toward: cheapest (...
   suggested: sinks

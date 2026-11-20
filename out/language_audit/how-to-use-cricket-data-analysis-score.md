@@ -1,4 +1,4 @@
-# Language audit — How to use cricket-data-analysis: score how predictable IPL and World Cup match-ups are
+# Language audit — How to use cricket-data-analysis: predictability of IPL and World Cup match-ups
 
 *https://blog.vertistratsolution.com/2026/10/how-to-use-cricket-data-analysis-score.html*
 

@@ -1,4 +1,4 @@
-# Language audit — To Comply or Not to Comply: CBAM Costs Indian Steel €93 a Tonne With Verified Data and €270 Without. Indian Carbon Credits Won’t Close the Gap
+# Language audit — CBAM on Indian steel in 2026: €93 a tonne with verified data, €270 without
 
 *https://blog.vertistratsolution.com/2026/10/to-comply-or-not-to-comply-cbam-costs.html*
 

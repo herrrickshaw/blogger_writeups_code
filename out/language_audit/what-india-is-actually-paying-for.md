@@ -1,4 +1,4 @@
-# Language audit — What India Is Actually Paying For: Absorbing Someone Else's Inflation Through the Import Bill
+# Language audit — India's import bill: $775.7 billion in FY2025-26, part of it imported inflation
 
 *https://blog.vertistratsolution.com/2026/08/what-india-is-actually-paying-for.html*
 

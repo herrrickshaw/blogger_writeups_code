@@ -1,4 +1,4 @@
-# Language audit — India Exports the World's Coco Peat. Its Own Highest-Value Crop Barely Uses Any of It.
+# Language audit — India's coco peat: a major export, barely used for saffron, its top-value crop
 
 *https://blog.vertistratsolution.com/2026/08/india-exports-worlds-coco-peat-its-own.html*
 

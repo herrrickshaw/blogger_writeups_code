@@ -1,4 +1,4 @@
-# Language audit — PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim
+# Language audit — PNGRB hydrogen-blending pilots: the blend each pilot runs against the 10% claim
 
 *https://blog.vertistratsolution.com/2026/09/pngrb-hydrogen-blending-pilots-real.html*
 

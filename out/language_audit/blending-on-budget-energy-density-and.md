@@ -1,4 +1,4 @@
-# Language audit — Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs
+# Language audit — Biofuel blends and mileage: ethanol carries 66% of petrol's energy per litre
 
 *https://blog.vertistratsolution.com/2026/08/blending-on-budget-energy-density-and.html*
 

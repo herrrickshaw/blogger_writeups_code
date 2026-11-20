@@ -1,4 +1,4 @@
-# Language audit — India's Military Quantum Plan Has Four Pillars. So Far, the Forces Have Bought Only One
+# Language audit — India's military quantum plan: 4 pillars, communication the one bought so far
 
 *https://blog.vertistratsolution.com/2026/10/indias-military-quantum-plan-has-four.html*
 

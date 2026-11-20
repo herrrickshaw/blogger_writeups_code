@@ -1,4 +1,4 @@
-# Language audit — The Recycling Lottery Playbook — Norway's Pantelotteriet, and a Jal Jeevan Application
+# Language audit — Norway's Pantelotteriet recycling lottery: 16+ years of use, applied to Jal Jeevan
 
 *https://blog.vertistratsolution.com/2026/07/the-recycling-lottery-playbook-norways.html*
 

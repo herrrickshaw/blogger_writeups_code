@@ -1,4 +1,4 @@
-# Language audit — The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel
+# Language audit — Indian refining margins: $4–6 a barrel, with LPG and petrochemicals beating petrol
 
 *https://blog.vertistratsolution.com/2026/08/the-margin-case-why-lpg-and.html*
 

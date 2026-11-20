@@ -1,4 +1,4 @@
-# Language audit — The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet
+# Language audit — Government EV fleets in India: pooled buying made buses cheaper without subsidy
 
 *https://blog.vertistratsolution.com/2026/08/the-easiest-ev-conversion-in-india.html*
 

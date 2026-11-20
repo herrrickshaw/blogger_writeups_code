@@ -1,4 +1,4 @@
-# Language audit — India Has 28,000 km of Gas Pipeline Working and 7,000 km Still to Build. A Map of Where, and of the Lines Still on Paper
+# Language audit — India's gas pipelines: 28,157 km operating, 7,033 km yet to be built, August 2026
 
 *https://blog.vertistratsolution.com/2026/10/india-has-27400-km-of-gas-pipeline.html*
 

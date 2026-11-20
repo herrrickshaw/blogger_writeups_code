@@ -1,11 +1,11 @@
-# Language audit — Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones
+# Language audit — Foreign capital in India's hospitals: buying existing hospitals, not adding beds
 
 *https://blog.vertistratsolution.com/2026/08/foreign-capital-found-indias-hospitals.html*
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...w Ones  Hospitals have been open to 100 per cent automatic-route FDI since January 2000 ...
+  context: ...g beds  Hospitals have been open to 100 per cent automatic-route FDI since January 2000 ...
   suggested: percent
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ... Commons.  Hospitals have permitted 100 per cent FDI on the automatic route since Januar...

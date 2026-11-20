@@ -1,4 +1,4 @@
-# Language audit — From Kerosene in Diesel to Ethanol in Petrol: A History of Fuel Theft in India
+# Language audit — Fuel theft in India: a history from kerosene in diesel to ethanol in petrol
 
 *https://blog.vertistratsolution.com/2026/11/from-kerosene-in-diesel-to-ethanol-in.html*
 

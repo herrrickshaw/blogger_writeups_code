@@ -1,4 +1,4 @@
-# Language audit — How to use amazon-product-selector: a gated shortlist of rising Amazon keywords you can actually enter
+# Language audit — How to use amazon-product-selector: a gated shortlist of rising Amazon keywords
 
 *https://blog.vertistratsolution.com/2026/10/how-to-use-amazon-product-selector.html*
 

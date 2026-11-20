@@ -1,4 +1,4 @@
-# Language audit — How to Use the Process-Safety Design Toolkit: A Complete Walkthrough, Command by Command
+# Language audit — How to use the process-safety design toolkit: relief, fire and dispersion checks
 
 *https://blog.vertistratsolution.com/2026/11/how-to-use-process-safety-design.html*
 

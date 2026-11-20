@@ -1,4 +1,4 @@
-# Language audit — CPI Inflation Heatmap — India, June 2026
+# Language audit — CPI inflation heatmap for India, June 2026: 13 of 28 states, a 3.4-point spread
 
 *https://blog.vertistratsolution.com/2026/08/cpi-inflation-heatmap-india-june-2026.html*
 

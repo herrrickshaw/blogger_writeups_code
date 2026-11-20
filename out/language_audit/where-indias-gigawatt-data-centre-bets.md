@@ -1,4 +1,4 @@
-# Language audit — Where India's Gigawatt Data-Centre Bets Actually Land: Projects, Cables, and the $210 Billion Behind Them
+# Language audit — India's gigawatt data centres: clustered at cable landings, Chennai above all
 
 *https://blog.vertistratsolution.com/2026/08/where-indias-gigawatt-data-centre-bets.html*
 

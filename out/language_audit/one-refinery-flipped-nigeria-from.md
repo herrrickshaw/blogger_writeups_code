@@ -1,4 +1,4 @@
-# Language audit — One Refinery Flipped Nigeria From Importer to Exporter. Africa's Oil Imports Are Still Rising.
+# Language audit — Dangote refinery: Nigeria's fuel imports cut by over half, Africa's set to rise by 2050
 
 *https://blog.vertistratsolution.com/2026/08/one-refinery-flipped-nigeria-from.html*
 

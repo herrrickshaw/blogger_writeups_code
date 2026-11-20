@@ -1,4 +1,4 @@
-# Language audit — India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.
+# Language audit — Compressed biogas plants in India: most lack a pipeline link to city gas
 
 *https://blog.vertistratsolution.com/2026/09/india-has-132-compressed-biogas-plants.html*
 

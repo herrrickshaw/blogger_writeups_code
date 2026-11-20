@@ -1,4 +1,4 @@
-# Language audit — India Will Spend Rs 33,660 Crore on Ready-Made Factory Parks. Its Existing Parks Have 1.25 Lakh Empty Plots
+# Language audit — BHAVYA parks: Rs 33,660 crore, while existing parks have 1.25 lakh empty plots
 
 *https://blog.vertistratsolution.com/2026/10/india-will-spend-rs-33660-crore-on.html*
 
