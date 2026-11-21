@@ -21,7 +21,7 @@ tools/snapshot.py      pull the blog and commit the diff
 ## Take a snapshot
 
 ```bash
-python3 ~/masaladeutsch-archive/tools/snapshot.py --note "why you ran this" --push
+python3 ~/vertistrat-archive/tools/snapshot.py --note "why you ran this" --push
 ```
 
 Remote: `herrrickshaw/blogger_writeups_code` (**private** — this mirrors the whole
@@ -35,9 +35,9 @@ failure can't be recorded as the blog being wiped.
 ## See what changed
 
 ```bash
-git -C ~/masaladeutsch-archive log --oneline
-git -C ~/masaladeutsch-archive log -p --follow posts/<slug>.html   # one post over time
-git -C ~/masaladeutsch-archive diff HEAD~1 -- meta/                # marker flips only
+git -C ~/vertistrat-archive log --oneline
+git -C ~/vertistrat-archive log -p --follow posts/<slug>.html   # one post over time
+git -C ~/vertistrat-archive diff HEAD~1 -- meta/                # marker flips only
 ```
 
 `meta/*.json` is the fast read: an unwanted design change shows up as a boolean
@@ -58,13 +58,13 @@ python3 tools/snapshot.py --as major --note "corrected the FY25 import figure"
 ```
 
 ```bash
-git -C ~/masaladeutsch-archive log -p --follow meta/<slug>.json   # a post's version history
+git -C ~/vertistrat-archive log -p --follow meta/<slug>.json   # a post's version history
 ```
 
 ## Revert a post
 
 ```bash
-git -C ~/masaladeutsch-archive show <commit>:posts/<slug>.html > /tmp/restore.html
+git -C ~/vertistrat-archive show <commit>:posts/<slug>.html > /tmp/restore.html
 ```
 
 Then serve `/tmp/` over the local CORS helper and paste it into the Blogger editor

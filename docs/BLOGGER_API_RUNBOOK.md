@@ -62,7 +62,7 @@ This sits beside the existing credential store and stays out of every repo.
 ### 5. Authorise once and store the refresh token
 
 ```bash
-python3 ~/masaladeutsch-archive/tools/blogger_api.py auth --port 8766
+python3 ~/vertistrat-archive/tools/blogger_api.py auth --port 8766
 ```
 
 **Use port 8766 on this machine.** The default 8765 is permanently held by the
@@ -78,7 +78,7 @@ repeat this unless the token is revoked or expires.
 ### 6. Confirm
 
 ```bash
-python3 ~/masaladeutsch-archive/tools/blogger_api.py whoami
+python3 ~/vertistrat-archive/tools/blogger_api.py whoami
 ```
 
 Prints the blog name, post count, and your role. If it says anything other than
