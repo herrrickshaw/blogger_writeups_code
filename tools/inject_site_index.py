@@ -36,7 +36,7 @@ import blogger_api as B  # noqa: E402
 
 STUB = ('\n<div id="gs-idx"></div>'
         '<script defer="defer" '
-        'src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>')
+        'src="https://blog.vertistratsolution.com/accordion.js"></script>')
 SKIP_SLUGS = {"article-index-start-here"}
 
 
