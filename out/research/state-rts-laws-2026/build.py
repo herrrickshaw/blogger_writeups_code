@@ -4,7 +4,7 @@ Read in full from PRS copies on 21 November 2026: Delhi Act 10 of 2026; Karnatak
 the English 2013 amendment to the Rajasthan Act (the principal Rajasthan text and the MP Act are page scans in the PRS PDFs with no text layer: their
 English sections 6 to 8 were read by viewing the page images on 21 November 2026, which is a visual reading and not a text extract); PRS Legislative Brief of 27 September 2012 (comparison table of the 2011 state laws); PRS Annual Review of State Laws 2025 (ARSL 2025).
 The count of 22 is from a Parliament answer published by PIB (Department of Administrative Reforms and Public Grievances); ARSL 2025 prints no count and the PIB text prints no list.
-Names beyond the PRS documents come from the PIB text, a Wikipedia table, Kerala Calling, the Meghalaya Act and a Meghalaya Commission presentation (all fetched or read as excerpts on 21 November 2026). A blank cell means the figure was not read in an Act or named report."""
+Names beyond the PRS documents come from the PIB text, a Lok Sabha answer, Acts and gazettes read as search excerpts (Meghalaya, Sikkim, Arunachal Pradesh, Chhattisgarh, Mizoram, Ladakh, Lakshadweep), commission pages (Chandigarh, Maharashtra) and lists (Wikipedia, Kerala Calling, SAFAR), all read on 21 November 2026. A blank cell means the figure was not read in an Act or named report."""
 import pathlib
 import re
 import sys
@@ -42,25 +42,25 @@ step(1, "count of laws named in documents read, with consistency checks")
 # PRS brief of 27 Sep 2012, table 'Sources' line: nine state laws
 BRIEF_2012 = {"Madhya Pradesh", "Uttar Pradesh", "Jammu and Kashmir", "Delhi", "Bihar", "Himachal Pradesh", "Rajasthan", "Uttarakhand", "Punjab"}
 assert len(BRIEF_2012) == 9
-# Tier A: named in an Act or PRS document read. Karnataka (Act 1 of 2012), Assam and Kerala (PRS ARSL 2025 measures), Meghalaya (Act 18 of 2020, Gazette excerpt)
-TIER_A = BRIEF_2012 | {"Karnataka", "Assam", "Kerala", "Meghalaya"}
-# Tier B: named only as holding a Right to Service Commission in the PIB text (DARPG answer to Parliament, 2025): the eight are Assam, Chandigarh, Maharashtra, Punjab, Haryana, Meghalaya, Uttarakhand, West Bengal
-PIB_COMMISSIONS = {"Assam", "Chandigarh", "Maharashtra", "Punjab", "Haryana", "Meghalaya", "Uttarakhand", "West Bengal"}
-assert len(PIB_COMMISSIONS) == 8
-TIER_B = PIB_COMMISSIONS - TIER_A
-assert TIER_B == {"Chandigarh", "Haryana", "Maharashtra", "West Bengal"}
-# Tier C: in the Wikipedia table of implementing states (and, for five of them, in Kerala Calling), no Act or official text opened
-TIER_C = {"Gujarat", "Goa", "Jharkhand", "Chhattisgarh", "Odisha", "Mizoram"}
+# Tier A: named in an Act, gazette, commission page or PRS document read (some only as search excerpts, see the post's source notes)
+TIER_A = BRIEF_2012 | {"Karnataka", "Assam", "Kerala", "Meghalaya", "Sikkim", "Arunachal Pradesh", "Chandigarh", "Ladakh", "Lakshadweep",
+                       "Chhattisgarh", "Mizoram", "Maharashtra"}
+# Tier B: named in a report, paper or list (PIB Commission list, Wikipedia, Kerala Calling, SAFAR 2021, a Jharkhand paper), Act text not opened
+TIER_B = {"Haryana", "West Bengal", "Gujarat", "Goa", "Jharkhand", "Odisha"}
+PIB_COMMISSIONS = {"Assam", "Chandigarh", "Maharashtra", "Punjab", "Haryana", "Meghalaya", "Uttarakhand", "West Bengal"}   # PIB text: Commissions in 8
 WIKI_TABLE = BRIEF_2012 | {"Kerala", "Karnataka", "Chhattisgarh", "Odisha", "Assam", "Gujarat", "West Bengal", "Goa", "Haryana", "Maharashtra", "Mizoram", "Jharkhand"}
-assert len(WIKI_TABLE) == 21          # the table has 21 state and UT rows (it also lists the Central Bill, not counted)
-assert TIER_C <= WIKI_TABLE
-assert not (TIER_A & TIER_B) and not (TIER_A & TIER_C) and not (TIER_B & TIER_C)
-NAMED = TIER_A | TIER_B | TIER_C
-assert (len(TIER_A), len(TIER_B), len(TIER_C), len(NAMED)) == (13, 4, 6, 23)
-REPORTED = 22                      # PIB, DARPG answer to Parliament, 2025: 'enacted by 22 States and Union Territories as of date'
+assert len(PIB_COMMISSIONS) == 8 and len(WIKI_TABLE) == 21
+assert not (TIER_A & TIER_B)
+NAMED = TIER_A | TIER_B
+assert (len(TIER_A), len(TIER_B), len(NAMED)) == (21, 6, 27)
+assert PIB_COMMISSIONS <= NAMED and WIKI_TABLE <= NAMED
+REPORTED = 22                      # PIB Rajya Sabha reply (3 April 2025) and Lok Sabha unstarred question 4216 (26 March 2025): 'enacted by 22 States and Union Territories'
 OVER = len(NAMED) - REPORTED
-assert OVER == 1                   # the names found exceed the reported count by one; which one is not counted is not stated
-assert WIKI_TABLE | {"Meghalaya", "Chandigarh"} == NAMED
+assert OVER == 5                   # the names found exceed the reported count by five, so the 22 cannot be a complete list of the names found
+# Left out of the 27 on purpose: Andaman and Nicobar Islands (a 2026 draft Regulation, after the PIB statement), Telangana and Tamil Nadu (listed in one law journal whose cited
+# sources are a petition and a newspaper piece; no Act was found)
+EXCLUDED = {"Andaman and Nicobar Islands", "Telangana", "Tamil Nadu"}
+assert not (EXCLUDED & NAMED)
 # Delhi: 2011 law replaced by Delhi Act 10 of 2026, so Delhi is one state or UT with a law, not two
 assert "Delhi" in BRIEF_2012
 FIRST_YEAR, SECOND_YEAR_COUNT = 2010, 8       # brief: MP 2010; eight more state laws dated 2011 in the table's source list
@@ -103,7 +103,7 @@ assert 55 <= len(_h.unescape(TITLE)) <= 90, len(_h.unescape(TITLE))
 
 step(3, "writing sections")
 top = top_line([
-    (f"{REPORTED}", f" states and union territories have enacted right-to-service laws, according to a 2025 answer to Parliament published by PIB; sources read name {len(NAMED)}, and none says which one is not counted."),
+    (f"{REPORTED}", f" states and union territories have enacted right-to-service laws, according to two 2025 answers to Parliament; sources read name {len(NAMED)}, so the 22 is not a complete list and none of the answers names them."),
     (f"Rs {K_CAP} to Rs {D_CAP:,}", f" is the range of per-case caps in the Acts read: Karnataka Rs {K_RATE} a day to Rs {K_CAP}, and Madhya Pradesh, Rajasthan and Delhi Rs {D_RATE} a day to Rs {D_CAP:,}."),
     ("2010", " is the year Madhya Pradesh enacted the first such law, followed by eight state laws dated 2011 in a 2012 PRS table, including Bihar, Rajasthan and the first Delhi Act."),
 ])
@@ -153,28 +153,27 @@ s2 = insight(
     "appeals")
 
 s3 = insight(
-    H(f"Sources name {len(NAMED)} states and UTs against {REPORTED} reported; {len(TIER_A)} are named in an Act or report"),
+    H(f"Sources name {len(NAMED)} states and UTs against {REPORTED} reported; {len(TIER_A)} are named in an Act or gazette"),
     bars(H(f"{len(NAMED)} names found against the {REPORTED} reported by the Government of India"),
-         [("Named in an Act or PRS report read (tier A)", len(TIER_A)),
-          ("Named only as holding an RTS Commission, PIB (tier B)", len(TIER_B)),
-          ("Named only in Wikipedia and Kerala Calling lists (tier C)", len(TIER_C)),
+         [("Named in an Act, gazette or commission page (tier A)", len(TIER_A)),
+          ("Named in a report or list, Act not opened (tier B)", len(TIER_B)),
           ("All names found (computed)", len(NAMED)),
-          ("Reported by DARPG, PIB 2025", REPORTED)],
-         accent="Reported by DARPG, PIB 2025", unit="", vmax=25,
-         sub=f"States and union territories. The names exceed the reported count by {OVER}; no source read says which law is not counted, or whether a Bill or Ordinance is counted.",
-         source="PIB, 2025 (DARPG answer to Parliament); PRS Legislative Brief 2012 and ARSL 2025; Meghalaya Act 2020; Wikipedia table; Kerala Calling. Totals computed here.")
+          ("Reported to Parliament, 2025", REPORTED)],
+         accent="Reported to Parliament, 2025", unit="", vmax=30,
+         sub=f"States and union territories. The names exceed the reported count by {OVER}. No source read lists the 22, so which names the Government of India counts is not known.",
+         source="PIB and Lok Sabha answers, 2025; Acts, gazettes and commission pages named in the sources; PRS brief 2012; Wikipedia, Kerala Calling and SAFAR lists. Totals computed here.")
     + numbers(["Tier", "States and UTs", "Basis"],
-              [["A: Madhya Pradesh, Uttar Pradesh, Jammu and Kashmir, Delhi, Bihar, Himachal Pradesh, Rajasthan, Uttarakhand, Punjab", "9", "PRS Legislative Brief, 27 September 2012, sources line; the Accountability Initiative brief of January 2012 names the same eight states for 2011 plus Madhya Pradesh for 2010"],
-               ["A: Karnataka", "1", "Act 1 of 2012 (PRS copy)"],
-               ["A: Assam, Kerala", "2", "PRS ARSL 2025 lists the Assam Right to Public Services (Amendment) Bill, 2025 and Ordinance, 2024, and the Kerala Right to Public Service Bill, 2025"],
-               ["A: Meghalaya", "1", "Meghalaya Right to Public Services Act, 2020 (Act 18 of 2020), Gazette of 24 November 2020, read as a search excerpt; amended by Act 12 of 2026"],
-               ["B: Chandigarh, Haryana, Maharashtra, West Bengal", "4", "PIB text lists them among eight states and UTs with an RTS Commission; their Acts were not opened"],
-               ["C: Gujarat, Goa, Jharkhand, Chhattisgarh, Odisha, Mizoram", "6", "Wikipedia table (statuses mix Act, Bill and Ordinance); Kerala Calling lists all of these except Mizoram; Acts not opened"],
+              [["A: Madhya Pradesh, Uttar Pradesh, Jammu and Kashmir, Delhi, Bihar, Himachal Pradesh, Rajasthan, Uttarakhand, Punjab", "9", "PRS Legislative Brief, 27 September 2012; Delhi, Bihar, Madhya Pradesh, Rajasthan and Karnataka Acts also read"],
+               ["A: Karnataka, Assam, Kerala", "3", "Karnataka Act (PRS copy); Assam Act IX of 2012 (India Code excerpt) and PRS ARSL 2025; Kerala Bill of 2025 in PRS ARSL 2025 and an Act of 2012 per Kerala Calling"],
+               ["A: Meghalaya, Sikkim, Arunachal Pradesh", "3", "Meghalaya Act 18 of 2020; Sikkim Public Services Delivery (Right to Service) Act, 2022 (Act 15 of 2022); Arunachal Pradesh Right to Public Services Act, 2016 (Act 3 of 2016); gazette excerpts"],
+               ["A: Chandigarh, Ladakh, Lakshadweep", "3", "Chandigarh: Punjab Act extended by a Ministry of Home Affairs notification of 14 August 2017 (commission website); Ladakh: the Jammu and Kashmir Act as adapted for the Union Territory (Ladakh text, 2026); Lakshadweep: a Regulation of 2022, not an Act"],
+               ["A: Chhattisgarh, Mizoram, Maharashtra", "3", "Chhattisgarh Lok Sewa Guarantee Act, 2011 (No. 23 of 2011), gazette notification of 18 June 2026; Mizoram Right to Public Services Act, 2015 (Act 6 of 2015), gazette of 7 November 2024; Maharashtra Right to Public Services Act, 2015, state commission annual report 2019-20"],
+               ["B: Haryana, West Bengal, Gujarat, Goa, Jharkhand, Odisha", "6", "PIB Commission list (Haryana, West Bengal); SAFAR 2021 report (Gujarat, Jharkhand, Odisha); Wikipedia and Kerala Calling lists; a 2025 paper on Jharkhand&rsquo;s Act; Acts not opened"],
                ["All names", f"{len(NAMED)}", "Computed; Delhi counted once although its 2011 law is replaced by Act 10 of 2026"],
-               ["Reported", f"{REPORTED}", "PIB: enacted by 22 States and Union Territories, with Commissions in 8; no list printed"],
+               ["Reported", f"{REPORTED}", "PIB Rajya Sabha reply and Lok Sabha question 4216 (answered 26 March 2025): enacted by 22 States and Union Territories, Commissions in 8; no list printed"],
                ["Names above the reported count", f"{OVER}", "Computed"]]),
-    f"The reported 22 is close to the {len(NAMED)} names found, but the PIB text prints no list, so the one name that is not counted cannot be identified, and ten of the names rest on a Commission list or a secondary table.",
-    "The Department of Administrative Reforms and Public Grievances should publish the list of 22 with each Act, its year and whether it is in force.",
+    f"The Government of India&rsquo;s 22 is lower than the {len(NAMED)} names found, so it is a rounded or older count and not a list that could be matched name by name, and the five or more names it leaves out cannot be identified.",
+    "The Department of Administrative Reforms and Public Grievances should publish the list of 22 with each Act, its year and whether it is in force, and say how Union Territory Regulations are counted.",
     "count")
 
 s4 = insight(
@@ -210,14 +209,15 @@ method = '''<details class="xv-n"><summary>Who is covered, and what is counted</
 <li><b>Karnataka:</b> services in the Schedule, with the penalty falling on the designated officer or the subordinate who defaults; nothing applies where the Government has banned or restricted the service (section 9).</li>
 <li><b>Madhya Pradesh and Rajasthan:</b> services, designated officers, first appeal officers, second appellate authorities and time limits notified by the State Government under section 3 of each Act; Rajasthan&rsquo;s Act defines a public authority to include bodies owned, controlled or substantially financed by the State.</li>
 <li><b>Bihar:</b> services, designated public servants and appellate authorities notified by the Government under section 3; the penalty may be charged to the designated public servant, the appellate authority or staff (section 7(3)).</li>
-<li><b>What is counted as a law:</b> the 2012 PRS table counts Acts and, for Madhya Pradesh, a Vidheyak (Bill) of 2010; the 2025 PRS review counts Bills passed and an Ordinance; the Wikipedia table mixes Acts, Bills and a 2015 Maharashtra Ordinance. This piece counts a state once whatever the number of its laws, and does not know how the PIB count treats Bills or Ordinances.</li>
+<li><b>What is counted as a law:</b> the 2012 PRS table counts Acts and, for Madhya Pradesh, a Vidheyak (Bill) of 2010; the 2025 PRS review counts Bills passed and an Ordinance; the Wikipedia table mixes Acts, Bills and a 2015 Maharashtra Ordinance. This piece counts a state or union territory once whatever the number of its laws, counts a Regulation made by the President for Lakshadweep as a law, and does not know how the PIB count treats Bills, Ordinances or Regulations.</li>
 <li><b>Stipulated time limits:</b> each Act fixes limits in a Schedule or notification, which this piece did not read for any state.</li>
 </ul></details>
 '''
 
 gaps = '''<details class="xv-n"><summary>What this piece could not establish</summary>
 <ul>
-<li>Which 22. PIB&rsquo;s text says the Right to Service Act has been enacted by 22 States and Union Territories, with Commissions in eight, and prints no list. The names found reach 23, so one is not counted or not an enacted law; which one was not established. Chandigarh, Haryana, Maharashtra and West Bengal are named only through the Commission list, and Gujarat, Goa, Jharkhand, Chhattisgarh, Odisha and Mizoram only through a Wikipedia table (five also through Kerala Calling); none of their Acts was opened, and their years are not used.</li>
+<li>Which 22. Two 2025 answers to Parliament (Rajya Sabha reply, PIB release dated 3 April 2025, and Lok Sabha unstarred question 4216 answered 26 March 2025) say the Right to Service Act has been enacted by 22 States and Union Territories, with Commissions in eight, and print no list. The names found reach 27, so at least five are left out, and which five was not established. The reason may be an older count, a different treatment of Union Territory Regulations, or both; no source says. Haryana, West Bengal, Gujarat, Goa, Jharkhand and Odisha are named in reports or lists whose Acts were not opened.</li>
+<li>Names not counted among the 27. The Andaman and Nicobar Islands (Right to Public Services) Regulation, 2026 appears only as a draft with a blank number, dated July 2026. One law journal lists a Telangana Right to Services Act, 2016 and a Tamil Nadu Public Services Guarantee Act, 2019, but its footnotes point to a petition and a newspaper piece asking for such a law, and no Act was found for either.</li>
 <li>Date conflicts. The fetched PIB page carries a date of 3 April 2025, while Wikipedia cites a PIB release of 22 June 2025 for the same count. Wikipedia gives Bihar&rsquo;s enactment as 25 July 2011 and a Kerala Calling article as 25 July 2012; the Act itself is titled 2011. Kerala has an Act of 2012 per Kerala Calling and a Bill of 2025 per PRS; how the two relate was not established.</li>
 <li>Machine-readable text of the Madhya Pradesh and Rajasthan Acts. The PRS PDFs are page scans with no text layer, so sections 6 to 8 of each were read by viewing the page images. The Madhya Pradesh amendments (Acts 22 of 2011 and 5 of 2012, and later amendments listed in PRS reviews) and the rest of the Rajasthan Act were not read for changes to the penalty.</li>
 <li>Bihar&rsquo;s rupee amounts. The Act says the rates are those in the rules; the rules were not found. The 2012 PRS brief groups Bihar with Madhya Pradesh, Uttar Pradesh and Rajasthan at Rs 250 a day up to Rs 5,000; that figure is confirmed in the Madhya Pradesh and Rajasthan Acts but not in Bihar&rsquo;s, so Bihar is treated as unreconciled.</li>
@@ -238,7 +238,18 @@ SOURCES = (
     '<a href="https://prsindia.org/files/bills_acts/acts_states/rajasthan/2011/2011Rajasthan23.pdf">The Rajasthan Guaranteed Delivery of Public Services Act, 2011 with the 2013 amendment, PRS copy</a> (page scan; amendment has a text layer); '
     '<a href="https://prsindia.org/files/bills_acts/acts_states/madhya-pradesh/2010/2010MP24.pdf">Madhya Pradesh Lok Sewaon ke Pradan ki Guarantee Adhiniyam, 2010, PRS copy</a> (page scan); '
     '<a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2118276">PIB, Parliament question on Sevottam and redressal of public grievances</a> (primary; 22 states and UTs, eight Commissions); '
+    '<a href="https://sansad.in/getFile/loksabhaquestions/annex/184/AU4216_YkZmPz.pdf?source=pqals">Lok Sabha unstarred question 4216, answered 26 March 2025</a> (primary; same 22 and eight Commissions); '
     '<a href="https://meghalaya.gov.in/sites/default/files/acts/LL_B_55_2013_50.pdf">Meghalaya Right to Public Services Act, 2020</a> (primary Gazette; read as a search excerpt); '
+    '<a href="https://www.sikkim.gov.in/uploads/Gazette/363_20240720.pdf">Sikkim Gazette, Act 15 of 2022</a> and '
+    '<a href="https://eodb.arunachal.gov.in/uploads/policyguideline_documents/f6f6fd30f1ebb16e359805e98781cfd9.pdf">Arunachal Pradesh Gazette, Act 3 of 2016</a> (primary; search excerpts); '
+    '<a href="http://rtsc.chd.gov.in/">Chandigarh Right to Service Commission</a> (primary; Punjab Act extended in 2017); '
+    '<a href="https://eodb.ladakh.gov.in/storage/uploads/incentives/20260514225404_6a060534d66f9.pdf">Ladakh text of the Public Services Guarantee Act, 2011</a> and '
+    '<a href="https://thc.nic.in/Central%20Governmental%20Regulations/Lakshadweep%20(Right%20To%20Public%20Services)%20Regulation,%202022.pdf">Lakshadweep (Right to Public Services) Regulation, 2022</a> (primary; search excerpts); '
+    '<a href="https://egazette.servantsofknowledge.in/details/in.gazette.chhattisgarh.eo.2026-06-19.334">Chhattisgarh Gazette, 19 June 2026</a>, '
+    '<a href="https://dpar.mizoram.gov.in/page/mizoram-right-to-public-services-act-2015">Mizoram Department of Personnel and Administrative Reforms page</a> and '
+    '<a href="https://aaplesarkar.mahaonline.gov.in/pdf/Annual_Report_2019-20_English.pdf">Maharashtra State Commission annual report, 2019-20</a> (official; search excerpts); '
+    '<a href="https://safar-india.org/documents/RTPSD_Final.pdf">SAFAR scoping study of right-to-public-service Acts, 2021</a> and '
+    '<a href="https://ijcrt.org/papers/IJCRT2509471.pdf">IJCRT paper on the Jharkhand Right to Service Act, 2025</a> (secondary; search excerpts); '
     '<a href="https://mspsdc.meghalaya.gov.in/viewpresentation.htm?presentationid=8">Meghalaya State Public Services Delivery Commission presentation, 2023</a> (state document, excerpt: Karnataka, Jammu and Kashmir, Haryana, Gujarat and Delhi Acts); '
     '<a href="https://keralacalling.kerala.gov.in/right-to-service-act-a-leap-in-governance">Kerala Calling, 23 September 2023</a> (secondary; list of states); '
     '<a href="https://en.wikipedia.org/wiki/Right_to_Public_Services_legislation">Wikipedia, Right to Public Services legislation</a> (secondary; table of implementing states); '
@@ -247,7 +258,7 @@ SOURCES = (
 RELATED = [(B + "/2026/11/karnataka-sakaala-services-act-rs-20.html", "Karnataka Sakaala Services Act: Rs 20 a day for delay, capped at Rs 500")]
 step(4, "assembling page")
 build("Governance &middot; India", TITLE,
-      "A comparison of right-to-service laws across Indian states: who is covered, the penalty per day and its cap, the appeal tiers, and how the reported 22 states and union territories compare with the 23 names found in sources.",
+      "A comparison of right-to-service laws across Indian states: who is covered, the penalty per day and its cap, the appeal tiers, and how the reported 22 states and union territories compare with the 27 names found in sources.",
       body, SOURCES, RELATED, str(OUT))
 step(5, "checking output")
 html = OUT.read_text()
