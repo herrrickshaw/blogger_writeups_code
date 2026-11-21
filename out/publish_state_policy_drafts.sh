@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 # Insert the seven state-policy drafts as Blogger drafts (publish each from Blogger -> Posts afterwards).
 # Run from the repo root on the Mac after `git pull`.   DRY=1 bash out/publish_state_policy_drafts.sh   previews only.
+#   LIVE=1 bash out/publish_state_policy_drafts.sh   publishes each post live straight away.
+#   If a draft with the same title already sits in Blogger -> Posts, delete it first or you will get two copies.
 #   SKIP="key1 key2"   skips posts already inserted.
 set -u
-FLAG="--draft"; [ "${DRY:-}" = "1" ] && FLAG="--draft --dry-run"
+# Default: insert as Blogger drafts. LIVE=1 publishes straight to the blog (no draft step). DRY=1 previews either mode.
+FLAG="--draft"; [ "${LIVE:-}" = "1" ] && FLAG=""
+[ "${DRY:-}" = "1" ] && FLAG="$FLAG --dry-run"
 FILES="delhi:out/post-delhi-service-delivery-act-2026.html
 states:out/post-india-right-to-service-laws-states.html
 aviation:out/post-karnataka-civil-aviation-policy-2026.html
