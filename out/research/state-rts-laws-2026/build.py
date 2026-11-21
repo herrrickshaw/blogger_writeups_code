@@ -44,9 +44,10 @@ BRIEF_2012 = {"Madhya Pradesh", "Uttar Pradesh", "Jammu and Kashmir", "Delhi", "
 assert len(BRIEF_2012) == 9
 # Tier A: Act text read including the penalty clause (Goa from reproductions of its Gazette; Delhi is the 2026 Act)
 TIER_A = {"Madhya Pradesh", "Rajasthan", "Bihar", "Karnataka", "Delhi", "Jharkhand", "Haryana", "West Bengal", "Gujarat", "Odisha", "Goa",
-          "Uttar Pradesh", "Himachal Pradesh", "Uttarakhand", "Punjab", "Kerala"}
+          "Uttar Pradesh", "Himachal Pradesh", "Uttarakhand", "Punjab", "Kerala",
+          "Jammu and Kashmir", "Assam", "Meghalaya", "Sikkim", "Arunachal Pradesh", "Lakshadweep", "Chhattisgarh", "Maharashtra"}
 # Tier B: Act, gazette or official commission page read, penalty clause not read (some as search excerpts)
-TIER_B = {"Jammu and Kashmir", "Assam", "Meghalaya", "Sikkim", "Arunachal Pradesh", "Chandigarh", "Ladakh", "Lakshadweep", "Chhattisgarh", "Mizoram", "Maharashtra"}
+TIER_B = {"Chandigarh", "Ladakh", "Mizoram"}   # Chandigarh and Ladakh use extended or adapted Acts of other jurisdictions; Mizoram: official press note, Act text not opened
 # Tier C: named in reports or lists only (PRS 2012 brief, PRS ARSL 2025, PIB, Kerala Calling, SAFAR), Act text not opened
 TIER_C = set()      # none left: the five states first named only in reports were read as Acts on 21 November 2026
 BRIEF_2012 = {"Madhya Pradesh", "Uttar Pradesh", "Jammu and Kashmir", "Delhi", "Bihar", "Himachal Pradesh", "Rajasthan", "Uttarakhand", "Punjab"}
@@ -55,7 +56,7 @@ WIKI_TABLE = BRIEF_2012 | {"Kerala", "Karnataka", "Chhattisgarh", "Odisha", "Ass
 assert len(BRIEF_2012) == 9 and len(PIB_COMMISSIONS) == 8 and len(WIKI_TABLE) == 21
 assert not (TIER_A & TIER_B) and not (TIER_A & TIER_C) and not (TIER_B & TIER_C)
 NAMED = TIER_A | TIER_B | TIER_C
-assert (len(TIER_A), len(TIER_B), len(TIER_C), len(NAMED)) == (16, 11, 0, 27)
+assert (len(TIER_A), len(TIER_B), len(TIER_C), len(NAMED)) == (24, 3, 0, 27)
 assert PIB_COMMISSIONS <= NAMED and WIKI_TABLE <= NAMED and BRIEF_2012 <= NAMED
 REPORTED = 22                      # PIB Rajya Sabha reply (3 April 2025) and Lok Sabha unstarred question 4216 (26 March 2025): 'enacted by 22 States and Union Territories'
 OVER = len(NAMED) - REPORTED
@@ -107,15 +108,37 @@ KL2012_RATE, KL2012_CAP, KL2012_LUMP_LOW = 250, 5000, 500            # Kerala St
 assert UP_CAP == UK_CAP == PB_CAP == HP_CAP == D_CAP and UP_RATE == PB_RATE == D_RATE
 assert KL_HIGH == GJ_LUMP_HIGH and KL_APPEAL_HIGH / KL_HIGH == 1.5 and PB_COMMISSION / PB_CAP == 2
 assert KL_HIGH / KL2012_CAP == 2 and KL2012_CAP == D_CAP
+# Eleven further laws (English text read as search excerpts of the Acts, gazettes and official pages, 21 November 2026)
+JK_RATE, JK_CAP, JK_DEFICIENT = 250, 5000, 2000                    # J&K Public Services Guarantee Act, 2011, section 11: Rs 250 a day or Rs 5,000, whichever is less; Rs 2,000 for deficiency
+JK_NONCOMPLY_LOW, JK_NONCOMPLY_HIGH = 500, 5000                    # section 10(2); section 12 (first appellate authority) Rs 500 to Rs 5,000
+AS_2019_RATE, AS_2019_CAP = 250, 25000                             # Assam Act IX of 2012, section 9(1) as substituted by Assam Act VII of 2019 (India Code text)
+AS_2024_DAY_MIN, AS_2024_CAP = 100, 5000                           # Assam Ordinance 2 of 2024, new section 9: not less than Rs 100 a day, total up to Rs 5,000
+AS_RULES_RATE, AS_RULES_CAP, AS_RULES_LUMP_LOW, AS_RULES_LUMP_HIGH = 50, 2000, 200, 2000   # Assam Rules, 2012, rule 6
+MG_FIRST, MG_REPEAT, MG_SLIDES = 5000, 20000, 25000                # Meghalaya Act 18 of 2020, section 8(1); the Commission's slides say Rs 25,000
+SK_FURTHER_RATE, SK_CAP = 100, 10000                               # Sikkim Act 15 of 2022: further Rs 100 a working day, total at most Rs 10,000 a case
+AR_RATE, AR_CAP = 100, 5000                                        # Arunachal Pradesh Act 3 of 2016, section 9(1): Rs 100 a day, up to Rs 5,000 on the first occasion
+LK_LOW, LK_HIGH = 1000, 10000                                      # Lakshadweep Regulation 2 of 2022, section 21(2)
+CG_RATE, CG_CAP = 100, 1000                                        # Chhattisgarh Act 23 of 2011, section 4(4): Rs 100 a day, at most Rs 1,000, payable to the applicant
+MZ_LUMP_LOW, MZ_RATE, MZ_CAP = 500, 250, 5000                      # Mizoram: official press note of 1 February 2019 and a 2015 news report (Act text not opened)
+MH_LOW, MH_HIGH = 500, 5000                                        # Maharashtra Act 31 of 2015, section 10(1) and (2), revisable by notification
+assert JK_CAP / JK_RATE == 20 and AS_2019_CAP / AS_2019_RATE == 100 and AS_2024_CAP / AS_2024_DAY_MIN == 50
+assert AS_RULES_CAP / AS_RULES_RATE == 40 and MG_REPEAT / MG_FIRST == 4 and MG_SLIDES != MG_REPEAT
+assert SK_CAP / SK_FURTHER_RATE == 100 and AR_CAP / AR_RATE == 50 and CG_CAP / CG_RATE == 10
+assert LK_LOW == HP_LUMP_LOW and LK_HIGH == GJ_LUMP_HIGH == KL_HIGH
+assert MZ_RATE == D_RATE and MZ_CAP == D_CAP and MH_HIGH == D_CAP
 CAPS_READ = {"Karnataka": K_CAP, "West Bengal": WB_CAP, "Goa": GOA_CAP, "Madhya Pradesh": MPRJ_CAP, "Rajasthan": MPRJ_CAP, "Jharkhand": JH_CAP,
              "Haryana": HR_CAP, "Odisha": OD_FAIL_CAP, "Delhi": D_CAP, "Uttar Pradesh": UP_CAP, "Himachal Pradesh": HP_CAP, "Uttarakhand": UK_CAP,
-             "Punjab": PB_CAP, "Gujarat": GJ_LUMP_HIGH, "Kerala": KL_HIGH}
-assert len(CAPS_READ) == 15
+             "Punjab": PB_CAP, "Gujarat": GJ_LUMP_HIGH, "Kerala": KL_HIGH,
+             "Jammu and Kashmir": JK_CAP, "Meghalaya": MG_FIRST, "Arunachal Pradesh": AR_CAP, "Maharashtra": MH_HIGH, "Chhattisgarh": CG_CAP,
+             "Sikkim": SK_CAP, "Lakshadweep": LK_HIGH}
+assert len(CAPS_READ) == 22
 FIVE_K = sorted(k for k, v in CAPS_READ.items() if v == 5000)
 TEN_K = sorted(k for k, v in CAPS_READ.items() if v == 10000)
-assert len(FIVE_K) == 10 and TEN_K == ["Gujarat", "Kerala"]
+ONE_K = sorted(k for k, v in CAPS_READ.items() if v == 1000)
+assert len(FIVE_K) == 14 and TEN_K == ["Gujarat", "Kerala", "Lakshadweep", "Sikkim"] and ONE_K == ["Chhattisgarh", "West Bengal"]
 assert min(CAPS_READ.values()) == 500 and max(CAPS_READ.values()) == 10000
-assert set(CAPS_READ) <= TIER_A and (TIER_A - set(CAPS_READ)) == {"Bihar"}      # Bihar's Act leaves the rupee amounts to the rules
+# Bihar leaves the rupee amounts to rules; Assam's versions conflict (Rs 2,000, Rs 5,000 or Rs 25,000), so neither is charted
+assert set(CAPS_READ) <= TIER_A and (TIER_A - set(CAPS_READ)) == {"Bihar", "Assam"}
 APPEAL = {  # days allowed for the step after the first appeal
     "Madhya Pradesh (second appellate authority)": MP_SECOND_DAYS,   # Act section 6(3)
     "Rajasthan (second appellate authority)": RJ_SECOND_DAYS,        # Act section 6(3)
@@ -130,9 +153,16 @@ APPEAL = {  # days allowed for the step after the first appeal
     "Himachal Pradesh (second appellate authority)": 60,   # Act section 7(1)
     "Uttarakhand (second appellate authority)": 30,   # Act section 7(1), as substituted in 2023
     "Punjab (second appellate authority)": 30,   # Act section 7(1)
+    "Jammu and Kashmir (second appellate authority)": 60,   # Act section 7(1)
+    "Assam (Commission)": 60,                # Act section 8(4) as substituted in 2019
+    "Meghalaya (Commission)": 30,            # Act section 7(1)
+    "Maharashtra (second appellate authority)": 30,   # Act section 9(3); a third appeal to the Commission has 60 days (section 18)
+    "Arunachal Pradesh (second appellate authority)": 30,   # Act section 8(4)
 }
-assert sorted(APPEAL.values()) == [30] * 4 + [60] * 9
-assert sum(1 for v in APPEAL.values() if v == 60) == 9
+assert sorted(APPEAL.values()) == [30] * 7 + [60] * 11
+SIXTY = sorted(k.split(" (")[0] for k, v in APPEAL.items() if v == 60)
+THIRTY = sorted(k.split(" (")[0] for k, v in APPEAL.items() if v == 30)
+assert len(SIXTY) == 11 and len(THIRTY) == 7
 # Disposal counters named in the two single-state posts
 KA_DISPOSAL = round(100 * 431_632_443 / 432_426_014, 2)
 assert f"{KA_DISPOSAL:.2f}" == "99.82"
@@ -145,24 +175,24 @@ assert 55 <= len(_h.unescape(TITLE)) <= 90, len(_h.unescape(TITLE))
 step(3, "writing sections")
 top = top_line([
     (f"{REPORTED}", f" states and union territories have enacted right-to-service laws, according to two 2025 answers to Parliament; sources read name {len(NAMED)}, so the 22 is not a complete list and none of the answers names them."),
-    (f"Rs {K_CAP} to Rs {GJ_LUMP_HIGH:,}", f" is the range of per-case caps in the fifteen Acts whose penalty clause was read: Karnataka Rs {K_CAP}, West Bengal Rs {WB_CAP:,}, Goa Rs {GOA_CAP:,}, ten Acts Rs {D_CAP:,}, and Gujarat and Kerala Rs {GJ_LUMP_HIGH:,}; Bihar&rsquo;s Act leaves the amounts to rules."),
+    (f"Rs {K_CAP} to Rs {GJ_LUMP_HIGH:,}", f" is the range of per-case caps in the 22 laws whose penalty clause was read: Karnataka Rs {K_CAP}, West Bengal and Chhattisgarh Rs {WB_CAP:,}, Goa Rs {GOA_CAP:,}, fourteen laws Rs {D_CAP:,}, and four laws Rs {GJ_LUMP_HIGH:,}; Bihar&rsquo;s Act leaves the amounts to rules and Assam&rsquo;s versions conflict."),
     ("2010", " is the year Madhya Pradesh enacted the first such law, followed by eight state laws dated 2011 in a 2012 PRS table, including Bihar, Rajasthan and the first Delhi Act."),
 ])
 
 s1 = insight(
-    H(f"Per-case caps: Rs {K_CAP} to Rs {GJ_LUMP_HIGH:,} across fifteen Acts; ten print Rs {D_CAP:,}"),
-    bars(H(f"Ten Acts cap at Rs {D_CAP:,}; Karnataka caps at Rs {K_CAP}, Gujarat and Kerala at Rs {GJ_LUMP_HIGH:,}"),
+    H(f"Per-case caps: Rs {K_CAP} to Rs {GJ_LUMP_HIGH:,} across 22 laws; fourteen print Rs {D_CAP:,}"),
+    bars(H(f"Fourteen laws cap at Rs {D_CAP:,}; Karnataka caps at Rs {K_CAP}, four laws at Rs {GJ_LUMP_HIGH:,}"),
          [("Karnataka Act, section 9 (compensation to the citizen)", K_CAP),
-          ("West Bengal Act, section 7 (penalty)", WB_CAP),
+          ("West Bengal (section 7) and Chhattisgarh (section 4(4), paid to the applicant)", WB_CAP),
           ("Goa Act, section 12 (Rs 50 a day)", GOA_CAP),
-          ("Ten Acts: " + ", ".join(FIVE_K), D_CAP),
-          ("Gujarat Act, section 23 (lump sum)", GJ_LUMP_HIGH),
-          ("Kerala Act of 2025, section 20 (fine on the officer)", KL_HIGH),
-          ("Bihar Act, section 7: rates set in the rules", None)],
-         accent=["Karnataka Act, section 9 (compensation to the citizen)", "Gujarat Act, section 23 (lump sum)", "Kerala Act of 2025, section 20 (fine on the officer)"],
+          ("Fourteen laws, named in the note above the chart", D_CAP),
+          ("Gujarat, Kerala (2025), Sikkim and Lakshadweep (Regulation)", GJ_LUMP_HIGH),
+          ("Bihar Act, section 7: rates set in the rules", None),
+          ("Assam: three versions, Rs 2,000, Rs 5,000 or Rs 25,000", None)],
+         accent=["Karnataka Act, section 9 (compensation to the citizen)", "Gujarat, Kerala (2025), Sikkim and Lakshadweep (Regulation)"],
          unit="", fmt=lambda v: f"Rs {v:,.0f}", vmax=11000,
-         sub="Maximum per case, rupees, as printed in each Act. A dashed bar means the Act prints no rupee figure. Odisha&rsquo;s delay penalty has no aggregate cap in the excerpt read, and Himachal Pradesh prints one lump sum for failure or delay.",
-         source="State Acts and gazettes (Madhya Pradesh and Rajasthan read from page scans; others as English text or search excerpts), 21 November 2026.")
+         sub="Maximum per case, rupees, as printed. Rs 5,000: " + ", ".join(FIVE_K) + ". A dashed bar means no single figure is printed or the versions conflict. Odisha&rsquo;s delay penalty has no aggregate cap in the excerpt read.",
+         source="State Acts, gazettes and official pages (Madhya Pradesh and Rajasthan read from page scans; others as English text or search excerpts), 21 November 2026.")
     + numbers(["State and Act", "Delay", "Failure or rejection", "Who receives it", "Basis"],
               [["Madhya Pradesh, 2010", f"Rs {MPRJ_RATE} a day, to Rs {MPRJ_CAP:,} (section 7(1)(b))", f"Lump sum Rs {MPRJ_LUMP_LOW} to Rs {MPRJ_LUMP_HIGH:,} (section 7(1)(a))", "Penalty on the designated officer; the second appellate authority may order part of it paid to the appellant, not above the penalty (section 7(3))", "Act text read from the PRS page scan; a first appeal officer who fails to decide in time faces Rs 500 to Rs 5,000 (section 7(2))"],
                ["Bihar, 2011", "Rate set in the rules (section 7(1)(b))", "Lump sum at the rate in the rules (section 7(1)(a))", "Charged on the officer, appellate authority or staff (section 7(3))", "Act text read; the rupee amounts are in rules that were not found, although the 2012 brief&rsquo;s group figure of Rs 250 a day up to Rs 5,000 matches the delay rate in the Madhya Pradesh, Rajasthan, Jharkhand and Haryana Acts"],
@@ -180,30 +210,29 @@ s1 = insight(
                ["Himachal Pradesh, 2011 (Act 34 of 2011)", "One lump sum for failure or delay; no per-day rate (section 8(1))", f"Lump sum Rs {HP_LUMP_LOW:,} to Rs {HP_CAP:,} (section 8(1))", "Compensation to the appellant from the penalty, not above it; the officer bears the penalty personally (section 8(2))", "Act text read (India Code and PRS copies); amended by Act 18 of 2019"],
                ["Uttarakhand, 2011 (Act 20 of 2011)", "Rate and cap not visible in the excerpt read (section 9(1)(b))", f"Lump sum Rs {UK_LUMP_LOW} to Rs {UK_CAP:,} (section 9(1)(a))", "Compensation to the appellant from the penalty, not above it (section 9(2))", "Act text read (Uttarakhand portal copy, amended 2014 and 2023); the Commission may be constituted by the State (section 12)"],
                ["Punjab, 2011 (Act 24 of 2011)", f"Rs {PB_RATE} a day, to Rs {PB_CAP:,} (section 9(1)(b))", f"Lump sum Rs {PB_LUMP_LOW} to Rs {PB_CAP:,} (section 9(1)(a))", f"Recovered from salary; the Commission may also impose up to Rs {PB_COMMISSION:,} a case and award compensation from it (section 17(1)(h), added in 2014)", "Act text read (PRS copy and gazette reproductions); Chandigarh uses the same Act since 2017"],
-               ["Kerala, 2025 (Act 12 of 2025)", f"Fine Rs {KL_LOW:,} to Rs {KL_HIGH:,} on the officer for failure, delay or a deficient service (section 20(1))", f"Same clause; Rs {KL_APPEAL_LOW:,} to Rs {KL_APPEAL_HIGH:,} on a first appellate authority that delays an appeal (section 20(2))", "&ndash;", "Act text read (PRS copy of the Kerala Gazette); it repealed the Kerala State Right to Service Act, 2012, which had Rs 250 a day up to Rs 5,000 and Rs 500 to Rs 5,000 (Act 18 of 2012, section 8)"]]),
-    "A citizen in Karnataka is paid for a delay and a citizen in Delhi is not, while fifteen Acts print a per-case cap between Rs 500 and Rs 10,000 and Bihar leaves the amounts to rules that were not read.",
+               ["Kerala, 2025 (Act 12 of 2025)", f"Fine Rs {KL_LOW:,} to Rs {KL_HIGH:,} on the officer for failure, delay or a deficient service (section 20(1))", f"Same clause; Rs {KL_APPEAL_LOW:,} to Rs {KL_APPEAL_HIGH:,} on a first appellate authority that delays an appeal (section 20(2))", "&ndash;", "Act text read (PRS copy of the Kerala Gazette); it repealed the Kerala State Right to Service Act, 2012, which had Rs 250 a day up to Rs 5,000 and Rs 500 to Rs 5,000 (Act 18 of 2012, section 8)"],
+               ["Jammu and Kashmir, 2011 (Act IX of 2011)", f"Rs {JK_RATE} a day or Rs {JK_CAP:,}, whichever is less (section 11(i))", f"Same clause for non-provision; Rs {JK_DEFICIENT:,} for a deficient service; Rs {JK_NONCOMPLY_LOW} to Rs {JK_NONCOMPLY_HIGH:,} for ignoring an appellate order (section 10); Rs 500 to Rs 5,000 on a first appellate authority that delays (section 12)", "Part of the fine may be awarded to the appellant, not above the fine (section 13)", "Act text read (India Code and gazette excerpts); in force from 10 August 2011"],
+               ["Ladakh", "As for Jammu and Kashmir, not read in the Ladakh copy", "&ndash;", "&ndash;", "The Jammu and Kashmir Act adapted for the Union Territory by S.O. 3775(E) of 23 October 2020; the penalty clause was not in the excerpt read"],
+               ["Assam, 2012 (Act IX of 2012)", f"Four versions: original section 9 sets rates in the rules (Rs {AS_RULES_RATE} a day up to Rs {AS_RULES_CAP:,}); India Code text as substituted in 2019: Rs {AS_2019_RATE} a day, total up to Rs {AS_2019_CAP:,}, imposed by the Commission; Ordinance of 2024: at least Rs {AS_2024_DAY_MIN} a day, total up to Rs {AS_2024_CAP:,}, by the first appellate authority; a 2025 amendment Bill", f"Rules, 2012: lump sum Rs {AS_RULES_LUMP_LOW} to Rs {AS_RULES_LUMP_HIGH:,}", "Penalty paid into the State account within 30 days or recovered from salary (section 10)", "Act, Rules and Ordinance read; which version is in force was not established"],
+               ["Meghalaya, 2020 (Act 18 of 2020)", "&ndash;", f"Lump sum up to Rs {MG_FIRST:,} at the first instance and up to Rs {MG_REPEAT:,} for repeated instances, imposed by the Commission (section 8(1))", "Recovered from the officer&rsquo;s salary (section 8(2))", f"Act text read (Gazette of 24 November 2020); the Commission&rsquo;s own slides say Rs {MG_SLIDES:,} for repeated instances"],
+               ["Sikkim, 2022 (Act 15 of 2022)", f"Further Rs {SK_FURTHER_RATE} for every working day of delay or hardship, total at most Rs {SK_CAP:,} a case; revisable by notification", "Base penalty clause cut off in the excerpt", "&ndash;", "Act text read in part (Sikkim Gazette, 12 September 2022)"],
+               ["Arunachal Pradesh, 2016 (Act 3 of 2016)", f"Rs {AR_RATE} a day, up to Rs {AR_CAP:,} on the first occasion, no limit on later occasions (section 9(1))", "&ndash;", "&ndash;", "Act text read (Arunachal Pradesh Gazette, 12 May 2016)"],
+               ["Lakshadweep, 2022 (Regulation 2 of 2022)", "&ndash;", f"Rs {LK_LOW:,} to Rs {LK_HIGH:,} on the designated officer or grievance redressal officer (section 21(2))", "Recovered from salary; part may be awarded to the appellant, not above the penalty (section 21(3))", "Regulation text read (Gazette of India, 19 September 2022); amended by Regulation 15 of 2026, only partly read"],
+               ["Chhattisgarh, 2011 (Act 23 of 2011)", f"Cost of Rs {CG_RATE} a day, at most Rs {CG_CAP:,} an application (section 4(4))", "&ndash;", "Paid to the applicant; recovered from the officer after notice and hearing (sections 3(2) and 4(4))", "Act text read (India Code)"],
+               ["Mizoram, 2015 (Act 6 of 2015)", f"Rs {MZ_RATE} a day up to Rs {MZ_CAP:,}", f"Rs {MZ_LUMP_LOW} to Rs {MZ_CAP:,}, imposed by the first appellate authority; the second authority may fine a first authority that delays, Rs 500 to Rs 5,000 (section 11)", "&ndash;", "Official press note of 1 February 2019 (Mizo language) and a news report; the Act text was not opened"],
+               ["Maharashtra, 2015 (Act 31 of 2015)", "No per-day rate in section 10", f"Rs {MH_LOW} to Rs {MH_HIGH:,} on the designated officer, or the amount the State revises by notification; Rs {MH_LOW} to Rs {MH_HIGH:,} on a first appellate authority that delays (section 10)", "Recovered from salary (section 11)", "Act text read (India Code, text as of 22 November 2023)"],
+               ["Chandigarh", "As Punjab", "As Punjab", "As Punjab", "The Punjab Act extended with some minor modifications by Ministry of Home Affairs notification G.S.R. 1015(E) of 14 August 2017; the modifications were not read"]]),
+    "A citizen in Karnataka or Chhattisgarh is paid for a delay and a citizen in Delhi is not, while 22 laws print a per-case cap between Rs 500 and Rs 10,000, Bihar leaves the amounts to rules and Assam has conflicting versions.",
     "Each state should print the delay rate, the cap and the payee in the Schedule entry for each service so that a rule change is visible to applicants.",
     "money")
 
 s2 = insight(
-    H("Second-stage appeal windows: 60 days in nine states, 30 days in four"),
-    bars(H("Nine states allow 60 days for the second step; Delhi, Odisha, Punjab, Uttarakhand 30"),
-         [("Bihar: second appeal to the reviewing authority", APPEAL["Bihar (reviewing authority)"]),
-          ("Karnataka: second appeal to the appellate authority", APPEAL["Karnataka (appellate authority)"]),
-          ("Madhya Pradesh: second appeal to the second appellate authority", APPEAL["Madhya Pradesh (second appellate authority)"]),
-          ("Rajasthan: second appeal to the second appellate authority", APPEAL["Rajasthan (second appellate authority)"]),
-          ("Haryana: second appeal to the second authority", APPEAL["Haryana (second grievance redressal authority)"]),
-          ("West Bengal: second appeal to the reviewing officer", APPEAL["West Bengal (reviewing officer)"]),
-          ("Jharkhand: second appeal to the second appellate authority", APPEAL["Jharkhand (second appellate authority)"]),
-          ("Uttar Pradesh: second appeal to the second appellate authority", APPEAL["Uttar Pradesh (second appellate authority)"]),
-          ("Himachal Pradesh: second appeal to the second appellate authority", APPEAL["Himachal Pradesh (second appellate authority)"]),
-          ("Uttarakhand: second appeal to the second appellate authority", APPEAL["Uttarakhand (second appellate authority)"]),
-          ("Punjab: second appeal to the second appellate authority", APPEAL["Punjab (second appellate authority)"]),
-          ("Delhi: appeal to the Commission", APPEAL["Delhi (Commission)"]),
-          ("Odisha: revision petition to the revisional authority", APPEAL["Odisha (revisional authority)"])],
-         accent=["Delhi: appeal to the Commission", "Odisha: revision petition to the revisional authority", "Uttarakhand: second appeal to the second appellate authority", "Punjab: second appeal to the second appellate authority"], unit=" days", vmax=70,
-         sub="Days allowed to take the step after the first one, as printed in each Act. Goa&rsquo;s Act as read has one appeal, Gujarat&rsquo;s begins with a complaint to a grievance officer, and Kerala&rsquo;s 2025 windows were not read, so none is shown.",
-         source="Section 6 or 7 of each Act (Madhya Pradesh, Rajasthan, Bihar, Karnataka, Haryana, West Bengal, Jharkhand, Odisha) and section 9(2) of Delhi Act 10 of 2026 (PRS copies, gazettes and search excerpts).")
+    H("Second-stage appeal windows: 60 days in eleven states and UTs, 30 days in seven"),
+    bars(H("Eleven laws allow 60 days for the second step; seven allow 30"),
+         [("60 days: " + ", ".join(SIXTY), 60), ("30 days: " + ", ".join(THIRTY), 30)],
+         accent="30 days: " + ", ".join(THIRTY), unit=" days", vmax=70,
+         sub="Days allowed to take the step after the first one, as printed in each Act. In Assam and Meghalaya the second step is the Commission, in Delhi the first appeal is automatic, and in Maharashtra a third appeal to the Commission has 60 days. Goa, Chhattisgarh, Gujarat, Sikkim, Mizoram and Lakshadweep are not shown because the second window was not read or does not exist.",
+         source="Sections 6 to 9 of each Act (Madhya Pradesh, Rajasthan, Bihar, Karnataka, Haryana, West Bengal, Jharkhand, Odisha, Uttar Pradesh, Himachal Pradesh, Uttarakhand, Punjab, Jammu and Kashmir, Assam, Meghalaya, Maharashtra, Arunachal Pradesh, Delhi), PRS copies, gazettes and search excerpts.")
     + numbers(["State", "First stage", "Second stage", "Basis"],
               [["Madhya Pradesh", f"First appeal officer, {MP_FIRST_DAYS} days", f"Second appellate authority, {MP_SECOND_DAYS} days; revision to an officer the State nominates, {MP_REVISION_DAYS} days", "Act sections 6 and 8 (page scan)"],
                ["Bihar", "Appellate authority, 30 days", "Reviewing authority, 60 days", "Act sections 6(1) and 6(3)"],
@@ -220,8 +249,17 @@ s2 = insight(
                ["Uttarakhand", "First appellate authority, 30 days", "Second appellate authority, 30 days; revision to the Commission or a nominated officer, 60 days", "Act sections 6, 7 and 10 (section 7 as substituted in 2023)"],
                ["Punjab", "First appellate authority, 30 days", "Second appellate authority, 30 days; revision to the Commission or a nominated officer, 60 days", "Act sections 6, 7 and 10"],
                ["Kerala (2025)", "Appellate authorities as in the 2025 Act; windows not read", "Revision to the Commission within 60 days, per a news report (secondary); a single-member Commission is to be set up", "Act section 20 read; windows from Onmanorama, 5 November 2025"],
+               ["Jammu and Kashmir", "First appellate authority, 30 days; decided within 45 days", "Second appellate authority, 60 days; decided within 45 days", "Act section 7 and a 2011 circular"],
+               ["Assam", "Appellate authority, 30 days; decided within 30, extendable to 45", "Commission, 60 days (up to 90 with cause); decision binding", "Act section 8 as substituted in 2019"],
+               ["Meghalaya", "Appellate authority, 30 days", "Commission, 30 days (up to 60 with cause); decided within 30 days", "Act sections 6 and 7"],
+               ["Maharashtra", "First appellate authority, 30 days (up to 90 with cause); decided within 30 days", "Second appellate authority, 30 days; decided within 45 days; third appeal to the Commission, 60 days", "Act sections 9 and 18"],
+               ["Arunachal Pradesh", "First appellate authority; window not visible in the excerpt", "Second appellate authority, 30 days (up to 60 with cause)", "Act section 8"],
+               ["Sikkim", "Appellate authority, 20 working days, with admission after later dates in exceptional cases; a Commission of up to three members", "Not read", "Act section 8 (partial excerpt)"],
+               ["Chhattisgarh", "Appeal to the appellate authority against the competent officer&rsquo;s order, 30 days; decided within 45 days; the order is final", "None", "Act section 7"],
+               ["Mizoram", "First appellate authority, 30 days, extendable to 60; decided within 30 days", "Second appellate authority; window not read", "Official press note, 2019"],
+               ["Lakshadweep", "Complaint to a grievance redressal officer, appeal to the designated authority, then a Union Territory Appellate Authority; windows not read", "&ndash;", "Regulation 2 of 2022, sections 9 and 12"],
                ["Delhi (2026)", "Citizen Grievance Redressal Authority, appeal lodged automatically on a missed deadline", "Commission, 30 days", "Act sections 7 and 9"]]),
-    "Nine Acts give 60 days for a second appeal, four give 30 days for the next step, Goa&rsquo;s Act as read has a single appeal, and Gujarat&rsquo;s begins with a complaint to a grievance officer.",
+    "Eleven laws give 60 days for the second step and seven give 30 days, while Goa and Chhattisgarh have a single appeal and Gujarat and Lakshadweep begin with a complaint to a grievance officer.",
     "A citizen who is refused should note the date of the rejection or of the missed deadline, because the first window runs from that date in most of the Acts read.",
     "appeals")
 
@@ -236,9 +274,9 @@ s3 = insight(
          sub=f"States and union territories. The names exceed the reported count by {OVER}. No source read lists the 22, so which names the Government of India counts is not known.",
          source="PIB and Lok Sabha answers, 2025; the Acts, gazettes and commission pages named in the sources. Totals computed here.")
     + numbers(["Tier", "States and UTs", "Basis"],
-              [["A: Madhya Pradesh, Rajasthan, Bihar, Karnataka, Delhi, Jharkhand, Haryana, West Bengal, Gujarat, Odisha, Goa, Uttar Pradesh, Himachal Pradesh, Uttarakhand, Punjab, Kerala", f"{len(TIER_A)}", "Act text read, including the penalty clause; Madhya Pradesh and Rajasthan from page scans, Goa from reproductions of its Gazette, the others as English text or search excerpts; Delhi is the 2026 Act and Kerala the 2025 Act that repealed the 2012 Act"],
-               ["B: Jammu and Kashmir, Assam, Meghalaya, Sikkim, Arunachal Pradesh, Chandigarh, Ladakh, Lakshadweep, Chhattisgarh, Mizoram, Maharashtra", f"{len(TIER_B)}", "Act, gazette or commission page read, penalty clause not read: Jammu and Kashmir Act (India Code), Assam Act IX of 2012, Meghalaya Act 18 of 2020, Sikkim Act 15 of 2022, Arunachal Pradesh Act 3 of 2016, Chandigarh (Punjab Act extended in 2017), Ladakh (the Jammu and Kashmir Act as adapted), Lakshadweep (a 2022 Regulation, not an Act), Chhattisgarh Act 23 of 2011 and Mizoram Act 6 of 2015 (gazette notifications under them), Maharashtra Act of 2015 (commission report)"],
-               ["All names", f"{len(NAMED)}", "Computed; Delhi counted once although its 2011 law is replaced by Act 10 of 2026"],
+              [["A: Madhya Pradesh, Rajasthan, Bihar, Karnataka, Delhi, Jharkhand, Haryana, West Bengal, Gujarat, Odisha, Goa, Uttar Pradesh, Himachal Pradesh, Uttarakhand, Punjab, Kerala, Jammu and Kashmir, Assam, Meghalaya, Sikkim, Arunachal Pradesh, Lakshadweep, Chhattisgarh, Maharashtra", f"{len(TIER_A)}", "Act or Regulation text read, including a penalty clause; Madhya Pradesh and Rajasthan from page scans, Goa from reproductions of its Gazette, Sikkim in part, the others as English text or search excerpts; Delhi is the 2026 Act, Kerala the 2025 Act that repealed the 2012 Act, Lakshadweep a President&rsquo;s Regulation, and Assam has conflicting versions"],
+               ["B: Chandigarh, Ladakh, Mizoram", f"{len(TIER_B)}", "Chandigarh uses the Punjab Act extended in 2017 and Ladakh the Jammu and Kashmir Act as adapted, so their own penalty clauses were not read; Mizoram is known from an official press note and a news report, and its Act text was not opened"],
+["All names", f"{len(NAMED)}", "Computed; Delhi counted once although its 2011 law is replaced by Act 10 of 2026"],
                ["Reported", f"{REPORTED}", "PIB Rajya Sabha reply and Lok Sabha question 4216 (answered 26 March 2025): enacted by 22 States and Union Territories, Commissions in 8; no list printed"],
                ["Names above the reported count", f"{OVER}", "Computed"]]),
     f"Every one of the {len(NAMED)} names has an Act, gazette or commission page behind it, so the Government of India&rsquo;s 22 is an older or narrower count and the five or more names it leaves out cannot be identified.",
@@ -286,17 +324,18 @@ method = '''<details class="xv-n"><summary>Who is covered, and what is counted</
 
 gaps = '''<details class="xv-n"><summary>What this piece could not establish</summary>
 <ul>
-<li>Which 22. Two 2025 answers to Parliament (Rajya Sabha reply, PIB release dated 3 April 2025, and Lok Sabha unstarred question 4216 answered 26 March 2025) say the Right to Service Act has been enacted by 22 States and Union Territories, with Commissions in eight, and print no list. The names found reach 27, so at least five are left out, and which five was not established. The reason may be an older count, a different treatment of Union Territory Regulations, or both; no source says. Every one of the 27 now has an Act, a gazette or an official commission page read at least in part, so the shortfall is in the count, not in the evidence for a law.</li>
+<li>Which 22. Two 2025 answers to Parliament (Rajya Sabha reply, PIB release dated 3 April 2025, and Lok Sabha unstarred question 4216 answered 26 March 2025) say the Right to Service Act has been enacted by 22 States and Union Territories, with Commissions in eight, and print no list. The names found reach 27, so at least five are left out, and which five was not established. The reason may be an older count, a different treatment of Union Territory Regulations, or both; no source says. Every one of the 27 has an Act, a gazette, an official commission page or an official press note behind it, so the shortfall is in the count, not in the evidence for a law.</li>
 <li>Names not counted among the 27. The Andaman and Nicobar Islands (Right to Public Services) Regulation, 2026 appears only as a draft with a blank number, dated July 2026. One law journal lists a Telangana Right to Services Act, 2016 and a Tamil Nadu Public Services Guarantee Act, 2019, but its footnotes point to a petition and a newspaper piece asking for such a law, and no Act was found for either.</li>
 <li>The six Acts of Haryana, West Bengal, Gujarat, Goa, Jharkhand and Odisha were read as English text in search excerpts of the official gazettes and department pages, not as full documents. The Goa Act was read only from reproductions of its Gazette on commercial and open-data sites, and a Bill on the Goa Government site, so its clauses should be checked against the Goa Gazette; its section 7 (fine or compensation up to Rs 5,000) and section 12 (Rs 50 a day up to Rs 2,500) were not reconciled. Odisha&rsquo;s section 8 prints no aggregate cap for the delay penalty in the excerpt. Haryana&rsquo;s Commission penalty of Rs 20,000 and compensation of Rs 5,000 come from a district page. The Gujarat Act has no per-day rate, and a slide of its Administrative Reforms and Training Division says it was implemented from 1 April 2016 after staged commencement.</li>
 <li>The five Acts of Uttar Pradesh, Himachal Pradesh, Uttarakhand, Punjab and Kerala were read as English text in search excerpts of official copies, not as full documents. Uttarakhand&rsquo;s delay-penalty rate and cap were cut off in the excerpt, so only its lump sum of Rs 500 to Rs 5,000 is stated; its Act was amended in 2014 and 2023, and the second-appeal window is the 2023 text. Himachal Pradesh prints one lump sum for failure or delay and no per-day rate. The Punjab Commission&rsquo;s power of Rs 10,000 a case comes from the 2014 amendment as reproduced on a Chandigarh Housing Board site. Kerala&rsquo;s Rs 15,000 fine falls on a first appellate authority, not on the officer.</li>
+<li>The eleven laws read last (Jammu and Kashmir, Assam, Meghalaya, Sikkim, Arunachal Pradesh, Lakshadweep, Chhattisgarh, Maharashtra, with Chandigarh, Ladakh and Mizoram known only indirectly) were read as English text in search excerpts of official copies. Assam&rsquo;s section 9 exists in four versions (the 2012 original, which leaves rates to the 2012 Rules; the India Code text as substituted in 2019; Ordinance 2 of 2024; and a 2025 amendment Bill listed by PRS), and which is in force was not established. Meghalaya&rsquo;s Act says up to Rs 20,000 for repeated instances while the Commission&rsquo;s slides say Rs 25,000; the Act text is used. Sikkim&rsquo;s base penalty clause was cut off in the excerpt. Arunachal Pradesh&rsquo;s first-appeal window was not visible. Lakshadweep&rsquo;s Regulation was amended by Regulation 15 of 2026, which was only partly read. Chhattisgarh&rsquo;s section 4(4) is a cost payable to the applicant, not a penalty to the treasury. Chandigarh&rsquo;s Punjab Act was extended with &lsquo;some minor modifications&rsquo; that were not read, and Ladakh&rsquo;s adapted Jammu and Kashmir text did not show its penalty clause. Mizoram&rsquo;s Act text was not opened; its figures come from an official press note in the Mizo language and a 2015 news report, and its commencement is given as 1 December 2015 in the press note and 20 April 2015 in a state department slide.</li>
 <li>Date conflicts. The fetched PIB page carries a date of 3 April 2025, while Wikipedia cites a PIB release of 22 June 2025 for the same count. Wikipedia gives Bihar&rsquo;s enactment as 25 July 2011 and a Kerala Calling article as 25 July 2012; the Act itself is titled 2011. Kerala&rsquo;s Act 18 of 2012 was repealed by the Kerala Right to Public Service Act, 2025 (Act 12 of 2025, PRS copy of the digitally signed Gazette, with a news report of 5 November 2025 saying it was notified); PRS ARSL 2025 lists the measure as a Bill, and the 2025 Act&rsquo;s appeal windows and Commission were not read.</li>
 <li>Machine-readable text of the Madhya Pradesh and Rajasthan Acts. The PRS PDFs are page scans with no text layer, so sections 6 to 8 of each were read by viewing the page images. The Madhya Pradesh amendments (Acts 22 of 2011 and 5 of 2012, and later amendments listed in PRS reviews) and the rest of the Rajasthan Act were not read for changes to the penalty.</li>
 <li>Bihar&rsquo;s rupee amounts. The Act says the rates are those in the rules; the rules were not found. The 2012 PRS brief groups Bihar with Madhya Pradesh, Uttar Pradesh and Rajasthan at Rs 250 a day up to Rs 5,000; the delay rate of Rs 250 a day up to Rs 5,000 is confirmed in the Madhya Pradesh, Rajasthan, Jharkhand and Haryana Acts but not in Bihar&rsquo;s, so Bihar is treated as unreconciled.</li>
 <li>The Rajasthan Right to Hearing Act, 2012 is a different Act from the Rajasthan Guaranteed Delivery of Public Services Act, 2011; a search excerpt about a Rs 500 to Rs 5,000 fine on a Public Hearing Officer relates to the former and is not used here.</li>
 <li>Pending applications: no pending or disposal figure was found for any of the states beyond Karnataka and Delhi, and none is given.</li>
 <li>Whether each law is in force today, which Schedules exist, and how many services each state has notified (other than the Karnataka and Delhi counters in the single-state posts).</li>
-<li>The 2012 PRS brief reflects laws as of its date, and the penalty figure for Jammu and Kashmir comes from it alone; later amendments may have changed it.</li>
+<li>The 2012 PRS brief is used only for the Delhi 2011 cost of Rs 10 an application; amendments after the dates of the texts read may have changed any figure, and amendments to the Madhya Pradesh Act (Acts 22 of 2011 and 5 of 2012 and later) were not read.</li>
 </ul></details>
 '''
 body = STYLE + top + s1 + s2 + s3 + s4 + fixes + method + gaps
@@ -323,6 +362,18 @@ SOURCES = (
     '<a href="https://prsindia.org/files/bills_acts/acts_states/kerala/2025/Act12of2025KL.pdf">Kerala Right to Public Service Act, 2025 (Act 12 of 2025), PRS copy</a>, '
     '<a href="https://employment.kerala.gov.in/wp-content/uploads/2022/08/RIGHT-TO-SERVICE-ACT-GAZETTE.pdf">Kerala State Right to Service Act, 2012 (Act 18 of 2012)</a> and '
     '<a href="https://www.onmanorama.com/news/kerala/2025/11/05/public-service-delivery-via-electronic-mode.html">Onmanorama, 5 November 2025</a> (secondary); '
+    '<a href="https://www.indiacode.nic.in/bitstream/123456789/16498/1/public_services_guarantee_act%2C_2011.pdf">Jammu and Kashmir Public Services Guarantee Act, 2011, India Code</a> and <a href="https://jkgad.nic.in/PDF/Circulars.pdf">2011 General Administration Department circular</a>; '
+    '<a href="https://www.indiacode.nic.in/bitstream/123456789/15699/1/the_assam_right_to_public_services_act,_2012__1_.pdf">Assam Right to Public Services Act, 2012 (India Code text)</a>, '
+    '<a href="https://art.assam.gov.in/sites/default/files/swf_utility_folder/departments/anrt_webcomindia_org_oid_3/menu/document/ARTPS%20RULES.pdf">Assam Rules, 2012</a> and '
+    '<a href="https://prsindia.org/files/bills_acts/bills_states/assam/2024/Ord2of2024AS.pdf">Assam Ordinance 2 of 2024</a>; '
+    '<a href="https://www.meghalaya.gov.in/sites/default/files/acts/LL_B_55_2013_50.pdf">Meghalaya Act 18 of 2020 (Meghalaya government copy)</a> and '
+    '<a href="https://mspsdc.meghalaya.gov.in/viewpresentation.htm?presentationid=7">Meghalaya Commission presentation</a> (state document; Rs 25,000 figure); '
+    '<a href="https://www.indiacode.nic.in/bitstream/123456789/12585/1/1575018164562_chhattisgarh_lok_seva_guarantee_act_2011_no._23_of_2011_date_30.09.2011.pdf">Chhattisgarh Lok Sewa Guarantee Act, 2011, India Code</a>; '
+    '<a href="https://dpar.mizoram.gov.in/uploads/attachments/eb9e73bf448c090afed60a49d0c130d9/posts-129-press-note-on-mrtps-act-2015-for-the-meet-the-press-programme-on-01022019.pdf">Mizoram DPAR press note, 1 February 2019</a> (official, Mizo language) and '
+    '<a href="https://assamtribune.com/right-to-public-services-act-comes-into-force">Assam Tribune report</a> (secondary); '
+    '<a href="https://www.indiacode.nic.in/bitstream/123456789/19708/1/201531.pdf">Maharashtra Right to Public Services Act, 2015, India Code</a> and '
+    '<a href="https://home.maharashtra.gov.in/en/maharashtra-right-to-public-services-act-2015">Maharashtra Home Department page</a>; '
+    '<a href="https://egazette.gov.in/WriteReadData/2026/276610.pdf">Lakshadweep Amendment Regulation, 2026 (Gazette of India)</a>; '
     '<a href="https://prsindia.org/files/bills_acts/acts_states/bihar/2011/2011Bihar4.pdf">The Bihar Right to Public Services Act, 2011, PRS copy</a>; '
     '<a href="https://prsindia.org/files/bills_acts/acts_states/rajasthan/2011/2011Rajasthan23.pdf">The Rajasthan Guaranteed Delivery of Public Services Act, 2011 with the 2013 amendment, PRS copy</a> (page scan; amendment has a text layer); '
     '<a href="https://prsindia.org/files/bills_acts/acts_states/madhya-pradesh/2010/2010MP24.pdf">Madhya Pradesh Lok Sewaon ke Pradan ki Guarantee Adhiniyam, 2010, PRS copy</a> (page scan); '
