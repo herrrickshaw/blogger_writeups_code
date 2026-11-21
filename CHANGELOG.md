@@ -20835,3 +20835,44 @@ scheduled sync
 - `indias-air-epi-rank-176-of-177-96-of` — 2026-11-19 &rarr; 2026-11-19
 - `pm-kusum-24-of-grid-plants-built` — 2026-11-19 &rarr; 2026-11-19
 - `india-asean-trade-5155-billion-deficit` — 2026-11-19 &rarr; 2026-11-19
+
+## 2026-11-21T07:25:23+05:30 — 531 posts live
+
+Karnataka Sakaala Act post published
+
+
+**Added**
+
+- `karnataka-sakaala-services-act-rs-20` **v1.0.0** — Karnataka Sakaala Services Act: Rs 20 a day for delay, capped at Rs 500, amended 2026 (34,089 bytes)
+
+**Versions**
+
+- `growth-71-against-inflation-609-numbers_0897023343` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+
+**Changed**
+
+- `growth-71-against-inflation-609-numbers_0897023343` — 31,879 → 33,109 bytes (+1,230)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `fcra-amendment-bill-2026-new-authority` — 2026-11-19 &rarr; 2026-11-19
+- `mahanadi-coalfields-ipo-rs-8981-crore` — 2026-11-19 &rarr; 2026-11-19
+- `coal-gasification-9-applications-in-two` — 2026-11-19 &rarr; 2026-11-19
+- `indias-retail-inflation-609-in-october` — 2026-11-19 &rarr; 2026-11-19
+- `indias-wholesale-inflation-1229-in` — 2026-11-19 &rarr; 2026-11-19
+- `indias-power-demand-in-october-2026-160` — 2026-11-19 &rarr; 2026-11-19
+- `indias-power-mix-q2-2026-27-coal-42-of` — 2026-11-19 &rarr; 2026-11-19
+- `india-us-trade-deal-november-2026-10` — 2026-11-19 &rarr; 2026-11-19
+- `indias-2026-monsoon-87-of-normal-rain` — 2026-11-19 &rarr; 2026-11-19
+- `indias-crude-basket-120-in-october-89` — 2026-11-19 &rarr; 2026-11-19
+- `indias-rupee-rs-9369-dollar-on-11` — 2026-11-19 &rarr; 2026-11-19
+- `delimitation-bill-298-votes-in-april` — 2026-11-19 &rarr; 2026-11-19
+- `indias-pli-schemes-rs-35354-crore-paid` — 2026-11-19 &rarr; 2026-11-19
+- `indias-100-item-import-push-pvc` — 2026-11-19 &rarr; 2026-11-19
+- `biogas-manure-2065-lakh-tonnes-sold-rs` — 2026-11-19 &rarr; 2026-11-19
+- `discom-losses-at-down-to-1504-in-fy25` — 2026-11-19 &rarr; 2026-11-19
+- `ethanol-2026-27-11-billion-litres` — 2026-11-19 &rarr; 2026-11-19
+- `corporate-laws-amendment-bill-2026-what` — 2026-11-19 &rarr; 2026-11-19
+- `indias-air-epi-rank-176-of-177-96-of` — 2026-11-19 &rarr; 2026-11-19
+- `pm-kusum-24-of-grid-plants-built` — 2026-11-19 &rarr; 2026-11-19
+- `india-asean-trade-5155-billion-deficit` — 2026-11-19 &rarr; 2026-11-19

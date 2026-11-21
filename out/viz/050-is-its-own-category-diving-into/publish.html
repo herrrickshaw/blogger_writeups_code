@@ -1,0 +1,183 @@
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="dek">This blog's first price-band piece found no clean link between a stock's price and its risk, but its cheapest bucket, "under ₹1,000", held almost 4,900 stocks. This piece splits that bucket twice. The first split finds the ₹0&ndash;250 slice is the worst-performing, highest-risk quarter of the market, and that it alone holds 79% of every stock priced under ₹1,000. The second splits ₹0&ndash;250 itself into four narrower bands, to see whether the bottom of that range is uniformly bad or whether the real basement is even smaller.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://blog.vertistratsolution.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
+<h1 style="order:3">NSE/BSE stocks under ₹1,000: 4,862 in 4 sub-bands, with ₹0–50 a category of its own</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="artx"><style>
+.xv-top,.xv,.xv-flow,.xv-so,.xv-n{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.xv-top{border-left:4px solid #2251FF;background:#F4F7FB;padding:1rem 1.1rem;margin:1.2rem 0 1.8rem;border-radius:0 10px 10px 0}
+.xv-top .xv-eb{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#43535F;font-weight:700;margin:0 0 .6rem}
+.xv-top ul{list-style:none;margin:0;padding:0}
+.xv-top li{margin:0 0 .85rem;padding:0;line-height:1.45;color:#0B1F2D;font-size:1rem}
+.xv-top li:last-child{margin-bottom:0}
+.xv-top .xv-k{display:block;font-size:1.65rem;font-weight:800;letter-spacing:-.02em;line-height:1.15;color:#0B1F2D}
+.xv{margin:1.1rem 0 1.4rem;padding:0;max-width:640px}
+.xv figcaption{margin:0 0 .7rem}
+.xv .xv-t{display:block;font-size:1.05rem;font-weight:700;line-height:1.35;color:#0B1F2D}
+.xv .xv-u{display:block;font-size:.82rem;color:#43535F;margin-top:.15rem;line-height:1.4}
+.xv .xv-key{font-size:.8rem;color:#43535F;margin:0 0 .5rem;line-height:1.4}
+.xv .xv-key i{display:inline-block;width:2px;height:.9em;background:#0B1F2D;vertical-align:-.1em;margin-right:.35em}
+.xv .xv-r{margin:0 0 .7rem}
+.xv .xv-l{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem;font-size:.88rem;line-height:1.3;color:#0B1F2D;margin:0 0 .22rem}
+.xv .xv-l>span{min-width:0}
+.xv .xv-l small{color:#43535F;font-size:.92em}
+.xv .xv-tk{position:relative;display:flex;align-items:center;min-height:16px}
+.xv .xv-b{display:block;height:14px;min-width:3px;background:#A9B4BF;border-radius:0 4px 4px 0;flex:none}
+.xv .xv-b.xv-float{border-radius:4px}
+.xv .xv-hi .xv-b{background:#2251FF}
+.xv .xv-v{font-size:.88rem;font-weight:600;color:#0B1F2D;white-space:nowrap;font-variant-numeric:tabular-nums;flex:none}
+.xv .xv-hi .xv-v{font-weight:800}
+.xv .xv-tk.xv-div{display:block;height:14px}
+.xv .xv-div .xv-b{position:absolute;top:0;border-radius:4px}
+.xv .xv-div .xv-neg{background:#7d8a96}
+.xv .xv-hi .xv-div .xv-neg,.xv .xv-hi.xv-divrow .xv-neg{background:#2251FF}
+.xv .xv-none{display:block;flex:1;height:12px;border:1.5px dashed #2251FF;background:#E9EEFF;border-radius:4px}
+.xv .xv-m{position:absolute;top:-3px;bottom:-3px;width:2px;background:#0B1F2D}
+.xv .xv-svg{display:block;width:100%;height:auto}
+.xv .xv-svg.xv-wide{display:none}
+@media (min-width:600px){.xv .xv-svg.xv-narrow{display:none}.xv .xv-svg.xv-wide{display:block}}
+.xv .xv-leg{font-size:.8rem;color:#43535F;margin:.1rem 0 .5rem}
+.xv .xv-leg span{margin-right:.9rem;white-space:nowrap}
+.xv .xv-leg i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:.35rem}
+.xv .xv-s{font-size:.75rem;color:#43535F;margin:.6rem 0 0;line-height:1.45}
+.xv-flow{list-style:none;margin:1rem 0 1.4rem;padding:0 0 0 18px;border-left:2px solid #D9E1E8;max-width:640px}
+.xv-flow li{position:relative;margin:0 0 1rem;padding:0 0 0 .4rem;line-height:1.45;font-size:.92rem;color:#0B1F2D}
+.xv-flow li::before{content:"";position:absolute;left:-24px;top:.3rem;width:10px;height:10px;border-radius:50%;background:#A9B4BF;box-shadow:0 0 0 3px #fff}
+.xv-flow li.xv-hi::before{background:#2251FF}
+.xv-flow b{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:#43535F}
+.xv-sec .xv-so{font-size:.98rem;line-height:1.55;color:#0B1F2D;background:#F4F7FB;border-radius:8px;padding:.75rem .9rem;margin:.4rem 0 1.6rem}
+.xv-sec .xv-so p{margin:0;max-width:none}
+.xv-sec .xv-so p+p{margin-top:.55rem}
+.xv-sec .xv-so b{color:#0B1F2D}
+.xv-n{margin:.2rem 0 1.4rem;font-size:.85rem}
+.xv-n summary{cursor:pointer;color:#0b5394;font-weight:600;padding:.3rem 0}
+.xv-n table{margin:.5rem 0 0}
+</style>
+<div class="xv-top"><p class="xv-eb">Top line</p><ul><li><span class="xv-k">−17.7%</span> median one-year return for stocks priced under ₹250, the only one of the four sub-bands below zero.</li><li><span class="xv-k">79.2%</span> of stocks priced under ₹1,000 sit under ₹250, where the median market cap is ₹80 crore.</li><li><span class="xv-k">0.20</span> Sharpe ratio for stocks priced ₹0–50, the lowest of the eight price sub-bands in this piece.</li></ul></div>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/960px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="The Bombay Stock Exchange building in Mumbai, home to the listed universe this piece segments by price band" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">The Bombay Stock Exchange in Mumbai, home to the listed universe this piece slices into ever-narrower price bands to find where the market's real basement sits. <a href="https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg" rel="noopener noreferrer">BSE - Bombay Stock Exchange Building</a>, Niyantha Shekhar, CC BY 2.0, via Wikimedia Commons.</figcaption>
+</figure><div class="warn" style="border-left:4px solid #a5402c;background:rgba(165,64,44,.07);padding:.8em 1em;margin:1.2em 0;border-radius:4px"><b>Updated 10 November 2026.</b> This page now carries this blog's earlier post <i>Below ₹250 Is Where the Real Risk Lives</i>, which has been retired. Its split of the under-₹1,000 universe into four bands is section 1 below; the original drill into the ₹0&ndash;250 band follows from section 2. The figures are unchanged: both pieces use the same Screener.in pull of 11 August 2026 and the same weekly NSE price window, 2 January 2023 to 7 August 2026.</div><p class="gb-note"><b>Updated 15 November 2026:</b> rewritten as charts; figures unchanged.</p>
+<section class="xv-sec"><h2 class="gb-h2">Under ₹250, the median stock lost 17.7% over the past year</h2>
+<figure class="xv" aria-labelledby="xv1"><figcaption><span class="xv-t" id="xv1">Only the ₹0–250 sub-band posted a negative median one-year return</span><span class="xv-u">Median trailing 1-year return by price sub-band, stocks under ₹1,000, %.</span></figcaption><div class="xv-r xv-hi" title="0–250: -17.7%"><div class="xv-l"><span>0–250</span><b class="xv-v">−17.7</b></div><div class="xv-tk xv-div"><i class="xv-b xv-neg" style="left:0.00%;width:68.08%;border-radius:4px 0 0 4px"></i><i class="xv-m" style="left:68.08%" aria-hidden="true"></i></div></div><div class="xv-r" title="250–500: 0.4%"><div class="xv-l"><span>250–500</span><b class="xv-v">0.4</b></div><div class="xv-tk xv-div"><i class="xv-b" style="left:68.08%;width:1.54%;border-radius:0 4px 4px 0"></i><i class="xv-m" style="left:68.08%" aria-hidden="true"></i></div></div><div class="xv-r" title="500–750: 4.3%"><div class="xv-l"><span>500–750</span><b class="xv-v">4.3</b></div><div class="xv-tk xv-div"><i class="xv-b" style="left:68.08%;width:16.54%;border-radius:0 4px 4px 0"></i><i class="xv-m" style="left:68.08%" aria-hidden="true"></i></div></div><div class="xv-r" title="750–1,000: 8.3%"><div class="xv-l"><span>750–1,000</span><b class="xv-v">8.3</b></div><div class="xv-tk xv-div"><i class="xv-b" style="left:68.08%;width:31.92%;border-radius:0 4px 4px 0"></i><i class="xv-m" style="left:68.08%" aria-hidden="true"></i></div></div><p class="xv-s">Screener.in company data, 4,862 NSE/BSE stocks under ₹1,000, 11 Aug 2026.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> The median stock priced under ₹250 lost money while every higher sub-band posted a positive return.</p><p><b>What to do:</b> Read the under-₹1,000 label as four separate populations rather than one bucket.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">The ₹0–50 band has the weakest risk-adjusted return of the eight bands tested</h2>
+<figure class="xv" aria-labelledby="xv2"><figcaption><span class="xv-t" id="xv2">Sharpe ratio is lowest in the ₹0–50 band, at 0.20, against 0.50 at ₹100–150</span><span class="xv-u">Sharpe ratio by price band, equal-weighted portfolios, 2 Jan 2023 to 7 Aug 2026.</span></figcaption><div class="xv-r xv-hi" title="0–50: 0.2"><div class="xv-l"><span>0–50</span><b class="xv-v">0.20</b></div><div class="xv-tk"><i class="xv-b" style="width:40.00%"></i></div></div><div class="xv-r" title="50–100: 0.38"><div class="xv-l"><span>50–100</span><b class="xv-v">0.38</b></div><div class="xv-tk"><i class="xv-b" style="width:76.00%"></i></div></div><div class="xv-r" title="100–150: 0.5"><div class="xv-l"><span>100–150</span><b class="xv-v">0.50</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="150–250: 0.4"><div class="xv-l"><span>150–250</span><b class="xv-v">0.40</b></div><div class="xv-tk"><i class="xv-b" style="width:80.00%"></i></div></div><p class="xv-s">NSE/BSE weekly prices via Screener.in; 6.5% risk-free proxy.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> The lowest-priced band combines the highest volatility and beta with the weakest return, giving the poorest Sharpe ratio.</p><p><b>What to do:</b> Judge the cheapest stocks on market capitalisation and liquidity before judging them on price.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Every ₹50 band under ₹250 posted a negative median one-year return</h2>
+<figure class="xv" aria-labelledby="xv3"><figcaption><span class="xv-t" id="xv3">Every ₹50 band under ₹250 posted a negative median one-year return</span><span class="xv-u">Median 1-year return by price band within ₹0–250, %.</span></figcaption><div class="xv-r xv-hi" title="0–50: -22.7%"><div class="xv-l"><span>0–50</span><b class="xv-v">−22.7</b></div><div class="xv-tk xv-div"><i class="xv-b xv-neg" style="left:0.00%;width:100.00%;border-radius:4px 0 0 4px"></i><i class="xv-m" style="left:100.00%" aria-hidden="true"></i></div></div><div class="xv-r" title="50–100: -16.1%"><div class="xv-l"><span>50–100</span><b class="xv-v">−16.1</b></div><div class="xv-tk xv-div"><i class="xv-b xv-neg" style="left:29.07%;width:70.93%;border-radius:4px 0 0 4px"></i><i class="xv-m" style="left:100.00%" aria-hidden="true"></i></div></div><div class="xv-r" title="100–150: -9.3%"><div class="xv-l"><span>100–150</span><b class="xv-v">−9.3</b></div><div class="xv-tk xv-div"><i class="xv-b xv-neg" style="left:59.03%;width:40.97%;border-radius:4px 0 0 4px"></i><i class="xv-m" style="left:100.00%" aria-hidden="true"></i></div></div><div class="xv-r" title="150–250: -6.2%"><div class="xv-l"><span>150–250</span><b class="xv-v">−6.2</b></div><div class="xv-tk xv-div"><i class="xv-b xv-neg" style="left:72.69%;width:27.31%;border-radius:4px 0 0 4px"></i><i class="xv-m" style="left:100.00%" aria-hidden="true"></i></div></div><p class="xv-s">Screener.in company data, 11 Aug 2026.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> Returns improve at each step up in price, but all four bands under ₹250 remain below zero.</p><p><b>What to do:</b> Treat the gradient inside the bottom quarter of the market as a size effect before reading it as a price effect.</p></div></section>
+<section class="xv-sec"><h2 class="gb-h2">Over half of stocks priced under ₹250 sit below ₹50</h2>
+<figure class="xv" aria-labelledby="xv4"><figcaption><span class="xv-t" id="xv4">More than half of stocks priced under ₹250 are priced below ₹50</span><span class="xv-u">Share of the under-₹250 universe by price band, %.</span></figcaption><div class="xv-r xv-hi" title="0–50: 54.2%"><div class="xv-l"><span>0–50</span><b class="xv-v">54.2</b></div><div class="xv-tk"><i class="xv-b" style="width:100.00%"></i></div></div><div class="xv-r" title="50–100: 19.3%"><div class="xv-l"><span>50–100</span><b class="xv-v">19.3</b></div><div class="xv-tk"><i class="xv-b" style="width:35.61%"></i></div></div><div class="xv-r" title="100–150: 12.2%"><div class="xv-l"><span>100–150</span><b class="xv-v">12.2</b></div><div class="xv-tk"><i class="xv-b" style="width:22.51%"></i></div></div><div class="xv-r" title="150–250: 14.3%"><div class="xv-l"><span>150–250</span><b class="xv-v">14.3</b></div><div class="xv-tk"><i class="xv-b" style="width:26.38%"></i></div></div><p class="xv-s">Screener.in company data, 11 Aug 2026.</p></figure>
+<div class="xv-so"><p><b>What it means:</b> The 2,086 stocks priced under ₹50 make up 54.2% of the under-₹250 group.</p><p><b>What to do:</b> Report the price-band split alongside the count, so the bottom band is not read as typical.</p></div></section>
+<h2 class="gb-h2" id="fixes">What would fix this</h2>
+<ul>
+<li><b>NSE and BSE should publish a quarterly table of listed stocks by price band and by market-capitalisation band, with count, median market cap, median traded value, median return, volatility and beta, and the share paying any dividend</b>, so that the ₹0&ndash;250 band&rsquo;s ₹80 crore median company and the ₹0&ndash;50 band&rsquo;s zero median dividend yield are visible from exchange data, not only from private screeners and one-off studies.</li>
+<li><b>NSE and BSE should show each stock&rsquo;s market capitalisation and average daily traded value next to its share price on their public quote pages and in broker data feeds</b>, so a low share price is not read as a measure of size.</li>
+<li><b>NSE and BSE should publish free, corporate-action-adjusted daily price histories for every listed security, including BSE-only scrips, with the days each was suspended or untraded</b>, so gaps like the 181 of 1,267 ₹0&ndash;250 stocks without enough continuous history for a beta can be explained rather than silently dropped.</li>
+<li><b>SEBI should require brokers&rsquo; order screens to show market capitalisation band, average daily traded value and trailing dividend next to the price, using one standard definition across brokers, at least for stocks quoted under ₹250</b>, so that a low price tag is not read as a proxy for value when it tracks small size and high beta instead.</li>
+<li><b>SEBI should direct the exchanges to publish an annual report on retail participation by price band, showing unique investors and retail share of turnover</b>, so that it is measurable how many savers sit in the segment with the worst Sharpe ratio (0.20) and median 1-year return (&minus;22.7%) found here.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+<details class="xv-n"><summary>Table: 1. Under ₹1,000: one bucket, four very different neighbourhoods</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Price sub-band, ₹</th><th>Stocks</th><th>Share of the under-1,000 universe, %</th><th>Median market cap, ₹ crore</th></tr></thead><tbody><tr><td>0–250</td><td>3,850</td><td>79.2</td><td>80</td></tr><tr><td>250–500</td><td>568</td><td>11.7</td><td>1,154</td></tr><tr><td>500–750</td><td>290</td><td>6.0</td><td>3,713</td></tr><tr><td>750–1,000</td><td>154</td><td>3.2</td><td>3,474</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Beta, return and Sharpe ratio, split four ways</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Price sub-band, ₹</th><th>Stocks with computed beta</th><th>Median beta</th><th>Portfolio return, % p.a.</th><th>Portfolio volatility, % p.a.</th><th>Sharpe ratio</th></tr></thead><tbody><tr><td>0–250</td><td>1,086 of 1,267 priced</td><td>1.28</td><td>14.6</td><td>24.4</td><td>0.33</td></tr><tr><td>250–500</td><td>333 of 374 priced</td><td>1.19</td><td>24.3</td><td>21.0</td><td>0.85</td></tr><tr><td>500–750</td><td>207 of 229 priced</td><td>1.08</td><td>25.0</td><td>19.3</td><td>0.96</td></tr><tr><td>750–1,000</td><td>112 of 117 priced</td><td>1.12</td><td>32.7</td><td>19.8</td><td>1.32</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: Real returns confirm the same pattern</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Price sub-band, ₹</th><th>Median 1-year return, %</th><th>Median 6-month return, %</th><th>Median YoY quarterly profit growth, %</th></tr></thead><tbody><tr><td>0–250</td><td>−17.7</td><td>−5.6</td><td>13.5</td></tr><tr><td>250–500</td><td>0.4</td><td>6.1</td><td>30.1</td></tr><tr><td>500–750</td><td>4.3</td><td>11.8</td><td>21.5</td></tr><tr><td>750–1,000</td><td>8.3</td><td>8.3</td><td>20.9</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: 2. Inside ₹0–250: most of the mass sits at the very bottom</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Price band, ₹</th><th>Stocks</th><th>Share of the under-250 universe, %</th><th>Median market cap, ₹ crore</th></tr></thead><tbody><tr><td>0–50</td><td>2,086</td><td>54.2</td><td>32</td></tr><tr><td>50–100</td><td>743</td><td>19.3</td><td>120</td></tr><tr><td>100–150</td><td>469</td><td>12.2</td><td>227</td></tr><tr><td>150–250</td><td>552</td><td>14.3</td><td>451</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: 3. Beta, return and Sharpe ratio inside the basement</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Price band, ₹</th><th>Stocks with computed beta</th><th>Median beta</th><th>Portfolio return, % p.a.</th><th>Portfolio volatility, % p.a.</th><th>Sharpe ratio</th></tr></thead><tbody><tr><td>0–50</td><td>437 of 539 priced</td><td>1.31</td><td>12.0</td><td>27.2</td><td>0.20</td></tr><tr><td>50–100</td><td>225 of 253 priced</td><td>1.29</td><td>15.9</td><td>24.5</td><td>0.38</td></tr><tr><td>100–150</td><td>155 of 179 priced</td><td>1.25</td><td>18.6</td><td>24.0</td><td>0.50</td></tr><tr><td>150–250</td><td>269 of 296 priced</td><td>1.23</td><td>15.2</td><td>21.9</td><td>0.40</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Table: 4. What "cheap" actually correlates with down here</summary><div class="gb-tblwrap"><table class="gb-table"><thead><tr><th>Price band, ₹</th><th>Median 1-year return, %</th><th>Median 6-month return, %</th><th>Median YoY quarterly profit growth, %</th><th>Median dividend yield, %</th></tr></thead><tbody><tr><td>0–50</td><td>−22.7</td><td>−10.1</td><td>1.9</td><td>0.0</td></tr><tr><td>50–100</td><td>−16.1</td><td>−2.5</td><td>16.5</td><td>0.0</td></tr><tr><td>100–150</td><td>−9.3</td><td>−0.2</td><td>0.9</td><td>0.0</td></tr><tr><td>150–250</td><td>−6.2</td><td>1.8</td><td>34.9</td><td>0.0</td></tr></tbody></table></div></details>
+<details class="xv-n"><summary>Sources cited in the article</summary><ul><li><a href="https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg">BSE - Bombay Stock Exchange Building</a></li></ul></details>
+
+<h3>Sources</h3>
+<ul class="sources">
+<li>Price-band segmentation and returns/profit-growth data for the 4,862 stocks under ₹1,000, split into four sub-bands, and returns, profit-growth and dividend-yield data for the 3,850 stocks under ₹250, split into four ₹50-wide sub-bands — Screener.in company data, 11 Aug 2026</li>
+<li>Beta, portfolio return, volatility and Sharpe ratio for each sub-band — computed from a local historical NSE OHLCV warehouse (adjusted close, year-partitioned parquet, 2 Jan 2023&ndash;7 Aug 2026), same methodology and window as this blog's earlier price-segmentation and Markowitz pieces</li>
+<li>Nifty 50 benchmark series and risk-free proxy sourced via Yahoo Finance, cross-checked against <a href="https://www.screener.in/company/NIFTY/">Screener.in's Nifty 50 index page</a></li>
+</ul>
+
+<p class="disclaimer">This analysis is based on historical price and fundamentals data cited above. It is provided for informational and research purposes only and does not constitute investment advice. Local price-history coverage was partial in every band (roughly 80&ndash;91% of priced stocks returned a computable beta, itself typically a minority of each band's full count once stocks lacking any NSE/BSE ticker are included) &mdash; a limitation shared with, and consistent in scale to, the earlier pieces in this series. In section 1, 1,086 of the 1,267 priced ₹0&ndash;250 stocks had enough continuous weekly history for a reliable beta, a real but partial sample of the full 3,850-stock band.</p>
+<p class="disclaimer">Past risk-adjusted returns are backward-looking and specific to the window measured, not a prediction. Thinly traded microcap stocks, which this price range is disproportionately made up of, can show large price swings on very low volume; individual-stock figures within these bands should be treated with particular caution beyond the aggregate patterns discussed here.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://blog.vertistratsolution.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

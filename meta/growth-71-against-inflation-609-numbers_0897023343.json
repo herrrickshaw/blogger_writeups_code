@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/11/growth-71-against-inflation-609-numbers_0897023343.html",
   "slug": "growth-71-against-inflation-609-numbers_0897023343",
   "published": "2026-11-21T07:12:38.000+05:30",
-  "updated": "2026-11-21T07:12:38.000+05:30",
+  "updated": "2026-11-21T07:23:38.824+05:30",
   "labels": [],
-  "bytes": 31879,
-  "sha256": "380a086c12014a5010fe984a63f1b93864bc4fce9aacf88079712e90a7d9fe07",
+  "bytes": 33109,
+  "sha256": "2a5f2a97614978be7f3199457bfce6bad4ff428eacaa36e6d71a4b10d02cf0b8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-11-21T07:25:23+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        31879,
+        33109
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Karnataka Sakaala Act post published"
     }
   ]
 }
