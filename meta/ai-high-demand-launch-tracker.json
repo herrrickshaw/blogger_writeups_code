@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-11-14T15:08:23.450+05:30",
+  "updated": "2026-11-21T16:00:21.265+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 42192,
-  "sha256": "0ba8799daf090a1222f96ea01125b08cbbaecea3023aac477ecdeb40a059862d",
+  "bytes": 42027,
+  "sha256": "21fa93a41179f5d72166a6c6446660108f83d0d70b2c095e845c02a65b9e2da3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.0",
+  "version": "6.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -380,6 +380,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "6.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+0/-2 distinct numbers))",
+      "bytes": [
+        42192,
+        42027
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

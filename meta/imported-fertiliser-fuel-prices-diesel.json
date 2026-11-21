@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
   "slug": "imported-fertiliser-fuel-prices-diesel",
   "published": "2026-08-02T13:50:50.000+05:30",
-  "updated": "2026-11-14T15:25:13.685+05:30",
+  "updated": "2026-11-21T16:01:05.660+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Fertilisers & Soil Health",
     "Prices & Inflation"
   ],
-  "bytes": 37896,
-  "sha256": "9eafa71660446208dd807cade41f71a590d1a0acb10bb046917886d7e7b98f5a",
+  "bytes": 37893,
+  "sha256": "bdedd11a703115320c2728ff1babf1b222be2449d7c544ff2aa43e09058623cc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.0",
+  "version": "6.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -352,6 +352,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "6.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        37896,
+        37893
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

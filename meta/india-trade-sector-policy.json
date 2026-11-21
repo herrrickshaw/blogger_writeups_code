@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/07/india-trade-sector-policy.html",
   "slug": "india-trade-sector-policy",
   "published": "2026-07-21T05:30:00.000+05:30",
-  "updated": "2026-11-14T15:33:28.657+05:30",
+  "updated": "2026-11-21T16:03:40.674+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 21342,
-  "sha256": "d000a43aa538971e4b2ef3c228f5d92f6457141cf6a70cdbb430696a2668d91e",
+  "bytes": 21258,
+  "sha256": "eb73981944b53bc2422cf04c3879a40fc9c6024b0d1e142d683930dfaf9df4d4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -302,6 +302,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        21342,
+        21258
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

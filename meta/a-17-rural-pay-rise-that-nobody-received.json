@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html",
   "slug": "a-17-rural-pay-rise-that-nobody-received",
   "published": "2026-08-22T11:06:55.000+05:30",
-  "updated": "2026-11-14T15:05:55.615+05:30",
+  "updated": "2026-11-21T16:00:12.649+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Prices & Inflation"
   ],
-  "bytes": 42085,
-  "sha256": "38456351cf2010590416d35bd20b57d5fc7ed90280e8ef1719d231cf9cadfa58",
+  "bytes": 42082,
+  "sha256": "1af166aae0e39e5fac0c8bd225bd4fc77ab826a5f831802dabd5de6944815f6d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "7.0.0",
+  "version": "7.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -216,6 +216,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "7.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        42085,
+        42082
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

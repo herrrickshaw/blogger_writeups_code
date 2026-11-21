@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/09/the-two-biggest-parties-in-parliament.html",
   "slug": "the-two-biggest-parties-in-parliament",
   "published": "2026-09-18T20:24:04.000+05:30",
-  "updated": "2026-11-14T16:08:45.489+05:30",
+  "updated": "2026-11-21T16:03:02.493+05:30",
   "labels": [
     "Governance & Institutions"
   ],
-  "bytes": 123834,
-  "sha256": "57af45c366fe597a55118ea406942be5b7126de8acba6d66eb326153043b55e3",
+  "bytes": 123670,
+  "sha256": "819150bfb827ed7d98c05d269b1b4e9562ef2d692384ed55e19795167935f7b0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        123834,
+        123670
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

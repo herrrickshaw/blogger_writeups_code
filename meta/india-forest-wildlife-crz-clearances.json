@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/07/india-forest-wildlife-crz-clearances.html",
   "slug": "india-forest-wildlife-crz-clearances",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-11-14T15:27:28.192+05:30",
+  "updated": "2026-11-21T16:03:33.007+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 27125,
-  "sha256": "98ba30c41c94f634db641c8ad19abb9880acc6a89e29c5f6fe0a8e83ec3d45ed",
+  "bytes": 26460,
+  "sha256": "3fe764bd03d659222a1accad1f469be617d642a82eb8b161378222c3f1db13f7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        27125,
+        26460
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

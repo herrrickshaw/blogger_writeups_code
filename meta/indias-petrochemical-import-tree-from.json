@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/07/indias-petrochemical-import-tree-from.html",
   "slug": "indias-petrochemical-import-tree-from",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-11-14T15:43:45.589+05:30",
+  "updated": "2026-11-21T16:03:56.540+05:30",
   "labels": [
     "Chemicals",
     "Customs & HSN Trade Data",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 33018,
-  "sha256": "baf1a9e21ad0c776fa479f760888c212f5f86701b54f19d9b0a0b9c55e443bcc",
+  "bytes": 33024,
+  "sha256": "595299d2d67bba43be62a34693bbe2e02b9dd43b0f6eb6954ed46af7bfedb562",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -87,6 +87,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        33018,
+        33024
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

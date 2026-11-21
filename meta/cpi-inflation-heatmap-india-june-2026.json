@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
   "slug": "cpi-inflation-heatmap-india-june-2026",
   "published": "2026-08-02T14:05:22.000+05:30",
-  "updated": "2026-11-14T15:13:23.743+05:30",
+  "updated": "2026-11-21T16:03:48.664+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 84457,
-  "sha256": "251662e635087da61cbae78ff756b41cc4b21dde6dcebfe58f307d332925f9f1",
+  "bytes": 84459,
+  "sha256": "54cacbe92c0580312147a21b68f3ca286b64234855fe026a20f1e624ec8c2c4b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -349,6 +349,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "5.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        84457,
+        84459
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

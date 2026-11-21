@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-old-factory-index-said.html",
   "slug": "indias-old-factory-index-said",
   "published": "2026-10-09T10:10:39.000+05:30",
-  "updated": "2026-11-14T15:43:34.806+05:30",
+  "updated": "2026-11-21T16:01:35.494+05:30",
   "labels": [],
-  "bytes": 26625,
-  "sha256": "08565e2f5c1efd66fc95bb14c76a18c53f50b794bc0ca0289a64513f0b8b039a",
+  "bytes": 26627,
+  "sha256": "5cd46713867a34d530f8770fd3cc0606f3296d2145ca9132029db3314a390bfa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        26625,
+        26627
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

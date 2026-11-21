@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-11-21T15:53:47.846+05:30",
+  "updated": "2026-11-21T16:00:35.174+05:30",
   "labels": [],
-  "bytes": 1014554,
-  "sha256": "29f161f95f8cd503d3f6e5bec551bb4a305b560ed2acd78962f92530b492d9cb",
+  "bytes": 985921,
+  "sha256": "edb01ec705a78aa72e17eae812d73c6fa7494777c77b8daed450ec10dd540aa9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "78.0.0",
+  "version": "79.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2564,6 +2564,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "article index: add 14 posts published 19-21 Nov, incl. mandi harvest discount"
+    },
+    {
+      "version": "79.0.0",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "major",
+      "reason": "forced via --as-slug major (figures changed (+10/-11 distinct numbers))",
+      "bytes": [
+        1014554,
+        985921
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

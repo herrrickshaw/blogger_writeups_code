@@ -20971,3 +20971,102 @@ article index: add 14 posts published 19-21 Nov, incl. mandi harvest discount
 **Changed**
 
 - `article-index-start-here` — 988,558 → 1,014,554 bytes (+25,996)
+
+## 2026-11-21T10:36:33+00:00 — 528 posts live
+
+Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft
+
+
+**Versions**
+
+- `seven-open-source-tools-for-stock` **2.0.0 → 2.0.1** (PATCH) — forced via --as patch (figures changed (+2/-1 distinct numbers))
+- `ai-tools-edition-04-deepseek-put-its` **2.0.0 → 2.0.1** (PATCH) — forced via --as patch (figures changed (+0/-2 distinct numbers))
+- `indias-rs-3030-crore-chemical-parks` **2.0.0 → 2.0.1** (PATCH) — forced via --as patch (wording changed; no figures, sections or claims moved)
+- `methionine-not-lysine-is-indias-biggest` **2.0.0 → 2.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `indias-old-factory-index-said` **2.0.0 → 2.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `the-two-biggest-parties-in-parliament` **3.0.0 → 3.0.1** (PATCH) — forced via --as patch (figures changed (+0/-0 distinct numbers))
+- `what-seven-model-stock-portfolios-look` **2.0.0 → 2.0.1** (PATCH) — forced via --as patch (wording changed; no figures, sections or claims moved)
+- `indias-8-digit-trade-book-searchable` **5.0.0 → 5.0.1** (PATCH) — forced via --as patch (figures changed (+0/-1 distinct numbers))
+- `a-17-rural-pay-rise-that-nobody-received` **7.0.0 → 7.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `the-most-discussed-schemes-in` **2.0.0 → 2.0.1** (PATCH) — forced via --as patch (wording changed; no figures, sections or claims moved)
+- `the-barrel-really-is-shifting-indias` **3.0.0 → 3.0.1** (PATCH) — forced via --as patch (figures changed (+1/-1 distinct numbers))
+- `do-cheap-stocks-stay-cheap-price-band` **4.0.0 → 4.0.1** (PATCH) — forced via --as patch (figures changed (+0/-0 distinct numbers))
+- `thali-investing-whats-actually-on-plate` **4.0.0 → 4.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `india-has-tax-treaties-with-97` **5.0.0 → 5.0.1** (PATCH) — forced via --as patch (figures changed (+0/-1 distinct numbers))
+- `indias-trade-story-has-three-big-wins` **4.0.0 → 4.0.1** (PATCH) — forced via --as patch (figures changed (+0/-0 distinct numbers))
+- `upi-fees-are-now-legal-petrol-pumps` **15.0.0 → 15.1.0** (MINOR) — forced via --as-slug minor (figures changed (+109/-0 distinct numbers))
+- `indias-wholesale-prices-next-to` **8.0.0 → 8.1.0** (MINOR) — forced via --as-slug minor (figures changed (+240/-0 distinct numbers))
+- `reinvesting-capital-gains-in-higher` **4.0.0 → 4.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `europes-export-credit-agencies-are` **4.0.0 → 4.0.1** (PATCH) — forced via --as patch (figures changed (+0/-1 distinct numbers))
+- `lok-sabha-question-registry-1843-scheme` **4.0.0 → 4.1.0** (MINOR) — forced via --as-slug minor (figures changed (+15/-3 distinct numbers))
+- `indian-it-in-ai-era` **3.0.0 → 3.0.1** (PATCH) — forced via --as patch (figures changed (+0/-2 distinct numbers))
+- `half-of-indias-import-bill-is` **4.0.0 → 4.0.1** (PATCH) — forced via --as patch (figures changed (+0/-1 distinct numbers))
+- `cpi-inflation-heatmap-india-june-2026` **5.0.0 → 5.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `imported-fertiliser-fuel-prices-diesel` **6.0.0 → 6.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `real-gdp-growth-india-fy2012-13-to` **5.0.0 → 5.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `rbi-foreign-exchange-reserves-20152026` **5.0.0 → 5.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `article-index-start-here` **78.0.0 → 79.0.0** (MAJOR) — forced via --as-slug major (figures changed (+10/-11 distinct numbers))
+- `top-15-chemicals-for-import` **6.0.0 → 6.1.0** (MINOR) — forced via --as-slug minor (figures changed (+30/-0 distinct numbers))
+- `ai-high-demand-launch-tracker` **6.0.0 → 6.0.1** (PATCH) — forced via --as patch (figures changed (+0/-2 distinct numbers))
+- `indias-petrochemical-import-tree-from` **2.0.0 → 2.0.1** (PATCH) — forced via --as patch (figures changed (+1/-0 distinct numbers))
+- `india-forest-wildlife-crz-clearances` **2.0.0 → 2.0.1** (PATCH) — forced via --as patch (figures changed (+0/-0 distinct numbers))
+- `india-trade-sector-policy` **3.0.0 → 3.0.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `seven-open-source-tools-for-stock` — 33,961 → 33,956 bytes (-5)
+- `ai-tools-edition-04-deepseek-put-its` — 64,456 → 64,291 bytes (-165)
+- `indias-rs-3030-crore-chemical-parks` — 28,297 → 28,158 bytes (-139)
+- `methionine-not-lysine-is-indias-biggest` — 29,688 → 29,678 bytes (-10)
+- `indias-old-factory-index-said` — 26,625 → 26,627 bytes (+2)
+- `the-two-biggest-parties-in-parliament` — 123,834 → 123,670 bytes (-164)
+- `what-seven-model-stock-portfolios-look` — 26,002 → 25,883 bytes (-119)
+- `indias-8-digit-trade-book-searchable` — 34,275 → 34,419 bytes (+144)
+- `a-17-rural-pay-rise-that-nobody-received` — 42,085 → 42,082 bytes (-3)
+- `the-most-discussed-schemes-in` — 36,524 → 36,397 bytes (-127)
+- `the-barrel-really-is-shifting-indias` — 39,989 → 40,094 bytes (+105)
+- `do-cheap-stocks-stay-cheap-price-band` — 95,940 → 95,793 bytes (-147)
+- `thali-investing-whats-actually-on-plate` — 34,597 → 34,598 bytes (+1)
+- `india-has-tax-treaties-with-97` — 32,378 → 32,187 bytes (-191)
+- `indias-trade-story-has-three-big-wins` — 28,383 → 28,192 bytes (-191)
+- `upi-fees-are-now-legal-petrol-pumps` — 50,250 → 77,690 bytes (+27,440)
+- `indias-wholesale-prices-next-to` — 45,019 → 81,774 bytes (+36,755)
+- `reinvesting-capital-gains-in-higher` — 32,102 → 32,099 bytes (-3)
+- `europes-export-credit-agencies-are` — 28,839 → 28,648 bytes (-191)
+- `lok-sabha-question-registry-1843-scheme` — 397,035 → 463,885 bytes (+66,850)
+- `indian-it-in-ai-era` — 44,824 → 44,661 bytes (-163)
+- `half-of-indias-import-bill-is` — 29,763 → 29,721 bytes (-42)
+- `cpi-inflation-heatmap-india-june-2026` — 84,457 → 84,459 bytes (+2)
+- `imported-fertiliser-fuel-prices-diesel` — 37,896 → 37,893 bytes (-3)
+- `real-gdp-growth-india-fy2012-13-to` — 44,335 → 44,337 bytes (+2)
+- `rbi-foreign-exchange-reserves-20152026` — 58,215 → 58,217 bytes (+2)
+- `article-index-start-here` — 1,014,554 → 985,921 bytes (-28,633)
+- `top-15-chemicals-for-import` — 107,420 → 125,381 bytes (+17,961)
+- `ai-high-demand-launch-tracker` — 42,192 → 42,027 bytes (-165)
+- `indias-petrochemical-import-tree-from` — 33,018 → 33,024 bytes (+6)
+- `india-forest-wildlife-crz-clearances` — 27,125 → 26,460 bytes (-665)
+- `india-trade-sector-policy` — 21,342 → 21,258 bytes (-84)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `screen-process-safety-question-in-five` — Screen an LPG Terminal Before the Workshop, and See the Dense-Gas Gap It Cannot Close
+- `fourteen-years-of-indian-wholesale` — Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts
+- `how-to-use-us-stock-picks-multi-screen` — How to use us-stock-picks: a multi-screen ranking of US stocks with paper-portfolio output
+- `chemical-import-substitution-analysis` — Chemical Import Substitution Analysis: Executive Summary
+- `how-to-use-stock-portfolio-evaluator` — How to use stock-portfolio-evaluator: a rule-of-thumb Newsvendor score for a stock portfolio
+- `tech-for-business-so-2019-tech-as` — Tech for Business so 2019, Tech As Business is for 2020! 
+- `how-to-use-bazaartalks-multi-market` — How to use BazaarTalks: a multi-market quant research platform you can query with DuckDB
+- `rajya-sabha-question-registry-scheme` — Rajya Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today
+- `how-to-use-news-tracker-score-headlines` — How to use the news tracker: score headlines and check them against stock picks
+- `how-to-use-global-stock-screener-rule` — How to use global-stock-screener: rule-based stock screens, offline
+- `how-to-use-marketscreenerrag-backtested` — How to use market_screener_rag: backtested stock strategies by country
+- `beyond-pump-what-upi-fee-would-cost` — UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?
+- `chemical-import-substitution-quarterly` — Chemical Import Substitution — Quarterly Tracking Dashboard
+- `how-to-use-pricepredictionbacktest` — How to use price_prediction_backtest: honest walk-forward tests of price-prediction models
+- `fy2025-26-sample-report-india-trade` — FY2025-26 Sample Report — India Trade, Currency & Policy Snapshot
+- `below-250-is-where-real-junk-lives` — Below ₹250 Is Where the Real Risk Lives: Splitting India's Cheapest Stocks Four Ways
+- `how-to-use-piotroski-liquidity-research` — How to use piotroski-liquidity-research: a point-in-time test of the Piotroski F-score and liquidity
+- `cpi-wpi-trends-mospi-bulletin` — CPI & WPI Trends — India (CPI from MoSPI, WPI from DPIIT)
+- `chemical-import-substitution-full-hsn-8_01082878313` — Chemical Import Substitution: the Full 827-Code Data Tables
+- `how-to-use-bazartalkspy2cplus-c-port-of` — How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark
+- `us-stock-picks-multi-screen-quant` — US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)

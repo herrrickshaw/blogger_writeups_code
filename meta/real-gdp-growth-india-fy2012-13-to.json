@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
   "slug": "real-gdp-growth-india-fy2012-13-to",
   "published": "2026-08-02T13:45:39.000+05:30",
-  "updated": "2026-11-14T15:55:42.449+05:30",
+  "updated": "2026-11-21T16:02:26.479+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 44335,
-  "sha256": "1f5eedbcf7b5d2f759eb083238541e0a630ab4a095cb5c54d5c9fd30dbda16cb",
+  "bytes": 44337,
+  "sha256": "663b8924b31457d26cba40c126ee0616ef8d4f6a9fccd1f4b2b1b026e91015c2",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -371,6 +371,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "5.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        44335,
+        44337
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

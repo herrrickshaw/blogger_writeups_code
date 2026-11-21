@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/08/europes-export-credit-agencies-are.html",
   "slug": "europes-export-credit-agencies-are",
   "published": "2026-08-05T19:00:06.000+05:30",
-  "updated": "2026-11-14T15:17:38.694+05:30",
+  "updated": "2026-11-21T16:00:50.733+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 28839,
-  "sha256": "a28148b4b88b29e26de3faadf9bd4cc9a066c5aac950836106fb3d21edb93e10",
+  "bytes": 28648,
+  "sha256": "98b3421da00115f12b69fc8c644d8e970ec441702b0c79e680307f1571b0718b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -323,6 +323,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.0.1",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+0/-1 distinct numbers))",
+      "bytes": [
+        28839,
+        28648
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-11-14T16:10:51.658+05:30",
+  "updated": "2026-11-21T16:03:10.506+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 107420,
-  "sha256": "5e6a992ff3e802e56cdbfd92813c2d536119438636faee63fdb5fa9b9816ebc9",
+  "bytes": 125381,
+  "sha256": "4e3b58d4f6d8f6391b6934a9c634147d4a4b3bdecfac909020da7a9f523b2ba2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.0",
+  "version": "6.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -459,6 +459,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "6.1.0",
+      "date": "2026-11-21T10:36:33+00:00",
+      "level": "minor",
+      "reason": "forced via --as-slug minor (figures changed (+30/-0 distinct numbers))",
+      "bytes": [
+        107420,
+        125381
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
     }
   ]
 }
