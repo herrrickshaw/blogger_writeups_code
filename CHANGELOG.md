@@ -20889,3 +20889,22 @@ Telangana post: MeeSeva dashboard, BharatNet agreement, Cyberabad doorstep deliv
 - `how-to-use-claude-stock-tools-single` **v1.0.0** — How to use claude-stock-tools: single-stock reports and Darvas, Piotroski and Coffee Can screeners (25,333 bytes)
 - `how-to-use-india-election-analysis` **v1.0.0** — How to use india-election-analysis: coalition game theory, Monte Carlo seat simulations and an audited-assumptions test suite for Lok Sabha (23,936 bytes)
 - `how-to-use-manga2anime-animate-still` **v1.0.0** — How to use manga2anime: animate a still panel with open-source tools, plus a no-GPU procedural loop renderer (23,347 bytes)
+
+## 2026-11-21T03:58:08+00:00 — 537 posts live
+
+mandi crops refresh (data to 31 Oct 2026) and new harvest-discount post
+
+
+**Added**
+
+- `mandi-harvest-discount-in-india-18-of` **v1.0.0** — Mandi harvest discount in India: 18 of 23 crops sell below trend, about Rs 7,300 crore (52,450 bytes)
+
+**Versions**
+
+- `indias-biggest-mandi-crops-have` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+70/-55 distinct numbers)
+
+**Changed**
+
+- `indias-biggest-mandi-crops-have` — 71,038 → 72,825 bytes (+1,787)
+
+_Timestamp-only differences from the API path (milliseconds dropped) were discarded for 537 other sidecars; no other post changed._
