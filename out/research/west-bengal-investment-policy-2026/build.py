@@ -30,7 +30,7 @@ def step(n, what):
 D = dt.date
 # ---- 1. dates
 step(1, "dates and weekday checks")
-for d, wd in [(D(2026, 5, 9), "Saturday"), (D(2026, 11, 4), "Wednesday"), (D(2026, 11, 5), "Thursday"), (D(2026, 11, 12), "Thursday")]:
+for d, wd in [(D(2025, 4, 2), "Wednesday"), (D(2026, 5, 9), "Saturday"), (D(2026, 11, 4), "Wednesday"), (D(2026, 11, 5), "Thursday"), (D(2026, 11, 12), "Thursday")]:
     assert d.strftime("%A") == wd, d
 assert (D(2026, 11, 5) - D(2026, 5, 9)).days == 180               # in force 180 days before it was unveiled
 assert (D(2026, 11, 12) - D(2026, 11, 5)).days == 7
@@ -105,7 +105,7 @@ s1 = insight(
          CE, accent="Thrust Sector unit in a Priority Area", unit="%", vmax=130,
          sub="Per cent of Eligible FCI, the investment in plant and machinery including pollution control equipment made on or after 9 May 2026 and certified by an auditor, excluding land, working capital and pre-operative costs. A service unit in a thrust sector gets 110%. Assistance ends when the ceiling is reached or 10 years after production starts, whichever is earlier.",
          source="West Bengal Investment Promotion Policy, 2026, launch booklet of the West Bengal Industrial Development Corporation (Investor's Guide, clauses 19, 20, 24, 25 and 38; official).")
-    + flow([("2025", "West Bengal revokes its earlier state industrial incentive schemes by a Gazette bill, retroactive to each scheme&rsquo;s notification (this blog&rsquo;s post of 9 September 2026; Business Standard, 5 November 2026, calls it a retrospective withdrawal)."),
+    + flow([("2 Apr 2025 (Wednesday)", "West Bengal revokes its earlier state industrial incentive schemes by the Revocation of West Bengal Incentive Schemes and Obligations in the Nature of Grants and Incentives Act, 2025, published in the Kolkata Gazette, Extraordinary, and retroactive to each scheme&rsquo;s notification (the Act, official copy; Business Standard, 5 November 2026, calls it a retrospective withdrawal)."),
             ("9 May 2026 (Saturday)", "The policy is deemed in force; the new government took office this day (Business Standard)."),
             ("June 2026", "The state Budget allocates Rs 5,000 crore for the current year to fund the policy (Business Standard, 12 November 2026)."),
             ("4 Nov 2026 (Wednesday)", "Indian Express previews the policy; its EPF terms match the booklet."),
@@ -154,7 +154,7 @@ s3 = insight(
               [["Fund", "Sanctioned assistance is paid from a dedicated, non-lapsable Assured Incentive Fund; terms are fixed on the date of the Certificate of Intent and later amendments cannot reduce them", "Booklet (official); Business Standard, 12 November"],
                ["Scale", "Rs 5,000 crore equals one year of maximum claims from 50 units at the Rs 500 crore mega threshold in a thrust sector or priority area, at Rs 100 crore each (computed)", "Computed here"],
                ["When claims start", "A claim needs a Certificate of Eligibility, which a unit applies for within 6 months of starting production; the policy covers investment from 9 May 2026 only", "Booklet (official)"],
-               ["Backlog", "Business Standard: estimated at Rs 50,000 crore and outside the policy. NDTV: the Chief Minister called it a legacy of the past that the government would gradually begin addressing", "Conflict: not reconciled"],
+               ["Backlog", "Business Standard: estimated at Rs 50,000 crore and outside the policy; the Chief Minister said the state may look at it when it is in a better financial position (&lsquo;Let us first move forward&rsquo;). NDTV: he called it a legacy of the past that the government would gradually begin addressing. Khaitan &amp; Co: the policy does not address claims under the withdrawn schemes", "Statements differ in tone and are not reconciled; no schedule found"],
                ["Industry view", "Bengal Chamber of Commerce calls the fund the single biggest relief for industry; a Khaitan consultant says a commitment backed by a reserve fund is unusual", "Economic Times; Business Standard (opinion)"],
                ["Past record", "The earlier schemes were revoked retroactively, which is why the lock-in at the Certificate of Intent matters", "This blog&rsquo;s post of 9 September 2026; Business Standard"]],
               "Show the fund, the backlog and what is not known"),
@@ -178,7 +178,7 @@ s4 = insight(
                ["Priority areas", "Sub-divisions scoring below the State median on an index of industry and infrastructure, reviewed every three years; the list and the number of sub-divisions were not found", "Booklet (official)"],
                ["Green power", "Cross-subsidy and additional surcharge on green power from sources in West Bengal waived until March 2030", "Booklet (official), clause 53; ETV Bharat"],
                ["Named officers", "A Special Secretary-level officer above Rs 1,000 crore and a Secretary-level officer above Rs 2,500 crore, with monthly review by the Chief Secretary", "KPMG; booklet (official)"],
-               ["Exclusions", "Polluting industries such as sponge iron, traditional brick kilns, fireworks and single-use plastics are reported as excluded; the exclusion list was not read in the booklet text", "ETV Bharat (secondary)"],
+               ["Exclusions", "Sponge iron, coal and coke processing, charcoal, stone crushing, traditional brick kilns, sawmills, firecrackers, asbestos, single-use plastics, tobacco and thermal power (other than eligible captive and waste-to-energy units) are expressly excluded; trading is not treated as a service", "Khaitan &amp; Co, 18 November 2026 (law-firm note, excerpt); ETV Bharat (partial list)"],
                ["Pre-release EPF ladder", "A report quoted by NDTV on 7 November described 50% support for 100 employees and up to 70% for 500; the booklet has 50% at 200 or 400 employees and no 70% tier", "Conflict: the booklet is used"]],
               "Show every benefit, threshold and the conflicts"),
     "The state has bound itself to 105 days of approval and sanction time, with the terms locked for each investor at the Certificate of Intent.",
@@ -201,7 +201,7 @@ method = '''<details class="xv-n"><summary>Method and definitions</summary>
 <li>The booklet of the West Bengal Industrial Development Corporation is the source for the rules; it summarises the Policy and says the Policy and the Scheme prevail where they differ. Clause numbers are as the booklet prints them.</li>
 <li>A ceiling is a cap on total assistance as a share of Eligible FCI; an annual limit is a cap on any one year; neither is an amount the state pays automatically, since the assistance reimburses taxes and contributions the unit has paid.</li>
 <li>Years to draw the ceiling, rupee examples, break-even loan and rent figures, the ratio of backlog to provision and the value-added multiples are computed here and each is checked by an assertion in the builder. The value-added multiples assume that net SGST is the SGST rate times value added with every input creditable; they are an illustration, not a forecast.</li>
-<li>KPMG was read as page text; the Business Standard, The Hindu, BusinessLine, Economic Times, Indian Express, ETV Bharat and NDTV items were read as excerpts, mostly the opening of the article. News sites are secondary, and the Suvidha note is a consultant&rsquo;s summary.</li>
+<li>KPMG was read as page text; the Khaitan &amp; Co note, the Act (official copy) and the Business Standard, The Hindu, BusinessLine, Economic Times, Indian Express, ETV Bharat and NDTV items were read as excerpts, mostly the opening of the article. News sites are secondary, and the Suvidha note is a consultant&rsquo;s summary.</li>
 <li>Weekdays were checked against the calendar.</li>
 </ul></details>
 '''
@@ -210,9 +210,9 @@ gaps = '''<details class="xv-n"><summary>What this piece could not establish</su
 <ul>
 <li>The text of the Policy and of the West Bengal Investment Promotion Scheme, 2026; only the booklet that summarises them was read, and only as extracted text.</li>
 <li>Any investment, jobs or number-of-units target for the policy; none was printed.</li>
-<li>The Rs 50,000 crore backlog beyond Business Standard&rsquo;s estimate: no named document, and the Chief Minister&rsquo;s own statement on it is reported differently by NDTV.</li>
+<li>The Rs 50,000 crore backlog beyond Business Standard&rsquo;s estimate: no named document, and the Chief Minister&rsquo;s statement on it is reported in different terms by Business Standard (the state may look at it when finances improve) and NDTV (gradually begin addressing).</li>
 <li>Whether any of the Rs 5,000 crore is meant for earlier claims, and the size of the Assured Incentive Fund beyond that provision.</li>
-<li>The list and number of priority-area sub-divisions, and the exact exclusion list.</li>
+<li>The list and number of priority-area sub-divisions, and the Policy&rsquo;s own exclusion list (the list above is a law firm&rsquo;s summary).</li>
 <li>Whether the land the Finance Minister says is available for the next two to three years exists in the quantity stated; it is his statement in an interview.</li>
 <li>Any Certificate of Intent, sanction or payment under the policy, and whether the 30-day claim clock includes payment after sanction.</li>
 </ul></details>
@@ -231,6 +231,8 @@ SOURCES = (
     '<a href="https://www.thehindubusinessline.com/economy/west-bengals-new-industrial-policy-offers-employment-linked-incentives-for-investors-dedicated-support-for-large-investment/article71670973.ece">The Hindu BusinessLine, 5 November 2026</a>, '
     '<a href="https://economictimes.indiatimes.com/news/india/west-bengal-investment-policy-puts-jobs-first-offers-up-to-120-assistance-to-industries/articleshow/135572363.cms">Economic Times, 5 November 2026</a> and '
     '<a href="http://indianexpress.com/article/cities/kolkata/west-bengal-investment-policy-2026-epf-incentives-women-msmes-10950934">Indian Express, 4 November 2026</a> (secondary, excerpts); '
+    '<a href="https://www.khaitanco.com/sites/default/files/2026-11/Ergo_West%20Bengal%20Investment%20Scheme_18%20November%202026.pdf">Khaitan &amp; Co, 18 November 2026</a> (a law firm&rsquo;s note; excerpt) and '
+    '<a href="https://sarthac.gov.in/view-act-rule-file?file_id=3475">the 2025 Act as published in the Kolkata Gazette</a> (official copy; excerpt); '
     '<a href="https://www.etvbharat.com/en/state/bengals-new-investment-policy-eyes-job-creation-offers-up-to-120-percent-govt-aid-and-tax-concessions-enn26110506171">ETV Bharat, 5 November 2026</a> and '
     '<a href="https://www.ndtv.com/india-news/can-suvendu-adhikari-deliver-industrial-renaissance-bengals-been-waiting-for-12296704">NDTV, 7 November 2026</a> (secondary, excerpts; the two accounts of the 120% ceiling that differ from the booklet); '
     '<a href="https://www.suvidhagroup.in/wp-content/uploads/2026/11/WB_Investment_Promotion_Policy_2026_Synopsis_Suvidha.pdf">Suvidha Consultancy synopsis</a> (a consultant&rsquo;s summary, excerpt). '
