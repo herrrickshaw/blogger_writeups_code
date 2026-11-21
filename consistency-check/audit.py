@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-masaladeutsch consistency checker.
+VertiStrat consistency checker.
 
 Two passes:
   static   - fetch every post, run the rule set (fast, no browser)
@@ -241,7 +241,7 @@ def main():
                 counts[k][0] += 1
 
     lines = []
-    lines.append(f"# masaladeutsch consistency report\n")
+    lines.append(f"# VertiStrat consistency report\n")
     lines.append(f"posts audited: **{len(results)}** · posts with at least one failure: "
                  f"**{len(failing)}**\n")
     lines.append("## Rule summary\n")

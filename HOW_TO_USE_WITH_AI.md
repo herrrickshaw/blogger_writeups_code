@@ -1,6 +1,6 @@
 # How to use blogger_writeups_code with an AI assistant
 
-Version history and design log for masaladeutsch.blogspot.com
+Version history and design log for blog.vertistratsolution.com
 
 You don't need to be a programmer to use this repository. Get the code,
 hand it to an AI assistant (Claude, Gemini, ChatGPT, ...), and ask in plain

@@ -1,6 +1,6 @@
 # blog-consistency-check
 
-A consistency / visual-regression checker for **masaladeutsch.blogspot.com**.
+A consistency / visual-regression checker for **blog.vertistratsolution.com**.
 
 It is deliberately not a generic screenshot-diff tool. Percy, Applitools and
 BackstopJS all answer "did this page change?" — which is the wrong question for
@@ -28,7 +28,7 @@ Needs `curl` and `node` on PATH (node is used to syntax-check post scripts).
 python3 audit.py                     # static pass, all posts (~30s)
 python3 audit.py --rendered          # + Playwright contrast/overflow, light AND dark
 python3 audit.py --rendered --limit 5
-python3 audit.py --url https://masaladeutsch.blogspot.com/2026/08/some-post.html
+python3 audit.py --url https://blog.vertistratsolution.com/2026/08/some-post.html
 python3 audit.py --rendered --baseline   # also write screenshot baselines
 ```
 

@@ -1,4 +1,4 @@
-# Keyword and discoverability analysis — masaladeutsch.blogspot.com
+# Keyword and discoverability analysis — blog.vertistratsolution.com
 
 Measured 8 August 2026 against 97 live posts, the live sitemap, and a sample of
 rendered pages. Every number here was counted, not estimated.

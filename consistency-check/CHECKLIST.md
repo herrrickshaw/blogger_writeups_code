@@ -1,4 +1,4 @@
-# masaladeutsch post checklist
+# VertiStrat post checklist
 
 Every item below exists because it went wrong on a live post. Each one is
 enforced by a rule in `checks.py`, so this document and the tool cannot drift

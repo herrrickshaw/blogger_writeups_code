@@ -1,4 +1,4 @@
-# Source Register — masaladeutsch
+# Source Register — VertiStrat
 
 Running log of papers, datasets and official releases assessed as **commissioning
 material for the blog**. One entry per source. Extended by track B of the

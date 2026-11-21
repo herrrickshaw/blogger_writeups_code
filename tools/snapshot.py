@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Snapshot every published masaladeutsch post into the archive and commit the diff.
+"""Snapshot every published VertiStrat post into the archive and commit the diff.
 
 Pulls every live post via the Blogger API v3 (which carries full post bodies),
 writes one HTML file plus one JSON sidecar per post, regenerates the manifest,

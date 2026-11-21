@@ -191,7 +191,7 @@ def main():
 <body>
 <main>
 <h1>Every article by topic</h1>
-<p class="lede">The full archive of <a href="{BLOG}">Masala Deutsch</a>, grouped.
+<p class="lede">The full archive of <a href="{BLOG}">VertiStrat Solutions</a>, grouped.
 {len(labelled)} articles across {len(topics)} topics, newest first within each.
 This page is plain HTML &mdash; it needs no JavaScript and does not go stale silently,
 because it is generated from the published-post manifest. Search reaches inside the

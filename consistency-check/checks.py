@@ -1,5 +1,5 @@
 """
-Rule definitions for the masaladeutsch consistency checker.
+Rule definitions for the VertiStrat consistency checker.
 
 Every rule here came out of a real defect found on the live blog, not a
 generic best-practice list. The comment on each rule records what it caught.

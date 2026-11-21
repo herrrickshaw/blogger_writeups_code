@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Data-validation tests for masaladeutsch posts. Report-only: never edits a
+"""Data-validation tests for VertiStrat posts. Report-only: never edits a
 post (CLAUDE.md rule 3 -- model output is not verified fact).
 
 Three tests per post, written to out/validation/<slug>.md:

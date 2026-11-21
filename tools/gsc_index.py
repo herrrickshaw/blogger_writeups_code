@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Index coverage for masaladeutsch, per URL, from the Search Console URL Inspection API.
+"""Index coverage for VertiStrat, per URL, from the Search Console URL Inspection API.
 
 The Search Console "Pages" report has no API, but URL Inspection does: for each
 URL it returns Google's verdict, coverage state ("Crawled - currently not

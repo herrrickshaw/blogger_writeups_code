@@ -1,4 +1,4 @@
-# Masala Deutsch — Maintenance Plan
+# VertiStrat — Maintenance Plan
 
 *Last reviewed: 10 August 2026. Documents the automated pipeline as it actually
 runs today, not an aspirational template — every job listed here is live in
@@ -6,7 +6,7 @@ runs today, not an aspirational template — every job listed here is live in
 
 ## 1. Purpose & Scope
 
-This plan covers the operational upkeep of `masaladeutsch.blogspot.com` and
+This plan covers the operational upkeep of `blog.vertistratsolution.com` and
 its local archive at `~/masaladeutsch-archive`: keeping the published site,
 the GitHub mirror, the Dropbox backup, and the site-index/summary artifacts
 in sync, catching regressions (grammar, broken links, stale traffic data)

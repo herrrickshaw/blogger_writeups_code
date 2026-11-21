@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""GA4 Data API report for masaladeutsch (property 548678807): pageviews and
+"""GA4 Data API report for VertiStrat (property 548678807): pageviews and
 active-user counts, broken down by country/city, over a date range.
 
 Also a per-city traffic-quality drill-down (2026-09-21): a raw views/user
@@ -451,7 +451,7 @@ def main():
     t = totals.get("rows", [{}])[0].get("metricValues", [])
     t_vals = [v["value"] for v in t] if t else ["0", "0", "0", "0"]
 
-    md = [f"# GA4 report — masaladeutsch, last {args.days} days\n",
+    md = [f"# GA4 report — VertiStrat, last {args.days} days\n",
           f"*Property {PROPERTY_ID}, generated via tools/ga_report.py.*\n",
           "## Totals\n",
           f"- Active users: **{t_vals[0]}**",

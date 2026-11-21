@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Blogger API v3 client for masaladeutsch — read, update and bulk-apply posts.
+"""Blogger API v3 client for VertiStrat — read, update and bulk-apply posts.
 
 Replaces driving the web editor, which gives no trustworthy success signal.
 See docs/BLOGGER_API_RUNBOOK.md for the one-time OAuth setup.

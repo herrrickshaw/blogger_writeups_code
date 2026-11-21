@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a single Markdown summary of every published masaladeutsch post:
+"""Build a single Markdown summary of every published VertiStrat post:
 title, date, topic labels, and its own standfirst (the human-written
 one-paragraph summary every post already carries) -- not a re-summarised
 or AI-generated blurb, the actual published lede.

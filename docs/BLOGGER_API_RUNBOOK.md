@@ -4,7 +4,7 @@ Replaces driving the Blogger web editor. The editor has no trustworthy success
 signal: a throttled save is indistinguishable from a no-op, which is why several
 updates in this project silently did nothing. The API returns a status code.
 
-Blog: `masaladeutsch.blogspot.com` · blogId `2071644453461588122`
+Blog: `blog.vertistratsolution.com` · blogId `2071644453461588122`
 
 ---
 

@@ -1,6 +1,6 @@
 # Data sources and standard practices
 
-A cross-repo status snapshot: what data sources feed the masaladeutsch ecosystem, how
+A cross-repo status snapshot: what data sources feed the VertiStrat ecosystem, how
 they're collected and turned into posts, what's still reachable, and where the known
 gaps are. Built 2026-09-14 by walking `blogger_writeups_code`, `india-govt-yellow-pages`,
 `india-trade-sector-policy-recommendations`, and `digital-twin-for-ipa`, plus live
@@ -341,7 +341,7 @@ cloud, compile all the sources for the blog"). The account has ~100 repos
 total; most are an unrelated quant-trading/stock-screener research platform
 (BazaarTalks, global-stock-screener, stock-screener-platform and ~15 more —
 personal market research, not blog input). This section lists only the
-government/public-data scrapers actually relevant to masaladeutsch's beat
+government/public-data scrapers actually relevant to VertiStrat's beat
 (trade, energy, industrial policy), found via `repo-traffic-analytics/repos.yaml`
 (the existing portfolio catalog, generated 2026-07-22 + appended 2026-09-12)
 cross-checked against each repo's own purpose/notes field. Not independently

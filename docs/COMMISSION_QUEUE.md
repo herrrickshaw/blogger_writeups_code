@@ -1,4 +1,4 @@
-# Commission Queue — masaladeutsch
+# Commission Queue — VertiStrat
 
 Concrete article ideas with a named primary source attached. Appended to by track B of
 the `literature-review-daily` scheduled task; consumed by hand when picking what to

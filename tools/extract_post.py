@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Structure-aware HTML -> plain text for a masaladeutsch post.
+"""Structure-aware HTML -> plain text for a VertiStrat post.
 
 Unlike a naive tag-strip (which glues headings, table cells and paragraphs
 into one run-on string -- exactly what fed LanguageTool garbage phrase-

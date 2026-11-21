@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Search Console report for masaladeutsch: clicks/impressions/CTR/position,
+"""Search Console report for VertiStrat: clicks/impressions/CTR/position,
 broken down by query and by page, over a date range.
 
 Auth: same service-account JWT bearer flow as tools/ga_report.py (RS256,
@@ -105,7 +105,7 @@ def main():
     t_rows = totals.get("rows", [])
     t = t_rows[0] if t_rows else {"clicks": 0, "impressions": 0, "ctr": 0, "position": 0}
 
-    md = [f"# Search Console report — masaladeutsch, {start} to {end}\n",
+    md = [f"# Search Console report — VertiStrat, {start} to {end}\n",
           f"*Site `{args.site}`, generated via tools/gsc_report.py.*\n",
           "## Totals\n",
           f"- Clicks: **{t['clicks']}**",
