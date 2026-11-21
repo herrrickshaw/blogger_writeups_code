@@ -13,7 +13,7 @@ touches the blog.
 
     python3 tools/gsc_report.py                    # last 28 days, prints to stdout
     python3 tools/gsc_report.py --days 90 --out out/gsc_report.md
-    python3 tools/gsc_report.py --site "https://masaladeutsch.blogspot.com/"
+    python3 tools/gsc_report.py --site "https://blog.vertistratsolution.com/"
 """
 import argparse, base64, json, time, urllib.request, urllib.parse, urllib.error, pathlib
 from datetime import date, timedelta
@@ -23,7 +23,7 @@ from cryptography.hazmat.primitives.asymmetric import padding
 
 SECRETS = pathlib.Path.home() / ".config" / "market-secrets"
 SA_FILE = SECRETS / "ga_service_account.json"
-DEFAULT_SITE = "https://masaladeutsch.blogspot.com/"
+DEFAULT_SITE = "https://blog.vertistratsolution.com/"
 SCOPE = "https://www.googleapis.com/auth/webmasters.readonly"
 
 

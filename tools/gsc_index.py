@@ -25,7 +25,7 @@ Report-only: never touches the blog.
 import argparse, csv, collections, datetime as dt, json, pathlib, sys, time, urllib.error, urllib.parse, urllib.request
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-DEFAULT_SITE = "https://masaladeutsch.blogspot.com/"
+DEFAULT_SITE = "https://blog.vertistratsolution.com/"
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "out" / "gsc_index"
