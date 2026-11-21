@@ -4,7 +4,8 @@ Build from the repo root:  python3 out/research/delhi-service-act-2026/build.py 
 Statute figures were read from the PRS copy of the Delhi Gazette Extraordinary of 27 August 2026 (English text, sections 1 to 21), downloaded and
 converted to text on 21 November 2026. Karnataka figures were read from the PRS compilation of the Karnataka Act. The e-SLA dashboard figures,
 the 9 November 2026 notification and the Rs 249 report are from search-result excerpts only; the post labels each. Every computed figure is asserted.
-The Schedule (services and time limits) is not in the PRS PDF; the post says so."""
+The Schedule (services and time limits) is not in the PRS PDF; the post says so.
+Revised 21 Nov 2026 after a source review: the Rules notified on 10 Nov 2026, the e-SLA split, the PTI Rs 249 source, the Schedule conflict and the related-post title."""
 import pathlib
 import sys
 import time
@@ -59,8 +60,6 @@ CAP_X = D_CAP / K_CAP
 assert RATE_X == 12.5 and CAP_X == 10.0
 assert DAYS_TO_CAP < K_DAYS_TO_CAP          # Delhi reaches its cap sooner (20 against 25 days)
 # the 2011 PRS comparison table prints the same Rs 250 a day, Rs 5,000 cap for other states' laws: the Delhi 2026 formula is not new
-PRS2012_RATE, PRS2012_CAP = 250, 5000
-assert (PRS2012_RATE, PRS2012_CAP) == (D_RATE, D_CAP)
 DELHI2011_COST = 10                # PRS brief of 27 Sep 2012, table: Delhi 2011 Act, cost of Rs 10 per application
 assert D_RATE / DELHI2011_COST == 25.0
 
@@ -77,6 +76,11 @@ AVG_MIN = APPS_MIN / SERVICES
 assert int(AVG_MIN) == 6349                 # at least this many applications per notified service, on average
 assert round(APPS_MIN * IN_TIME / 100) == 2_340_720   # lower bound on applications disposed in time, since the count is '36+'
 assert round(APPS_MIN * NOT_IN_TIME / 100) == 1_259_280
+LATE, PROC = 26.73, 0.19          # printed on the same page: 'disposed beyond prescribed no. of days' and 'under processing'
+PRINTED = round(IN_TIME + LATE + PROC, 2)
+UNACC = round(100 - PRINTED, 2)
+assert PRINTED == 91.94 and UNACC == 8.06
+assert round(NOT_IN_TIME - LATE - PROC, 2) == UNACC          # the 34.98% 'not in time' is late + processing + unaccounted
 
 TITLE = H("Delhi Act 10 of 2026: Rs 250 a day for service delay, up to Rs 5,000 a case")
 assert 55 <= len(TITLE) <= 90, len(TITLE)
@@ -109,7 +113,7 @@ s1 = insight(
                ["Appeal to the Delhi Right to Service Commission", "Applicant or officer", f"{COMM_DAYS} days; also automatic if the Authority misses a deadline; order final and binding", "9(1) to 9(4)"],
                ["Commission", "Chairman and three Members; Public Grievance Commission may act until it is formed", "&ndash;", "10, 11"]]),
     "A citizen does not have to file anything for a missed deadline, because the application itself is treated as the first appeal, and a second appeal goes to a Commission whose order is final.",
-    "The Government should publish the rules under section 19 that set the appeal forms and the online tracking procedure before the Act is applied to any service.",
+    "The Government should publish the commencement date and the Schedule of services, because the Rules notified on 10 November 2026 take effect only when the Act does.",
     "appeals")
 
 s2 = insight(
@@ -130,26 +134,30 @@ s2 = insight(
                ["Official&rsquo;s hearing", f"Representation within {REPLY_DAYS} days before any penalty (section 7(9))", f"Reply within {REPLY_DAYS} days of the notice (section 11(2))"],
                ["Applies to", "Substantive government servants and employees of bodies the Government owns, controls or substantially finances; not casual, daily-wage or (unless the contract says so) contract staff (section 1(4))", "Notified services in the Schedule"]]),
     f"Delhi sets a heavier fine on the official than Karnataka does, but the Act as printed gives the applicant nothing from it, whereas Karnataka compensates the citizen first and then recovers the cost from the official.",
-    "The Delhi Government should state in the rules whether any part of a penalty is paid to the applicant, because the Act as printed sends all of it to the treasury.",
+    "The Delhi Government should state whether any part of a penalty is paid to the applicant, because the Act as printed sends all of it to the treasury and the summaries of the Rules read do not mention it.",
     "money")
 
 s3 = insight(
     f"The e-SLA dashboard shows {IN_TIME}% of over {APPS_LAKH} lakh applications disposed in time",
-    bars(f"{IN_TIME}% of applications are shown as disposed in time and {NOT_IN_TIME}% are not",
-         [("Disposed in time, as reported", IN_TIME), ("Not shown as disposed in time (computed)", NOT_IN_TIME)],
-         accent="Not shown as disposed in time (computed)", unit="%", vmax=100,
-         sub=f"Share of applications received under the 2011 law&rsquo;s e-SLA system, {SERVICES} services in {DEPTS} departments. The page prints no date, and the second bar can include late, rejected and pending applications.",
-         source="Delhi e-SLA dashboard, esla.delhi.gov.in (read as a search-result excerpt on 21 November 2026). Difference computed here.")
+    bars(f"e-SLA shows {IN_TIME}% disposed in time, {LATE}% beyond the prescribed days, {PROC}% in process",
+         [("Disposed in time, as printed", IN_TIME), ("Disposed beyond the prescribed days, as printed", LATE),
+          ("Under processing, as printed", PROC), ("Not accounted for on the page (computed)", UNACC)],
+         accent="Disposed beyond the prescribed days, as printed", unit="%", vmax=100,
+         sub=f"Share of applications received under the 2011 law&rsquo;s e-SLA system, {SERVICES} services in {DEPTS} departments. The page prints no date. The three printed shares sum to {PRINTED}%, so {UNACC}% is not accounted for on the page.",
+         source="Delhi e-SLA dashboard, esla.delhi.gov.in (read as a search-result excerpt on 21 November 2026). The unaccounted share is computed here.")
     + numbers(["Item", "Value", "Basis"],
               [["Notified and integrated services", f"{SERVICES}", "e-SLA dashboard excerpt"],
                ["Departments covered", f"{DEPTS}", "e-SLA dashboard excerpt"],
                ["Applications received", f"{APPS_LAKH}+ lakh", "e-SLA dashboard excerpt; printed as a floor"],
                ["Disposed in time", f"{IN_TIME}%", "e-SLA dashboard excerpt; the definition of in time was not read"],
-               ["Not shown as disposed in time", f"{NOT_IN_TIME}%", "Computed: 100 minus 65.02"],
+               ["Disposed beyond the prescribed days", f"{LATE}%", "e-SLA dashboard excerpt"],
+               ["Under processing", f"{PROC}%", "e-SLA dashboard excerpt"],
+               ["Not accounted for on the page", f"{UNACC}%", f"Computed: 100 minus {PRINTED}; the three printed shares sum to {PRINTED}%"],
+               ["Not in time, all causes", f"{NOT_IN_TIME}%", "Computed: 100 minus 65.02; equals the late, processing and unaccounted shares"],
                ["Average applications per service", f"At least {int(AVG_MIN):,}", "Computed: 36 lakh divided by 567; cumulative, not a yearly rate"],
                ["Pending applications moved to the new Act", "Not published", "Section 21(3) deems them to be applications under the 2026 Act; no count was found"]]),
-    f"About a third of applications are not shown as disposed in time, and the figure cannot be set beside Karnataka&rsquo;s portal counter, which shows disposals of any kind and not timeliness.",
-    "The Delhi Government should print the as-of date on the dashboard and split the remainder into late, rejected and pending applications for each department.",
+    f"The dashboard prints {LATE}% of applications as disposed beyond the prescribed days and leaves {UNACC}% unaccounted for, and its figures cannot be set beside Karnataka&rsquo;s portal counter, which shows disposals of any kind and not timeliness.",
+    "The Delhi Government should print the as-of date on the dashboard and explain the unaccounted share, with late, rejected and pending applications split for each department.",
     "scale")
 
 s4 = insight(
@@ -159,6 +167,7 @@ s4 = insight(
           ("25 Aug 2026", "The Lieutenant Governor gives assent."),
           ("27 Aug 2026", "The Act is published in the Delhi Gazette Extraordinary as Delhi Act 10 of 2026; it comes into force on a date the Government appoints by notification (section 1(3)).", True),
           ("About 9 Nov 2026 (as reported)", "News reports say the Government notified the Act; the notification text was not read, and whether it sets the commencement date under section 1(3) is not confirmed."),
+          ("10 Nov 2026", "The IT Department notifies the Delhi (Right of Citizen to Time Bound and Ease of Delivery of Services) Rules, 2026 under section 19: online filing and tracking, a five-day deficiency memo, third-party audits and transfer of pending 2011 applications; they take effect when the Act does (Gazette Tracker, SCC Times, TeamLease; search excerpts)."),
           ("On commencement", "The 2011 Act is repealed; applications pending under it are deemed applications under the 2026 Act (section 21).")])
     + numbers(["Item", "Fact", "Basis"],
               [["Passed by the Assembly", "11 August 2026", "Gazette heading"],
@@ -166,6 +175,7 @@ s4 = insight(
                ["Published", "27 August 2026", "Gazette notification"],
                ["Commencement", "Date set by notification (section 1(3))", "Act text"],
                ["Reported notification", "About 9 November 2026", "News On AIR and NewKerala, search excerpts (secondary)"],
+               ["Rules under section 19", "Notified 10 November 2026; in force on the date the Act comes into force", "Delhi Gazette Extraordinary N.C.T.D. No. 286, as summarised by Gazette Tracker, SCC Times and TeamLease (secondary, excerpts)"],
                ["Repeal", "Delhi Act of 2011 and its rules repealed on commencement; past actions and accrued rights saved", "Section 21(1), 21(2)"],
                ["Pending applications", "Deemed to be applications under the 2026 Act", "Section 21(3)"],
                ["Difficulty-removal order power", "Two years from commencement", "Section 20"]]),
@@ -175,10 +185,10 @@ s4 = insight(
 
 fixes = '''<h2 class="gb-h2" id="fixes">What would fix this</h2>
 <ol>
-<li><b>Delhi Government:</b> publish the Schedule of services, time limits, Designated Officers and Authorities with the commencement notification.</li>
+<li><b>Delhi Government:</b> publish the Schedule of services, time limits, Designated Officers and Authorities with the commencement notification, and say whether the services were already notified as the Chief Minister&rsquo;s office stated on 9 November.</li>
 <li><b>Information Technology Department, Delhi:</b> print the as-of date on the e-SLA dashboard and report delivered-in-time, delivered-late, rejected and pending counts by department every month.</li>
 <li><b>Delhi Right to Service Commission:</b> publish the annual report required by section 15(6) with the number of penalties imposed and the rupees recovered.</li>
-<li><b>Delhi Government:</b> state in the rules whether any part of a penalty reaches the applicant, and publish the count of 2011-law applications carried over under section 21(3).</li>
+<li><b>Delhi Government:</b> state whether any part of a penalty reaches the applicant, and publish the count of 2011-law applications carried over under section 21(3) and the Rules.</li>
 </ol>
 <p>These are proposals from this blog, not recommendations any agency has adopted.</p>
 '''
@@ -197,10 +207,12 @@ method = '''<details class="xv-n"><summary>What the Act provides, section by sec
 
 gaps = '''<details class="xv-n"><summary>What this piece could not establish</summary>
 <ul>
-<li>The Schedule of services and time limits: it is not in the PRS copy of the Act, so no notified service and no deadline is quoted here. The rules under section 19 were not found either.</li>
+<li>The Schedule of services and time limits: it is not in the PRS copy of the Act, so no notified service and no deadline is quoted here. Reports conflict on whether it has been notified: the Chief Minister&rsquo;s office statement, carried by the Pioneer and the Economic Times on 9 November, says a separate notification specified the services and days, while the Indian Express, the Tribune and News On AIR say the Government will notify them. No such notification was found.</li>
+<li>The Rules: the Delhi (Right of Citizen to Time Bound and Ease of Delivery of Services) Rules, 2026 were notified on 10 November 2026 and were read only as summaries in search excerpts (Gazette Tracker, SCC Times, TeamLease); their text was not read, and the excerpts do not say whether they address who receives a penalty.</li>
+<li>The structure of the penalty: the Act text gives Rs 250 a day up to Rs 5,000 for delay and a separate lump sum of Rs 250 to Rs 5,000 for unreasonable rejection, but the Indian Express describes a one-time Rs 250 rising to Rs 5,000 and the Hindustan Times a daily Rs 250 to Rs 5,000. The Act text is used here.</li>
 <li>Whether the notification reported on about 9 November 2026 is the commencement notification under section 1(3). It was read only in search-result excerpts from News On AIR and NewKerala, and one secondary analysis found in a search excerpt said no commencement notification could be located as of 4 September 2026. The text of any notification was not read.</li>
-<li>The daily rate: the Gazette text prints Rs 250 a day, but a PTI-based newspaper report of the Bill, seen in a search excerpt, said Rs 249. The Act text is used here.</li>
-<li>The e-SLA dashboard figures: 567 services, 46 departments, over 36 lakh applications and 65.02% disposed in time were read from a search-result excerpt of esla.delhi.gov.in, which prints no date. The meaning of in time and the split of the rest were not read, and the dashboard belongs to the 2011 law&rsquo;s system. Other Delhi government sources seen in the same search show other service counts for other portals, such as 453 services on eDistrict, so the counts are not interchangeable.</li>
+<li>The daily rate: the Gazette text prints Rs 250 a day, but the PTI report of 11 August 2026 on the Bill&rsquo;s passage, seen in search excerpts from ptinews.com and the Pioneer, said Rs 249 a day. The Act text is used here.</li>
+<li>The e-SLA dashboard figures: 567 services, 46 departments, over 36 lakh applications and 65.02% disposed in time were read from a search-result excerpt of esla.delhi.gov.in, which prints no date. The page also prints 26.73% disposed beyond the prescribed days and 0.19% under processing, which with 65.02% leave 8.06% not accounted for; the meaning of in time was not read, and the dashboard belongs to the 2011 law&rsquo;s system. Other Delhi government sources seen in the same search show other service counts for other portals, such as 453 services on eDistrict, so the counts are not interchangeable.</li>
 <li>Pending or disposed applications under the 2011 law at the date of transition: none was found.</li>
 <li>Whether the Delhi Right to Service Commission has been constituted; section 10 lets the Public Grievance Commission act until it is.</li>
 <li>The Act&rsquo;s name differs between sources: the Gazette says &lsquo;Right of Citizen to Time Bound and Ease of Delivery of Services&rsquo;, while some reports say &lsquo;Right of Citizens to Time-Bound and Easy Delivery of Services&rsquo;. The Gazette form is used. The PRS copy carries a disclaimer that it is not the authoritative text, and the Hindi text was not compared with the English.</li>
@@ -218,10 +230,19 @@ SOURCES = (
     '<a href="https://newsonair.gov.in/delhi-govt-notifies-act-to-ensure-time-bound-delivery-of-government-services/">News On AIR, 9 November 2026</a> (secondary, search excerpt: notification reported); '
     '<a href="https://www.newkerala.com/news/a/delhi-govt-notifies-right-time-bound-delivery-services-act-729.htm">NewKerala, 9 November 2026</a> (secondary, search excerpt); '
     '<a href="https://openthemagazine.com/india/quick-take-delhi-officials-can-lose-up-to-5000-for-delaying-your-application-seven-things-to-know">Open magazine quick take</a> (secondary, search excerpt: Rs 5,000); '
-    '<a href="https://dailypioneer.com/delhi/delhi-notifies-new-law-officials-face-rs-5000-penalty-for-service-delays">The Pioneer</a> (secondary, search excerpt: Rs 250 and Rs 249 reports); '
+    '<a href="https://dailypioneer.com/delhi/delhi-notifies-new-law-officials-face-rs-5000-penalty-for-service-delays">The Pioneer, 9 November 2026</a> and '
+    '<a href="https://m.economictimes.com/news/india/delhi-govt-notifies-new-law-imposes-rs-250-daily-fine-on-officials-for-service-delays/articleshow/135682648.cms">Economic Times, 9 November 2026</a> (secondary, search excerpts: Rs 250 a day; Chief Minister&rsquo;s office statement on a separate notification); '
+    '<a href="https://www.ptinews.com/story/national/delhi-assembly-passes-bill-for-time-bound-service-delivery-officers-liable-to-pay-penalty-on-delay/3956066">PTI, 11 August 2026</a> and '
+    '<a href="https://dailypioneer.com/news/slug-lite/delhi-assembly-passes-bill-for-time-bound-service?year=2026">The Pioneer, 11 August 2026</a> (secondary, search excerpts: the Rs 249 report); '
+    '<a href="https://indianexpress.com/article/cities/delhi/delhi-notifies-law-to-make-officials-accountable-for-delays-in-delivering-govt-services-10956844">Indian Express, 9 November 2026</a>, '
+    '<a href="https://www.tribuneindia.com/news/delhi/delhi-notifies-new-time-bound-public-services-act-officials-face-penalty-of-up-to-rs-5000">The Tribune, 9 November 2026</a> and '
+    '<a href="https://www.hindustantimes.com/cities/delhi-news/delhi-government-notifies-2026-act-for-time-bound-delivery-of-public-services-101794251043724.html">Hindustan Times, 9 and 10 November 2026</a> (secondary, search excerpts); '
+    '<a href="https://gazettetracker.com/g/SG-DL-E-13112026-277898">Gazette Tracker, Delhi Rules 2026</a>, '
+    '<a href="https://www.scconline.com/blog/post/2026/11/18/delhi-right-of-citizen-time-bound-ease-delivery-services-rules-2026/">SCC Times, 18 November 2026</a> and '
+    '<a href="https://teamleaseregtech.com/updates/article/61305/delhi-notification-of-rules-under-the-right-of-citizen-to-time-bound-a/">TeamLease RegTech, 15 November 2026</a> (secondary, search excerpts: Rules notified 10 November 2026); '
     '<a href="https://righttoinformation.wiki/delhi-time-bound-services-act-2026">righttoinformation.wiki analysis</a> (secondary, search excerpt: commencement). '
     'Ratios, days to the cap and shares computed by this blog. Analysed 21 November 2026.')
-RELATED = [(B + "/2026/11/karnataka-sakaala-services-act-rs-20.html", "Karnataka Sakaala Services Act: Rs 20 a day for delay, capped at Rs 500")]
+RELATED = [(B + "/2026/11/karnataka-sakaala-services-act-rs-20.html", "Karnataka Sakaala Services Act: Rs 20 a day for delay, capped at Rs 500, amended 2026")]
 step(5, "assembling page")
 build("Governance &middot; Delhi", TITLE,
       "Delhi&rsquo;s 2026 service-delivery Act fines officials Rs 250 a day for delay, up to Rs 5,000 a case, adds an automatic appeal and a Commission, and takes effect when the Government notifies it.",
