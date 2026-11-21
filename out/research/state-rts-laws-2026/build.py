@@ -1,8 +1,8 @@
 """Right-to-services laws across Indian states and UTs: who is covered, penalty and cap, appeal tiers, how many states and UTs have such laws, and what is counted.
 Build from the repo root:  python3 out/research/state-rts-laws-2026/build.py   (writes out/post-india-right-to-service-laws-states.html)
 Read in full from PRS copies on 21 November 2026: Delhi Act 10 of 2026; Karnataka Act 1 of 2012 with 2014 and 2026 amendments; Bihar Right to Public Services Act, 2011;
-the English 2013 amendment to the Rajasthan Act (the principal Rajasthan text and the MP Act pages are scanned or font-garbled in the PRS PDFs and gave only
-their header lines); PRS Legislative Brief of 27 September 2012 (comparison table of the 2011 state laws); PRS Annual Review of State Laws 2025 (ARSL 2025).
+the English 2013 amendment to the Rajasthan Act (the principal Rajasthan text and the MP Act are page scans in the PRS PDFs with no text layer: their
+English sections 6 to 8 were read by viewing the page images on 21 November 2026, which is a visual reading and not a text extract); PRS Legislative Brief of 27 September 2012 (comparison table of the 2011 state laws); PRS Annual Review of State Laws 2025 (ARSL 2025).
 The count of 22 comes from a search excerpt of a Wikipedia article; ARSL 2025 does not print a count. A blank cell means the figure was not read in an Act or named report."""
 import pathlib
 import re
@@ -61,17 +61,25 @@ K_RATE, K_CAP = 20, 500
 D_RATE, D_CAP = 250, 5000
 assert K_CAP / K_RATE == 25 and D_CAP / D_RATE == 20
 assert D_CAP / K_CAP == 10 and D_RATE / K_RATE == 12.5
-GROUP_LUMP_LOW, GROUP_LUMP_HIGH, GROUP_RATE, GROUP_CAP = 500, 5000, 250, 5000      # PRS 2012 brief, grouped Bihar/MP/UP/Rajasthan row
-assert GROUP_CAP == GROUP_LUMP_HIGH == D_CAP and GROUP_RATE == D_RATE and GROUP_CAP / GROUP_RATE == 20
+# MP Act 24 of 2010, section 7(1) and 7(2), and Rajasthan Act 23 of 2011, section 7(1) and 7(2) (English text, read from page images)
+MPRJ_LUMP_LOW, MPRJ_LUMP_HIGH, MPRJ_RATE, MPRJ_CAP = 500, 5000, 250, 5000
+assert MPRJ_CAP == MPRJ_LUMP_HIGH == D_CAP and MPRJ_RATE == D_RATE and MPRJ_CAP / MPRJ_RATE == 20
+# The PRS 2012 brief's grouped Bihar/MP/UP/Rajasthan row (Rs 500 to Rs 5,000; Rs 250 a day up to Rs 5,000) matches the MP and Rajasthan Acts read
+GROUP_LUMP_LOW, GROUP_LUMP_HIGH, GROUP_RATE, GROUP_CAP = 500, 5000, 250, 5000
+assert (GROUP_LUMP_LOW, GROUP_LUMP_HIGH, GROUP_RATE, GROUP_CAP) == (MPRJ_LUMP_LOW, MPRJ_LUMP_HIGH, MPRJ_RATE, MPRJ_CAP)
+MP_FIRST_DAYS, MP_SECOND_DAYS, MP_REVISION_DAYS = 30, 60, 60     # MP Act sections 6(1), 6(3), 8
+RJ_FIRST_DAYS, RJ_SECOND_DAYS, RJ_REVISION_DAYS = 30, 60, 60     # Rajasthan Act sections 6(1), 6(3), 8 (section 8 replaced in 2013: revision to the Commission)
+assert MP_FIRST_DAYS == RJ_FIRST_DAYS == 30 and MP_SECOND_DAYS == RJ_SECOND_DAYS == 60
 DELHI2011_COST = 10
 assert D_RATE / DELHI2011_COST == 25
 APPEAL = {  # days allowed for the step after the first appeal
+    "Madhya Pradesh (second appellate authority)": MP_SECOND_DAYS,   # Act section 6(3)
+    "Rajasthan (second appellate authority)": RJ_SECOND_DAYS,        # Act section 6(3)
     "Bihar (reviewing authority)": 60,       # Act section 6(3)
     "Karnataka (appellate authority)": 60,   # Act section 13(3) as in the Karnataka post
-    "Rajasthan (revision to the Commission)": 60,   # 2013 amendment, new section 8
     "Delhi (Commission)": 30,                # Act 10 of 2026 section 9(2)
 }
-assert sorted(APPEAL.values()) == [30, 60, 60, 60]
+assert sorted(APPEAL.values()) == [30, 60, 60, 60, 60]
 # Disposal counters named in the two single-state posts
 KA_DISPOSAL = round(100 * 431_632_443 / 432_426_014, 2)
 assert f"{KA_DISPOSAL:.2f}" == "99.82"
@@ -84,49 +92,51 @@ assert 55 <= len(_h.unescape(TITLE)) <= 90, len(_h.unescape(TITLE))
 step(3, "writing sections")
 top = top_line([
     (f"{REPORTED}", f" states and union territories are reported to have right-to-service laws as of 2025 by one source, Wikipedia; the PRS annual review of 2025 prints no count, and only {len(NAMED)} are named in documents read for this piece."),
-    (f"Rs {K_CAP} to Rs {D_CAP:,}", f" is the range of the per-case caps printed in the two Acts read in full for the figure: Karnataka at Rs {K_RATE} a day to Rs {K_CAP}, Delhi at Rs {D_RATE} a day to Rs {D_CAP:,}."),
+    (f"Rs {K_CAP} to Rs {D_CAP:,}", f" is the range of per-case caps in the Acts read: Karnataka Rs {K_RATE} a day to Rs {K_CAP}, and Madhya Pradesh, Rajasthan and Delhi Rs {D_RATE} a day to Rs {D_CAP:,}."),
     ("2010", " is the year Madhya Pradesh enacted the first such law, followed by eight state laws dated 2011 in a 2012 PRS table, including Bihar, Rajasthan and the first Delhi Act."),
 ])
 
 s1 = insight(
-    H(f"Per-case caps: Rs {K_CAP} in Karnataka, Rs {D_CAP:,} in Delhi, none printed in Bihar&rsquo;s Act"),
-    bars(H(f"Delhi caps a penalty at Rs {D_CAP:,} a case, ten times Karnataka&rsquo;s Rs {K_CAP}"),
+    H(f"Per-case caps: Rs {K_CAP} in Karnataka, Rs {D_CAP:,} in MP, Rajasthan and Delhi, none in Bihar"),
+    bars(H(f"Three of five Acts cap a penalty at Rs {D_CAP:,} a case; Karnataka caps it at Rs {K_CAP}"),
          [("Karnataka Act, section 9 (compensation to the citizen)", K_CAP),
           ("Delhi Act 10 of 2026, section 8 (penalty to the treasury)", D_CAP),
-          ("MP, Rajasthan and UP, PRS 2012 brief, grouped (secondary)", GROUP_CAP),
+          ("Madhya Pradesh Act, section 7 (penalty on the officer)", MPRJ_CAP),
+          ("Rajasthan Act, section 7 (penalty recovered from salary)", MPRJ_CAP),
           ("Bihar Act, section 7: rates set in the rules", None),
           ("Delhi Act of 2011: Rs 10 an application, no cap printed (PRS 2012)", None)],
          accent="Delhi Act 10 of 2026, section 8 (penalty to the treasury)", unit="", fmt=lambda v: f"Rs {v:,.0f}", vmax=5500,
-         sub="Maximum per case, rupees, as printed. A dashed bar means no cap was read. The grouped bar is a 2012 summary of several states&rsquo; laws, not read from their Acts.",
-         source="Karnataka Act and Delhi Act 10 of 2026 (PRS copies); Bihar Act (PRS copy); PRS Legislative Brief, 27 September 2012.")
+         sub="Maximum per case, rupees, as printed in each Act. A dashed bar means no cap is printed in the Act. The Madhya Pradesh and Rajasthan Acts were read from page scans.",
+         source="Karnataka, Delhi, Bihar, Madhya Pradesh and Rajasthan Acts (PRS copies); PRS Legislative Brief, 27 September 2012 for Delhi 2011.")
     + numbers(["State and Act", "Delay", "Rejection", "Who receives it", "Basis"],
-              [["Madhya Pradesh, 2010", "&ndash;", "&ndash;", "&ndash;", "Act pages are scanned in the PRS PDF and were not read; PRS 2012 brief groups MP with Bihar, UP and Rajasthan at Rs 250 a day up to Rs 5,000 and Rs 500 to Rs 5,000 lump sum (secondary)"],
-               ["Bihar, 2011", "Rate set in the rules (section 7(1)(b))", "Lump sum at the rate in the rules (section 7(1)(a))", "Charged on the officer, appellate authority or staff (section 7(3))", "Act text read; the 2012 brief&rsquo;s Rs 250 and Rs 5,000 for this group does not appear in the Act, so it may come from the rules"],
-               ["Rajasthan, 2011", "&ndash;", "&ndash;", "&ndash;", "Principal Act text is garbled in the PRS PDF; the 2013 amendment was read; the 2012 brief groups Rajasthan with the figures above (secondary)"],
+              [["Madhya Pradesh, 2010", f"Rs {MPRJ_RATE} a day, to Rs {MPRJ_CAP:,} (section 7(1)(b))", f"Lump sum Rs {MPRJ_LUMP_LOW} to Rs {MPRJ_LUMP_HIGH:,} for failure to provide the service (section 7(1)(a))", "Penalty on the designated officer; the second appellate authority may order part of it paid to the appellant as compensation, not above the penalty (section 7(3))", "Act text read from the PRS page scan; a first appeal officer who fails to decide an appeal in time faces Rs 500 to Rs 5,000 (section 7(2))"],
+               ["Bihar, 2011", "Rate set in the rules (section 7(1)(b))", "Lump sum at the rate in the rules (section 7(1)(a))", "Charged on the officer, appellate authority or staff (section 7(3))", "Act text read; the rupee amounts are in rules that were not found, although the 2012 brief&rsquo;s group figure of Rs 250 a day up to Rs 5,000 matches the Madhya Pradesh and Rajasthan Acts"],
+               ["Rajasthan, 2011", f"Rs {MPRJ_RATE} a day, to Rs {MPRJ_CAP:,} (section 7(1)(b))", f"Lump sum Rs {MPRJ_LUMP_LOW} to Rs {MPRJ_LUMP_HIGH:,} (section 7(1)(a))", "Recovered from the designated officer&rsquo;s salary (section 7(1)(c)); compensation to the appellant out of the penalty, not above it (section 7(3))", "Act text read from the PRS page scan; first appeal officer who fails to decide in time faces Rs 500 to Rs 5,000 (section 7(2))"],
                ["Karnataka, 2011", f"Rs {K_RATE} a day, to Rs {K_CAP} an application", "&ndash;", "Citizen is paid; cost recovered from the official", "Act text read (section 9); the 2026 amendment lets the Schedule set other rates"],
                ["Delhi, 2026", f"Rs {D_RATE} a day, to Rs {D_CAP:,} a case", f"Lump sum Rs {D_RATE} to Rs {D_CAP:,}", "Government treasury", "Act text read (section 8)"],
                ["Delhi, 2011 (repealed on commencement of the 2026 Act)", f"Rs {DELHI2011_COST} an application", "&ndash;", "&ndash;", "PRS 2012 brief, comparison table (secondary)"]]),
-    "A citizen in Karnataka receives money for a delay and a citizen in Delhi does not, while Bihar&rsquo;s Act leaves every rupee amount to rules that were not read.",
+    "A citizen in Karnataka is paid for a delay and a citizen in Delhi is not, while Madhya Pradesh and Rajasthan let the appellate authority order compensation out of the penalty and Bihar leaves the amounts to rules that were not read.",
     "Each state should print the delay rate, the cap and the payee in the Schedule entry for each service so that a rule change is visible to applicants.",
     "money")
 
 s2 = insight(
-    H("Second-stage appeal windows: 60 days in Bihar, Karnataka and Rajasthan, 30 in Delhi"),
-    bars(H("Three states allow 60 days for the second step and Delhi allows 30"),
+    H("Second-stage appeal windows: 60 days in four states, 30 days in Delhi"),
+    bars(H("Four states allow 60 days for the second appeal step and Delhi allows 30"),
          [("Bihar: second appeal to the reviewing authority", APPEAL["Bihar (reviewing authority)"]),
           ("Karnataka: second appeal to the appellate authority", APPEAL["Karnataka (appellate authority)"]),
-          ("Rajasthan: revision to the Commission (2013 amendment)", APPEAL["Rajasthan (revision to the Commission)"]),
+          ("Madhya Pradesh: second appeal to the second appellate authority", APPEAL["Madhya Pradesh (second appellate authority)"]),
+          ("Rajasthan: second appeal to the second appellate authority", APPEAL["Rajasthan (second appellate authority)"]),
           ("Delhi: appeal to the Commission", APPEAL["Delhi (Commission)"])],
          accent="Delhi: appeal to the Commission", unit=" days", vmax=70,
-         sub="Days allowed to take the step after the first one, as printed in each Act. Madhya Pradesh has a first appeal officer and a second appellate authority per the PRS file header; its windows were not read.",
-         source="Bihar Act section 6(3); Karnataka Act section 13(3); Rajasthan 2013 amendment, section 8; Delhi Act 10 of 2026, section 9(2) (PRS copies).")
+         sub="Days allowed to take the step after the first one, as printed in each Act. All five first stages allow 30 days except Delhi, where the first appeal is automatic.",
+         source="Madhya Pradesh Act and Rajasthan Act section 6(3); Bihar Act section 6(3); Karnataka Act section 13(3); Delhi Act 10 of 2026, section 9(2) (PRS copies).")
     + numbers(["State", "First stage", "Second stage", "Basis"],
-              [["Madhya Pradesh", "First appeal officer", "Second appellate authority", "PRS file header keywords; Act text not read"],
+              [["Madhya Pradesh", f"First appeal officer, {MP_FIRST_DAYS} days", f"Second appellate authority, {MP_SECOND_DAYS} days; revision to an officer the State nominates, {MP_REVISION_DAYS} days", "Act sections 6 and 8 (page scan)"],
                ["Bihar", "Appellate authority, 30 days", "Reviewing authority, 60 days", "Act sections 6(1) and 6(3)"],
-               ["Rajasthan", "First appeal officer", "Second appellate authority, then revision to the Commission in 60 days", "PRS file header keywords; 2013 amendment, section 8"],
+               ["Rajasthan", f"First appeal officer, {RJ_FIRST_DAYS} days", f"Second appellate authority, {RJ_SECOND_DAYS} days; revision, {RJ_REVISION_DAYS} days, to a nominated officer in 2011 and to the Commission after the 2013 amendment", "Act sections 6 and 8 (page scan); 2013 amendment"],
                ["Karnataka", "Competent officer, 30 days", "Appellate authority, 60 days", "Act sections 13(1) and 13(3)"],
                ["Delhi (2026)", "Citizen Grievance Redressal Authority, appeal lodged automatically on a missed deadline", "Commission, 30 days", "Act sections 7 and 9"]]),
-    "Each law read provides two stages of appeal inside the administration, and the Rajasthan and Delhi Acts add a Commission at the top.",
+    "Each law read provides two stages of appeal inside the administration, with a revision step in Madhya Pradesh and Rajasthan and a Commission at the top in Rajasthan since 2013 and in Delhi.",
     "A citizen who is refused should note the date of the rejection or of the missed deadline, because the first window runs from that date in Bihar and Karnataka.",
     "appeals")
 
@@ -140,7 +150,7 @@ s3 = insight(
          sub=f"States and union territories. The {len(NAMED)} are the nine in the 2012 PRS table, Karnataka, and Assam and Kerala from the PRS 2025 review. The 22 is from a Wikipedia excerpt with no list; the PRS review prints no total.",
          source="PRS Legislative Brief, 27 September 2012; PRS Annual Review of State Laws 2025; Karnataka Act (PRS copy); Wikipedia excerpt for the 22. Difference computed here.")
     + numbers(["Group", "States and UTs", "Basis"],
-              [["Madhya Pradesh (2010)", "1", "PRS file for Act 24 of 2010; Wikipedia gives 18 August 2010 (secondary)"],
+              [["Madhya Pradesh (2010)", "1", "Act 24 of 2010, gazetted 18 August 2010 (PRS copy)"],
                ["State laws with a 2011 source in the PRS table", "8: Uttar Pradesh, Jammu and Kashmir, Delhi, Bihar, Himachal Pradesh, Rajasthan, Uttarakhand, Punjab", "PRS brief, 27 September 2012; Delhi and Bihar also read as Acts"],
                ["Karnataka", "1", "Act 1 of 2012 (PRS copy)"],
                ["Assam, Kerala", "2", "PRS ARSL 2025 lists the Assam Right to Public Services (Amendment) Bill, 2025 and Ordinance, 2024, and the Kerala Right to Public Service Bill, 2025"],
@@ -173,7 +183,7 @@ fixes = '''<h2 class="gb-h2" id="fixes">What would fix this</h2>
 <li><b>State right-to-service commissions:</b> publish an annual report with applications received, delivered in time, late, rejected and pending, by department.</li>
 <li><b>State governments:</b> print the delay rate, the cap and the payee beside each service in the Schedule.</li>
 <li><b>Department of Administrative Reforms and Public Grievances, Government of India:</b> keep one dated list of the states and union territories with a right-to-service law, with the Act, its year and whether it is in force.</li>
-<li><b>PRS Legislative Research and state legislative departments:</b> post readable text of the Acts, since the Madhya Pradesh and Rajasthan files could not be read as text.</li>
+<li><b>PRS Legislative Research and state legislative departments:</b> post searchable text of the Acts, since the Madhya Pradesh and Rajasthan files are page scans.</li>
 </ol>
 <p>These are proposals from this blog, not recommendations any agency has adopted.</p>
 '''
@@ -182,6 +192,7 @@ method = '''<details class="xv-n"><summary>Who is covered, and what is counted</
 <ul>
 <li><b>Delhi 2026:</b> substantive government servants and employees of local bodies and authorities the Government owns, controls or substantially finances; casual, daily-wage and (unless the contract says otherwise) contract staff are excluded; only services in the Schedule are covered (section 1(4) and (5)).</li>
 <li><b>Karnataka:</b> services in the Schedule, with the penalty falling on the designated officer or the subordinate who defaults; nothing applies where the Government has banned or restricted the service (section 9).</li>
+<li><b>Madhya Pradesh and Rajasthan:</b> services, designated officers, first appeal officers, second appellate authorities and time limits notified by the State Government under section 3 of each Act; Rajasthan&rsquo;s Act defines a public authority to include bodies owned, controlled or substantially financed by the State.</li>
 <li><b>Bihar:</b> services, designated public servants and appellate authorities notified by the Government under section 3; the penalty may be charged to the designated public servant, the appellate authority or staff (section 7(3)).</li>
 <li><b>What is counted as a law:</b> the 2012 PRS table counts Acts and, for Madhya Pradesh, a Vidheyak (Bill) of 2010; the 2025 review counts Bills passed and an Ordinance. This piece counts a state once whatever the number of its laws, and a Bill that was reported as passed is counted as a law only where the review says it was passed.</li>
 <li><b>Stipulated time limits:</b> each Act fixes limits in a Schedule or notification, which this piece did not read for any state.</li>
@@ -191,13 +202,13 @@ method = '''<details class="xv-n"><summary>Who is covered, and what is counted</
 gaps = '''<details class="xv-n"><summary>What this piece could not establish</summary>
 <ul>
 <li>The number of states and union territories with a right-to-service law. The figure of 22 is read only from a Wikipedia excerpt; the PRS Annual Review of State Laws 2025 prints no count and names only the Assam and Kerala measures. The remaining 10 were not identified from a source read.</li>
-<li>The penalty and cap in the Madhya Pradesh and Rajasthan Acts. The PRS PDFs for the Madhya Pradesh Act (Act 24 of 2010, with Acts 22 of 2011 and 5 of 2012) and the principal Rajasthan Act (Act 23 of 2011) did not yield readable text, so those cells are blank in the table apart from the 2012 PRS brief&rsquo;s grouped summary, which is secondary.</li>
-<li>Bihar&rsquo;s rupee amounts. The Act says the rates are those in the rules; the rules were not found. The 2012 PRS brief groups Bihar with states said to have Rs 250 a day up to Rs 5,000, which the Act text does not itself state, so the two are treated as unreconciled.</li>
+<li>Machine-readable text of the Madhya Pradesh and Rajasthan Acts. The PRS PDFs are page scans with no text layer, so sections 6 to 8 of each were read by viewing the page images. The Madhya Pradesh amendments (Acts 22 of 2011 and 5 of 2012, and later amendments listed in PRS reviews) and the rest of the Rajasthan Act were not read for changes to the penalty.</li>
+<li>Bihar&rsquo;s rupee amounts. The Act says the rates are those in the rules; the rules were not found. The 2012 PRS brief groups Bihar with Madhya Pradesh, Uttar Pradesh and Rajasthan at Rs 250 a day up to Rs 5,000; that figure is confirmed in the Madhya Pradesh and Rajasthan Acts but not in Bihar&rsquo;s, so Bihar is treated as unreconciled.</li>
 <li>One search summary listed Kerala as having a law in 2012 and other states with later years (Odisha, West Bengal, Goa, Haryana, Maharashtra, Mizoram), while the PRS review for 2025 reports a Kerala Bill passed that year. These years were not read in any document and are not used.</li>
 <li>The Rajasthan Right to Hearing Act, 2012 is a different Act from the Rajasthan Guaranteed Delivery of Public Services Act, 2011; a search excerpt about a Rs 500 to Rs 5,000 fine on a Public Hearing Officer relates to the former and is not used here.</li>
 <li>Pending applications: no pending or disposal figure was found for Madhya Pradesh, Bihar or Rajasthan, and none is given.</li>
 <li>Whether each law is in force today, which Schedules exist, and how many services each state has notified (other than the Karnataka and Delhi counters in the single-state posts).</li>
-<li>The 2012 PRS brief reflects laws as of its date; later amendments to the Bihar, Madhya Pradesh and Rajasthan Acts may have changed the figures.</li>
+<li>The 2012 PRS brief reflects laws as of its date, and the figures for Uttar Pradesh, Jammu and Kashmir, Himachal Pradesh, Uttarakhand and Punjab come from it alone; later amendments may have changed them.</li>
 </ul></details>
 '''
 body = STYLE + top + s1 + s2 + s3 + s4 + fixes + method + gaps
@@ -208,8 +219,8 @@ SOURCES = (
     '<a href="https://prsindia.org/files/bills_acts/acts_states/delhi/2026/Act10of2026DL.pdf">Delhi Act 10 of 2026, PRS copy</a>; '
     '<a href="https://prsindia.org/files/bills_acts/acts_states/karnataka/2012/2012KA1.pdf">Karnataka Sakaala Services Act, PRS compilation</a>; '
     '<a href="https://prsindia.org/files/bills_acts/acts_states/bihar/2011/2011Bihar4.pdf">The Bihar Right to Public Services Act, 2011, PRS copy</a>; '
-    '<a href="https://prsindia.org/files/bills_acts/acts_states/rajasthan/2011/2011Rajasthan23.pdf">The Rajasthan Guaranteed Delivery of Public Services Act, 2011 with the 2013 amendment, PRS copy</a> (only the amendment was readable); '
-    '<a href="https://prsindia.org/files/bills_acts/acts_states/madhya-pradesh/2010/2010MP24.pdf">Madhya Pradesh Lok Sewaon ke Pradan ki Guarantee Adhiniyam, 2010, PRS copy</a> (header only readable); '
+    '<a href="https://prsindia.org/files/bills_acts/acts_states/rajasthan/2011/2011Rajasthan23.pdf">The Rajasthan Guaranteed Delivery of Public Services Act, 2011 with the 2013 amendment, PRS copy</a> (page scan; amendment has a text layer); '
+    '<a href="https://prsindia.org/files/bills_acts/acts_states/madhya-pradesh/2010/2010MP24.pdf">Madhya Pradesh Lok Sewaon ke Pradan ki Guarantee Adhiniyam, 2010, PRS copy</a> (page scan); '
     '<a href="https://en.wikipedia.org/wiki/Right_to_Public_Services_legislation">Wikipedia, Right to Public Services legislation</a> (secondary, search excerpt: 22 states and UTs as of 2025; MP 2010); '
     '<a href="https://accountabilityindia.in/wp-content/uploads/2020/03/policy_brief_right_to_service_laws_0.pdf">Accountability Initiative policy brief on right-to-service laws</a> (listed in search results; not opened). '
     'Ratios and differences computed by this blog. Analysed 21 November 2026.')
