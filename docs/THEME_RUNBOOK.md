@@ -16,7 +16,7 @@ Modules are wrapped in `BEGIN/END theme-module` markers. The builder can therefo
 1. In Blogger, open **Theme** and click the **down arrow next to Customise**, then **Backup**. Download the file; it lands in `~/Downloads` as `theme-<number>.xml`. This is also your rollback copy.
 2. Build from that backup, so any change made in Blogger since the last backup is kept:
    ```zsh
-   cd /Users/umashankar/masaladeutsch-archive
+   cd /Users/umashankar/vertistrat-archive
    git pull -q origin main
    python3 tools/theme_build.py --base latest
    ```
@@ -25,7 +25,7 @@ Modules are wrapped in `BEGIN/END theme-module` markers. The builder can therefo
 4. Check one post with a table and the homepage on a phone.
 5. Commit the new base so the repo matches the live theme:
    ```zsh
-   cd /Users/umashankar/masaladeutsch-archive
+   cd /Users/umashankar/vertistrat-archive
    git add theme/base.xml theme/theme.xml && git commit -qm "Theme: base refreshed from live backup" && git push -q origin main
    ```
 
