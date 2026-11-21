@@ -4,7 +4,7 @@ Build from the repo root:  python3 out/research/state-gcc-policies-2026/build.py
 Every figure is from the source named beside it, or computed below with an assert. Analysed 21 November 2026.
 Primary documents read as search excerpts: Karnataka GCC Policy 2024-29 and its operational guidelines and incentive pages, Maharashtra GR of 3 Nov 2025 and press note,
 Gujarat GCC Policy 2025-30 resolution, MP GCC Policy 2025, Rajasthan GCC Policy 2025 order, UP GCC Policy 2024 pages, rules and press releases, Odisha GCC Policy 2025 gazette,
-Karnataka Budget 2026-27. Haryana from a PwC alert on the policy (secondary). Tamil Nadu, Andhra Pradesh and part of Maharashtra from secondary summaries (Scutiger, AIM Research).
+Karnataka Budget 2026-27, Bihar GCC Policy 2026 resolution (excerpts of an OCR'd Hindi PDF). Haryana from a PwC alert on the policy (secondary). Tamil Nadu, Andhra Pradesh, Bihar's incentive rates and part of Maharashtra from secondary summaries (Scutiger, AIM Research, Greater Kashmir, Margdarshak).
 The AIM Research comparison page was read in full. No policy was read in full; the post says so."""
 import datetime as dt
 import html as _h
@@ -36,6 +36,13 @@ assert (MH_GR - MH_CAB).days == 34
 assert KA_POL.replace(year=2029) > D(2029, 11, 1)        # five years from 3 Dec 2024 runs to December 2029
 assert D(2026, 5, 27).strftime("%A") == "Wednesday"      # Haryana policy notified 27 May 2026 (PwC)
 assert D(2026, 10, 26).strftime("%A") == "Monday"        # UP GCC Innovation Summit, 'Monday', 26 October 2026
+BH_CAB, BH_GAZ, BH_START = D(2026, 1, 29), D(2026, 1, 31), D(2026, 2, 5)       # Bihar: cabinet; e-gazette listing of notification 183; start date given by Margdarshak and Peepals
+assert [d.strftime("%A") for d in (BH_CAB, BH_GAZ, BH_START)] == ["Thursday", "Saturday", "Thursday"]
+assert (BH_GAZ - BH_CAB).days == 2 and (BH_START - BH_CAB).days == 7 and (BH_START - BH_GAZ).days == 5      # the sources differ on the date by up to a week
+assert BH_START.replace(year=2031) == D(2031, 2, 5)                                # valid five years from 5 February 2026 (Margdarshak; Peepals)
+assert D(2026, 7, 3).strftime("%A") == "Friday" and D(2026, 8, 7).strftime("%A") == "Friday" and D(2026, 10, 28).strftime("%A") == "Wednesday"   # Bengaluru meet, Hyderabad meet, Bihar AI Policy cabinet
+ELEVEN = ["Karnataka", "Gujarat", "Madhya Pradesh", "Uttar Pradesh", "Maharashtra", "Rajasthan", "Odisha", "Bihar", "Haryana", "Tamil Nadu", "Andhra Pradesh"]
+assert len(ELEVEN) == 11 and len(set(ELEVEN)) == 11 and 11 - len(["Andhra Pradesh", "Bihar", "Tamil Nadu"]) == 8     # eleven states; three with no target found, eight with one
 
 # ---- 2. targets as stated: new GCCs, jobs; and ratios
 step(2, "targets and jobs per GCC")
@@ -69,8 +76,8 @@ assert f"{100 * (JPG['Karnataka'] / (600_000 / 875) - 1):.1f}" == "2.1"         
 
 # ---- 4. support ceilings
 step(4, "support ceilings")
-CAP = {"Gujarat": 200, "Haryana": 150, "Maharashtra": 100, "Madhya Pradesh": 30, "Uttar Pradesh": 25, "Rajasthan": 10}     # highest capital subsidy ceiling per GCC, Rs crore
-assert [CAP[k] for k in ("Gujarat", "Haryana", "Maharashtra", "Madhya Pradesh", "Uttar Pradesh", "Rajasthan")] == sorted(CAP.values(), reverse=True)
+CAP = {"Gujarat": 200, "Haryana": 150, "Maharashtra": 100, "Bihar": 50, "Madhya Pradesh": 30, "Uttar Pradesh": 25, "Rajasthan": 10}     # highest capital subsidy ceiling per GCC, Rs crore
+assert [CAP[k] for k in ("Gujarat", "Haryana", "Maharashtra", "Bihar", "Madhya Pradesh", "Uttar Pradesh", "Rajasthan")] == sorted(CAP.values(), reverse=True)
 assert CAP["Gujarat"] / CAP["Rajasthan"] == 20.0
 assert 500e6 / 1e7 == 50 and 1_500e6 / 1e7 == 150 and 25e6 / 1e7 == 2.5 and 37.5e6 / 1e7 == 3.75 and 7.5e6 / 1e7 == 0.75 and 150e6 / 1e7 == 15
 GJ_I_CAPEX, GJ_I_OPEX, GJ_II_CAPEX, GJ_II_OPEX, YRS = 50, 20, 200, 40, 5
@@ -81,6 +88,9 @@ assert 6_000 * 12 == 72_000 and round(20e7 / 72_000) == 2_778    # Odisha: Rs 6,
 assert 10 / 0.25 == 40.0                        # UP Level-1: a 25% subsidy reaches its Rs 10 crore ceiling at Rs 40 crore of eligible investment
 assert 10 / 0.30 > 33 and f"{10 / 0.30:.1f}" == "33.3"            # Rajasthan: 30% reaches Rs 10 crore at Rs 33.3 crore
 assert 15 / 0.40 == 37.5                                          # MP Level I: 40% reaches Rs 15 crore at Rs 37.5 crore
+assert f"{50 / 0.30:.1f}" == "166.7" and f"{50 / 0.30 / INV_PG['Gujarat']:.1f}" == "4.2"      # Bihar: 30% reaches Rs 50 crore at Rs 166.7 crore, 4.2 times the Rs 40 crore Gujarat average
+assert 0.30 * INV_PG["Gujarat"] == 12.0                                # on a Rs 40 crore centre Bihar's 30% is Rs 12 crore, far under its ceiling
+assert 500 / 1_000 == 0.5 and 500 < 1_000                           # Bihar eligibility: a Rs 500 crore to Rs 1,000 crore turnover band goes to committee review; the OCR of the first threshold reads 4000, the band implies 1,000
 
 TITLE = "State GCC policies in India: targeted jobs per new GCC range from 200 to 1,000"
 plain = _h.unescape(TITLE)
@@ -107,10 +117,10 @@ top = top_line([
 ])
 
 tvo = ('<table class="gb-table"><thead><tr><th>Kind</th><th>What this piece includes</th></tr></thead><tbody>'
-       '<tr><td><b>Decided</b></td><td>Ten states have a GCC policy or scheme in force: Karnataka (3 Dec 2024), Gujarat (10 Feb 2025), Madhya Pradesh (Feb 2025), Uttar Pradesh (effective 7 May 2025), Maharashtra (GR of 3 Nov 2025), Rajasthan (Dec 2025), Odisha (gazette 31 Dec 2025), Haryana (27 May 2026), Tamil Nadu (scheme, 2024), Andhra Pradesh (policy 4.0, 2024).</td></tr>'
-       '<tr><td><b>Targets</b></td><td>New GCCs, jobs and investment for 2029 to 2031, as each state states them; Tamil Nadu and Andhra Pradesh state none in the sources read.</td></tr>'
+       '<tr><td><b>Decided</b></td><td>Eleven states have a GCC policy or scheme in force: Karnataka (3 Dec 2024), Gujarat (10 Feb 2025), Madhya Pradesh (Feb 2025), Uttar Pradesh (effective 7 May 2025), Maharashtra (GR of 3 Nov 2025), Rajasthan (Dec 2025), Odisha (gazette 31 Dec 2025), Bihar (cabinet 29 Jan 2026), Haryana (27 May 2026), Tamil Nadu (scheme, 2024), Andhra Pradesh (policy 4.0, 2024).</td></tr>'
+       '<tr><td><b>Targets</b></td><td>New GCCs, jobs and investment for 2029 to 2031, as each state states them; Tamil Nadu, Andhra Pradesh and Bihar state none in the sources read.</td></tr>'
        '<tr><td><b>Outcomes</b></td><td>None found: no count of GCCs opened or jobs created under any state policy was found. Karnataka&rsquo;s budget gives a count of operating GCCs (more than 550) but not a count since the policy.</td></tr>'
-       '<tr><td><b>Not found</b></td><td>A policy read in full for any state; Andhra Pradesh&rsquo;s targets; a common definition of a GCC; the basis of the national estimate.</td></tr>'
+       '<tr><td><b>Not found</b></td><td>A policy read in full for any state; targets for Andhra Pradesh and Bihar; a common definition of a GCC; the basis of the national estimate.</td></tr>'
        '</tbody></table>\n')
 
 s1 = insight(
@@ -128,6 +138,7 @@ s1 = insight(
                ["Haryana", "GCC Policy 2026, notified 27 May 2026, five years", "100+ new GCCs and 30,000+ jobs", "PwC (secondary summary of the policy)"],
                ["Uttar Pradesh", "GCC Policy 2024, effective 7 May 2025; rules published March 2026", "500 GCCs by 2031 (Chief Minister, 26 October 2026); 2 lakh+ jobs in five years (AIM Research)", "Invest UP press release (primary); AIM (secondary)"],
                ["Odisha", "GCC Policy 2025, cabinet November 2025, gazette 31 December 2025", "Rs 1,000+ crore, 5+ hubs, 50,000+ jobs (AIM Research); no GCC count", "AIM (secondary); gazette excerpt has no target"],
+               ["Bihar", "GCC Policy 2026: cabinet 29 January 2026, resolution (notification 183) listed 31 January; one secondary source gives 5 February as the start, valid five years", "None found: no GCC count or jobs target; units committing to 500+ direct jobs may be considered for customised packages (Greater Kashmir)", "Resolution (official, excerpt of an OCR&rsquo;d Hindi PDF); secondary summaries"],
                ["Andhra Pradesh; Tamil Nadu", "IT and GCC Policy 4.0 (2024-29); Special Scheme to promote GCCs (G.O. of 12 March 2024, to 31 March 2027)", "None found for Andhra Pradesh; Tamil Nadu&rsquo;s scheme covers up to 50 GCCs, and a 2030 goal of 460+ is reported", "AIM; Scutiger (secondary)"]],
               "Show the targets and their sources"),
     "A five-fold gap in jobs per targeted GCC means the targets do not describe the same kind of centre, so a state&rsquo;s count of GCCs cannot be compared with another&rsquo;s without a common definition of size and function.",
@@ -138,19 +149,20 @@ s2 = insight(
     "Capital subsidy ceilings per GCC: Rs 10 crore in Rajasthan, Rs 200 crore in Gujarat",
     bars("Capital subsidy ceilings per GCC: Rs 10 crore in Rajasthan, Rs 200 crore in Gujarat",
          [(k, v) for k, v in CAP.items()], accent="Gujarat", unit=" crore", fmt=lambda v: _rs(v, "crore"), vmax=210,
-         sub="Highest capital subsidy ceiling a single GCC can reach under each policy, Rs crore: Gujarat for a project above Rs 250 crore or 500 jobs, Haryana for the top zone (Rs 500 to 1,500 million in the PwC summary), Maharashtra by size band (secondary), Madhya Pradesh and Uttar Pradesh for their advanced category, Rajasthan under the state industrial scheme. The ceilings apply to different bases and are not directly comparable.",
-         source="Gujarat policy resolution; Madhya Pradesh policy PDF; Invest UP policy page; Rajasthan GCC order (primary, excerpts); PwC, 3 June 2026; Scutiger, 7 October 2026 (secondary).")
+         sub="Highest capital subsidy ceiling a single GCC can reach under each policy, Rs crore: Gujarat for a project above Rs 250 crore or 500 jobs, Haryana for the top zone (Rs 500 to 1,500 million in the PwC summary), Maharashtra by size band (secondary), Bihar for its single capex ceiling (secondary summaries; the resolution excerpt carries no rates), Madhya Pradesh and Uttar Pradesh for their advanced category, Rajasthan under the state industrial scheme. The ceilings apply to different bases and are not directly comparable.",
+         source="Gujarat policy resolution; Madhya Pradesh policy PDF; Invest UP policy page; Rajasthan GCC order (primary, excerpts); PwC, 3 June 2026; Scutiger, 7 October 2026; Greater Kashmir, 15 November 2026; Margdarshak, 5 September 2026 (secondary).")
     + numbers(["State", "Capital and operating support as stated", "Source and status"],
               [["Gujarat", "Category I (fixed capital under Rs 250 crore): up to 20% on buildings and 30% on computers, software and networks, ceiling Rs 50 crore, in 20 quarterly instalments; operating support up to 15% of eligible spend, ceiling Rs 20 crore a year for five years. Category II (Rs 250 crore or 500 jobs): ceilings Rs 200 crore and Rs 40 crore a year. Five-year maxima Rs 150 crore and Rs 400 crore (computed)", "Resolution of 10 February 2025 (primary)"],
                ["Haryana", "Capex support 50 to 75% of eligible capex, ceiling Rs 2.5 to 3.75 crore per 100 eligible employees or Rs 50 to 150 crore, in 10 annual instalments; opex support 50 to 65% for 5 to 9 years, ceiling Rs 0.75 crore per 100 employees or Rs 15 crore a year; operations from 1 January 2026 qualify", "PwC alert (secondary)"],
                ["Maharashtra", "20% capital subsidy (ceiling Rs 10 to 100 crore by size) or rental assistance, not both; payroll support for three years on salaries above Rs 1 lakh a month", "Scutiger (secondary); the GR lists the heads without rates in the excerpt"],
+               ["Bihar", "Capex support 30% of eligible fixed capital investment, ceiling Rs 50 crore; 50% of eligible lease rent; 25% of power bills and 50% of cloud costs for five years; 100% of patent filing fees up to Rs 50 lakh over five years; salary-linked support for three years, higher for Bihar-domiciled employees; an extra incentive for units outside Patna and Danapur (10% per Peepals); customised packages possible at 500+ direct jobs. Eligibility: a Forbes Global 2000 or Fortune 1000 company, or average annual turnover above Rs 1,000 crore over three years, with Rs 500 to 1,000 crore reviewed by a committee under the Chief Secretary; the OCR of the resolution reads the first figure as 4000 and the band implies 1,000", "Resolution (official, OCR excerpt); rates from Greater Kashmir, Margdarshak, Peepals (secondary); one source says benefits are limited to the first 25 units, not confirmed"],
                ["Madhya Pradesh", "Capex subsidy 40% of eligible investment up to Rs 15 crore (Level I) and Rs 30 crore (Advanced) in five annual instalments; land rebate up to 75%; interest assistance 6% up to Rs 5 crore; stamp duty 100%. AIM Research says the rates are not stated, and the policy states them", "Policy PDF (primary, excerpt); AIM (secondary, incomplete)"],
                ["Uttar Pradesh", "Level 1 (Rs 15 crore or 100 jobs; Rs 20 crore or 200 jobs in Gautam Buddh Nagar and Ghaziabad): 25% capital subsidy to Rs 10 crore over seven years; 20% opex subsidy to Rs 40 crore a year for five years; payroll support up to Rs 1.8 lakh a UP-domiciled employee; 30 to 50% land subsidy. Advanced: Rs 25 crore and Rs 80 crore a year", "Invest UP policy page, rules and press release (primary, excerpts)"],
                ["Rajasthan", "30% of project cost excluding land and buildings, ceiling Rs 10 crore over 10 years; minimum investment Rs 5 crore; 50% of land or floor space cost up to Rs 1 crore; electricity duty exempt for 7 years; stamp duty 75% exempt and 25% reimbursed", "Order of December 2025 (primary, excerpt); notified 2 December per Scutiger, order file dated 12 December: not reconciled"],
                ["Karnataka", "Incentives for infrastructure apply only beyond Bengaluru: 50% of rent, ceiling Rs 50 lakh (first 10 GCCs a year) for 100+ jobs and Rs 2 crore (first 6 a year) for 500+ jobs; 50% of internship stipends up to Rs 5,000 a month for three months; innovation labs 40% of capex with a ceiling of Rs 4 crore (policy summary) or Rs 5 crore (2026 call) in Bengaluru and 75% or Rs 3 crore beyond", "Operational guidelines; incentive page; call for proposals (primary, excerpts): the two Bengaluru ceilings conflict"],
                ["Odisha", "Capital subsidy and other support under the Odisha IT Policy; rent reimbursement Rs 6,000 a seat a month with a ceiling of Rs 20 crore an applicant, which is 2,778 seat-years (computed); up to 100 interns a year", "Gazette of 31 December 2025 (primary, excerpt)"],
                ["Tamil Nadu", "Payroll subsidy 30%, 20% and 10% over three years for up to 50 GCCs with Forbes Global 2000 or Fortune 1000 parents and 200+ direct jobs; to 31 March 2027", "Scutiger (secondary)"],
-               ["Against average investment", f"Gujarat&rsquo;s Category I capex ceiling of Rs 50 crore is {GJ_I_CAPEX / INV_PG['Gujarat']:.2f} times the Rs 40 crore average investment per GCC implied by its own target, and 30% of Rs 40 crore is Rs 12 crore; a 25% subsidy reaches Uttar Pradesh&rsquo;s Rs 10 crore ceiling at Rs 40 crore of eligible investment, Rajasthan&rsquo;s at Rs {10 / 0.30:.1f} crore and Madhya Pradesh&rsquo;s Level I at Rs 37.5 crore (computed)", "Computed here"]],
+               ["Against average investment", f"Gujarat&rsquo;s Category I capex ceiling of Rs 50 crore is {GJ_I_CAPEX / INV_PG['Gujarat']:.2f} times the Rs 40 crore average investment per GCC implied by its own target, and 30% of Rs 40 crore is Rs 12 crore; a 25% subsidy reaches Uttar Pradesh&rsquo;s Rs 10 crore ceiling at Rs 40 crore of eligible investment, Rajasthan&rsquo;s at Rs {10 / 0.30:.1f} crore and Madhya Pradesh&rsquo;s Level I at Rs 37.5 crore and Bihar&rsquo;s 30% at Rs {50 / 0.30:.1f} crore, {50 / 0.30 / INV_PG['Gujarat']:.1f} times that average (computed)", "Computed here"]],
               "Show the support terms by state and the checks"),
     "The ceilings differ by a factor of 20, and Gujarat&rsquo;s lowest-tier ceiling is above the average investment per GCC implied by its own target, so the ceiling binds only for large centres while the rate decides the cost to the state.",
     "Each state&rsquo;s IT department should publish, for each GCC supported, the investment, jobs and incentive sanctioned and paid, so that the cost per job under each policy can be computed.",
@@ -200,7 +212,7 @@ fixes = '''<h2 class="gb-h2" id="fixes">What would fix this</h2>
 <li><b>Union Ministry of Electronics and Information Technology:</b> publish one definition of a GCC and a yearly count of GCCs and jobs by state, against each state target.</li>
 <li><b>Karnataka IT, BT and Science and Technology Department:</b> state the unit the 1,000 target counts, the number at 3 December 2024 and a quarterly count of registered GCCs.</li>
 <li><b>Each state IT department:</b> publish, for each GCC supported, the investment, jobs and incentive sanctioned and paid, so that cost per job can be computed.</li>
-<li><b>Andhra Pradesh and Tamil Nadu:</b> publish targets and a baseline for their GCC policy and scheme, as the other eight states do.</li>
+<li><b>Andhra Pradesh, Bihar and Tamil Nadu:</b> publish targets and a baseline for their GCC policy and scheme, as the other eight states do.</li>
 <li><b>Authors of national estimates:</b> publish the states, horizons and method behind the 1,380 GCCs and 1.18 million jobs, so that they can be reconciled with the state targets.</li>
 </ol>
 <p>These are proposals from this blog, not recommendations any agency has adopted.</p>
@@ -210,7 +222,7 @@ method = '''<details class="xv-n"><summary>Method and definitions</summary>
 <ul>
 <li>A target is a goal stated for 2029 to 2031; an outcome is a measured result. No state publishes an outcome under its GCC policy in the sources read.</li>
 <li>Jobs per GCC, investment per GCC, sums, differences and ceilings are computed here from the figures shown, and each is checked by an assertion in the builder. Dates to operating rules use the dates of file listings and are approximate.</li>
-<li>Primary documents (policies, resolutions, gazettes, press releases, operational guidelines, the Karnataka budget) were read as search excerpts; none was read in full. Haryana comes from a PwC alert on the policy, and Maharashtra&rsquo;s rates, Tamil Nadu and Andhra Pradesh from secondary summaries. The comparison page of AIM Research, a commercial data provider, was read in full and used for items no primary excerpt gave; it is labelled secondary.</li>
+<li>Primary documents (policies, resolutions, gazettes, press releases, operational guidelines, the Karnataka budget, Bihar&rsquo;s resolution) were read as search excerpts; none was read in full. Haryana comes from a PwC alert on the policy, and Maharashtra&rsquo;s rates, Tamil Nadu and Andhra Pradesh from secondary summaries. The comparison page of AIM Research, a commercial data provider, was read in full and used for items no primary excerpt gave; it is labelled secondary.</li>
 <li>Targets differ in horizon (2029 for Karnataka, 2030 for Rajasthan, 2031 for the national estimate and Uttar Pradesh) and in what they count, so sums are indicative.</li>
 </ul></details>
 '''
@@ -218,7 +230,8 @@ method = '''<details class="xv-n"><summary>Method and definitions</summary>
 gaps = '''<details class="xv-n"><summary>What this piece could not establish</summary>
 <ul>
 <li>Any GCC policy in full. The incentive rates for Maharashtra and the targets for Rajasthan, Haryana and Odisha come from secondary summaries.</li>
-<li>Targets for Andhra Pradesh, and any target in Tamil Nadu&rsquo;s scheme beyond the 50-GCC limit and a reported 2030 goal of 460+.</li>
+<li>Targets for Andhra Pradesh and Bihar, and any target in Tamil Nadu&rsquo;s scheme beyond the 50-GCC limit and a reported 2030 goal of 460+.</li>
+<li>Bihar&rsquo;s incentive rates from the policy itself: the resolution was read as an excerpt of an OCR&rsquo;d Hindi PDF without the attached policy, so the rates are from secondary summaries. Its date (cabinet 29 January 2026, e-gazette listing 31 January, a start of 5 February in two secondary sources), whether benefits are limited to the first 25 units, and the first eligibility threshold (OCR reads 4000, the band implies 1,000) were not settled.</li>
 <li>Which count of GCCs in Karnataka is right (500, 550 or 875), whether the policy&rsquo;s statistics panel was read correctly from a jumbled extraction, and why the March 2026 budget gives a lower number than the panel.</li>
 <li>The basis of the national estimate of 1,380 GCCs and 1.18 million jobs, which was read only through AIM Research.</li>
 <li>How many GCCs have opened, and how many jobs have been created, under any state policy, and how much incentive has been paid.</li>
@@ -250,6 +263,12 @@ SOURCES = (
     '<a href="https://invest.mp.gov.in/wp-content/uploads/2025/02/GCC-Policy-2025.pdf">Madhya Pradesh GCC Policy 2025</a>, '
     '<a href="https://jankalyanfile.rajasthan.gov.in/Content/UploadFolder/OrderEntry/ICOM/2025/Notification/O_121225_f3b5af28-722e-4b67-bd87-fd08ac56a9ed.pdf">Rajasthan GCC Policy 2025 order</a> and '
     '<a href="https://it.odisha.gov.in/sites/default/files/2026-01/6018-E%26IT%20Deptt.pdf">Odisha GCC Policy 2025 gazette</a> (official, excerpts); '
+    '<a href="https://betastate.bihar.gov.in/file_2/FileUpload/2026/Feb/03-Feb-2026/42/DyPage/e8bb001d-e189-4b0d-a7f7-edf6d801304a.pdf">Bihar GCC Policy 2026 resolution</a> (official, excerpt of an OCR&rsquo;d Hindi PDF) and the '
+    '<a href="https://biharinfratales.com/gazette/notification/approval-for-bihar-global-capability-centre-gcc-policy-2026-2207">e-gazette listing of notification 183</a>; '
+    '<a href="https://www.greaterkashmir.com/business/jk-can-draw-lessons-from-bihars-gcc-incentives-to-generate-jobs-12810452">Greater Kashmir, 15 November 2026</a>, '
+    '<a href="https://www.margdarshak.co.in/blog/bihar-gcc-policy-2026">Margdarshak, 5 September 2026</a>, '
+    '<a href="https://peepalsglobal.com/bharat/article/bihar-ai-policy-2026-cabinet-approves-subsidies-sgst-reimbursement-ai-startups-gcc-2026-11-04">Peepals, 4 November 2026</a> and '
+    '<a href="https://bihariadda.com/developments/BIHAR-TECH-2026-01-001">Bihari Adda tracker</a> (secondary: Bihar&rsquo;s rates, start date and status); '
     '<a href="https://www.pwc.in/assets/pdfs/news-alert/tax-insights/2026/pwc_india_indirect_tax_insights_3_june_2026_government_of_haryana_notifies_the_haryana_global_capability_centres_policy_2026.pdf">PwC, 3 June 2026</a> (secondary: Haryana); '
     '<a href="https://www.scutiger.com/handbooks/gcc-playbook/india-state-gcc-incentives">Scutiger Technologies, 7 October 2026</a> and '
     '<a href="https://gccexplorer.com/guides/state-gcc-policies-india">AIM Research, 13 November 2026</a> (secondary, commercial data providers; the second read in full). '
@@ -258,7 +277,7 @@ RELATED = []
 
 step(7, "writing page")
 build("Policy &middot; States", TITLE,
-      "Ten Indian states have GCC policies; this piece compares their targets, the support ceilings, Karnataka&rsquo;s inconsistent baseline and the sum of state targets against a national estimate, and says what no source shows.",
+      "Eleven Indian states have GCC policies; this piece compares their targets, the support ceilings, Karnataka&rsquo;s inconsistent baseline and the sum of state targets against a national estimate, and says what no source shows.",
       body, SOURCES, RELATED, str(OUT))
 html = OUT.read_text()
 mine = TITLE + body + SOURCES
