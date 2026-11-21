@@ -17,5 +17,5 @@ else
   echo "$(date '+%Y-%m-%d %H:%M:%S') no change in summary, skipped commit"
 fi
 
-/opt/homebrew/bin/rclone copy MASALADEUTSCH_ALL_POSTS_SUMMARY.md dropbox:archive/masaladeutsch-archive/ \
+/opt/homebrew/bin/rclone copy MASALADEUTSCH_ALL_POSTS_SUMMARY.md dropbox:archive/vertistrat-archive/ \
   --stats-one-line -v 2>&1 | tail -5

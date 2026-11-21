@@ -7,7 +7,7 @@ runs today, not an aspirational template — every job listed here is live in
 ## 1. Purpose & Scope
 
 This plan covers the operational upkeep of `blog.vertistratsolution.com` and
-its local archive at `~/masaladeutsch-archive`: keeping the published site,
+its local archive at `~/vertistrat-archive`: keeping the published site,
 the GitHub mirror, the Dropbox backup, and the site-index/summary artifacts
 in sync, catching regressions (grammar, broken links, stale traffic data)
 before they compound, and doing all of that **without unattended writes to
@@ -30,13 +30,13 @@ an actual on-call reference.
 
 | Time (IST) | Job | Script | Frequency | Log |
 |---|---|---|---|---|
-| 09:05 | Site-index footer injection | `tools/cron_inject_wrapper.sh` → `tools/inject_site_index.py --apply` | Daily | `~/Library/Logs/masaladeutsch-inject.log` |
+| 09:05 | Site-index footer injection | `tools/cron_inject_wrapper.sh` → `tools/inject_site_index.py --apply` | Daily | `~/Library/Logs/vertistrat-inject.log` |
 | 09:20 | Multi-model fact/interpretation check | `tools/multi_model_factcheck.py --all` | Daily (resumes automatically; report-only) | `out/factcheck/cron.log` + one `.md` per post in `out/factcheck/` |
 | 09:35 | Daily maintenance chain (3 steps, see below) | `tools/daily_maintenance_cron.sh` | Daily | `out/daily_maintenance_cron.log` |
 
 ### 09:35 chain, in order
 
-1. **`.md` summary regeneration** — `tools/update_summary_cron.sh` → `tools/build_md_summary.py`. Rebuilds `MASALADEUTSCH_ALL_POSTS_SUMMARY.md` (all published posts, grouped by topic and chronologically, plus a Units and a Glossary reference section), skipping any post whose URL now 404s (a real GET check, not just a local-metadata check — Blogger returns 200 on HEAD even for dead posts, so HEAD alone is not sufficient here). Commits and pushes to GitHub if changed, then `rclone`-copies to `dropbox:archive/masaladeutsch-archive/`.
+1. **`.md` summary regeneration** — `tools/update_summary_cron.sh` → `tools/build_md_summary.py`. Rebuilds `MASALADEUTSCH_ALL_POSTS_SUMMARY.md` (all published posts, grouped by topic and chronologically, plus a Units and a Glossary reference section), skipping any post whose URL now 404s (a real GET check, not just a local-metadata check — Blogger returns 200 on HEAD even for dead posts, so HEAD alone is not sufficient here). Commits and pushes to GitHub if changed, then `rclone`-copies to `dropbox:archive/vertistrat-archive/`.
 2. **Language audit** — `tools/language_audit.py`. Structure-aware LanguageTool sweep (title + prose blocks only; table rows excluded, which is what made the pre-2026-08-10 version of this mostly noise). Report-only: writes one `.md` per flagged post to `out/language_audit/`, plus `_summary_latest.md`. **Nothing here is auto-applied** — a manual review on 2026-08-10 found roughly 85% of LanguageTool's own suggestions were false positives (chart captions, code identifiers, valid grammar it misparsed, a few outright wrong-word substitutions), so unattended auto-apply would silently introduce real errors into live posts. Fixes get applied by hand, one confirmed finding at a time, via `tools/blogger_api.py update`.
 3. **GA4 traffic snapshot** — `tools/ga_report.py --days 28`. Pageviews/active-users/country/city/top-pages for the trailing 28 days, with same-post URL aliases merged (see §6). Written to `out/ga_report/YYYY-MM-DD.md` and `out/ga_report/latest.md`, committed and pushed (needed so the cloud routine in §7 can read it — it has no access to this machine's disk).
 
@@ -61,7 +61,7 @@ anywhere — it still has to be opened to be seen.
 Three independent copies of the content:
 - **Live**: the blog itself, source of truth.
 - **GitHub**: `herrrickshaw/blogger_writeups_code`, updated by `tools/snapshot.py --push` after any live edit (pulls the actual rendered post back down, so the archive reflects what a reader sees, not just what was sent).
-- **Dropbox**: `dropbox:archive/masaladeutsch-archive/`, currently just the `.md` summary (§3 step 1) and the GA4 reports — not a full posts/ mirror.
+- **Dropbox**: `dropbox:archive/vertistrat-archive/`, currently just the `.md` summary (§3 step 1) and the GA4 reports — not a full posts/ mirror.
 
 Recovery path for "a live post got corrupted": `posts/<slug>.html` in the
 GitHub repo has every version snapshotted (`meta/<slug>.json`'s
