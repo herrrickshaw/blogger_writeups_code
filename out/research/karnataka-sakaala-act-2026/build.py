@@ -69,6 +69,13 @@ SERV_2022 = 1115
 assert SERVICES - SERV_2022 == 331
 assert round(100 * (SERVICES - SERV_2022) / SERV_2022, 1) == 29.7
 
+# Praja Seva Department, 11 Sep 2026 (The Hindu): 2,300 of 2,456 services online; 890 under Sakala; 156 still to come online
+ALL_SERV, ONLINE, SAKALA_SERV = 2456, 2300, 890
+assert ALL_SERV - ONLINE == 156
+assert f"{100 * SAKALA_SERV / ALL_SERV:.1f}" == "36.2" and f"{100 * ONLINE / ALL_SERV:.1f}" == "93.6"
+assert SAKALA_SERV < SERVICES            # 890 against the portal's 1,446: two counts of 'Sakala services' that are not reconciled
+assert SERVICES - SAKALA_SERV == 556
+
 TITLE = "Karnataka Sakaala Services Act: Rs 20 a day for delay, capped at Rs 500, amended 2026"
 assert 55 <= len(TITLE) <= 90, len(TITLE)
 for h in (TITLE,):
@@ -143,7 +150,7 @@ s3 = insight(
                ["Without a recorded disposal", f"{OPEN:,}", "Computed; includes applications still inside their time limit"],
                ["Share with a recorded disposal", f"{DISPOSAL_PCT:.2f}%", "Computed"],
                ["Departments and institutions", f"{DEPTS}", "Portal home page"],
-               ["Notified services", f"{SERVICES:,}", f"Portal home page; {SERV_2022:,} as on 20 April 2022 (DARPG report), a rise of {SERVICES-SERV_2022}, or {100*(SERVICES-SERV_2022)/SERV_2022:.1f}%"],
+               ["Notified services", f"{SERVICES:,}", f"Portal home page; {SERV_2022:,} as on 20 April 2022 (DARPG report), a rise of {SERVICES-SERV_2022}, or {100*(SERVICES-SERV_2022)/SERV_2022:.1f}%. Conflicts with {SAKALA_SERV} services under Sakala per the Principal Secretary on 11 September 2026; not reconciled"],
                ["Average receipts per notified service", f"{AVG_PER_SERVICE:,.0f}", "Computed; cumulative since the Act, not a yearly rate"]]),
     f"Nearly every application has a recorded outcome, but the counter has no date, no split between delivered and rejected and no count of applications decided late, so it cannot show how often the guarantee was kept.",
     "The portal should print the as-of date on each counter and publish monthly delivered-in-time, delivered-late, rejected and pending counts by department.",
@@ -155,6 +162,9 @@ s4 = insight(
           ("6 Mar 2026 (budget, as reported)", "Bhoomi 8.0 (Rs 50 crore) and Kaveri 3.0 (Rs 65 crore) for land records and registration, and 207 sub-registrar offices to be digitised."),
           ("3 Sep 2026 (Act 39 of 2026)", "The Sakaala amendment received assent on 3 September and was published in the Gazette on 4 September 2026; it adds government revision (section 13-A, within three months of the order) and costs for malicious or vexatious complaints (section 13-B).", True),
           ("7 Sep 2026 (as reported)", "The Praja Seva Abhiyan, launched by the Chief Minister at Kudligi, had received over 25,000 grievance petitions."),
+          ("11 Sep 2026 (as reported)", f"The Principal Secretary of the Praja Seva Department said {ONLINE:,} of {ALL_SERV:,} government services were online and {SAKALA_SERV} were covered by Sakala, with {ALL_SERV - ONLINE} still to come online and a common citizen login planned."),
+          ("8 Oct 2026 (Gazette 1100)", "A Praja Seva Department order allows assisted filing on the online RTI portal at all citizen service centres run by the Directorate of Electronic Delivery of Citizen Services; the fees and time limits of the RTI Act are unchanged."),
+          ("17 and 18 Oct 2026 (as reported)", "An order of 17 October requires all services, including licences and certificates, to be brought online and under the Sakala framework, with shorter timelines and over-the-counter certificates where possible; RTI applications received by post or in person are to be registered on the portal within two days."),
           ("Portal, retrieved 21 Nov 2026", f"Sakala covers {DEPTS} departments and institutions and {SERVICES:,} notified services.")])
     + numbers(["Measure", "Dated fact", "Source and status"],
               [["Praja Seva Abhiyan", "Over 25,000 petitions by 7 September 2026", "The Hindu (secondary)"],
@@ -162,6 +172,9 @@ s4 = insight(
                ["Kaveri 3.0", "Rs 65 crore, AI-based paperless registration, announced 6 March 2026", "Indian Express (secondary)"],
                ["Sub-registrar offices", "207 to be digitised for pre-2003 documents", "Indian Express (secondary)"],
                ["Land records coverage", "100% of villages and sub-registrar offices computerised; Bhoomi servers often slow", "Draft for discussion; publisher not confirmed"],
+               ["Services online and under Sakala", f"{ONLINE:,} of {ALL_SERV:,} online ({100 * ONLINE / ALL_SERV:.1f}%); {SAKALA_SERV} under Sakala ({100 * SAKALA_SERV / ALL_SERV:.1f}%), 11 September 2026", "The Hindu (secondary), quoting the Principal Secretary"],
+               ["Order of 17 October 2026", "All services to be online and under Sakala, timelines shortened", "The Hindu (secondary); the order was not read"],
+               ["Assisted RTI filing", "Order of 8 October 2026, Gazette 1100 of 9 October", "NammaWard reading of the Gazette (secondary)"],
                ["Sakala services, April 2022", f"{SERV_2022:,} notified services, called the highest in the country under a right-to-service Act", "DARPG webinar report"]],
               "Show the dated facts"),
     "Karnataka pairs a statutory guarantee for notified services with portal upgrades and grievance drives, but only the statute carries an appeal ladder and a compensation figure, so it is the part a citizen can enforce.",
@@ -190,6 +203,7 @@ method = '''<details class="xv-n"><summary>How the law changed</summary>
 gaps = '''<details class="xv-n"><summary>What this piece could not establish</summary>
 <ul>
 <li>The Schedule of notified services and time limits: it was not in the compiled text, and the service compendium PDF was not opened.</li>
+<li>Why the portal shows 1,446 services while the Principal Secretary of the Praja Seva Department said on 11 September 2026 that 890 of 2,456 government services were under Sakala. Both are reported as stated; one may count a service once per department and the other once per service, but neither source says so. The 17 October 2026 order, reported to bring all services under Sakala, was not read.</li>
 <li>The date of the portal counters (they were read from a search-tool excerpt of the home page, not from the live page), and any split between on-time, late and rejected applications; the portal&rsquo;s MIS report page did not load from the build environment.</li>
 <li>District and department figures reported elsewhere (for example Mysuru placing second statewide for April 2026 with 1,19,801 applications received, 9,937 rejected and 98.34% cleared, and Rural Development and Panchayat Raj having 33,000 pending): none was found in a source that could be read, so none is used.</li>
 <li>The Karnataka High Court order of 1 August 2025: The Hindu reports that a Division Bench (Chief Justice Vibhu Bakhru and Justice C.M. Joshi), on a petition by a Bengaluru resident, directed the State to file a status report on applications received and pending. The pending counts the State filed were not found.</li>
@@ -211,6 +225,10 @@ SOURCES = (
     '<a href="https://nammaward.in/wardpulse/karnataka-sakaala-amendment-service-delays-and-safeguards">NammaWard, 16 September 2026</a> (secondary: reading of Gazette 894); '
     '<a href="https://www.thehindu.com/news/national/karnataka/submit-status-report-on-applications-filed-under-sakala-scheme-hc/article69883487.ece">The Hindu, 1 August 2025</a> (secondary: High Court order); '
     '<a href="https://www.darpg.gov.in/static/uploads/2025/11/6d9021ab7807561ae0b1abec56e890f2.pdf">DARPG, NGGWS webinar report</a> (government; 1,115 services as on 20 April 2022); '
+    '<a href="https://www.thehindu.com/news/national/karnataka/karnataka-govts-praja-seve-to-be-expanded-with-launch-of-namma-seve-app/article71456733.ece">The Hindu, 11 September 2026</a> (secondary: 2,300 of 2,456 services online, 890 under Sakala); '
+    '<a href="https://www.thehindu.com/news/national/karnataka/karnataka-to-bring-all-citizen-services-online-under-sakala/article71599351.ece">The Hindu, 18 October 2026</a> (secondary: order of 17 October) and '
+    '<a href="https://www.thehindu.com/news/national/karnataka/karnataka-extends-online-rti-filing-to-all-bengaluru-one-karnataka-one-and-grama-one-centres/article71599368.ece">The Hindu, 18 October 2026, RTI</a> (secondary); '
+    '<a href="https://nammaward.in/wardpulse/karnataka-order-allows-assisted-rti-filing-at-edcs-citizen-service-centres">NammaWard, 13 October 2026</a> (secondary: reading of Gazette 1100); '
     '<a href="https://www.thehindu.com/news/national/karnataka/25000-applications-received-in-praja-seva-abhiyan/article71438989.ece">The Hindu, 7 September 2026</a> (secondary: Praja Seva Abhiyan); '
     '<a href="http://indianexpress.com/article/cities/bangalore/karnataka-bhoomi-8-kaveri-3-land-records-budget-2026-10568042">Indian Express, 6 March 2026</a> (secondary: budget); '
     '<a href="https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2025/07/20250730596089689.pdf">Karnataka land records study, draft for discussion</a> (publisher not confirmed). '

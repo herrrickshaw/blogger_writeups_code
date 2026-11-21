@@ -17,7 +17,7 @@ from buildpost import build  # noqa: E402
 from exec_viz import STYLE, bars, flow, insight, numbers, top_line  # noqa: E402
 
 OUT = ROOT / "out/post-telangana-service-delivery-policy.html"
-STEPS = 7
+STEPS = 8
 
 
 def step(n, what):
@@ -87,11 +87,36 @@ assert round(AVG_PAYMENT) == 20126
 assert round(HITS_CRORE * 100) == 468                  # 4.68 crore hits = 468 lakh
 assert SLOTS_LAKH < PAYMENTS_LAKH                      # fewer slots booked than payments made: slots are one of several routes, not a ceiling
 
+# ---- 5. MeeSeva portal home dashboard (ts.meeseva.telangana.gov.in, retrieved 21 Nov 2026; the counters are undated, October 2026 statistics are shown)
+step(5, "MeeSeva and BharatNet figures")
+MS_TOTAL, MS_CAT_A, MS_CAT_B = 188_360_341, 50_649_869, 137_123_756          # 18,83,60,341; 5,06,49,869; 13,71,23,756
+MS_APPROVED, MS_REJECTED, MS_IN_SLA, MS_BEYOND_SLA = 114_011_173, 9_244_063, 210_345, 4_263_162   # beyond-SLA is stated 'from Jan-2025'
+assert MS_CAT_A + MS_CAT_B == 187_773_625
+assert MS_TOTAL - (MS_CAT_A + MS_CAT_B) == 586_716                              # the page's category counts do not add to its own total
+MS_ACCOUNTED = MS_APPROVED + MS_REJECTED + MS_IN_SLA + MS_BEYOND_SLA
+assert MS_ACCOUNTED == 127_728_743
+MS_UNACC = MS_TOTAL - MS_ACCOUNTED
+assert MS_UNACC == 60_631_598 and f"{100 * MS_UNACC / MS_TOTAL:.1f}" == "32.2"
+MS_RATIO = MS_BEYOND_SLA / MS_IN_SLA
+assert f"{MS_RATIO:.1f}" == "20.3"
+MS_REJ = 100 * MS_REJECTED / (MS_APPROVED + MS_REJECTED)
+assert f"{MS_REJ:.1f}" == "7.5"
+OCT_TX, OCT_CR, OCT_SERV, OCT_CENTRES = 1_810_164, 456.26, 394, 5282
+OCT_AVG = OCT_CR * 1e7 / OCT_TX
+assert round(OCT_AVG) == 2521
+M = 1e6
+assert [round(v / M, 2) for v in (MS_TOTAL, MS_APPROVED, MS_REJECTED, MS_BEYOND_SLA, MS_IN_SLA, MS_UNACC)] == [188.36, 114.01, 9.24, 4.26, 0.21, 60.63]
+# BharatNet in Telangana, PIB 6 Nov 2026: Rs 3,189 crore for 12,769 gram panchayats (1,946 upgraded + 10,787 phase II + 36 new)
+BN_CR, BN_GP = 3189, 12769
+assert 1946 + 10787 + 36 == BN_GP
+BN_LAKH_PER_GP = BN_CR * 100 / BN_GP
+assert f"{BN_LAKH_PER_GP:.2f}" == "24.97"
+
 TITLE = "Telangana service delivery: no general guarantee law found; industry has TG-iPASS"
 assert 55 <= len(TITLE) <= 90, len(TITLE)
 assert not any(w in TITLE.lower().split() for w in ("you", "your", "we", "our"))
 
-step(5, "writing sections")
+step(6, "writing sections")
 top = top_line([
     ("None found", " is the result of a search for a Telangana law guaranteeing citizen services within a time limit, as Karnataka has; a 2022 scoping study marks Telangana as having none, and the one statutory time-limit regime found is the TS-iPASS Act of 2014 for industrial clearances."),
     (f"{PCT:.2f}%", f" of the {REC:,} applications on the TG-iPASS dashboard between 1 January 2024 and 5 November 2026 are marked processed, leaving {REC - PRO} unprocessed; the dashboard does not say how many were within the time limit."),
@@ -112,7 +137,8 @@ s1 = insight(
               [["General statute guaranteeing citizen services in a stipulated time", "Yes: Act 1 of 2012, Sakaala Services Act", "None found", "Karnataka: PRS compilation; Telangana: 2022 scoping study (secondary) and searches"],
                ["Compensation for delay", "Rs 20 a day up to Rs 500 an application, from the official&rsquo;s salary", "Act has a penalty section (19); amount not read", "Karnataka: Act text; Telangana: Act index only"],
                ["Appeals", "Two: 30 days, then 60 days", "Not read", "Karnataka: Act text"],
-               ["Scope", "1,446 notified services, 114 departments (portal, undated)", "Industrial clearances; 28 departments on the dashboard", "Both from official portals"],
+               ["Scope", "890 of 2,456 services under Sakala (Principal Secretary, 11 Sep 2026); the portal shows 1,446 services and 114 departments, undated; the two figures are not reconciled", "Industrial clearances; 28 departments on the dashboard", "Both from official portals and The Hindu"],
+               ["Other citizen services", "Statutory time limits under the Act", "MeeSeva service levels (SLA); statutory basis not found", "Karnataka: Act; Telangana: MeeSeva portal"],
                ["Deemed approval on a missed deadline", "None in the Act text", "Yes for notified clearances (section 13)", "Telangana: Act text"]],
               "Show the Karnataka and Telangana comparison"),
     "Telangana&rsquo;s guarantee is for investors with notified clearances, with deemed approval as the remedy, while Karnataka&rsquo;s covers 1,446 notified services with compensation and two appeals.",
@@ -132,6 +158,29 @@ s2 = insight(
     f"The ten large departments hold {BIG_SHARE:.1f}% of all applications, and HMDA&rsquo;s {HMDA_OPEN} unprocessed applications of 189 are the largest gap by share.",
     "The dashboard should report, for each department, applications decided inside the statutory time limit and deemed approvals, with a definition of &lsquo;processed&rsquo;.",
     "dashboard")
+
+s2b = insight(
+    "MeeSeva shows 4.26 million requests pending beyond the service level since January 2025",
+    bars("MeeSeva: 4.26 million pending beyond SLA since January 2025, 20 times those within SLA",
+         [("Approved", round(MS_APPROVED / M, 2)), ("Rejected", round(MS_REJECTED / M, 2)),
+          ("Pending beyond SLA (from January 2025)", round(MS_BEYOND_SLA / M, 2)), ("Pending within SLA", round(MS_IN_SLA / M, 2)),
+          ("Not in these four statuses (computed)", round(MS_UNACC / M, 2))],
+         accent="Pending beyond SLA (from January 2025)", unit=" million", vmax=120,
+         sub=f"Requests, millions, from the MeeSeva portal home dashboard retrieved on 21 November 2026; the counters carry no date. Total requests {MS_TOTAL / M:.2f} million. The beyond-SLA count is stated to run from January 2025, the other counts state no start date.",
+         source="MeeSeva portal, ts.meeseva.telangana.gov.in (Electronic Service Delivery Department); shares and differences computed here.")
+    + numbers(["Item", "Value", "Note"],
+              [["Total requests", f"{MS_TOTAL:,}", "Portal"],
+               ["Category A and B requests", f"{MS_CAT_A:,} and {MS_CAT_B:,}", f"Sum {MS_CAT_A + MS_CAT_B:,}, {MS_TOTAL - MS_CAT_A - MS_CAT_B:,} below the total"],
+               ["Approved", f"{MS_APPROVED:,}", "Portal"],
+               ["Rejected", f"{MS_REJECTED:,}", f"{MS_REJ:.1f}% of approved plus rejected (computed)"],
+               ["Pending within SLA", f"{MS_IN_SLA:,}", "Portal"],
+               ["Pending beyond SLA, from January 2025", f"{MS_BEYOND_SLA:,}", f"{MS_RATIO:.1f} times pending within SLA (computed)"],
+               ["Not in the four statuses", f"{MS_UNACC:,}", f"{100 * MS_UNACC / MS_TOTAL:.1f}% of total requests (computed)"],
+               ["October 2026", f"{OCT_TX:,} transactions, Rs {OCT_CR} crore", f"About Rs {OCT_AVG:,.0f} a transaction (computed); {OCT_SERV} active services and {OCT_CENTRES:,} active centres"]],
+              "Show the MeeSeva figures"),
+    f"The dashboard shows {MS_RATIO:.1f} times as many requests pending beyond the service level as within it, but the two counters do not share a stated start date, and {100 * MS_UNACC / MS_TOTAL:.1f}% of requests are in none of the four listed statuses.",
+    "The Electronic Service Delivery Department should publish, for each MeeSeva service, the service level in days, the share decided inside it, and the date each counter starts from.",
+    "meeseva")
 
 s3 = insight(
     f"Telangana Rising 2047 needs {100 * g1:.0f}% a year in dollars to 2034; the baseline is {100 * gb:.1f}%",
@@ -153,23 +202,23 @@ s3 = insight(
     "The Planning Department should state whether the dollar figures are nominal and the exchange rate used, so the 22% a year can be set against the real growth rates in the Outlook.",
     "vision")
 
-s4 = insight(
-    "Other Telangana measures with a dated source: TS-iPASS, Bhu Bharati, Prajavani",
-    flow([("3 Dec 2014", "Governor&rsquo;s assent to the TS-iPASS Act (Act 3 of 2014): single-point clearances, self-certification, deemed approval, and a right to clearances within time limits."),
-          ("14 Apr 2025 to 28 Feb 2026", f"Bhu Bharati land portal: {HITS_CRORE} crore hits, {PAYMENTS_LAKH} lakh payments worth Rs {REVENUE_CRORE:,} crore (about Rs {AVG_PAYMENT:,.0f} a payment, computed) and {SLOTS_LAKH} lakh slots booked."),
-          ("8 and 9 Dec 2025", "Telangana Rising Global Summit at Bharat Future City; the Telangana Rising 2047 vision document was unveiled on 9 December.", True),
-          ("2026 Outlook (undated)", "Prajavani, a programme to receive grievances in person at Mahatma Jyothiba Phule Praja Bhavan, is described without counts."),
-          ("1 Jan 2024 to 5 Nov 2026", f"TG-iPASS dashboard: {REC:,} applications received, {PRO:,} processed.")])
-    + numbers(["Measure", "Dated fact", "Source"],
-              [["Bhu Bharati hits", f"{HITS_CRORE} crore", "Outlook 2026 (cumulative to 28 Feb 2026)"],
-               ["Bhu Bharati payments", f"{PAYMENTS_LAKH} lakh, Rs {REVENUE_CRORE:,} crore", "Outlook 2026"],
-               ["Bhu Bharati slots booked", f"{SLOTS_LAKH} lakh", "Outlook 2026"],
-               ["Prajavani", "Launched for in-person grievances; no counts found", "Outlook 2026"],
-               ["Telangana Rising Global Summit", "8 and 9 December 2025", "Outlook 2026; state press release"]],
-              "Show the dated facts"),
-    "Telangana&rsquo;s sourced service-delivery record is a statute for industry, a land portal with payment counts and a grievance programme without counts, so only TS-iPASS has both a legal deadline and published volumes.",
-    "The Revenue Department should publish Bhu Bharati time-to-decision by service so the payment and slot counts can be read against a deadline.",
-    "other")
+s4 = (f'<section class="xv-sec"><h2 class="gb-h2" id="other">Other Telangana measures with a dated source</h2>\n'
+      + flow([("3 Dec 2014", "Governor&rsquo;s assent to the TS-iPASS Act (Act 3 of 2014): single-point clearances, self-certification, deemed approval, and a right to clearances within time limits."),
+              ("1 Jan 2024 to 5 Nov 2026", f"TG-iPASS dashboard: {REC:,} applications received, {PRO:,} processed."),
+              ("14 Apr 2025 to 28 Feb 2026", f"Bhu Bharati land portal: {HITS_CRORE} crore hits, {PAYMENTS_LAKH} lakh payments worth Rs {REVENUE_CRORE:,} crore (about Rs {AVG_PAYMENT:,.0f} a payment, computed) and {SLOTS_LAKH} lakh slots booked."),
+              ("8 and 9 Dec 2025", "Telangana Rising Global Summit at Bharat Future City; the Telangana Rising 2047 vision document was unveiled on 9 December.", True),
+              ("6 Nov 2026 (PIB)", f"Agreement for the Amended BharatNet Program in Telangana: Rs {BN_CR:,} crore of central support for {BN_GP:,} gram panchayats, about Rs {BN_LAKH_PER_GP:.2f} lakh each (computed), and around three lakh rural home fibre connections expected."),
+              ("12 Nov 2026 (as reported)", "MeeSeva doorstep delivery of government services began in Cyberabad, run by the Electronic Service Delivery Department with Cyberabad Police, the Cyberabad municipal corporation and the Society for Cyberabad Security Council."),
+              ("2026 Outlook (undated)", "Prajavani, a programme to receive grievances in person at Mahatma Jyothiba Phule Praja Bhavan, is described without counts.")])
+      + numbers(["Measure", "Dated fact", "Source"],
+                [["BharatNet, Telangana", f"Rs {BN_CR:,} crore; {BN_GP:,} gram panchayats (1,946 upgraded, 10,787 phase II, 36 new)", "PIB, 6 November 2026"],
+                 ["Bhu Bharati hits", f"{HITS_CRORE} crore", "Outlook 2026 (cumulative to 28 Feb 2026)"],
+                 ["Bhu Bharati payments", f"{PAYMENTS_LAKH} lakh, Rs {REVENUE_CRORE:,} crore", "Outlook 2026"],
+                 ["Bhu Bharati slots booked", f"{SLOTS_LAKH} lakh", "Outlook 2026"],
+                 ["MeeSeva doorstep delivery", "Cyberabad, reported 12 November 2026", "The Hindu (secondary)"],
+                 ["Prajavani", "Launched for in-person grievances; no counts found", "Outlook 2026"]],
+                "Show the dated facts")
+      + '</section>\n')
 
 fixes = '''<h2 class="gb-h2" id="fixes">What would fix this</h2>
 <ol>
@@ -177,6 +226,7 @@ fixes = '''<h2 class="gb-h2" id="fixes">What would fix this</h2>
 <li><b>Telangana General Administration Department:</b> state whether a general guarantee-of-services law exists or is planned, and list the citizen services that carry a statutory time limit.</li>
 <li><b>Telangana Planning Department:</b> state in the vision document and the Outlook whether the USD figures are nominal and which exchange rate is used.</li>
 <li><b>Telangana Revenue Department:</b> publish time-to-decision for each Bhu Bharati service alongside the payment and slot counts.</li>
+<li><b>Telangana Electronic Service Delivery Department:</b> publish the service level for each MeeSeva service, the share decided inside it, and the start date of each dashboard counter.</li>
 </ol>
 <p>These are proposals from this blog, not recommendations any agency has adopted.</p>
 '''
@@ -197,12 +247,13 @@ gaps = '''<details class="xv-n"><summary>What this piece could not establish</su
 <li>Whether TG-iPASS applications were processed within time: the dashboard shows received and processed only, with no definition of &lsquo;processed&rsquo; and no approvals, rejections or delays.</li>
 <li>The date of the USD 1 trillion milestone in one report that gives 2037: every Telangana source read (the vision document, the state press release of 9 December 2025, the Socio-Economic Outlook 2026 and Invest Telangana) says 2034, and the report giving 2037 was not found, so 2034 is used.</li>
 <li>Whether the vision&rsquo;s dollar figures are nominal or real, and the exchange rate behind USD 201 billion; the Outlook&rsquo;s file date is 17 March 2026 in search metadata while its address shows August 2026.</li>
+<li>The MeeSeva dashboard&rsquo;s dates and definitions: the counters are undated, its category counts do not add to its own total (a gap of 586,716), 32.2% of requests fall in none of the four listed statuses, and the same page shows 27 active services, 38 departments and 9 centres in one block but 394 active services and 5,282 active centres in its October 2026 statistics. Only the October 2026 statistics and the status counts are used, with these caveats. Whether MeeSeva service levels have a statutory basis was not found.</li>
 <li>Prajavani and Praja Palana outcomes: the Outlook describes them without counts. No other Telangana policy is included because no dated figure was found for it.</li>
 <li>Any Telangana evaluation: the sources read are the state&rsquo;s own documents, which state targets and counts, not independent outcomes.</li>
 </ul></details>
 '''
 
-body = STYLE + top + s1 + s2 + s3 + s4 + fixes + method + gaps
+body = STYLE + top + s1 + s2 + s2b + s3 + s4 + fixes + method + gaps
 
 SOURCES = (
     '<a href="https://ipass.telangana.gov.in/UI/TSiPASS/frmSingleWindowDashboard.aspx">Telangana online single window dashboard</a> (official; 1 January 2024 to 5 November 2026); '
@@ -214,6 +265,10 @@ SOURCES = (
     '<a href="https://www.telangana.gov.in/wp-content/uploads/2026/08/Socio-Economic-Outlook-2026.pdf">Socio-Economic Outlook 2026, Planning Department</a> (official); '
     '<a href="https://invest.telangana.gov.in/">Invest Telangana</a> (official); '
     '<a href="https://www.thehindu.com/news/national/telangana/telangana-rising-vision-2047-document-unveiled-charts-roadmap-to-achieve-3-trillion-economy/article70377583.ece">The Hindu, 10 December 2025</a> (secondary); '
+    '<a href="https://ts.meeseva.telangana.gov.in/meeseva/home.htm">MeeSeva portal home dashboard</a> (official; counters undated); '
+    '<a href="https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333683&amp;reg=48&amp;lang=2">PIB, 6 November 2026, Amended BharatNet Program in Telangana</a> (government release); '
+    '<a href="https://www.thehindu.com/news/national/telangana/now-meeseva-doorstep-delivery-of-govt-services-in-cyberabad/article71693914.ece">The Hindu, 12 November 2026</a> (secondary: MeeSeva doorstep delivery); '
+    '<a href="https://www.thehindu.com/news/national/karnataka/karnataka-govts-praja-seve-to-be-expanded-with-launch-of-namma-seve-app/article71456733.ece">The Hindu, 11 September 2026</a> (secondary: Karnataka 890 of 2,456 services under Sakala); '
     '<a href="https://safar-india.org/documents/RTPSD_Final.pdf">SAFAR, scoping study of right to public service delivery Acts</a> (secondary, 2022; annexure on state status); '
     '<a href="https://prsindia.org/files/bills_acts/acts_states/karnataka/2012/2012KA1.pdf">PRS Legislative Research, Karnataka Sakaala Services Act</a> and '
     '<a href="https://sakala.kar.nic.in/index.aspx">Sakala portal</a> (for the Karnataka comparison). '
@@ -221,9 +276,9 @@ SOURCES = (
 
 RELATED = []
 
-step(6, "assembling page")
+step(7, "assembling page")
 build("Governance &middot; Telangana", TITLE,
-      "Telangana has a statutory time-limit regime for industrial clearances, a single-window dashboard, a land portal and a 2047 vision document; no general guarantee-of-services law was found.",
+      "Telangana has a statutory time-limit regime for industrial clearances, a single-window dashboard, the MeeSeva service portal, a land portal and a 2047 vision document; no general guarantee-of-services law was found.",
       body, SOURCES, RELATED, str(OUT))
 html = OUT.read_text()
 mine = TITLE + body + SOURCES
@@ -231,4 +286,4 @@ for banned in ("masaladeutsch", "masala deutsch", "blogspot"):
     assert banned not in mine.lower(), banned
 assert html.count("<h1") == 1
 print("wrote", OUT.relative_to(ROOT), len(TITLE), "chars in title")
-step(7, "complete")
+step(8, "complete")
