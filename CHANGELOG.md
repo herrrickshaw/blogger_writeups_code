@@ -20958,3 +20958,16 @@ scheduled sync
 - `indias-air-epi-rank-176-of-177-96-of` — 2026-11-19 &rarr; 2026-11-19
 - `pm-kusum-24-of-grid-plants-built` — 2026-11-19 &rarr; 2026-11-19
 - `india-asean-trade-5155-billion-deficit` — 2026-11-19 &rarr; 2026-11-19
+
+## 2026-11-21T10:24:11+00:00 — 549 posts live
+
+article index: add 14 posts published 19-21 Nov, incl. mandi harvest discount
+
+
+**Versions**
+
+- `article-index-start-here` **77.0.0 → 78.0.0** (MAJOR) — figures changed (+9/-3 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 988,558 → 1,014,554 bytes (+25,996)

@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-11-19T04:59:35.429+05:30",
+  "updated": "2026-11-21T15:53:47.846+05:30",
   "labels": [],
-  "bytes": 988558,
-  "sha256": "ef6379716d133d35506ac6cbb40c20e34c91c2d96e863f57227bbdc59f58fe49",
+  "bytes": 1014554,
+  "sha256": "29f161f95f8cd503d3f6e5bec551bb4a305b560ed2acd78962f92530b492d9cb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "77.0.0",
+  "version": "78.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -2551,6 +2551,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "78.0.0",
+      "date": "2026-11-21T10:24:11+00:00",
+      "level": "major",
+      "reason": "figures changed (+9/-3 distinct numbers)",
+      "bytes": [
+        988558,
+        1014554
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "article index: add 14 posts published 19-21 Nov, incl. mandi harvest discount"
     }
   ]
 }
