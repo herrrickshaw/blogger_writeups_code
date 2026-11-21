@@ -303,7 +303,20 @@ def main():
         choices=["major", "minor", "patch"],
         help="override the auto-classified semver level for every change this run",
     )
+    ap.add_argument(
+        "--as-slug",
+        action="append",
+        default=[],
+        metavar="SLUG=LEVEL",
+        help="override the level for one post (repeatable); takes precedence over --as for that slug",
+    )
     args = ap.parse_args()
+    slug_level = {}
+    for item in args.as_slug:
+        k, _, v = item.partition("=")
+        if v not in ("major", "minor", "patch"):
+            sys.exit(f"--as-slug {item!r}: level must be major, minor or patch")
+        slug_level[k] = v
 
     POSTS.mkdir(exist_ok=True)
     META.mkdir(exist_ok=True)
@@ -392,7 +405,10 @@ def main():
                     # edit needs a human --as, not a silent 1.0.1.
                     level = "patch"
                     reason = f"UNCLASSIFIED, defaulted to patch: {reason}"
-                if args.force_level:
+                if rec["slug"] in slug_level:
+                    level = slug_level[rec["slug"]]
+                    reason = f"forced via --as-slug {level} ({reason})"
+                elif args.force_level:
                     level = args.force_level
                     reason = f"forced via --as {level} ({reason})"
                 rec["version"] = bump(rec["version"], level)
