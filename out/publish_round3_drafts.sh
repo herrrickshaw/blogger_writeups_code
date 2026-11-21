@@ -15,9 +15,14 @@ FLAG="--draft"; [ "${LIVE:-}" = "1" ] && FLAG=""
 echo "== checking for duplicate live titles first"
 dups=$(python3 tools/blogger_api.py duplicates 2>&1)
 echo "$dups" | head -30
-if ! echo "$dups" | grep -q "no duplicate titles"; then
-  echo "STOPPED: live duplicates exist. Review the list above, then remove the later copies with"
-  echo "  python3 tools/blogger_api.py duplicates --delete-newer --yes      (permanently deletes the DELETE lines; the KEEP copy has no _digits suffix)"
+if echo "$dups" | grep -q "no duplicate titles"; then
+  :   # clean: carry on
+elif echo "$dups" | grep -q "DELETE"; then
+  echo "STOPPED: live duplicates exist. Review the list above (KEEP = earliest copy, no _digits suffix), then remove the later copies with"
+  echo "  python3 tools/blogger_api.py duplicates --delete-newer --yes      (permanently deletes the DELETE lines)"
+  exit 1
+else
+  echo "STOPPED: could not check for duplicates (not authorised? run: python3 tools/blogger_api.py auth). Nothing was written."
   exit 1
 fi
 echo "== also check Blogger -> Posts (or: python3 tools/blogger_api.py drafts) for drafts with the same titles; draft inserts are not checked against existing drafts."
