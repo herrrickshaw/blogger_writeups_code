@@ -1,4 +1,4 @@
-"""Post builder for masaladeutsch drafts (recovered from generated output, 30 Oct 2026).
+"""Post builder for VertiStrat drafts (recovered from generated output, 30 Oct 2026).
 build(kicker, title, standfirst, body, sources, related, out)
   related: list of (url, title) taken from the article index.
 """
