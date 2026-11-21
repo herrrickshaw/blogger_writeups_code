@@ -1,15 +1,15 @@
 {
   "id": "7209845948169355898",
-  "title": "CPI inflation heatmap for India, June 2026: 13 of 28 states, a 3.4-point spread",
+  "title": "CPI inflation by state in India, October 2026: 11 of 36 states and UTs above 6%",
   "url": "https://blog.vertistratsolution.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
   "slug": "cpi-inflation-heatmap-india-june-2026",
   "published": "2026-08-02T14:05:22.000+05:30",
-  "updated": "2026-11-21T16:03:48.664+05:30",
+  "updated": "2026-11-21T16:11:03.745+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 84459,
-  "sha256": "54cacbe92c0580312147a21b68f3ca286b64234855fe026a20f1e624ec8c2c4b",
+  "bytes": 95817,
+  "sha256": "d56b12c9f0891640c7e10dd1e2cee1d520d72e451356185f487c6c76a48f1636",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.1",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -362,6 +362,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-21T10:41:21+00:00",
+      "level": "major",
+      "reason": "forced via --as-slug major (figures changed (+69/-43 distinct numbers))",
+      "bytes": [
+        84459,
+        95817
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "CPI heatmap rebuilt for October 2026 (MoSPI CPI base 2024), retitled"
     }
   ]
 }

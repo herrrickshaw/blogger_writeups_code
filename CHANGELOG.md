@@ -21070,3 +21070,16 @@ Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-
 - `chemical-import-substitution-full-hsn-8_01082878313` — Chemical Import Substitution: the Full 827-Code Data Tables
 - `how-to-use-bazartalkspy2cplus-c-port-of` — How to use Bazartalks_Py2Cplus: a C++ port of a quant research platform, with its Python-vs-C++ benchmark
 - `us-stock-picks-multi-screen-quant` — US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)
+
+## 2026-11-21T10:41:21+00:00 — 528 posts live
+
+CPI heatmap rebuilt for October 2026 (MoSPI CPI base 2024), retitled
+
+
+**Versions**
+
+- `cpi-inflation-heatmap-india-june-2026` **5.0.1 → 6.0.0** (MAJOR) — forced via --as-slug major (figures changed (+69/-43 distinct numbers))
+
+**Changed**
+
+- `cpi-inflation-heatmap-india-june-2026` — 84,459 → 95,817 bytes (+11,358)
