@@ -20908,3 +20908,53 @@ mandi crops refresh (data to 31 Oct 2026) and new harvest-discount post
 - `indias-biggest-mandi-crops-have` — 71,038 → 72,825 bytes (+1,787)
 
 _Timestamp-only differences from the API path (milliseconds dropped) were discarded for 537 other sidecars; no other post changed._
+
+## 2026-11-21T10:09:22+00:00 — 549 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `delhi-act-10-of-2026-rs-250-day-for_01634687412` **v1.0.0** — Delhi Act 10 of 2026: Rs 250 a day for service delay, up to Rs 5,000 a case (38,141 bytes)
+- `telangana-life-sciences-policy-2026-30_0167854455` **v1.0.0** — Telangana Life Sciences Policy 2026-30: targets of USD 25 billion and 500,000 jobs (36,829 bytes)
+- `indias-right-to-service-laws-22-states_0122297809` **v1.0.0** — India’s right-to-service laws: 22 states and UTs reported, caps from Rs 500 to Rs 10,000 (69,572 bytes)
+- `karnataka-state-civil-aviation-policy_0268810664` **v1.0.0** — Karnataka State Civil Aviation Policy 2026: cabinet approval on 19 November 2026 (37,169 bytes)
+- `telangana-cabinet-5-november-2026-rs_01950508675` **v1.0.0** — Telangana cabinet, 5 November 2026: Rs 4,193 crore for three Kaleshwaram barrages (39,346 bytes)
+- `karnatakas-2026-policies-data-centre` **v1.0.0** — Karnataka’s 2026 policies: data centre, aerospace and marine biotechnology targets (42,525 bytes)
+- `karnataka-startup-policy-202530-rs` **v1.0.0** — Karnataka Startup Policy 2025–30: Rs 518.27 crore for 25,000 startups, Rs 2.07 lakh each (38,838 bytes)
+- `telangana-life-sciences-policy-2026-30` **v1.0.0** — Telangana Life Sciences Policy 2026-30: targets of USD 25 billion and 500,000 jobs (36,829 bytes)
+- `telangana-cabinet-5-november-2026-rs` **v1.0.0** — Telangana cabinet, 5 November 2026: Rs 4,193 crore for three Kaleshwaram barrages (39,346 bytes)
+- `karnataka-state-civil-aviation-policy` **v1.0.0** — Karnataka State Civil Aviation Policy 2026: cabinet approval on 19 November 2026 (37,169 bytes)
+- `indias-right-to-service-laws-22-states` **v1.0.0** — India’s right-to-service laws: 22 states and UTs reported, caps from Rs 500 to Rs 10,000 (69,572 bytes)
+- `delhi-act-10-of-2026-rs-250-day-for` **v1.0.0** — Delhi Act 10 of 2026: Rs 250 a day for service delay, up to Rs 5,000 a case (38,141 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `how-to-use-company-database-public-18` — 2026-11-21 &rarr; 2026-11-21
+- `how-to-use-europe-stock-screener` — 2026-11-21 &rarr; 2026-11-21
+- `how-to-use-claude-stock-tools-single` — 2026-11-21 &rarr; 2026-11-21
+- `how-to-use-india-election-analysis` — 2026-11-21 &rarr; 2026-11-21
+- `how-to-use-manga2anime-animate-still` — 2026-11-21 &rarr; 2026-11-21
+- `karnataka-sakaala-services-act-rs-20` — 2026-11-21 &rarr; 2026-11-21
+- `fcra-amendment-bill-2026-new-authority` — 2026-11-19 &rarr; 2026-11-19
+- `mahanadi-coalfields-ipo-rs-8981-crore` — 2026-11-19 &rarr; 2026-11-19
+- `coal-gasification-9-applications-in-two` — 2026-11-19 &rarr; 2026-11-19
+- `indias-retail-inflation-609-in-october` — 2026-11-19 &rarr; 2026-11-19
+- `indias-wholesale-inflation-1229-in` — 2026-11-19 &rarr; 2026-11-19
+- `indias-power-demand-in-october-2026-160` — 2026-11-19 &rarr; 2026-11-19
+- `indias-power-mix-q2-2026-27-coal-42-of` — 2026-11-19 &rarr; 2026-11-19
+- `india-us-trade-deal-november-2026-10` — 2026-11-19 &rarr; 2026-11-19
+- `indias-2026-monsoon-87-of-normal-rain` — 2026-11-19 &rarr; 2026-11-19
+- `indias-crude-basket-120-in-october-89` — 2026-11-19 &rarr; 2026-11-19
+- `indias-rupee-rs-9369-dollar-on-11` — 2026-11-19 &rarr; 2026-11-19
+- `delimitation-bill-298-votes-in-april` — 2026-11-19 &rarr; 2026-11-19
+- `indias-pli-schemes-rs-35354-crore-paid` — 2026-11-19 &rarr; 2026-11-19
+- `indias-100-item-import-push-pvc` — 2026-11-19 &rarr; 2026-11-19
+- `biogas-manure-2065-lakh-tonnes-sold-rs` — 2026-11-19 &rarr; 2026-11-19
+- `discom-losses-at-down-to-1504-in-fy25` — 2026-11-19 &rarr; 2026-11-19
+- `ethanol-2026-27-11-billion-litres` — 2026-11-19 &rarr; 2026-11-19
+- `corporate-laws-amendment-bill-2026-what` — 2026-11-19 &rarr; 2026-11-19
+- `indias-air-epi-rank-176-of-177-96-of` — 2026-11-19 &rarr; 2026-11-19
+- `pm-kusum-24-of-grid-plants-built` — 2026-11-19 &rarr; 2026-11-19
+- `india-asean-trade-5155-billion-deficit` — 2026-11-19 &rarr; 2026-11-19
