@@ -84,7 +84,7 @@ s1 = insight(
                ["IMF, October 2026", "7.0", "Also 7.0% for 2027-28"],
                ["Moody&rsquo;s", "7.0", "Reports differ on its earlier figure (6.0% in September reports, 6.5% in a November report)"],
                ["RBI, October 2026", f"{GDP_FY27_OCT}", "Quarterly path: 7.2, 6.9 and 6.8 for the second to fourth quarters"],
-               ["First quarter, outcome", f"{GDP_Q1}", f"RBI&rsquo;s August expectation was {GDP_Q1_RBI_AUG}; a Reuters poll expected {GDP_Q1_POLL}"]]),
+               ["First quarter, outcome", f"{GDP_Q1}", f"RBI&rsquo;s August expectation was {GDP_Q1_RBI_AUG} (MoSPI release); one report also cites a Reuters poll expecting {GDP_Q1_POLL}, which this piece could not confirm elsewhere"]]),
     f"The first quarter came in {GDP_Q1 - GDP_Q1_RBI_AUG:.1f} points above the RBI&rsquo;s own August expectation, and the October projection of {GDP_FY27_OCT}% already assumes growth slows to 6.8% by January&ndash;March, so the RBI&rsquo;s path already has a slowdown of one point built in.",
     "The 30 November release of July&ndash;September growth, which the RBI projected at 7.2%, is the first data point to compare with that path before the committee meets.",
     "growth")
@@ -125,14 +125,15 @@ s3 = insight(
 
 s4 = insight(
     "Growth data on 30 November, the MPC on 2-4 December and CPI on 14 December frame the call",
-    flow([("30 Nov (reported date)", "Real GDP growth for July&ndash;September 2026; the RBI projected 7.2%, and April&ndash;June came in at 7.8%."),
+    flow([("30 Nov", "Real GDP growth for July&ndash;September 2026, on MoSPI&rsquo;s schedule; the RBI projected 7.2%, and April&ndash;June came in at 7.8%."),
           ("2&ndash;4 Dec", f"The MPC meets. The repo rate is {REPO}%, the standing deposit facility {SDF}% and the marginal standing facility {MSF}%; the October stance is calibrated tightening, adopted 4&ndash;2.", True),
           ("14 Dec", "November CPI. The RBI&rsquo;s path needs November and December near 5.96% for October&ndash;December to average 6.0%.")])
     + numbers(["Source", "Expectation for December (a forecast, not a decision)"],
-              [["SBI Research", "A 50 basis point rise"],
-               ["Nomura", "A 25 basis point rise to 5.75%"]],
+              [["SBI Research, 22 October", "A 50 basis point rise (the call it retained then)"],
+               ["SBI Research, later", "Cut to a 25 basis point rise, in a report whose date this piece could not confirm (reported as mid-November)"],
+               ["Nomura", "A 25 basis point rise to 5.75%, in a report whose date this piece could not confirm"]],
               "Show the forecasts reported"),
-    "Published expectations for December run from a 25 to a 50 basis point rise, and the October statement said the next move can only be a rise or a pause, so the open question is the size of any rise or whether the committee holds.",
+    "The forecasts found centre on a 25 basis point rise after SBI Research cut its earlier call of 50, and the October statement said the next move can only be a rise or a pause, so the open question is whether the committee raises by 25 or holds.",
     "The December statement is the document to read for the committee&rsquo;s vote split, its new quarterly projections and whether it changes the 7.1% and 5.2% figures set in October.",
     "dates")
 
@@ -161,8 +162,9 @@ gaps = '''<details class="xv-n"><summary>What this piece could not establish</su
 <li>The RBI&rsquo;s quarterly tables from the primary document: the quarterly inflation figures (4.9%, 6.0%, 5.7%) and growth figures (7.2%, 6.9%, 6.8%) are as reported by secondary sources quoting the statement. The vote on the rate was reported as unanimous and the stance change as 4&ndash;2.</li>
 <li>The IMF&rsquo;s inflation forecast for India: outlets map its 5.0% and 4.4% to calendar and fiscal years differently, so none is used here.</li>
 <li>Moody&rsquo;s timing and base: reports date its move to 7% to September (from 6.0%) and to November (from 6.5%). Only the 7% level is used.</li>
-<li>The 30 November date of the July&ndash;September GDP release comes from one report; MoSPI&rsquo;s release calendar was not opened. The GDP deflator is a computed approximation from reported rounded growth rates.</li>
-<li>The December decision. SBI Research and Nomura are forecasts, reported by secondary outlets, and other forecasters differ.</li>
+<li>The GDP deflator is a computed approximation from reported rounded growth rates. The 30 November release date is as reported from MoSPI&rsquo;s schedule; the release calendar itself was not opened.</li>
+<li>The Reuters poll figure of 7.1% for April&ndash;June comes from one report and was not found in MoSPI&rsquo;s release or other coverage.</li>
+<li>The December decision. SBI Research and Nomura are forecasts reported by secondary outlets: SBI Research retained a 50 basis point call on 22 October and a later report has it at 25, and the dates of the later SBI report and of Nomura&rsquo;s were not confirmed. Other forecasters differ.</li>
 <li>Why October&ndash;December inflation is expected to ease: the statement lists drivers (monsoon, energy, food) but this piece did not test them.</li>
 </ul></details>
 '''
@@ -181,6 +183,9 @@ SOURCES = (
     '<a href="https://newsonair.gov.in/moodys-ratings-raises-indias-gdp-growth-forecast-for-current-fiscal-year-to-7-from-6-5/">All India Radio, 11 November 2026</a> (Moody&rsquo;s 7%; prior figure differs between the two); '
     '<a href="https://www.newkerala.com/news/a/sbi-research-retains-call-50-bps-december-rate-hike-889.htm">NewKerala, 2 November 2026</a> and '
     '<a href="https://lapaasvoice.com/nomura-expects-25-bps-rbi-rate-hike-in-december-as-inflation-risks-rise/">Lapaas Voice</a> (SBI Research and Nomura December forecasts); '
+    '<a href="https://www.outlookmoney.com/banking/sbi-research-cuts-rbi-december-rate-hike-forecast-to-025-per-cent">Outlook Money</a> and '
+    '<a href="https://www.thehansindia.com/business/rbi-likely-to-hike-rate-by-25-bps-in-dec-not-50-bps-report-1141705">The Hans India</a> (SBI Research&rsquo;s later cut to 25 basis points); '
+    '<a href="https://www.mospi.gov.in/uploads/latestreleasesfiles/1788174301107-Press%20Note%20on%20GDP%20Estimates%20for%20Q1%202026-27.pdf">MoSPI, Press note on GDP estimates for Q1 2026-27</a> (real 7.8%, nominal 10.3%, next estimate scheduled for 30 November); '
     'MoSPI monthly CPI releases (as used in this blog&rsquo;s October inflation post). Differences, averages and the implicit deflator computed by this blog. Analysed 19 November 2026.')
 
 RELATED = [
