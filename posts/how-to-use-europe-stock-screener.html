@@ -1,0 +1,259 @@
+<div class="artx htueurope">
+<style>
+/* ---- typography (gs-typo-unify-v1): keep in sync across all posts ---- */
+.htueurope{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.htueurope h1,.htueurope h2,.htueurope h3{line-height:1.3}
+
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
+.htueurope{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.htueurope{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
+.htueurope,.htueurope p,.htueurope li,.htueurope td,.htueurope th{color:var(--ink)!important}
+.htueurope{background:#fff!important}
+
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
+.htueurope .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
+.htueurope h1{margin:0 0 10px;font-size:1.5rem}
+.htueurope .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.htueurope .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.htueurope .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.htueurope .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.htueurope .stat span{font-size:.8rem}
+.htueurope h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
+.htueurope .tw{overflow-x:auto}
+.htueurope table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.htueurope th,.htueurope td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.htueurope th:first-child,.htueurope td:first-child{text-align:left}
+.htueurope th{background:var(--accent);color:#fff!important;font-weight:600}
+.htueurope tr:nth-child(even){background:var(--panel)}
+
+.htueurope .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.htueurope .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.htueurope .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.htueurope .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.htueurope .chip-good{background:var(--good-soft);color:var(--good)}
+.htueurope .chip-warn{background:var(--panel);color:var(--accent)}
+.htueurope .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.htueurope .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.htueurope .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.htueurope .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.htueurope .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">A standalone, yfinance-only screener that scores European stocks on momentum and quality signals and writes ranked CSV reports, with a universe of 1,063 tickers across 23 exchanges.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Open-Source Tools · How-To · Markets research</p>
+<h1 style="order:3">How to use europe-stock-screener: a Darvas/Buffett and Piotroski momentum screen for 23 European exchanges</h1>
+</div>
+
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-11-03" itemprop="dateModified">3 November 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<style>.htueurope pre{background:#f6f3ea!important;color:#111!important;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;overflow-x:auto;font-size:.82rem;line-height:1.45}.htueurope pre code{background:none!important;color:#111!important;font-family:var(--mono)}.htueurope code{font-family:var(--mono);font-size:.88em}.htueurope .vid{position:relative;padding-bottom:56.25%;height:0;margin:16px 0;max-width:100%}.htueurope .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}</style><div class="stats"><div class="stat"><b>1,063</b><span>tickers in data/europe_all_list.csv</span></div><div class="stat"><b>19 of 40</b><span>Frankfurt tickers that returned data in the demo</span></div><div class="stat"><b>426 s</b><span>time for that 40-ticker smoke scan</span></div><div class="stat"><b>3 Nov 2026</b><span>run date, prices as returned by Yahoo that day</span></div></div>
+<p>Code: <a href="https://github.com/herrrickshaw/europe-stock-screener">github.com/herrrickshaw/europe-stock-screener</a></p>
+<h2>Why it is useful</h2>
+<ul><li>Retail researchers and students get a no-account way to rank European stocks on trend and quality signals across exchanges that most free screeners ignore, including the Baltics, Prague, Budapest and Bucharest.</li><li>It replaces hand-built spreadsheet screens with a repeatable command that writes sorted CSVs for two scoring schemes.</li><li>Evidence from the run: a 40-ticker Frankfurt smoke scan finished with exit 0 and produced both reports, but only 19 of 40 tickers returned data, so check coverage before trusting any ranking.</li><li>Everything comes from public Yahoo Finance data through yfinance: no database, broker or paid vendor feed.</li></ul>
+<h2>What it is for</h2>
+<p>run_scan.py downloads price history in batches, computes RSI, EMAs, MACD, Bollinger, stochastic, ATR and returns, then scores each stock two ways: Darvas/Buffett (momentum with an optional fundamentals overlay) and a simplified Piotroski (momentum proxies plus fundamentals when fetched).</p>
+<p>Scores are mechanical screens for research and education. A high score is a prompt to investigate, not a recommendation.</p>
+<p><b>Who it is for</b></p>
+<ul><li>Students and self-directed investors exploring European markets</li><li>Analysts who want a worked example of vectorised pandas scoring</li><li>Anyone building a first-pass European watchlist generator</li></ul>
+<div class="warn"><b>Not for.</b><ul><li>Investment advice: this is not investment advice</li><li>A backtest: it is a live snapshot with no survivorship-bias handling</li><li>Complete coverage: Yahoo data gaps and rate limits drop tickers silently</li></ul></div>
+<h2>What you need</h2>
+<div class="tw"><table><tr><th>Requirement</th><th>Why</th><th>How to get it</th></tr><tr><td>Python 3.9+ with yfinance, pandas, numpy</td><td>requirements.txt</td><td>pip install -r requirements.txt</td></tr><tr><td>Internet access to Yahoo Finance</td><td>Prices are fetched live</td><td>No account or key; expect rate limits and timeouts</td></tr><tr><td>A terminal and git</td><td>To clone and run</td><td>Terminal on macOS/Linux, or Git Bash/WSL on Windows</td></tr></table></div>
+<h2>Get the code and an AI assistant</h2>
+<p>You do not have to be a programmer. Get the repository, give it to an AI assistant, and ask in plain language. Any of these routes works:</p>
+<div class="tw"><table><tr><th>Tool</th><th>What you need</th><th>Best for</th></tr><tr><td><b>GitHub</b></td><td>Free account to fork or star; <code>git</code> to clone, or the green <b>Code</b> button, then <b>Download ZIP</b>, or open in <b>Codespaces</b></td><td>Getting the code and keeping up with updates</td></tr><tr><td><b>Claude Code</b></td><td>Claude subscription or API key; run <code>claude</code> inside the cloned folder</td><td>Letting the AI read and run the whole repo</td></tr><tr><td><b>Gemini CLI</b></td><td>Google account; run <code>gemini</code> inside the cloned folder</td><td>The same hands-on workflow with Gemini</td></tr><tr><td><b>Claude.ai, Gemini or ChatGPT in the browser</b></td><td>A chat account; upload <code>README.md</code> and the files you care about (or paste the output of <code>git ls-files</code>)</td><td>Understanding the project and asking questions without installing anything</td></tr><tr><td><b>Other tools</b> (Copilot Chat, Cursor, Codex CLI)</td><td>Open the cloned folder in the tool and point it at <code>README.md</code> first</td><td>Editing and extending the code</td></tr></table></div>
+<pre><code>git clone https://github.com/herrrickshaw/europe-stock-screener.git
+cd europe-stock-screener
+claude      # or: gemini</code></pre>
+<h2>Install</h2><ol><li>Clone and enter the repo<pre><code>git clone https://github.com/herrrickshaw/europe-stock-screener.git
+cd europe-stock-screener</code></pre></li><li>Create a virtual environment and install<pre><code>python3 -m venv .venv &amp;&amp; source .venv/bin/activate
+pip install -r requirements.txt</code></pre></li></ol>
+<h2>Quick start: commands and what you should see</h2>
+<p><b>Smoke test on one exchange</b></p>
+<pre><code>python run_scan.py --exchange &quot;Deutsche Boerse Frankfurt&quot; --limit 40 --out reports</code></pre>
+<p>A line with the universe size, a fetched-count line, BUY/WATCH/AVOID counts and the top scores for both scans, then two CSVs in reports/.</p>
+<p><b>Full fast pass (OHLCV and RSI only)</b></p>
+<pre><code>python run_scan.py</code></pre>
+<p>Same outputs for the whole universe; the README estimates 5-10 minutes, but expect longer if Yahoo throttles.</p>
+<h2>Sample outputs</h2><p>Real output from a run on the date shown in the sources line; trimmed to fit.</p>
+<p><b>Darvas/Buffett top rows, Frankfurt smoke scan (run 3 Nov 2026)</b></p>
+<pre><code>python run_scan.py --exchange &quot;Deutsche Boerse Frankfurt&quot; --limit 40
+Universe: 40 stocks across 1 exchange(s)
+Fetched 19/40 tickers in 426s
+
+Darvas/Buffett: BUY=11 WATCH=5 AVOID=3
+ticker             name  exchange                    cmp  score  max_score
+ DHL.F  Deutsche Post  Deutsche Boerse Frankfurt  58.42     11         12
+ ADS.F         Adidas  Deutsche Boerse Frankfurt 167.80     10         12
+ ALV.F       Allianz  Deutsche Boerse Frankfurt 438.70     10         12
+BFSA.F        Befesa  Deutsche Boerse Frankfurt  37.40     10         12</code></pre>
+<p>Prices in EUR as returned by Yahoo on the run date. The first 40 Frankfurt rows only; not a recommendation.</p>
+<p><b>Piotroski-simplified summary, same run</b></p>
+<pre><code>(same command)
+Piotroski: BUY=9 WATCH=7 AVOID=3
+1SXP.F  Schott Pharma  5 of 5
+1U1.F   1&amp;1 AG         5 of 5
+ALV.F   Allianz        5 of 5
+DHL.F   Deutsche Post  5 of 5</code></pre>
+<p>Max score is 5 because no fundamentals were fetched; thresholds scale with available fields.</p>
+<p><b>Coverage problems logged by the same run</b></p>
+<pre><code>(stderr of the same command)
+21 Failed downloads: [&#x27;DBK.F&#x27;, &#x27;DTG.F&#x27;, &#x27;BNR.F&#x27;, &#x27;CWC.F&#x27;, &#x27;AIXA.F&#x27;, &#x27;DB1.F&#x27;, ...]
+TypeError(&quot;&#x27;NoneType&#x27; object is not subscriptable&quot;)
+[&#x27;ECV.F&#x27;]: Timeout(... curl: (28) Operation timed out after 30002 milliseconds ...)</code></pre>
+<p>Large caps such as Deutsche Bank (DBK.F) and BASF (BAS.F) returned no data via their .F tickers in this run.</p>
+<h2>Ways to use it</h2>
+<div class="tw"><table><tr><th>Method</th><th>How it works</th></tr><tr><td>Scan one exchange</td><td>Use --exchange with one or more names from data/europe_all_list.csv.</td></tr><tr><td>Open the CSVs</td><td>Sort or filter darvas_buffett_scan.csv and piotroski_scan.csv in a spreadsheet.</td></tr><tr><td>Add fundamentals</td><td>Use --with-fundamentals for ROE, PE and debt overlays; the README budgets 1-3 hours.</td></tr></table></div>
+<h2>Sample prompts for your AI assistant</h2><p>Copy, paste and edit the parts in [brackets].</p>
+<ul><li>Explain the Darvas/Buffett scoring in screener/scanner.py criterion by criterion.</li><li>Why might .F Frankfurt tickers return no data from yfinance, and should the universe prefer .DE?</li><li>Add a coverage report that lists which universe tickers failed and why.</li><li>Write a notebook that loads the CSVs and plots score against 1-year return.</li><li>Help me add a liquidity filter so thin stocks do not rank highly.</li></ul>
+<h2>Limits and honest caveats</h2>
+<div class="warn"><ul><li>Not investment advice. Mechanical screens fail in regime changes.</li><li>Coverage was poor in the demo: 19 of 40 Frankfurt tickers returned data, and the 40-ticker run took 426 seconds, so the 5-10 minute full-universe estimate looks optimistic on this day and network.</li><li>The README is inconsistent about size: its text says 1,063 stocks on 23 exchanges, but the usage notes and docstring still say 966 stocks and 17 exchanges; the CSV has 1,063 data rows.</li><li>No survivorship-bias handling: it is a live snapshot, not a backtest.</li><li>Data is Yahoo Finance via yfinance, which rate-limits and can change without notice.</li></ul></div>
+<p class="src">Sources: the europe-stock-screener README, scripts and universe CSV; the 40-ticker Frankfurt smoke scan run on 3 November 2026 on a fresh clone in a throwaway virtualenv with Python 3.9.</p>
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 3 November 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+
+<style>/* gs-light-lock-v1 */.htueurope{--ink:#111!important;--accent:#8a4b08!important;--rule:#e8dcc4!important;--panel:#fdf7ec!important;--good:#1a7a4c!important;--good-soft:#eaf6ef!important;--bad:#a5402c!important;--bad-soft:#fff4f0!important}</style>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>

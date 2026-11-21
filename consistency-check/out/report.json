@@ -1,8 +1,8 @@
 [
  {
-  "id": "4be92d48",
-  "title": "how-to-use-process-safety-design.html",
-  "url": "https://masaladeutsch.blogspot.com/2026/11/how-to-use-process-safety-design.html",
+  "id": "67f61f05",
+  "title": "PASTE-THE-REAL-SLUG.html",
+  "url": "https://blog.vertistratsolution.com/2026/11/PASTE-THE-REAL-SLUG.html",
   "checks": [
    {
     "rule": "js-parses",
@@ -37,20 +37,20 @@
    {
     "rule": "disclaimer-present",
     "severity": "MAJOR",
-    "ok": true,
-    "detail": ""
+    "ok": false,
+    "detail": "no AI-disclosure outside a <script>"
    },
    {
     "rule": "translate-widget",
     "severity": "MINOR",
-    "ok": true,
-    "detail": ""
+    "ok": false,
+    "detail": "missing Google Translate widget"
    },
    {
     "rule": "index-link",
     "severity": "MINOR",
-    "ok": true,
-    "detail": ""
+    "ok": false,
+    "detail": "missing All-Articles index link"
    },
    {
     "rule": "bw-override",
@@ -62,9 +62,9 @@
     "rule": "table-units-in-header",
     "severity": "MINOR",
     "ok": true,
-    "detail": "0%"
+    "detail": "n/a (few cells)"
    }
   ],
-  "bytes": 102737
+  "bytes": 61376
  }
 ]

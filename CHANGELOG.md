@@ -20876,3 +20876,16 @@ Karnataka Sakaala Act post published
 - `indias-air-epi-rank-176-of-177-96-of` — 2026-11-19 &rarr; 2026-11-19
 - `pm-kusum-24-of-grid-plants-built` — 2026-11-19 &rarr; 2026-11-19
 - `india-asean-trade-5155-billion-deficit` — 2026-11-19 &rarr; 2026-11-19
+
+## 2026-11-21T07:54:47+05:30 — 536 posts live
+
+Telangana post: MeeSeva dashboard, BharatNet agreement, Cyberabad doorstep delivery
+
+
+**Added**
+
+- `how-to-use-company-database-public-18` **v1.0.0** — How to use company-database-public: an 18-million-company list built from open registries (24,549 bytes)
+- `how-to-use-europe-stock-screener` **v1.0.0** — How to use europe-stock-screener: a Darvas/Buffett and Piotroski momentum screen for 23 European exchanges (22,499 bytes)
+- `how-to-use-claude-stock-tools-single` **v1.0.0** — How to use claude-stock-tools: single-stock reports and Darvas, Piotroski and Coffee Can screeners (25,333 bytes)
+- `how-to-use-india-election-analysis` **v1.0.0** — How to use india-election-analysis: coalition game theory, Monte Carlo seat simulations and an audited-assumptions test suite for Lok Sabha (23,936 bytes)
+- `how-to-use-manga2anime-animate-still` **v1.0.0** — How to use manga2anime: animate a still panel with open-source tools, plus a no-GPU procedural loop renderer (23,347 bytes)
