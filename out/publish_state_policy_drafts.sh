@@ -5,6 +5,11 @@
 #   If a draft with the same title already sits in Blogger -> Posts, delete it first or you will get two copies.
 #   SKIP="key1 key2"   skips posts already inserted.
 set -u
+if [ "${FORCE:-}" != "1" ]; then
+  echo "All seven posts in this script are already live (21 Nov 2026). Running it again creates more drafts or duplicate posts."
+  echo "Set FORCE=1 only if you really mean to insert them again."
+  exit 1
+fi
 # Default: insert as Blogger drafts. LIVE=1 publishes straight to the blog (no draft step). DRY=1 previews either mode.
 FLAG="--draft"; [ "${LIVE:-}" = "1" ] && FLAG=""
 [ "${DRY:-}" = "1" ] && FLAG="$FLAG --dry-run"
