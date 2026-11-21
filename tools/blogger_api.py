@@ -156,6 +156,10 @@ _access = {"token": None, "expires": 0}
 def access_token():
     if _access["token"] and time.time() < _access["expires"] - 60:
         return _access["token"]
+    # Cloud sessions have no refresh token on disk. There, the session's network proxy injects the real
+    # OAuth bearer for blogger.googleapis.com, and BLOGGER_ACCESS_TOKEN only needs a placeholder value.
+    if os.environ.get("BLOGGER_ACCESS_TOKEN"):
+        return os.environ["BLOGGER_ACCESS_TOKEN"]
     if not TOKEN_FILE.exists():
         sys.exit("not authorised — run: blogger_api.py auth")
     cid, csec, _ = _client()
