@@ -21083,3 +21083,26 @@ CPI heatmap rebuilt for October 2026 (MoSPI CPI base 2024), retitled
 **Changed**
 
 - `cpi-inflation-heatmap-india-june-2026` — 84,459 → 95,817 bytes (+11,358)
+
+## 2026-11-22T10:14:11+00:00 — 523 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `indias-labour-codes-took-six-years-to` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+24/-0 distinct numbers)
+- `fourteen-states-reimburse-investors` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+8/-0 distinct numbers)
+
+**Changed**
+
+- `indias-labour-codes-took-six-years-to` — 23,596 → 31,483 bytes (+7,887)
+- `fourteen-states-reimburse-investors` — 35,493 → 40,287 bytes (+4,794)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `telangana-cabinet-5-november-2026-rs_01950508675` — Telangana cabinet, 5 November 2026: Rs 4,193 crore for three Kaleshwaram barrages
+- `telangana-life-sciences-policy-2026-30_0167854455` — Telangana Life Sciences Policy 2026-30: targets of USD 25 billion and 500,000 jobs
+- `indias-right-to-service-laws-22-states_0122297809` — India’s right-to-service laws: 22 states and UTs reported, caps from Rs 500 to Rs 10,000
+- `delhi-act-10-of-2026-rs-250-day-for_01634687412` — Delhi Act 10 of 2026: Rs 250 a day for service delay, up to Rs 5,000 a case
+- `karnataka-state-civil-aviation-policy_0268810664` — Karnataka State Civil Aviation Policy 2026: cabinet approval on 19 November 2026

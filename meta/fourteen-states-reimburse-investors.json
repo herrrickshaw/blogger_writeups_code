@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/fourteen-states-reimburse-investors.html",
   "slug": "fourteen-states-reimburse-investors",
   "published": "2026-09-09T12:36:16.000+05:30",
-  "updated": "2026-11-14T15:20:11.170+05:30",
+  "updated": "2026-11-21T19:29:16.311+05:30",
   "labels": [
     "India",
     "Industrial Policy",
     "State Investment Incentives"
   ],
-  "bytes": 35493,
-  "sha256": "dfc96217cdda304ee49152932417e4bd3ac0281cc361d7fd05ecdd5d1848292f",
+  "bytes": 40287,
+  "sha256": "020e41f6478c23ce956b6425468047ac2c7b9f23ddb14bdea7e0634da3e9d341",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -125,6 +125,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-22T10:14:11+00:00",
+      "level": "major",
+      "reason": "figures changed (+8/-0 distinct numbers)",
+      "bytes": [
+        35493,
+        40287
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
