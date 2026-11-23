@@ -22,7 +22,7 @@ def test_visible_strips_scripts_styles_tags_entities():
 def test_readability_metrics_and_empty():
     assert AB.readability("") is None and AB.readability("123 456") is None and AB.readability("...") is None
     r = AB.readability("The cat sat. The dog ran fast. Go.")
-    assert r["words"] == 8 and r["sentences"] == 3 and r["words_per_sentence"] == 3.0 and r["long_sentence_pct"] == 0.0
+    assert r["words"] == 8 and r["sentences"] == 3 and r["words_per_sentence"] == 2.7 and r["long_sentence_pct"] == 0.0
     expected = round(206.835 - 1.015 * (8 / 3) - 84.6 * (8 / 8), 1)           # one vowel group per word
     assert r["flesch"] == expected
 
