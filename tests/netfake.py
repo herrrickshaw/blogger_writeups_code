@@ -58,3 +58,36 @@ class Net:
 
     def json_bodies(self):
         return [json.loads(r["body"]) for r in self.requests if r["body"]]
+
+
+class Routes:
+    """URL-keyed fake (thread-safe, order independent): routes[url] -> payload | Exception | list (consumed in order)."""
+
+    def __init__(self, routes=None):
+        import threading
+        self.routes = dict(routes or {})
+        self.hits = []
+        self.lock = threading.Lock()
+
+    def install(self, monkeypatch):
+        import urllib.request
+        monkeypatch.setattr(urllib.request, "urlopen", self._urlopen)
+        return self
+
+    def _urlopen(self, req, *a, **kw):
+        url = req if isinstance(req, str) else req.full_url
+        with self.lock:
+            self.hits.append(url)
+            item = self.routes.get(url)
+            if item is None:
+                raise AssertionError(f"unexpected url {url}")
+            if isinstance(item, list):
+                item = item.pop(0) if len(item) > 1 else item[0]
+        if isinstance(item, Exception):
+            raise item
+        resp = FakeResp(item[1] if isinstance(item, tuple) else item)
+        if isinstance(item, tuple):
+            resp.status = item[0]
+        resp.url = url
+        resp.geturl = lambda: url
+        return resp
