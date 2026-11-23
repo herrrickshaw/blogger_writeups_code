@@ -296,3 +296,11 @@ def test_main_default_glob_over_posts(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr(sys, "argv", ["t"])
     T.main()
     assert "posts changed 1" in capsys.readouterr().out
+
+
+def test_fit_right_outside_at_exact_boundary_is_outside():
+    # an empty label has width 0, so exactly pad_outside of room is exactly enough (<=, not <)
+    r = S.fit_value_label("", 0, 50, 0, 56, "right", pad_outside=6.0)
+    assert r["inside"] is False and r["x"] == 56 and r["anchor"] == "start"
+    r = S.fit_value_label("", 0, 50, 0, 55.5, "right", pad_outside=6.0)
+    assert r["inside"] is True

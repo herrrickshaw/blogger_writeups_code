@@ -865,6 +865,8 @@ def test_migrate_links(src, want):
     ("/Masala Deutsch", "/Masala Deutsch"),
     ("the-masala-deutsch-shop", "the-masala-deutsch-shop"),
     ("Masala Deutsch-shop", "Masala Deutsch-shop"),
+    ("x.Masala Deutsch", "x.Masala Deutsch"),
+    ("x-Masala Deutsch", "x-Masala Deutsch"),
     ("Masala Deutsche", "Masala Deutsche"),
     ("masaladeutsch.blogspot.com", "masaladeutsch.blogspot.com"),
     ("masaladeutsch.github.io", "masaladeutsch.github.io"),
