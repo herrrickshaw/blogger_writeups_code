@@ -1,0 +1,11 @@
+[run]
+source =
+    tools
+    process_safety
+    consistency-check
+    farmer-payments-dlt/src
+    VertiStrat_DPR_Templates
+omit =
+    */tests/*
+    */conftest.py
+    */test_*.py
