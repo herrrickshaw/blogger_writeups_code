@@ -10,6 +10,8 @@ from netfake import Net, http_error
 @pytest.fixture(autouse=True)
 def _no_sleep(monkeypatch):
     monkeypatch.setattr(M.time, "sleep", lambda s: None)
+    monkeypatch.setattr(M, "GROQ_MODELS", ["llama-3.3-70b-versatile"])        # main() rewrites this list in place
+    monkeypatch.setattr(M, "REQUIRED_MODELS", M.REQUIRED_MODELS)
 
 
 @pytest.fixture
@@ -141,8 +143,8 @@ def test_groq_pick_model_env_override_wins(monkeypatch, net):
     (["whisper-x", "gpt-oss-120b", "qwen3-32b"], "gpt-oss-120b"),
     (["qwen3-32b", "gpt-oss-20b"], "qwen3-32b"),
     (["something-else", "llama-guard-3", "compound-beta"], "something-else"),
-    (["llama-guard", "whisper", "tts-x", "orpheus-y", "playai-z", "embed-q", "vision-r"], M.GROQ_MODELS[0]),
-    ([], M.GROQ_MODELS[0]),
+    (["llama-guard", "whisper", "tts-x", "orpheus-y", "playai-z", "embed-q", "vision-r"], "llama-3.3-70b-versatile"),
+    ([], "llama-3.3-70b-versatile"),
     (["my-70b-chat", "llama-x"], "my-70b-chat"),
 ])
 def test_groq_pick_model_preference(monkeypatch, net, ids, want):
