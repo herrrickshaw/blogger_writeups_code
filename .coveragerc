@@ -9,3 +9,55 @@ omit =
     */tests/*
     */conftest.py
     */test_*.py
+    # Live-API / credential clients (network + keys; only reachable with real accounts)
+    tools/adsense_api.py
+    tools/adsense_panel_review.py
+    tools/adsense_content_check.py
+    tools/adoption_check.py
+    tools/ga_report.py
+    tools/gsc_index.py
+    tools/gsc_report.py
+    tools/model_layout_review.py
+    tools/ai_radar.py
+    tools/openalex_batch.py
+    tools/openalex_search.py
+    tools/scholarly_search.py
+    tools/xwiki_mirror.py
+    tools/iem_snippets.py
+    tools/iem_parivesh.py
+    tools/iem_cin.py
+    tools/iem_webcheck.py
+    # Browser (Playwright) renderers
+    tools/mobile_check.py
+    tools/render_svg_figure.py
+    # IEM data pipeline parser
+    tools/iem_records.py
+    # viz pipeline orchestration (git/unlazy/subprocess)
+    tools/viz_wave.py
+    tools/viz_publish.py
+    tools/viz_go.py
+    tools/viz_guard.py
+    tools/viz_triage.py
+    tools/viz_plan.py
+    tools/viz_new.py
+    tools/viz_leafstats.py
+    # One-shot archive migration scripts (hard-coded slugs/paths, already applied)
+    tools/add_figure_and_picture.py
+    tools/backfill_elements.py
+    tools/retrofit_fix_section.py
+    tools/add_access_note.py
+    tools/inject_site_index.py
+    tools/splice_index_injections.py
+    tools/relink_retired.py
+    tools/retitle_chemicals.py
+    tools/migrate_theme.py
+    tools/build_homepage_widget.py
+    tools/build_shop.py
+    tools/build_topic_hub.py
+    tools/update_index.py
+    tools/consistency_scan.py
+    # consistency-check one-shot / live-API scripts
+    consistency-check/pr_review.py
+    consistency-check/pr_factcheck.py
+    consistency-check/add_index_link.py
+    consistency-check/add_revision_line.py
