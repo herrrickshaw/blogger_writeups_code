@@ -25,7 +25,7 @@ Source access: pib.gov.in (curl -g with a browser user-agent), sansad.in and prs
 
 ## Cross-cutting flags
 
-1. **Old name in the files.** Fixed after the first push: the one `<script src=".../masaladeutsch/accordion.js">` tag (copied verbatim from each live post) was removed from all 9 update files; they now contain no `masaladeutsch` or `Masala` text. The empty `<div id="gs-idx"></div>` it mounted into was left in place, and the live posts still carry the tag.
+1. **Old name in the files.** Fixed after the first push: the one old-host accordion `<script>` tag (copied verbatim from each live post) was removed from all 9 update files; they now contain no old domain or name. The empty `<div id="gs-idx"></div>` it mounted into was left in place, and the live posts still carry the tag.
 2. **Block heading.** Blocks read "Updated 25 November 2026." to match the 21 Nov notes, not the brief's wording "Update, 25 November 2026".
 3. **Version bump (CLAUDE.md rule 5).** Not run (snapshot.py is a Mac step). Suggested classification: MAJOR for rows 12 and 16 (figures or headline changed) and row 10 (dates corrected); MINOR for the rest (a block added, no figure changed).
 4. **Mobile audit.** Run on all 9 files, pages wider than the screen: 0 in every case. Small-chart, swipe-table and long-paragraph counts are inherited from the source posts.
