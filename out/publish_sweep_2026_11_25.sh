@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Slice B update drafts of the 25 Nov 2026 sweep. Run from the repo root on the Mac after fetching the files.
+# Update drafts of the 25 Nov 2026 sweep (slices A and B; slice C found nothing). Run from the repo root on the Mac after fetching the files.
 #   DRY=1 bash out/publish_sweep_2026_11_25.sh        preview, no write
-#   bash out/publish_sweep_2026_11_25.sh              the six additive updates (an update block is added, nothing removed)
+#   bash out/publish_sweep_2026_11_25.sh              the twelve additive updates (an update block is added, nothing removed)
 #   WITH_REWRITES=1 bash out/publish_sweep_2026_11_25.sh   also the three drafts that rewrite existing text (quantum, paprika oleoresin, wine); read them first
 #   SKIP="key ..."                                    skip posts already updated
 # The sweep session removed the live accordion <script> tag from every draft. Publishing as-is would drop that tag
@@ -14,7 +14,13 @@ alimco:alimco-jaipur-foot-and-bionic-gap-in
 ahidf:ahidf-has-sanctioned-19751-crore-in
 dap:india-raised-dap-subsidy-18-this-kharif
 maize:ethanol-plants-that-trade-maize-to
-namrup:thirty-one-years-of-asking-parliament"
+namrup:thirty-one-years-of-asking-parliament
+rooftop:rooftop-solar-is-working-household
+reactor:the-reactor-nobody-names-how-coal
+corsia:under-corsias-own-numbers-corn-ethanol
+health2:indias-two-tracks-of-health-cover-and
+oop:most-of-what-indians-pay-for-health-is
+idbi:idbi-banks-rescuers-put-in-54000-crore"
 REW="quantum:indias-military-quantum-plan-has-four
 paprika:india-sells-world-about-third-of-its
 wine:a-million-wine-market-behind-150-wall"
