@@ -28,3 +28,14 @@ Not found: Drishti, ForumIAS or InsightsIAS pages for 20 to 24 Nov 2026, any PRS
 
 ## Suggested next
 Topic 1 first (a dated report, a spend series to recompute and no overlap), then 2 (the funnel and platform) and 3 (single regulator ID, a good fit beside the Karnataka and Telangana posts). Topic 4 waits for the 30 Nov hearing.
+
+## Addendum: Digital Sansad / sansad.in check, 25 Nov 2026
+
+sansad.in, digital.sansad.in, eparlib.sansad.in and rsdoc.nic.in are all unreachable from the cloud session (the proxy refuses them), so this is search-excerpt only. The listings surfaced no committee report tabled in November 2026; the latest two found are from August. No Winter Session 2026 notice was found (every result was the 2025 session, 1 to 19 Dec 2025); a mid-November report says first week of December is likely and not official. The Rajya Sabha session 272 question check from the scheduled task could not be run here.
+
+| # | Topic | Why it works | Data anchors (as reported) | Source to fetch | Overlap |
+|---|---|---|---|---|---|
+| 7 | **Digital Bharat Nidhi: what a telecom committee found about the universal-service fund** | A named committee report on a fund that pays for rural mobile and fibre links, and it pairs with the BharatNet line in the Telangana post. | Thirty-second Report, Standing Committee on Communications and Information Technology, presented to Lok Sabha and laid in Rajya Sabha on 6 Aug 2026; subject: Digital Bharat Nidhi schemes | sansad.in/getFile/app/lsscommittee/Communications and Information Technology/18_Communications_and_Information_Technology_32.pdf and its press release (Press Release of 32nd Report.pdf); PRS summary if posted | None on Digital Bharat Nidhi, USOF or BharatNet |
+| 8 | **Digital India Land Records Modernization Programme: a committee on land-record digitisation** | A programme with state-wise coverage numbers, and it extends the live Telangana Bhu Bharati coverage to the national scheme. | Forty-first Report, Standing Committee on Rural Development and Panchayati Raj, presented to Lok Sabha on 11 Aug 2026; subject: DILRMP | sansad.in/getFile/app/lsscommittee/Rural Development and Panchayati Raj/18_Rural_Development_and_Panchayati_Raj_41.pdf | One live post on blockchain for farmers' land records, a different angle |
+
+Both are findings-unread: only the report titles, numbers and dates are established. Draft order: 1 (oil PSU R&D), then 7, 2, 3, 8; topic 4 waits for 30 Nov.
