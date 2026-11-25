@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/11/ai-tools-edition-04-deepseek-put-its.html",
   "slug": "ai-tools-edition-04-deepseek-put-its",
   "published": "2026-11-09T17:51:38.000+05:30",
-  "updated": "2026-11-21T16:00:26.709+05:30",
+  "updated": "2026-11-25T07:34:45.105+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 64291,
-  "sha256": "033c93fd137a5d76eb1136859000f9737de0ca75f2f5540d52a111f45df8fd88",
+  "bytes": 64950,
+  "sha256": "8c73a11aeb9296f397db11b6dba431764511c24439d5ebc71bd340342f9af1c6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-25T11:40:29+00:00",
+      "level": "major",
+      "reason": "figures changed (+8/-0 distinct numbers)",
+      "bytes": [
+        64291,
+        64950
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

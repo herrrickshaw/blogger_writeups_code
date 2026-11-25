@@ -21106,3 +21106,27 @@ scheduled sync
 - `indias-right-to-service-laws-22-states_0122297809` — India’s right-to-service laws: 22 states and UTs reported, caps from Rs 500 to Rs 10,000
 - `delhi-act-10-of-2026-rs-250-day-for_01634687412` — Delhi Act 10 of 2026: Rs 250 a day for service delay, up to Rs 5,000 a case
 - `karnataka-state-civil-aviation-policy_0268810664` — Karnataka State Civil Aviation Policy 2026: cabinet approval on 19 November 2026
+
+## 2026-11-25T11:40:29+00:00 — 531 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `ai-tools-edition-05-five-new-rounds` **v1.0.0** — AI tools edition 05: five new rounds total $920 million; Copilot Fusion leads a benchmark (32,518 bytes)
+- `doing-business-in-india-committee-seeks` **v1.0.0** — Doing Business in India: a committee seeks audited reform claims and one PAN-based ID (34,953 bytes)
+- `oil-psu-r-rs-2909-crore-in-fy2025-26` **v1.0.0** — Oil PSU R&D: Rs 2,909 crore in FY2025-26, 2.16% of profit after tax at seven majors (36,210 bytes)
+- `arjun-flour-mills-v-state-of-orissa` **v1.0.0** — Arjun Flour Mills v State of Orissa: seven-judge reference disposed of on 4 November 2026 (28,709 bytes)
+- `indias-policy-log-october-2026-ten` **v1.0.0** — India's policy log, October 2026: ten dated changes with figures and effective dates (30,297 bytes)
+- `digital-bharat-nidhi-615-of-bharatnet` **v1.0.0** — Digital Bharat Nidhi: 61.5% of the BharatNet budget spent in 2023-24 and 2024-25 (39,292 bytes)
+- `dilrmp-land-records-9981-of-records` **v1.0.0** — DILRMP land records: 99.81% of records computerised, 84.32% of villages linked to maps (33,747 bytes)
+- `forest-rights-act-2542-lakh-titles-on` **v1.0.0** — Forest Rights Act: 25.42 lakh titles on about 238 lakh acres, 47% of claims received (36,887 bytes)
+
+**Versions**
+
+- `ai-tools-edition-04-deepseek-put-its` **2.0.1 → 3.0.0** (MAJOR) — figures changed (+8/-0 distinct numbers)
+
+**Changed**
+
+- `ai-tools-edition-04-deepseek-put-its` — 64,291 → 64,950 bytes (+659)
