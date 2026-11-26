@@ -37,3 +37,23 @@ Suggested structure for the section in the post: "Does drift help an income inve
 - Resolve the Presidential PEAD excerpt (4.1% under which party).
 - Find the two 2025 papers by title.
 - For India, name the NSE studies that report a drift result and say whether any splits by dividend policy.
+
+## Addendum, 26 Nov 2026: how different markets perceive PEAD (search excerpts, unverified)
+
+| Market or sample | What the excerpt says | Source (to open) | Status |
+|---|---|---|---|
+| US | Faded in non-microcap stocks since about 2006 (Martineau 2022); contested by two 2025 papers | nowpublishers.com/article/Details/CFR-0122 | Peer-reviewed; disputed |
+| 41 countries, culture | Individualism is positively associated with earnings-momentum profits; uncertainty avoidance also matters (Dou, Hunton, Truong, Veeraraghavan) | eprints.whiterose.ac.uk/180021 (Individualism, openness, momentum and PEAD); typeset.io copy | Published/accepted; check journal |
+| 40+ markets, culture and openness | Momentum and PEAD returns driven by cognitive dissonance from cultural differences; the individualism effect is smaller in more open, more capital-market-integrated markets (Guo and Holmes) | same eprints record; ideas.repec.org/a/wsi/tijaxx/v58y2023i01ns1094406023500038.html | Check which of the two entries is Guo and Holmes |
+| 41 countries, algorithmic trading | Algorithmic-trading link to PEAD is stronger where investor protection, disclosure and information dissemination are stronger (Chen) | scholars.ln.edu.hk/en/publications/algorithmic-trading-and-post-earnings-announcement-drift-a-cross-/ | Published 2023 per excerpt |
+| Non-US firms, information shock | PEAD shrinks after a reporting-quality shock, more for firms that gained most; authors say international evidence is "limited and inconclusive" (Hung, Li, Wang) | iems.ust.hk/assets/publications/working-papers-2015/iemswp2015-17.pdf; ideas.repec.org/p/hku/wpaper/201517.html | Working paper |
+| China A-shares | Retail-dominated; limited attention gives stronger drift in small and value stocks (Chen, Gao, Liu 2021); drift larger when investor opinion diverges and governance is weak (Shu and Tan 2022); policy uncertainty aggravates it (Du et al. 2023); institutions behave much like retail (Du et al.); stronger drift after bad news around Tomb-Sweeping Day (Feng et al. 2022) | econpapers.repec.org/RePEc:eco:journ1:2021-01-1; ideas.repec.org/a/mes/emfitr/v58y2022i14p3985-4000.html; ideas.repec.org/a/eee/finana/v87y2023ics105752192300131x.html | Abstract-level only; no direct retail-vs-institutional split found |
+| Greece | "PEAD is alive and well" against recent US evidence; partly linked to IFRS adoption (Forbes and Giannopoulos 2015) | eprints.kingston.ac.uk/id/eprint/33027 | Check journal |
+| Spain | Results differ from the US; authors cite lower individualism, weaker investor protection, code-law system | informahealthcare.com/doi/full/10.1080/09638180903503978 | Check authors and year |
+| Latin America (six markets) | Firm-level and country-level institutional variables compared, NYSE firms as benchmark | scielo.br/j/rbgn/a/FB4tKLFBHggTVRDhpLygFWB | Check findings; excerpt gave none |
+| Belgium, Singapore | Early studies found PEAD (cited in the HKUST paper) | iems.ust.hk working paper 2015-17 | Secondary citation |
+| India (NSE) | PEAD tests mostly find drift; insider and FII trading related to unexpected earnings (Krishnan and Rangan; Rangan); 100 NSE firms 2014-18 (Gupta and Dhusia 2021); 469 firms 2002-11 (Sehgal and Bijoy 2015) | nsearchives.nseindia.com/research/content/NSE-IGIDR-WP4-14-15.pdf; journals.lib.vutbr.cz/index.php/trends/article/view/541 | Working papers and one journal paper; effect sizes not read |
+
+Reading across markets (to confirm against the papers): the drift is not a US constant. Where retail investors dominate and attention is scarce (China), where disclosure and enforcement are weaker or information is slow, and where individualism is high and markets are less open, drift is reported as larger or more persistent. Where reporting quality, algorithmic trading and arbitrage capital are high (US large caps), it has faded. Chen's result runs the other way on one point: algorithmic trading is *more* tied to PEAD where protection and disclosure are stronger, so more arbitrage capital does not simply mean less drift in every market.
+
+Not found: any Japan, Korea, UK or continental-Europe PEAD study; any study on India post-2018; any direct retail-versus-institutional drift split for China.
