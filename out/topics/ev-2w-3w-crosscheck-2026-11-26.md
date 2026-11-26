@@ -25,3 +25,6 @@ Purpose: figures the new 2W/3W composition post (`out/post-india-ev-sales-two-th
 3. **e-2W penetration**: September 11.6% (FADA, live post) against Ticker's October 9.65%; likely a scope difference, not a fall.
 4. **e-rickshaws**: whether the "e-3W" figure includes them differs by source; the government-fleets post says the overall figure is dominated by e-rickshaws. Say how Vahan classes them.
 5. **PM E-DRIVE total**: the localisation post's chart still shows the original Rs 10,900 crore with a note that it is now Rs 11,900 crore; use Rs 11,900 crore and mention the original only as history.
+
+## Primary data page named by the user (27 Nov 2026)
+The CEEW-GFC **National Volume Monitor**: https://www.ceew.in/gfc/tools_and_dashboards/electric-mobility/national-volume-monitor . The composition post's segment shares, time series and any state split should come from this page (or its downloadable data) where it loads, and each figure should say so; secondary reports (EVreporter, FADA, Mercom, Ticker) are the fallback and must be labelled secondary. The drafting session's brief named only the dashboard's home pages, so check on review whether the draft used this page and, if not, whether its figures agree with it.
