@@ -74,6 +74,8 @@ assert round(US_SHARE_OCT25, 1) == 11.4 and round(US_SHARE_OCT26, 1) == 2.8
 assert round(100 * (1 - 75 / 565)) == 87                            # the live basket post's -87%, Oct 2025 to Aug 2026
 VEN_OCT, VEN_SEP, ANG_OCT, ANG_SEP = 345, 196, 335, 36              # kb/d, Kpler via Financial Express and ThePrint
 assert round(VEN_OCT / VEN_SEP, 2) == 1.76 and round(ANG_OCT / ANG_SEP, 1) == 9.3
+AV_SEP, AV_OCT = VEN_SEP + ANG_SEP, VEN_OCT + ANG_OCT
+assert (AV_SEP, AV_OCT) == (232, 680)
 
 # ---- 4. PPAC benchmark spread, Brent minus Dubai, US$ a barrel by fiscal year (Ready Reckoner p.115 chart; read from the data labels, olive series)
 SPREAD = [("2015-16", 1.83), ("2016-17", 1.70), ("2017-18", 1.63), ("2018-19", 0.84), ("2019-20", 0.66), ("2020-21", -0.11),
@@ -157,7 +159,7 @@ s3 = insight(
                ["Angola, September to October", f"{ANG_SEP} to {ANG_OCT} thousand b/d", "Kpler; an earlier month-to-date reading was 282"],
                ["Venezuela, September to October", f"{VEN_SEP} to {VEN_OCT} thousand b/d, all for Jamnagar", "Kpler via ThePrint and Financial Express"],
                ["US crude", "565 thousand b/d (Oct 2025), 75 (Aug 2026), 157 (Oct 2026, provisional); 91 in a part-month reading", "Kpler via Business Standard, Financial Express"]]),
-    f"Russia&rsquo;s volume rose {round(100 * (2.82 / 1.09 - 1))}% from February to July, fell {RUS_DROP_JUL_OCT}% by October, and was replaced by Atlantic Basin barrels (Angola, Venezuela) that doubled to about 1.2 million b/d, while Kpler&rsquo;s February call of US crude at up to 10% of intake matched October 2025&rsquo;s {US_SHARE_OCT25:.1f}% and not the {US_SHARE_OCT26:.1f}% of October 2026.",
+    f"Russia&rsquo;s volume rose {round(100 * (2.82 / 1.09 - 1))}% from February to July, fell {RUS_DROP_JUL_OCT}% by October, while Angola and Venezuela together rose from {AV_SEP} to {AV_OCT} thousand b/d between September and October (these do not offset the Russian fall from July), and Kpler&rsquo;s February call of US crude at up to 10% of intake matched October 2025&rsquo;s {US_SHARE_OCT25:.1f}% and not the {US_SHARE_OCT26:.1f}% of October 2026.",
     "Refiners and PPAC should state, with each month&rsquo;s import release, which tracker or customs series the origin shares come from, since three providers give three different Russian figures for one month.",
     "swing")
 
