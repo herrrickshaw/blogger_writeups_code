@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/11/idbi-banks-rescuers-put-in-54000-crore.html",
   "slug": "idbi-banks-rescuers-put-in-54000-crore",
   "published": "2026-11-08T07:36:51.000+05:30",
-  "updated": "2026-11-14T15:24:35.060+05:30",
+  "updated": "2026-11-26T05:30:34.651+05:30",
   "labels": [
     "Governance & Institutions",
     "Macroeconomics & Monetary Policy",
     "Markets & Finance"
   ],
-  "bytes": 26237,
-  "sha256": "1aaa67871908db24b516f5c6a6173a9cb76bb2a9a8298f404357c845d6ac6448",
+  "bytes": 28764,
+  "sha256": "06096adeb32c96a6754456cf82a648f6b65cd63fdfe1ff949f87661dad96788c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -73,6 +73,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-26T11:26:56+00:00",
+      "level": "major",
+      "reason": "figures changed (+3/-0 distinct numbers)",
+      "bytes": [
+        26237,
+        28764
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://blog.vertistratsolution.com/2026/10/ethanol-plants-that-trade-maize-to.html",
   "slug": "ethanol-plants-that-trade-maize-to",
   "published": "2026-10-24T08:34:11.000+05:30",
-  "updated": "2026-11-14T15:16:58.483+05:30",
+  "updated": "2026-11-26T05:29:11.747+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Ethanol & Biofuels",
     "Grain Procurement & Storage",
     "Livestock & Dairy"
   ],
-  "bytes": 37062,
-  "sha256": "2a479a00ebf53df18f67541d8c5ea20ed06f042b4d82dd01ad37480f8cac846a",
+  "bytes": 41733,
+  "sha256": "9f35404a25f0a5cb55baa6f6075c613955dfa4cadba74a5eedae6f182ed7aa1f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -100,6 +100,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-26T11:26:56+00:00",
+      "level": "major",
+      "reason": "figures changed (+21/-0 distinct numbers)",
+      "bytes": [
+        37062,
+        41733
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

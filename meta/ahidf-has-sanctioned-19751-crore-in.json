@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
   "slug": "ahidf-has-sanctioned-19751-crore-in",
   "published": "2026-08-10T08:41:50.000+05:30",
-  "updated": "2026-11-14T15:08:13.591+05:30",
+  "updated": "2026-11-26T05:28:52.207+05:30",
   "labels": [
     "Industrial Policy",
     "Public Sector & Infrastructure Finance"
   ],
-  "bytes": 27398,
-  "sha256": "118791313c324ddf5f2d7ecdc60f01054e8b288340a43949884cf6fd5b7e9275",
+  "bytes": 30980,
+  "sha256": "ed703bb86b1f958542c7e2a8c72ce315e182fbd0818f6c0a48581369162889b2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.0",
+  "version": "7.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -319,6 +319,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "7.0.0",
+      "date": "2026-11-26T11:26:56+00:00",
+      "level": "major",
+      "reason": "figures changed (+14/-0 distinct numbers)",
+      "bytes": [
+        27398,
+        30980
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

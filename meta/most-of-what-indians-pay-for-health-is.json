@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/10/most-of-what-indians-pay-for-health-is.html",
   "slug": "most-of-what-indians-pay-for-health-is",
   "published": "2026-10-28T15:54:51.000+05:30",
-  "updated": "2026-11-14T15:49:47.842+05:30",
+  "updated": "2026-11-26T05:30:26.542+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 23214,
-  "sha256": "6e766043ac20e3f707c5b85d242a64ff6889d039c017a99e190b923c5f4a888d",
+  "bytes": 26172,
+  "sha256": "3f295f6b6ee56c87532fa95b0f724a5d32a3e2b8f38392fb5da7421f4822c45c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-26T11:26:56+00:00",
+      "level": "major",
+      "reason": "figures changed (+17/-0 distinct numbers)",
+      "bytes": [
+        23214,
+        26172
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

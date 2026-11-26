@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/rooftop-solar-is-working-household.html",
   "slug": "rooftop-solar-is-working-household",
   "published": "2026-08-06T08:11:47.000+05:30",
-  "updated": "2026-11-14T15:56:50.555+05:30",
+  "updated": "2026-11-26T05:29:40.713+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 21752,
-  "sha256": "d5ce717747f3312e501d8cec3ac0e95f77ff0b6a5ebfe1d95e9415b0bc90cf78",
+  "bytes": 24382,
+  "sha256": "f2b97145b023e534b3c4771d630a33521c0ea2c6eb2b3577ea53e35ec17d6c9a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -306,6 +306,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-11-26T11:26:56+00:00",
+      "level": "major",
+      "reason": "figures changed (+14/-0 distinct numbers)",
+      "bytes": [
+        21752,
+        24382
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
