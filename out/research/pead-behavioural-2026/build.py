@@ -126,6 +126,27 @@ WMT_NOV = {"implied": 6.4, "close": -1.0}                   # EarningsWatcher, W
 assert abs(WMT_AUG["close"]) > WMT_AUG["implied"] and abs(WMT_NOV["close"]) < WMT_NOV["implied"]
 assert round(DIS["eps"] - DIS["est"], 2) == 0.05
 
+# ---- quantitative read: benchmarks computed here, each with an assert
+import math  # noqa: E402
+P_HAT = beyond / tot
+CLUSTER_SE = math.sqrt(sum((b - P_HAT * n) ** 2 for d, n, b in per_day)) / tot            # ratio estimator clustered by reaction day
+CI_LO, CI_HI = round(100 * (P_HAT - 1.96 * CLUSTER_SE), 1), round(100 * (P_HAT + 1.96 * CLUSTER_SE), 1)
+NAIVE_SE = math.sqrt(P_HAT * (1 - P_HAT) / tot)
+GAUSS_BEYOND = round(100 * (1 - math.erf(math.sqrt(2 / math.pi) / math.sqrt(2))), 1)         # P(|Z| > E|Z|) for a normal distribution
+LAPLACE_BEYOND = round(100 * math.exp(-1), 1)                                                # P(|X| > E|X|) for a Laplace (fatter-tailed) distribution
+assert (GAUSS_BEYOND, LAPLACE_BEYOND) == (42.5, 36.8)
+assert (CI_LO, CI_HI) == (17.7, 37.8) and round(100 * NAIVE_SE, 1) == 3.8 and round(100 * CLUSTER_SE, 1) == 5.1
+assert min(100 * b / n for d, n, b in per_day) < 7 and max(100 * b / n for d, n, b in per_day) == 50.0     # the daily shares run 6.2% to 50%
+SLOPE_DRIFT_SHARE = (round(SLOPE[0] - 1, 1), round(SLOPE[1] - 1, 1))
+assert SLOPE_DRIFT_SHARE == (0.4, 0.2)                                                       # slope above 1 = share of the day-0/1 move still to come
+ANNUALISED_NSE = round(KR["hedge_mean"] * 252 / 63, 1)
+assert ANNUALISED_NSE == 29.2                                                                # naive: one 63-day spread a quarter, mean gap every quarter, no costs
+MTW = {"init": 7.5, "omit": -11.0, "years_pos": 22, "years": 25}                             # Michaely, Thaler, Womack (1995), as printed in the NBER abstract excerpt; paper not opened
+YIELD_ASSUMED = 4.0                                                                          # illustrative yield, an assumption of this piece
+OMIT_IN_YEARS = round(abs(MTW["omit"]) / YIELD_ASSUMED, 2)
+assert OMIT_IN_YEARS == 2.75
+ERC_PAYER_GAP = (11, 15)                                                                     # payers' earnings response coefficients 11% to 15% lower (Review of Accounting Studies excerpt; paper not opened)
+
 progress(5, "all asserts passed; composing the post")
 
 TITLE = "Post-earnings drift: absent in large US stocks since 2006 in one study, mixed in India"
@@ -240,12 +261,53 @@ s5 = insight(
     "Treat the Disney and Walmart episodes as anecdotes and compare any claim about selling on beats with a full list of reports that includes the surprise.",
     "reactions")
 
+# ---------------------------------------------------------------- dividend investors
+s6 = insight(
+    "For a dividend investor, drift is a payout warning more than a return source",
+    bars("Drift after dividend changes, 12 months: +7.5% after initiations, -11.0% after omissions",
+         [("Initiations", MTW["init"], "+7.5%"), ("Omissions", abs(MTW["omit"]), "-11.0%")],
+         accent="Omissions", unit="%", vmax=14,
+         sub="Market-adjusted return in the 12 months after the announcement, per cent; the omission bar is drawn as a size, its sign is negative. Michaely, Thaler and Womack (1995), figures as printed in the NBER abstract excerpt.",
+         source="Michaely, Thaler and Womack, Price Reactions to Dividend Initiations and Omissions: Overreaction or Drift?, Journal of Finance 50(2), 1995 (secondary: abstract excerpt only; the paper was not opened here).")
+    + numbers(["Case", "What the evidence says", "Source and status"],
+              [["Return case: weak", "Drift is not significant for large US stocks after 2005 (Martineau, above), and an accounting study of dividend payers reports payers&rsquo; earnings responses 11% to 15% lower, with no drift difference between payers and non-payers in untabulated tests", "Martineau (primary, opened); payer study is a Review of Accounting Studies excerpt (secondary; not opened; the drift result is untabulated)"],
+               ["Risk case: stronger", f"Over 12 months, firms omitting a dividend lost {abs(MTW['omit'])}% market-adjusted and initiators gained {MTW['init']}%; the authors call this drift distinct from and more pronounced than earnings drift, and a trading rule on both samples was positive in {MTW['years_pos']} of {MTW['years']} years", "Michaely, Thaler and Womack 1995 (secondary: abstract excerpt; sample period not seen)"],
+               ["What dividends signal", "Increasers had earnings rises before the change and no unexpected growth after; cutters saw earnings fall before and recover in year 1 (Benartzi, Michaely and Thaler 1997); after allowing for nonlinear earnings, dividend changes carry no information about future earnings (Grullon et al. 2005); Stacescu (2006) finds the opposite", "Excerpts only (secondary); a conflict between papers that was not resolved here"],
+               ["Timing case", "Adding to a payer after a positive surprise, or waiting out the drift after a negative one, costs nothing against an income plan; no study of this rule was found", "Reasoning from the evidence above, not a tested strategy"],
+               ["Illustration", f"At an assumed {YIELD_ASSUMED}% yield, an {abs(MTW['omit'])}% price fall after an omission equals {OMIT_IN_YEARS} years of the dividend", "Computed here; the yield is an assumption of this piece"],
+               ["Not the same effect", "Dividend payers outperform non-payers globally by 0.58% a month after risk adjustment in one 2024 paper; that is a payout premium, not drift", "Working paper excerpt (secondary; not opened)"]]),
+    f"An income investor gains little from the return side of drift in large stocks but faces the downside side, since omissions went with an {abs(MTW['omit'])}% twelve-month fall, about {OMIT_IN_YEARS} years of income at a {YIELD_ASSUMED}% yield.",
+    "Treat a run of negative earnings surprises in a payer as a reason to re-check its payout cover, and use positive surprises only to time additions, not to choose what to own.",
+    "income")
+
+# ---------------------------------------------------------------- quantitative read
+s7 = insight(
+    f"Quant read: {BEY_PCT}% beyond the implied move, under the 42.5% a normal curve gives",
+    bars(f"Beyond the implied move: observed {BEY_PCT}%, normal-curve benchmark {GAUSS_BEYOND}%",
+         [("Observed, 8 days", BEY_PCT, f"{beyond} of {tot}"), ("Season-wide (vendor)", 26.9, f"{SEASON_BEYOND} of {SEASON_N}"),
+          ("Laplace benchmark", LAPLACE_BEYOND, "fat tails"), ("Normal benchmark", GAUSS_BEYOND, "thin tails")],
+         accent="Observed, 8 days", unit="%", vmax=50,
+         sub=f"If the options-implied move equals the expected absolute move, a normal distribution puts {GAUSS_BEYOND}% of names beyond it and a Laplace distribution {LAPLACE_BEYOND}%. The 95% interval for the observed share is {CI_LO}% to {CI_HI}% when days are treated as clusters (naive interval: {round(100 * (P_HAT - 1.96 * NAIVE_SE), 1)}% to {round(100 * (P_HAT + 1.96 * NAIVE_SE), 1)}%).",
+         source="Computed here from the EarningsWatcher counts above (secondary data; benchmarks are textbook results, not from a paper).")
+    + numbers(["Quantity", "Value", "How it is built"],
+              [["Observed share beyond the implied move", f"{BEY_PCT}% ({beyond} of {tot})", "Count from the vendor pages, eight days"],
+               ["Standard error, naive and day-clustered", f"{round(100 * NAIVE_SE, 1)} and {round(100 * CLUSTER_SE, 1)} points", "Daily shares run from 6.2% to 50%, so names on one day are not independent; the clustered figure treats each day as one draw"],
+               ["Benchmarks", f"Normal {GAUSS_BEYOND}%, Laplace {LAPLACE_BEYOND}%", "Chance that an absolute move exceeds its own mean; true if the implied move is the mean absolute move"],
+               ["Reading", "Below both benchmarks; the clustered interval just reaches the Laplace value and excludes the normal one", "Consistent with fat tails or with options pricing a premium over the realised move; this sample cannot separate the two"],
+               ["Under-reaction slope", f"{SLOPE[0]} to {SLOPE[1]}, so the share of the day-0/1 move still to come fell from {SLOPE_DRIFT_SHARE[0]} to {SLOPE_DRIFT_SHARE[1]}", "Slope minus 1, reading the slope as total move per unit of the first-days move (Martineau&rsquo;s unbiasedness regression, full sample); this reading is the piece&rsquo;s own"],
+               ["Naive annualised NSE gap", f"{ANNUALISED_NSE}% a year gross", f"{KR['hedge_mean']}% over 63 days times 4, assuming the mean gap repeats every quarter at zero cost; an upper bound, not a forecast"],
+               ["Risk-adjusted benchmark", f"{LS_PA}% a year", "Peress low-attention long, high-attention short, risk adjusted (primary); a different strategy and sample, shown for scale against the naive NSE figure"]]),
+    f"Measured against a normal curve the October names were less often outliers than expected ({BEY_PCT}% against {GAUSS_BEYOND}%), but eight days and day-level clustering leave a wide interval of {CI_LO}% to {CI_HI}%.",
+    "Judge a drift or reaction claim by its interval and its benchmark, and compare a paper gap with a risk-adjusted, after-cost number before reading it as a return.",
+    "quant")
+
 # ---------------------------------------------------------------- reader conclusions, fixes, method, gaps
 conclude = '''<h2 class="gb-h2" id="conclude">What an investor can and cannot conclude</h2>
 <ul>
 <li>The best-documented drift sits in small, thinly covered, illiquid stocks, which are the stocks where trading costs and limited liquidity are largest, so a paper gap is not a tradable return.</li>
 <li>For large US stocks the primary evidence opened here finds no significant drift after 2005, though two 2025 papers dispute that for samples that include microcaps.</li>
 <li>India has no study opened here that covers 2019&ndash;2026, so how far the 2008&ndash;14 NSE gap carries to today&rsquo;s market is not known.</li>
+<li>For an income investor, the documented damage from drift is on the downside: negative surprises and dividend omissions were followed by falls, while the return side is thin in large stocks.</li>
 <li>A single day of reactions, or a handful of well-known names, is not a trend; this piece is research, not investment advice.</li>
 </ul>
 '''
@@ -266,6 +328,7 @@ method = '''<details class="xv-n"><summary>Method and definitions</summary>
 <li>The middle values of the R-squared series (2.8, 3.2, 6.0, 11.5, 11.7) were read from Table 3 Panel A of the paper&rsquo;s text extraction; the first and last values are printed in the paper&rsquo;s prose and were checked against it.</li>
 <li>The October 2026 count is built by <code>ew_fetch.py</code> (downloads one page per weekday, one request a second) and the parser in <code>build.py</code> and <code>ew_oct2026.json</code>. Each parsed day is asserted equal to the page&rsquo;s own measured, beyond-implied and closed-up totals. A page&rsquo;s &lsquo;beyond&rsquo; uses the first-session close, not the intraday peak, and the implied move is the options straddle price frozen before the report.</li>
 <li>Indian windows differ across studies: 63 days (Krishnan and Rangan), three months (the FII paper and Sen), 30 and 60 days (Gupta and Dhusia), so the bars in the India chart are indicative.</li>
+<li>Benchmarks in the quantitative section: if the implied move equals the expected absolute move, the chance that a normal variable exceeds its own mean absolute value is 42.5% and a Laplace variable 36.8%. The day-clustered standard error is the ratio-estimator form, the square root of the sum over days of (beyond minus share times measured) squared, divided by the total names; it assumes days are independent.</li>
 <li>Percentages are as printed in the sources; differences between printed values are computed here with the assert noted in <code>build.py</code>.</li>
 </ul></details>
 '''
@@ -282,10 +345,13 @@ gaps = '''<details class="xv-n"><summary>What this piece could not establish</su
 <li>The investinglive.com count of 18 names (6 beyond implied downward, 2 beats to the upside) and the reports on Apple and Palantir were not located and are not used. The Disney move differs between two secondary sources (7.2% in the brief, 7.4% on TIKR).</li>
 <li>Whether beats are sold: the EarningsWatcher pages carry no surprise label, so the share of beats with falling prices could not be computed. October pages from 1 to 19 and 26 October returned no page (404), so the count covers 8 of 22 weekdays.</li>
 <li>An India-specific 2026 earnings-reaction count: none was found.</li>
+<li>The dividend section rests on abstract or search excerpts only: Michaely, Thaler and Womack (1995), Benartzi, Michaely and Thaler (1997), Grullon et al. (2005), Stacescu (2006), a Review of Accounting Studies paper on dividend payers and a 2024 dividend-premium paper. None was opened here, so sample periods, windows and the untabulated drift result are unchecked.</li>
+<li>No study was found that tests drift separately for dividend growers against flat payers, that uses accruals or earnings quality to predict dividend cuts, or that covers Indian dividend payers.</li>
+<li>The 4% yield is an illustration, not a data point, and the 29.2% annualised NSE gap is a naive upper bound.</li>
 </ul></details>
 '''
 
-body = STYLE + top + intro + s1 + s2 + s3 + s4 + s5 + conclude + fixes + method + gaps
+body = STYLE + top + intro + s1 + s2 + s3 + s4 + s5 + s6 + s7 + conclude + fixes + method + gaps
 
 SOURCES = (
     'Primary, opened for this piece: <a href="https://cfr.ivo-welch.info/published/papers/martineau2021rest.pdf">Martineau, Rest in Peace Post-Earnings Announcement Drift, Critical Finance Review 11(3&ndash;4)</a>; '
@@ -299,6 +365,7 @@ SOURCES = (
     '<a href="https://anderson-review.ucla.edu/is-post-earnings-announcement-drift-a-thing-again">UCLA Anderson Review, 21 January 2026</a> (Subrahmanyam and the 2025 papers); '
     '<a href="https://earnings-watcher.com/wiki/earnings-reactions-2026-10-23">EarningsWatcher daily reaction pages, 20&ndash;30 October 2026</a> and its Walmart page; '
     '<a href="https://www.tikr.com/blog/disney-shares-nyse-dis-stock-fall-despite-theme-park-revenue-hitting-record-10-billion">TIKR, 3 February 2026</a> (Disney). '
+    'Dividend section, secondary (abstract or search excerpts, not opened): <a href="https://www.nber.org/papers/w4778">Michaely, Thaler and Womack, NBER WP 4778 (Journal of Finance 1995)</a>; <a href="https://econpapers.repec.org/RePEc:bla:jfinan:v:52:y:1997:i:3:p:1007-34">Benartzi, Michaely and Thaler (1997)</a>; <a href="https://econpapers.repec.org/RePEc:ucp:jnlbus:v:78:y:2005:i:5:p:1659-1682">Grullon, Michaely, Benartzi and Thaler (2005)</a>; <a href="https://efmaefm.org/0EFMSYMPOSIUM/2007/papers/stacescu.pdf">Stacescu (2006)</a>; <a href="https://link.springer.com/doi/10.1007/s11142-021-09642-4">dividend payers and earnings response, Review of Accounting Studies</a>. '
     'Shares, ratios and counts computed by this blog. Analysed 26 November 2026. Not investment advice.')
 
 RELATED = [
