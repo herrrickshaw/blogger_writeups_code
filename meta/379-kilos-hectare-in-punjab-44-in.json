@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/08/379-kilos-hectare-in-punjab-44-in.html",
   "slug": "379-kilos-hectare-in-punjab-44-in",
   "published": "2026-08-22T07:25:22.000+05:30",
-  "updated": "2026-11-14T15:05:05.353+05:30",
+  "updated": "2026-11-26T05:28:26.409+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Fertilisers & Soil Health"
   ],
-  "bytes": 69348,
-  "sha256": "de86f63aab94f9cb562f32bf56f9435da05923fe1aef96a6526e931305b35249",
+  "bytes": 72754,
+  "sha256": "636435405e513d088103ced433b7a09b1987fc1db163ae4d636e0bcf4fae67ac",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -202,6 +202,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-11-26T11:26:56+00:00",
+      "level": "major",
+      "reason": "figures changed (+15/-0 distinct numbers)",
+      "bytes": [
+        69348,
+        72754
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

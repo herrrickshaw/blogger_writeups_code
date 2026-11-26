@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-11-25T11:40:29+00:00",
-  "count": 531,
+  "snapshot": "2026-11-26T11:26:56+00:00",
+  "count": 532,
   "posts": {
     "1008146607143508554": {
       "id": "1008146607143508554",
@@ -1671,13 +1671,13 @@
       "url": "https://blog.vertistratsolution.com/2026/09/alimco-jaipur-foot-and-bionic-gap-in.html",
       "slug": "alimco-jaipur-foot-and-bionic-gap-in",
       "published": "2026-09-11T06:42:14.000+05:30",
-      "updated": "2026-11-14T15:09:03.098+05:30",
+      "updated": "2026-11-26T05:28:36.958+05:30",
       "labels": [
         "Defence",
         "Healthcare"
       ],
-      "bytes": 36884,
-      "sha256": "611049b8582fe3bc6ef3e1c33a9ac9adf186519bc1490b82030a046b8a0b25d5",
+      "bytes": 39274,
+      "sha256": "c6014fa50b53a76be1309a6a4ae2689fc43fabad48d04b4acdd986cf862463e3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1689,7 +1689,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1778,6 +1778,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+3/-0 distinct numbers)",
+          "bytes": [
+            36884,
+            39274
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -5372,12 +5385,12 @@
       "url": "https://blog.vertistratsolution.com/2026/08/indias-two-tracks-of-health-cover-and.html",
       "slug": "indias-two-tracks-of-health-cover-and",
       "published": "2026-08-12T10:54:13.000+05:30",
-      "updated": "2026-11-14T15:45:53.703+05:30",
+      "updated": "2026-11-26T05:30:18.711+05:30",
       "labels": [
         "Healthcare"
       ],
-      "bytes": 29058,
-      "sha256": "6c7446421921cfca3cc33da7d1b8a1ed2150216b83bd1f9983f8587151e0e1ac",
+      "bytes": 31607,
+      "sha256": "0aa3e023f549a5af33bd236da1a4f9ac891a0ae4d38929e6b68d5d8ab08c4b6a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5389,7 +5402,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.0",
+      "version": "6.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5647,6 +5660,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "6.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+18/-0 distinct numbers)",
+          "bytes": [
+            29058,
+            31607
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -10724,15 +10750,15 @@
       "url": "https://blog.vertistratsolution.com/2026/10/ethanol-plants-that-trade-maize-to.html",
       "slug": "ethanol-plants-that-trade-maize-to",
       "published": "2026-10-24T08:34:11.000+05:30",
-      "updated": "2026-11-14T15:16:58.483+05:30",
+      "updated": "2026-11-26T05:29:11.747+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Ethanol & Biofuels",
         "Grain Procurement & Storage",
         "Livestock & Dairy"
       ],
-      "bytes": 37062,
-      "sha256": "2a479a00ebf53df18f67541d8c5ea20ed06f042b4d82dd01ad37480f8cac846a",
+      "bytes": 41733,
+      "sha256": "9f35404a25f0a5cb55baa6f6075c613955dfa4cadba74a5eedae6f182ed7aa1f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10744,7 +10770,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.0",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10820,6 +10846,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "5.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+21/-0 distinct numbers)",
+          "bytes": [
+            37062,
+            41733
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -15008,13 +15047,13 @@
       "url": "https://blog.vertistratsolution.com/2026/08/rooftop-solar-is-working-household.html",
       "slug": "rooftop-solar-is-working-household",
       "published": "2026-08-06T08:11:47.000+05:30",
-      "updated": "2026-11-14T15:56:50.555+05:30",
+      "updated": "2026-11-26T05:29:40.713+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 21752,
-      "sha256": "d5ce717747f3312e501d8cec3ac0e95f77ff0b6a5ebfe1d95e9415b0bc90cf78",
+      "bytes": 24382,
+      "sha256": "f2b97145b023e534b3c4771d630a33521c0ea2c6eb2b3577ea53e35ec17d6c9a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15026,7 +15065,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.0",
+      "version": "6.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15310,6 +15349,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "6.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+14/-0 distinct numbers)",
+          "bytes": [
+            21752,
+            24382
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -18652,6 +18704,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "2781019449618367780": {
+      "id": "2781019449618367780",
+      "title": "India's sour crude: high-sulphur grades were 78.7% of refinery runs in 2025-26",
+      "url": "https://blog.vertistratsolution.com/2026/11/indias-sour-crude-high-sulphur-grades.html",
+      "slug": "indias-sour-crude-high-sulphur-grades",
+      "published": "2026-11-26T05:57:21.622+05:30",
+      "updated": "2026-11-26T05:57:21.623+05:30",
+      "labels": [],
+      "bytes": 42061,
+      "sha256": "5cb017a3b9d3b20dde696ef2d1e23efb915e0347aeba723f3867e749fe2547e3",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
         }
       ]
     },
@@ -27458,12 +27542,12 @@
       "url": "https://blog.vertistratsolution.com/2026/10/most-of-what-indians-pay-for-health-is.html",
       "slug": "most-of-what-indians-pay-for-health-is",
       "published": "2026-10-28T15:54:51.000+05:30",
-      "updated": "2026-11-14T15:49:47.842+05:30",
+      "updated": "2026-11-26T05:30:26.542+05:30",
       "labels": [
         "Healthcare"
       ],
-      "bytes": 23214,
-      "sha256": "6e766043ac20e3f707c5b85d242a64ff6889d039c017a99e190b923c5f4a888d",
+      "bytes": 26172,
+      "sha256": "3f295f6b6ee56c87532fa95b0f724a5d32a3e2b8f38392fb5da7421f4822c45c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -27475,7 +27559,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -27525,6 +27609,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+17/-0 distinct numbers)",
+          "bytes": [
+            23214,
+            26172
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -27534,15 +27631,15 @@
       "url": "https://blog.vertistratsolution.com/2026/08/thirty-one-years-of-asking-parliament.html",
       "slug": "thirty-one-years-of-asking-parliament",
       "published": "2026-08-23T05:17:05.000+05:30",
-      "updated": "2026-11-14T16:09:53.142+05:30",
+      "updated": "2026-11-26T05:29:25.741+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Fertilisers & Soil Health",
         "India",
         "Industrial Policy"
       ],
-      "bytes": 38254,
-      "sha256": "79c3845eadf35737126ec285b8756ae231d446c24df01d1524eefe71e231f561",
+      "bytes": 40534,
+      "sha256": "7ed167700292d11c04f64d2fb30d13218da5cf4965047d60f4dc06c12dd287ad",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -27554,7 +27651,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -27669,6 +27766,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+7/-0 distinct numbers)",
+          "bytes": [
+            38254,
+            40534
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -30354,13 +30464,13 @@
       "url": "https://blog.vertistratsolution.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
       "slug": "ahidf-has-sanctioned-19751-crore-in",
       "published": "2026-08-10T08:41:50.000+05:30",
-      "updated": "2026-11-14T15:08:13.591+05:30",
+      "updated": "2026-11-26T05:28:52.207+05:30",
       "labels": [
         "Industrial Policy",
         "Public Sector & Infrastructure Finance"
       ],
-      "bytes": 27398,
-      "sha256": "118791313c324ddf5f2d7ecdc60f01054e8b288340a43949884cf6fd5b7e9275",
+      "bytes": 30980,
+      "sha256": "ed703bb86b1f958542c7e2a8c72ce315e182fbd0818f6c0a48581369162889b2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -30372,7 +30482,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "6.0.0",
+      "version": "7.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -30669,6 +30779,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "7.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+14/-0 distinct numbers)",
+          "bytes": [
+            27398,
+            30980
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -31653,13 +31776,13 @@
       "url": "https://blog.vertistratsolution.com/2026/08/379-kilos-hectare-in-punjab-44-in.html",
       "slug": "379-kilos-hectare-in-punjab-44-in",
       "published": "2026-08-22T07:25:22.000+05:30",
-      "updated": "2026-11-14T15:05:05.353+05:30",
+      "updated": "2026-11-26T05:28:26.409+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Fertilisers & Soil Health"
       ],
-      "bytes": 69348,
-      "sha256": "de86f63aab94f9cb562f32bf56f9435da05923fe1aef96a6526e931305b35249",
+      "bytes": 72754,
+      "sha256": "636435405e513d088103ced433b7a09b1987fc1db163ae4d636e0bcf4fae67ac",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -31671,7 +31794,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.0",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -31851,6 +31974,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "5.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+15/-0 distinct numbers)",
+          "bytes": [
+            69348,
+            72754
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -36302,13 +36438,13 @@
       "url": "https://blog.vertistratsolution.com/2026/09/under-corsias-own-numbers-corn-ethanol.html",
       "slug": "under-corsias-own-numbers-corn-ethanol",
       "published": "2026-09-23T16:31:55.000+05:30",
-      "updated": "2026-11-14T16:11:20.733+05:30",
+      "updated": "2026-11-26T05:30:03.207+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 34396,
-      "sha256": "a3284d3fe860f3ea4fe458c80404c86a50c81ed67bdb9a96a5fb35f352c722b0",
+      "bytes": 37591,
+      "sha256": "1b9c3ae446e39d8cf30b3b0827468d1c9b5d21adb10245f58a4b2a02e29cf1c5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -36320,7 +36456,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -36435,6 +36571,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+5/-0 distinct numbers)",
+          "bytes": [
+            34396,
+            37591
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -56892,10 +57041,10 @@
       "url": "https://blog.vertistratsolution.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-11-21T16:00:35.174+05:30",
+      "updated": "2026-11-26T07:29:14.315+05:30",
       "labels": [],
-      "bytes": 985921,
-      "sha256": "edb01ec705a78aa72e17eae812d73c6fa7494777c77b8daed450ec10dd540aa9",
+      "bytes": 1003779,
+      "sha256": "bc077309d10dd0beb6810cad7ce25ff498a9a3ce55719e6807d24cb4cb0c4dba",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -56907,7 +57056,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "79.0.0",
+      "version": "80.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -59465,6 +59614,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
+        },
+        {
+          "version": "80.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+14/-6 distinct numbers)",
+          "bytes": [
+            985921,
+            1003779
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -61729,12 +61891,12 @@
       "url": "https://blog.vertistratsolution.com/2026/10/india-raised-dap-subsidy-18-this-kharif.html",
       "slug": "india-raised-dap-subsidy-18-this-kharif",
       "published": "2026-10-27T17:25:37.000+05:30",
-      "updated": "2026-11-14T15:32:29.611+05:30",
+      "updated": "2026-11-26T05:29:02.712+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 23042,
-      "sha256": "b2a4a6d4dae43054454f4d284915ac5fe92a9364bdf413f8d21f269ede4bac72",
+      "bytes": 26190,
+      "sha256": "7f9055acb41981499757784c022f70f212dd940dddc42084738f2e755a8b78b5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -61746,7 +61908,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -61796,6 +61958,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+17/-0 distinct numbers)",
+          "bytes": [
+            23042,
+            26190
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -62760,14 +62935,14 @@
       "url": "https://blog.vertistratsolution.com/2026/11/idbi-banks-rescuers-put-in-54000-crore.html",
       "slug": "idbi-banks-rescuers-put-in-54000-crore",
       "published": "2026-11-08T07:36:51.000+05:30",
-      "updated": "2026-11-14T15:24:35.060+05:30",
+      "updated": "2026-11-26T05:30:34.651+05:30",
       "labels": [
         "Governance & Institutions",
         "Macroeconomics & Monetary Policy",
         "Markets & Finance"
       ],
-      "bytes": 26237,
-      "sha256": "1aaa67871908db24b516f5c6a6173a9cb76bb2a9a8298f404357c845d6ac6448",
+      "bytes": 28764,
+      "sha256": "06096adeb32c96a6754456cf82a648f6b65cd63fdfe1ff949f87661dad96788c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -62779,7 +62954,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -62829,6 +63004,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+3/-0 distinct numbers)",
+          "bytes": [
+            26237,
+            28764
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -74977,15 +75165,15 @@
       "url": "https://blog.vertistratsolution.com/2026/09/the-reactor-nobody-names-how-coal.html",
       "slug": "the-reactor-nobody-names-how-coal",
       "published": "2026-09-19T07:03:06.000+05:30",
-      "updated": "2026-11-14T16:07:25.635+05:30",
+      "updated": "2026-11-26T05:29:52.064+05:30",
       "labels": [
         "Chemicals",
         "Coal & Coal Gasification",
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 22824,
-      "sha256": "ce650f807820cdb2d7029d2b879bcc352301dd3c51d42bd36b2f2b3383407bd4",
+      "bytes": 25583,
+      "sha256": "4ea5c37e77ced474c408b99bcd44a5d35fa35e0a9897a93f59125f060ebdcf46",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -74997,7 +75185,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -75073,6 +75261,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-11-26T11:26:56+00:00",
+          "level": "major",
+          "reason": "figures changed (+9/-0 distinct numbers)",
+          "bytes": [
+            22824,
+            25583
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },

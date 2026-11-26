@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/under-corsias-own-numbers-corn-ethanol.html",
   "slug": "under-corsias-own-numbers-corn-ethanol",
   "published": "2026-09-23T16:31:55.000+05:30",
-  "updated": "2026-11-14T16:11:20.733+05:30",
+  "updated": "2026-11-26T05:30:03.207+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 34396,
-  "sha256": "a3284d3fe860f3ea4fe458c80404c86a50c81ed67bdb9a96a5fb35f352c722b0",
+  "bytes": 37591,
+  "sha256": "1b9c3ae446e39d8cf30b3b0827468d1c9b5d21adb10245f58a4b2a02e29cf1c5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -137,6 +137,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-26T11:26:56+00:00",
+      "level": "major",
+      "reason": "figures changed (+5/-0 distinct numbers)",
+      "bytes": [
+        34396,
+        37591
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

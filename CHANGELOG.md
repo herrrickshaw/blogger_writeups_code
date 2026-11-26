@@ -21130,3 +21130,44 @@ scheduled sync
 **Changed**
 
 - `ai-tools-edition-04-deepseek-put-its` — 64,291 → 64,950 bytes (+659)
+
+## 2026-11-26T11:26:56+00:00 — 532 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `indias-sour-crude-high-sulphur-grades` **v1.0.0** — India's sour crude: high-sulphur grades were 78.7% of refinery runs in 2025-26 (42,061 bytes)
+
+**Versions**
+
+- `idbi-banks-rescuers-put-in-54000-crore` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `most-of-what-indians-pay-for-health-is` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+17/-0 distinct numbers)
+- `india-raised-dap-subsidy-18-this-kharif` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+17/-0 distinct numbers)
+- `ethanol-plants-that-trade-maize-to` **4.0.0 → 5.0.0** (MAJOR) — figures changed (+21/-0 distinct numbers)
+- `under-corsias-own-numbers-corn-ethanol` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+5/-0 distinct numbers)
+- `the-reactor-nobody-names-how-coal` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+9/-0 distinct numbers)
+- `alimco-jaipur-foot-and-bionic-gap-in` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `thirty-one-years-of-asking-parliament` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+7/-0 distinct numbers)
+- `379-kilos-hectare-in-punjab-44-in` **4.0.0 → 5.0.0** (MAJOR) — figures changed (+15/-0 distinct numbers)
+- `indias-two-tracks-of-health-cover-and` **5.0.0 → 6.0.0** (MAJOR) — figures changed (+18/-0 distinct numbers)
+- `ahidf-has-sanctioned-19751-crore-in` **6.0.0 → 7.0.0** (MAJOR) — figures changed (+14/-0 distinct numbers)
+- `rooftop-solar-is-working-household` **5.0.0 → 6.0.0** (MAJOR) — figures changed (+14/-0 distinct numbers)
+- `article-index-start-here` **79.0.0 → 80.0.0** (MAJOR) — figures changed (+14/-6 distinct numbers)
+
+**Changed**
+
+- `idbi-banks-rescuers-put-in-54000-crore` — 26,237 → 28,764 bytes (+2,527)
+- `most-of-what-indians-pay-for-health-is` — 23,214 → 26,172 bytes (+2,958)
+- `india-raised-dap-subsidy-18-this-kharif` — 23,042 → 26,190 bytes (+3,148)
+- `ethanol-plants-that-trade-maize-to` — 37,062 → 41,733 bytes (+4,671)
+- `under-corsias-own-numbers-corn-ethanol` — 34,396 → 37,591 bytes (+3,195)
+- `the-reactor-nobody-names-how-coal` — 22,824 → 25,583 bytes (+2,759)
+- `alimco-jaipur-foot-and-bionic-gap-in` — 36,884 → 39,274 bytes (+2,390)
+- `thirty-one-years-of-asking-parliament` — 38,254 → 40,534 bytes (+2,280)
+- `379-kilos-hectare-in-punjab-44-in` — 69,348 → 72,754 bytes (+3,406)
+- `indias-two-tracks-of-health-cover-and` — 29,058 → 31,607 bytes (+2,549)
+- `ahidf-has-sanctioned-19751-crore-in` — 27,398 → 30,980 bytes (+3,582)
+- `rooftop-solar-is-working-household` — 21,752 → 24,382 bytes (+2,630)
+- `article-index-start-here` — 985,921 → 1,003,779 bytes (+17,858)
