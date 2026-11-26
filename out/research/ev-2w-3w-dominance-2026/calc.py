@@ -296,4 +296,51 @@ assert round(100 * MH / E2W_JM, 1) == 22.9 and round(100 * KA / E2W_JM, 1) == 12
 TOP3_JM = round(100 * (MH + KA + TN_AMB) / E2W_JM, 1)
 assert TOP3_JM == 47.7
 stage("Running cost per km, state concentration and subsidy arithmetic")
+
+# ---- CEEW-GFC National Volume Monitor: four screenshots supplied by the blog's author on 27 Nov 2026 (the page itself was not opened here)
+# 1) EV Shares, FY2014 to FY2027 (printed legend, cumulative)
+DASH_SHARE = {"E-2W": 56.9, "E-Rickshaw": 27.3, "E-3W": 8.4, "E-4W": 6.5, "E-4W (C)": 0.5, "E-Bus": 0.2, "LDV/MDV/HDV": 0.2}
+assert round(sum(DASH_SHARE.values()), 1) == 100.0
+DASH_W23 = round(DASH_SHARE["E-2W"] + DASH_SHARE["E-3W"] + DASH_SHARE["E-Rickshaw"], 1)
+assert DASH_W23 == 92.6
+# 4) Registration chart: data labels that are legible (FY2014-15 and FY2015-16 labels overlap and read 2,399 and 16,165; four points carry no label)
+DASH_REG = {"FY22": 456_192, "FY23": 1_183_167, "FY24": 1_681_315, "FY25": 1_986_107, "FY26": 2_535_656}
+DASH_VS_BRIEF = {fy: DASH_REG[fy] - CEEW_TOTAL[fy] for fy in CEEW_TOTAL}
+assert DASH_VS_BRIEF == {"FY22": -2_869, "FY23": -162, "FY24": -14, "FY25": 21_276}
+DASH_VS_BRIEF_PCT = {fy: round(100 * v / CEEW_TOTAL[fy], 1) for fy, v in DASH_VS_BRIEF.items()}
+assert DASH_VS_BRIEF_PCT == {"FY22": -0.6, "FY23": -0.0, "FY24": -0.0, "FY25": 1.1}
+assert abs(DASH_REG["FY24"] - CEEW_TOTAL["FY24"]) < 100
+D26_EVR = DASH_REG["FY26"] - EVR26["total"]
+D26_AP = DASH_REG["FY26"] - AP["FY26"]["total"]
+assert (D26_EVR, D26_AP) == (-15_209, 83_937)
+assert round(100 * D26_EVR / EVR26["total"], 1) == -0.6 and round(100 * D26_AP / AP["FY26"]["total"], 1) == 3.4
+DASH_GROWTH26 = round(100 * (DASH_REG["FY26"] / DASH_REG["FY25"] - 1), 1)
+DASH_GROWTH25 = round(100 * (DASH_REG["FY25"] / DASH_REG["FY24"] - 1), 1)
+assert (DASH_GROWTH26, DASH_GROWTH25) == (27.7, 18.1)
+# 2) State EV volumes, FY2014 to FY2027: stacked bars READ BY EYE, thousands, about +/- 50; only the largest segments are read
+DASH_ST = {"Uttar Pradesh": dict(total=1910, e2w=455, erick=1175), "Maharashtra": dict(total=1225, e2w=1035), "Karnataka": dict(total=950, e2w=830),
+           "Tamil Nadu": dict(total=740, e2w=640), "Rajasthan": dict(total=600, e2w=400, erick=120), "Bihar": dict(total=585, e2w=120, erick=365),
+           "Delhi": dict(total=555, e2w=220, erick=230), "Madhya Pradesh": dict(total=535, e2w=375), "Kerala": dict(total=445, e2w=345), "Gujarat": dict(total=425, e2w=365)}
+assert [v["total"] for v in DASH_ST.values()] == sorted([v["total"] for v in DASH_ST.values()], reverse=True)
+for _s in DASH_ST.values():
+    assert _s.get("e2w", 0) + _s.get("erick", 0) <= _s["total"]
+DASH_TOP10 = sum(v["total"] for v in DASH_ST.values())
+assert DASH_TOP10 == 7_970
+DASH_TOP5 = sum(v["total"] for v in list(DASH_ST.values())[:5])
+assert DASH_TOP5 == 5_425
+# rough cumulative total FY2014-FY2027 for a share: nine legible labels plus four unlabelled points read by eye (FY2016-17 about 62k, FY2018-19 about 150k, FY2020-21 about 145k, FY2026-27 to date about 2.37M)
+_LAB = [2_399, 16_165, 95_430, 172_035, 456_192, 1_183_167, 1_681_315, 1_986_107, 2_535_656]
+DASH_CUM = sum(_LAB) + 62_000 + 150_000 + 145_000 + 2_370_000
+assert sum(_LAB) == 8_128_466 and DASH_CUM == 10_855_466
+DASH_TOP10_SH = round(100 * DASH_TOP10 * 1000 / DASH_CUM)
+DASH_TOP5_SH = round(100 * DASH_TOP5 * 1000 / DASH_CUM)
+assert (DASH_TOP10_SH, DASH_TOP5_SH) == (73, 50)
+DASH_E2W_LED = [k for k, v in DASH_ST.items() if v["e2w"] > v.get("erick", 0) + 0.15 * v["total"]]
+assert DASH_E2W_LED == ["Maharashtra", "Karnataka", "Tamil Nadu", "Rajasthan", "Madhya Pradesh", "Kerala", "Gujarat"]
+DASH_RICK_LED = [k for k, v in DASH_ST.items() if v.get("erick", 0) > v["e2w"] + 0.15 * v["total"]]
+assert DASH_RICK_LED == ["Uttar Pradesh", "Bihar"]
+# 3) Penetration lines, read by eye, percent
+DASH_PEN = {"FY2025-26": {"E-3W": 32, "E-2W": 6.7, "E-4W": 4.8, "E-Bus": 4.4, "National average": 8.3},
+            "FY2026-27 to date": {"E-3W": 48, "E-2W": 9.7, "E-4W": 7.9, "E-4W (C)": 5.0, "E-Bus": 5.4, "National average": 11.1}}
+assert abs(DASH_PEN["FY2025-26"]["E-2W"] - 6.54) < 0.3          # agrees with FADA's printed 6.54% e-2W penetration
 print(f"all checks passed in {time.time() - _T0:.1f}s")

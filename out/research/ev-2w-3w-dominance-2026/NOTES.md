@@ -11,4 +11,10 @@ Publishing is manual: python3 tools/blogger_api.py insert --draft --file out/pos
 
 ## Blocked / not read
 CEEW dashboard pages (Cloudflare, not bypassed), Vahan dashboard (unreachable), Mercom (network refusal), NewsBytes (403), JMK (outside allowlist), Ticker.
-Raw page copies were kept locally under raw/ and are not committed (size); URLs are in the post's Sources block.
+Raw page copies are under raw/ (committed in 90d19aa; the earlier note that they were not committed was stale); URLs are in the post's Sources block.
+
+## Update, 27 Nov 2026: CEEW National Volume Monitor screenshots
+Four screenshots of https://www.ceew.in/gfc/tools_and_dashboards/electric-mobility/national-volume-monitor were supplied by the blog's author and are saved under ceew_dashboard/ (ev_shares.png, state_volumes.png, penetration.png, registration.jpg). They are the only first-hand dashboard data seen; the page itself is blocked here.
+- Exact (printed): the EV Shares legend (E-2W 56.9, E-Rickshaw 27.3, E-3W 8.4, E-4W 6.5, E-4W (C) 0.5, E-Bus 0.2, LDV/MDV/HDV 0.2, cumulative FY2014 to FY2027) and the legible registration labels (FY2017-18 95,430; FY2019-20 172,035; FY2021-22 456,192; FY2022-23 1,183,167; FY2023-24 1,681,315; FY2024-25 1,986,107; FY2025-26 2,535,656). The FY2014-15 and FY2015-16 labels overlap (read as 2,399 and 16,165).
+- Read by eye (about, +/- 50 thousand on state totals): the state stacked bars and the penetration lines. calc.py holds them as DASH_ST and DASH_PEN with their asserts.
+- Findings: the dashboard FY2025 total (1,986,107) is 1.1% above the CEEW issue brief (1,964,831); FY2024 matches to 14 units; the FY2026 total sits between EVreporter (-0.6%) and Autocar Pro (+3.4%); Tamil Nadu and Rajasthan rank fourth and fifth cumulatively and were not in the issue brief's ten states.

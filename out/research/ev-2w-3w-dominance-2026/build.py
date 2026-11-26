@@ -62,7 +62,7 @@ top = top_line([
 ])
 intro = (f'<p class="gb-note">This piece is about the mix of electric vehicles and why, and does not repeat the volumes and subsidy history in '
          f'<a href="{B}/2026/08/indias-ev-market-single-digit.html">India&rsquo;s EV sales: 12% of vehicles in April&ndash;September, cars in single digits</a>. '
-         f'The CEEW-GFC Electric Mobility Dashboard and the Vahan dashboard could not be read directly (see the box at the end), so the monthly figures are from secondary reports of Vahan data and are labelled as such. '
+         f'The CEEW-GFC dashboard (National Volume Monitor) was read through four screenshots supplied by the blog&rsquo;s author on 27 November 2026, and the page itself and the Vahan dashboard could not be opened here (see the box at the end), so the monthly figures are from secondary reports of Vahan data and are labelled as such. '
          f'Every conflict between sources is shown, not blended.</p>\n')
 
 # ------------------------------------------------------------------------------------------------ section 1: share of units
@@ -175,7 +175,7 @@ rows4 = sorted(c.ST_SH.items(), key=lambda kv: -kv[1])
 rows4 = [(k, v, f"{c.ST[k]:,} EVs") for k, v in rows4]
 chart4 = bars("Five states held at least 51.1% of FY2025 EV registrations; Uttar Pradesh alone 19.2%", rows4,
               accent=["Uttar Pradesh", "Maharashtra"], unit="%", vmax=22,
-              sub="Share of the 1,964,831 EVs registered in FY2025, %, for the ten states CEEW chose for high EV penetration (Telangana excluded from the national total). Other states are not in the table, so these are lower bounds for any top five.",
+              sub="Share of the 1,964,831 EVs registered in FY2025, %, for the ten states CEEW chose for high EV penetration (Telangana excluded from the national total). Other states are not in the table, so these are lower bounds for any top five: the CEEW dashboard&rsquo;s cumulative ranking above puts Tamil Nadu fourth and Rajasthan fifth, and neither is among these ten.",
               source="CEEW issue brief, Dec 2025, Table 1 and Figure 3 (Vahan). Shares computed by this blog. The CEEW dashboard that holds the full state and RTO tables could not be read.")
 tbl4 = numbers(["State (FY2025)", "EV volume", "EV penetration %", "e-2W penetration %", "e-3W penetration %", "e-car (personal) penetration %"],
                [["Uttar Pradesh", "377,212", "10.0", "3.7", "52.9", "1.7"], ["Maharashtra", "256,991", "8.2", "10.0", "10.3", "3.4"],
@@ -259,7 +259,7 @@ method = '''<details class="xv-n"><summary>Method and definitions</summary>
 '''
 gaps = '''<details class="xv-n"><summary>What this piece could not establish</summary>
 <ul>
-<li>The CEEW-GFC Electric Mobility Dashboard, any state or RTO table from it, and the top five states for e-2W and for e-3W by units. The dashboard pages (www.ceew.in, three addresses tried) returned a Cloudflare challenge and were not bypassed; only the CEEW issue brief PDF could be read. The Vahan dashboard did not load. State figures here come from the brief&rsquo;s Table 1 (ten states, all EVs, FY2025) and an EVreporter page on e-2W (January to May 2026).</li>
+<li>The CEEW-GFC dashboard itself: only four screenshots were seen (supplied 27 November 2026), so state volumes, penetration lines and the unlabelled registration points are read by eye, and the top five states for e-2W and for e-3W by units remain unestablished. The dashboard pages (www.ceew.in, three addresses tried) returned a Cloudflare challenge and were not bypassed; only the CEEW issue brief PDF could be read. The Vahan dashboard did not load. State figures here come from the brief&rsquo;s Table 1 (ten states, all EVs, FY2025) and an EVreporter page on e-2W (January to May 2026).</li>
 <li>Any RTO-level ranking. EVreporter&rsquo;s city and RTO tables are for data-portal subscribers; its FY2026 page names only Bengaluru (98,892 e-2Ws), Delhi (41,238), Lucknow (14,099 L5 passenger) and Kanpur (7,513).</li>
 <li>FY2026 L5 passenger, L5 cargo and e-bus counts from one source. EVreporter&rsquo;s public excerpt gives a 9.4% share for L5 passenger and no cargo or bus count.</li>
 <li>Whether the 70,366-unit FY2026 e-2W gap between EVreporter and Autocar Pro is Telangana, late registrations or the low-speed classes. The EVreporter note names the Telangana transport portal; Autocar Pro&rsquo;s inclusion of Telangana was not stated.</li>
@@ -274,9 +274,45 @@ gaps = '''<details class="xv-n"><summary>What this piece could not establish</su
 covers = '''<h2 class="gb-h2" id="covers">What this piece does and doesn&rsquo;t cover</h2>
 <div class="gb-warn"><p style="margin:0">It covers the mix of electric registrations, not the number of vehicles on the road, and not electric cars or buses beyond their effect on the mix. It treats Vahan registrations as a proxy for sales: a registration lags a sale, some states report late, Telangana is handled differently by different trackers, and low-speed e-2Ws are in or out depending on the source. Source definitions drift: &lsquo;e-3W penetration&rsquo; is 33.7% or 60.9% depending on whether e-rickshaws count. The October 2026 total of 354,284 is a first report and will rise; the 2.34 lakh figure that circulated with it describes October 2025. Battery energy is an estimate built on assumed pack sizes.</p></div>
 '''
-body = (STYLE + top + intro + s1 + s2 + s3 + s4 + s5 + fixes + covers + method + gaps)
+
+# ------------------------------------------------------------------------------------------------ section: CEEW dashboard (screenshots)
+rows_d = [(k, v, f"{v}%") for k, v in c.DASH_SHARE.items()]
+chart_d = bars("CEEW dashboard, FY2014 to FY2027: 92.6% of registered EVs are 2W, 3W or e-rickshaws", rows_d,
+               accent=["E-2W", "E-Rickshaw"], unit="%", vmax=60,
+               sub="Share of all electric vehicles registered from FY2014 to FY2027 to date, per cent, as printed in the dashboard&rsquo;s EV Shares legend. E-3W and E-Rickshaw are separate categories on the dashboard; whether its E-3W is L5 only is not stated.",
+               source="CEEW-GFC Electric Mobility Dashboard, National Volume Monitor (primary; read from a screenshot supplied on 27 November 2026; the page was not opened here). Sum of E-2W, E-3W and E-Rickshaw computed by this blog.")
+def _d(v):
+    return f"{v:+,}"
+tbl_d1 = numbers(["Year", "CEEW dashboard (screenshot labels)", "CEEW issue brief, Dec 2025", "Dashboard minus brief", "Other source"],
+    [["FY2022", n(c.DASH_REG["FY22"]), n(c.CEEW_TOTAL["FY22"]), f"{_d(c.DASH_VS_BRIEF['FY22'])} ({c.DASH_VS_BRIEF_PCT['FY22']}%)", ""],
+     ["FY2023", n(c.DASH_REG["FY23"]), n(c.CEEW_TOTAL["FY23"]), f"{_d(c.DASH_VS_BRIEF['FY23'])}", ""],
+     ["FY2024", n(c.DASH_REG["FY24"]), n(c.CEEW_TOTAL["FY24"]), f"{_d(c.DASH_VS_BRIEF['FY24'])}", ""],
+     ["FY2025", n(c.DASH_REG["FY25"]), n(c.CEEW_TOTAL["FY25"]), f"{_d(c.DASH_VS_BRIEF['FY25'])} ({c.DASH_VS_BRIEF_PCT['FY25']}%)", "Autocar Pro 1,967,547"],
+     ["FY2026", n(c.DASH_REG["FY26"]), "not in the brief", "", f"EVreporter {n(c.EVR26['total'])} ({_d(c.D26_EVR)}); Autocar Pro {n(c.AP['FY26']['total'])} ({_d(c.D26_AP)})"]],
+    "Show the dashboard registration series against the other sources")
+tbl_d2 = numbers(["State, cumulative FY2014 to FY2027 (read by eye)", "EVs, thousand (about)", "Largest segment", "e-2W share (about)", "E-rickshaw share (about)"],
+    [[k, f"{v['total']:,}", ("E-rickshaw" if k in c.DASH_RICK_LED else ("E-2W" if k in c.DASH_E2W_LED else "E-2W and E-rickshaw close")),
+      f"{100 * v['e2w'] / v['total']:.0f}%", (f"{100 * v['erick'] / v['total']:.0f}%" if "erick" in v else "small")] for k, v in c.DASH_ST.items()],
+    "Show the state bars read from the dashboard chart (about plus or minus 50 thousand)")
+tbl_d3 = numbers(["Penetration, read by eye", "FY2025-26", "FY2026-27 to date"],
+    [[k, f"about {c.DASH_PEN['FY2025-26'][k]:g}%" if k in c.DASH_PEN["FY2025-26"] else "not read", f"about {c.DASH_PEN['FY2026-27 to date'][k]:g}%" if k in c.DASH_PEN["FY2026-27 to date"] else "not read"]
+     for k in ["E-3W", "E-2W", "E-4W", "E-4W (C)", "E-Bus", "National average"]],
+    "Show the penetration lines read from the dashboard chart") + (
+    '<p class="gb-note">Reading notes: the chart&rsquo;s title still says FY2014 to FY2022 while its axis runs to FY2026-27. The FY2014-15 and FY2015-16 labels overlap and read as 2,399 and 16,165; the FY2016-17, FY2018-19, FY2020-21 and FY2026-27 points carry no label '
+    f'(FY2026-27 is a part year, about 2.4 million by eye).</p>'
+    f'<p class="gb-note">The dashboard&rsquo;s FY2025-26 E-3W penetration (about 32%) sits beside EVreporter&rsquo;s 33.7% for L5 passenger and the August piece&rsquo;s 30.5%, which suggests its E-3W line is L5 and leaves e-rickshaws out; that is an inference, not something the dashboard states.</p>'
+    f'<p class="gb-note">The state and penetration values are read from the bars and lines by eye, so only the printed shares and the labelled registration figures are exact.</p>'
+    f'<p class="gb-note">On the same reading the ten leading states hold about {c.DASH_TOP10_SH}% of cumulative registrations and the top five (Uttar Pradesh, Maharashtra, Karnataka, Tamil Nadu, Rajasthan) about {c.DASH_TOP5_SH}%, '
+    f'using a rough cumulative total of {c.DASH_CUM / 1e6:.1f} million; treat both as estimates within a few points.</p>')
+means_d = (f"CEEW&rsquo;s own dashboard puts {c.DASH_W23}% of EVs registered since FY2014 in two-wheelers, three-wheelers and e-rickshaws, shows e-rickshaws as a {c.DASH_SHARE['E-Rickshaw']}% category that the three-wheeler label hides, "
+           f"and gives an FY2026 total of {n(c.DASH_REG['FY26'])} that sits between EVreporter and Autocar Pro.")
+todo_d = "Quote the dashboard&rsquo;s category definitions and the date of the pull with every share, because its three-wheeler and e-rickshaw lines are separate while most other sources combine them."
+sd = insight("CEEW dashboard: 92.6% of EVs registered since FY2014 are 2W, 3W or e-rickshaws", chart_d + tbl_d1 + tbl_d2 + tbl_d3, means_d, todo_d, "dashboard")
+
+body = (STYLE + top + intro + s1 + sd + s2 + s3 + s4 + s5 + fixes + covers + method + gaps)
 
 SOURCES = (
+    'Primary, from screenshots supplied on 27 November 2026 (page not opened here): <a href="https://www.ceew.in/gfc/tools_and_dashboards/electric-mobility/national-volume-monitor">CEEW-GFC Electric Mobility Dashboard, National Volume Monitor</a>. '
     'Read for this piece, primary or near-primary: <a href="https://www.ceew.in/gfc/solutions-factory/publications/CEEW-Navigating_India\'s_Electric_Mobility_Transition_WEB.pdf">CEEW, Navigating India&rsquo;s Electric Mobility Transition (issue brief, December 2025)</a> (Vahan data via the CEEW-GFC dashboard); '
     '<a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2317890&amp;lang=1&amp;reg=48">PIB, PM E-DRIVE Scheme, 1 October 2026</a>; <a href="https://github.com/herrrickshaw/vehicle_fuel_mileage">vehicle_fuel_mileage repository</a>. '
     '</p><p class="gb-note" style="margin:.6rem 0 0">Secondary, opened (all report Vahan data): <a href="https://evreporter.com/india-sold-2550865-electric-vehicles-across-categories-in-fy-2025-26/">EVreporter, FY2025-26 report</a>; '
@@ -294,7 +330,7 @@ SOURCES = (
     '<a href="https://www.outlookbusiness.com/industry/auto-retail-sales-up-133-pc-at-29671064-units-in-fy26-fada">Outlook Business, FADA FY2026 retail release</a>; '
     '<a href="https://www.outlookbusiness.com/industry/india-ev-registrations-record-october-two-wheelers-lead">Outlook Business, 6 November 2025 (October 2025 registrations)</a>. '
     '</p><p class="gb-note" style="margin:.6rem 0 0">Pack sizes and costs, secondary: manufacturer pages (Mahindra Last Mile Mobility, Piaggio, Euler, MG, Tata), Autocar India, Cartoq and CarWale car guides, a belectriq compilation, an ICCT e-bus paper, WRI India&rsquo;s <a href="https://wri-india.org/sites/default/files/E-auto-guidebook_WRI-India.pdf">auto-rickshaw guidebook</a>; read as search excerpts, not full pages. '
-    '</p><p class="gb-note" style="margin:.6rem 0 0">Not opened (see the &lsquo;could not establish&rsquo; box): the CEEW dashboard, the Vahan dashboard, Mercom, JMK Research, NewsBytes, Ticker (Finology). Every figure marked estimate, derived or assumption was computed by this blog. Analysed 26 November 2026.')
+    '</p><p class="gb-note" style="margin:.6rem 0 0">Not opened (see the &lsquo;could not establish&rsquo; box): the CEEW dashboard page itself (seen only as screenshots), the Vahan dashboard, Mercom, JMK Research, NewsBytes, Ticker (Finology). Every figure marked estimate, derived or assumption was computed by this blog. Analysed 26 November 2026.')
 
 RELATED = [
     (f"{B}/2026/08/indias-ev-market-single-digit.html", "India's EV sales: 12% of vehicles in April&ndash;September, cars in single digits"),
