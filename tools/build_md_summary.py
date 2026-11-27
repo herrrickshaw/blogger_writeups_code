@@ -233,7 +233,7 @@ def is_live(url):
     Blogger returns 200 on HEAD even for dead posts (custom error page), so a
     real GET is required. Network errors/timeouts are NOT treated as dead --
     we don't want a flaky connection to silently drop real posts."""
-    req = urllib.request.Request(url, headers={'User-Agent': 'masaladeutsch-summary-builder/1.0'})
+    req = urllib.request.Request(url, headers={'User-Agent': 'vertistrat-summary-builder/1.0'})
     try:
         urllib.request.urlopen(req, timeout=8)
         return True

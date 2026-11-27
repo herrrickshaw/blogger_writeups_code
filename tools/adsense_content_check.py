@@ -22,7 +22,7 @@ CREDS = pathlib.Path(os.path.expanduser("~/.config/market-secrets/credentials.en
 GEMINI_MODEL = "gemini-flash-latest"
 MISTRAL_MODEL = "mistral-small-latest"
 MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
-UA = "masaladeutsch-adsense-check/1.0"
+UA = "vertistrat-adsense-check/1.0"
 
 PROMPT = """You are reviewing one page of a published blog for compliance with Google
 AdSense's content policies, specifically:

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# vblog: run tools/blogger_api.py from the right folder, whatever folder you are in.
+#   vblog update --slug <slug> --file out/<post>.html --labels "A,B"
+# Refuses to run if this checkout is not the blog repo, so a clone of a different repo
+# (for example the old ~/masaladeutsch-archive) can never be used by mistake.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ORIGIN="$(git -C "$ROOT" remote get-url origin 2>/dev/null || true)"
+case "$ORIGIN" in
+  *blogger_writeups_code*) ;;
+  *) echo "vblog: $ROOT is not the VertiStrat blog repo (origin: ${ORIGIN:-none}). Use ~/vertistrat-archive." >&2; exit 2 ;;
+esac
+cd "$ROOT"
+exec python3 tools/blogger_api.py "$@"

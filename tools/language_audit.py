@@ -56,7 +56,7 @@ def check(text):
         'disabledCategories': DISABLED_CATEGORIES,
     }).encode()
     req = urllib.request.Request('https://api.languagetool.org/v2/check', data=data,
-                                  headers={'User-Agent': 'masaladeutsch-language-audit/1.0'})
+                                  headers={'User-Agent': 'vertistrat-language-audit/1.0'})
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.loads(r.read())
 

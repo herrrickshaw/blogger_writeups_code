@@ -79,7 +79,7 @@ def fetch(args):
         return
     url = URL + "?" + args.query
     req = urllib.request.Request(url, headers={"Accept": "application/json",
-                                               "User-Agent": "Mozilla/5.0 (masaladeutsch-archive iem_parivesh.py)"})
+                                               "User-Agent": "Mozilla/5.0 (vertistrat-archive iem_parivesh.py)"})
     print("GET", url)
     try:
         with urllib.request.urlopen(req, timeout=600) as r:

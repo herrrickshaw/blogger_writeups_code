@@ -1,5 +1,7 @@
 # CLAUDE.md — working in this repository
 
+**Folder:** commands for the user's Mac start with `cd ~/vertistrat-archive` (or use `tools/vblog`). Never `~/masaladeutsch-archive`: that is a different repo. The Pages repo `herrrickshaw/masaladeutsch` hosts `accordion.js` and is not renamed.
+
 This is the version-history archive for the blog now published as **VertiStrat Solutions**
 at **blog.vertistratsolution.com** (formerly Masala Deutsch, masaladeutsch.blogspot.com;
 migrated 14 Nov 2026 -- never write the old domain or name into a post). Blogger

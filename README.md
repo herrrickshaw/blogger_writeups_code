@@ -4,6 +4,12 @@
 > **New here?** See [How to use this repo with AI (Claude, Gemini, ChatGPT)](HOW_TO_USE_WITH_AI.md) — clone it, paste it into an AI tool, and ask in plain English.
 
 
+> **Which folder?** This repo is the only one for publishing. On the Mac it lives in `~/vertistrat-archive`.
+> `~/masaladeutsch-archive` is a different repository (a clone of `global-market-research-platform`); do not use it.
+> From any folder, `~/vertistrat-archive/tools/vblog <command>` runs `tools/blogger_api.py` from the right place and
+> refuses to run in a checkout that is not this repo. The GitHub Pages repo `herrrickshaw/masaladeutsch` keeps its name on purpose:
+> every live post loads `accordion.js` from it, so renaming it would break all of them.
+
 Version history for [blog.vertistratsolution.com](https://blog.vertistratsolution.com).
 Blogger keeps no usable revision history, so this repo is the only way to see what
 a post used to say — or to put it back.

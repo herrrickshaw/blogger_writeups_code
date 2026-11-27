@@ -51,7 +51,7 @@ jobs:
 
       - name: Configure committer
         run: |
-          git config user.name  "masaladeutsch-archive-bot"
+          git config user.name  "vertistrat-archive-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Snapshot the blog
