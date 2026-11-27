@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/09/india-sells-world-about-third-of-its.html",
   "slug": "india-sells-world-about-third-of-its",
   "published": "2026-09-30T06:12:49.000+05:30",
-  "updated": "2026-11-14T15:32:58.794+05:30",
+  "updated": "2026-11-27T06:09:12.756+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26609,
-  "sha256": "9f0092ac9edc0de1b91b0d79be72f446229d2d979ce0e869a129970a4f453e1e",
+  "bytes": 30771,
+  "sha256": "2c02654dc1d801a55eeb625f8b2c448b196147be7599ac75f950cf6662dc849c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -99,6 +99,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-11-27T11:22:04+00:00",
+      "level": "major",
+      "reason": "figures changed (+8/-0 distinct numbers)",
+      "bytes": [
+        26609,
+        30771
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

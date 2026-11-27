@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/a-million-wine-market-behind-150-wall.html",
   "slug": "a-million-wine-market-behind-150-wall",
   "published": "2026-08-30T13:25:43.000+05:30",
-  "updated": "2026-11-14T15:06:54.474+05:30",
+  "updated": "2026-11-27T06:09:26.601+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Free Trade Agreements",
     "Trade & Tariffs"
   ],
-  "bytes": 36991,
-  "sha256": "3bc0698d9da4033ee18020c00f1e63ebc3785db2cc30cd9bbdf9c3ece72c5350",
+  "bytes": 40689,
+  "sha256": "f28e6f4e4a178df541ffb73a1fafa43ce290b060b190cbaf429d2b2fc1dca9e8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -190,6 +190,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-27T11:22:04+00:00",
+      "level": "major",
+      "reason": "figures changed (+8/-0 distinct numbers)",
+      "bytes": [
+        36991,
+        40689
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

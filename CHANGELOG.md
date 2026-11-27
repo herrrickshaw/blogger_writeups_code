@@ -21171,3 +21171,36 @@ scheduled sync
 - `ahidf-has-sanctioned-19751-crore-in` — 27,398 → 30,980 bytes (+3,582)
 - `rooftop-solar-is-working-household` — 21,752 → 24,382 bytes (+2,630)
 - `article-index-start-here` — 985,921 → 1,003,779 bytes (+17,858)
+
+## 2026-11-27T11:22:04+00:00 — 539 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `nabet-accredited-eia-consultants-256` **v1.0.0** — NABET-accredited EIA consultants: 256 listed, 43% lapsed or due for renewal within a year (47,648 bytes)
+- `environmental-clearance-in-india_01652956239` **v1.0.0** — Environmental clearance in India: central or state, NABET's role and a 105-day clock (42,323 bytes)
+- `telangana-service-delivery-no-general` **v1.0.0** — Telangana service delivery: no general guarantee law found; industry has TG-iPASS (40,055 bytes)
+- `indias-evs-two-and-three-wheelers-are-9` **v1.0.0** — India's EVs: two- and three-wheelers are 9 in 10 registrations, about half of battery kWh (65,016 bytes)
+- `sodium-ion-batteries-17-more-mass-per` **v1.0.0** — Sodium-ion batteries: 17% more mass per kWh than LFP at claimed densities (48,445 bytes)
+- `post-earnings-drift-by-market-this` **v1.0.0** — Post-earnings drift by market: this blog's 12-market data and what studies find by country (44,819 bytes)
+- `post-earnings-drift-absent-in-large-us` **v1.0.0** — Post-earnings drift: absent in large US stocks since 2006 in one study, mixed in India (53,872 bytes)
+
+**Versions**
+
+- `karnataka-sakaala-services-act-rs-20` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+8/-0 distinct numbers)
+- `ai-tools-edition-04-deepseek-put-its` **3.0.0 → 3.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `indias-military-quantum-plan-has-four` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+8/-0 distinct numbers)
+- `india-sells-world-about-third-of-its` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+8/-0 distinct numbers)
+- `a-million-wine-market-behind-150-wall` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+8/-0 distinct numbers)
+- `article-index-start-here` **80.0.0 → 81.0.0** (MAJOR) — figures changed (+2/-2 distinct numbers)
+
+**Changed**
+
+- `karnataka-sakaala-services-act-rs-20` — 34,089 → 36,844 bytes (+2,755)
+- `ai-tools-edition-04-deepseek-put-its` — 64,950 → 65,049 bytes (+99)
+- `indias-military-quantum-plan-has-four` — 25,804 → 30,120 bytes (+4,316)
+- `india-sells-world-about-third-of-its` — 26,609 → 30,771 bytes (+4,162)
+- `a-million-wine-market-behind-150-wall` — 36,991 → 40,689 bytes (+3,698)
+- `article-index-start-here` — 1,003,779 → 1,013,770 bytes (+9,991)

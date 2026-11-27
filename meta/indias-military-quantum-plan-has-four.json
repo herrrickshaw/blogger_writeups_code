@@ -4,10 +4,10 @@
   "url": "https://blog.vertistratsolution.com/2026/10/indias-military-quantum-plan-has-four.html",
   "slug": "indias-military-quantum-plan-has-four",
   "published": "2026-10-09T10:25:56.000+05:30",
-  "updated": "2026-11-14T15:42:24.762+05:30",
+  "updated": "2026-11-27T06:08:59.696+05:30",
   "labels": [],
-  "bytes": 25804,
-  "sha256": "9922242090f096fae98bdfc62973512aa93800cf947cbe3b4199fdec070af4fe",
+  "bytes": 30120,
+  "sha256": "7bc77716a466d2a1f964b7e52bd3e1e2de88be1e01eb6b4867d7abd1a0a67897",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-27T11:22:04+00:00",
+      "level": "major",
+      "reason": "figures changed (+8/-0 distinct numbers)",
+      "bytes": [
+        25804,
+        30120
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

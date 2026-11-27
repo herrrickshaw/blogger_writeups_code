@@ -4,12 +4,12 @@
   "url": "https://blog.vertistratsolution.com/2026/11/ai-tools-edition-04-deepseek-put-its.html",
   "slug": "ai-tools-edition-04-deepseek-put-its",
   "published": "2026-11-09T17:51:38.000+05:30",
-  "updated": "2026-11-25T07:34:45.105+05:30",
+  "updated": "2026-11-27T06:03:00.354+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 64950,
-  "sha256": "8c73a11aeb9296f397db11b6dba431764511c24439d5ebc71bd340342f9af1c6",
+  "bytes": 65049,
+  "sha256": "c1b5378826509137c45b10195f14a60f5ec8ac5e0485b065a7d85121ed608d24",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -93,6 +93,19 @@
       "bytes": [
         64291,
         64950
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-11-27T11:22:04+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        64950,
+        65049
       ],
       "url_changed": null,
       "markers_changed": null,
