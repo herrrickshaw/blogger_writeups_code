@@ -587,6 +587,25 @@ def test_cmd_update_labels_only_adds_labels_and_keeps_the_live_body(fake):
     assert "live" in sent["content"] and sent["title"] == "Keep" and sent["published"] == "P"
 
 
+def test_cmd_update_labels_only_fetches_the_body_when_the_listing_has_none(fake, monkeypatch):
+    # find_post lists with fetchBodies=false, so the post it returns carries no content
+    fake.add("p1", title="Keep", slug="s", published="P", labels=["L"], content="<p>live body</p>")
+    real = b.find_post
+    monkeypatch.setattr(b, "find_post", lambda slug: {k: v for k, v in real(slug).items() if k != "content"})
+    with pytest.raises(SystemExit) as e:
+        b.cmd_update(ns(slug="s", labels="New"))
+    assert e.value.code == 0
+    sent = fake.writes()[0][2]
+    assert "live body" in sent["content"] and sent["labels"] == ["L", "New"]
+
+
+def test_cmd_update_labels_only_refuses_when_the_post_really_is_empty(fake, monkeypatch):
+    fake.add("p1", title="Keep", slug="s", published="P", labels=["L"], content="")
+    with pytest.raises(SystemExit) as e:
+        b.cmd_update(ns(slug="s", labels="New"))
+    assert e.value.code != 0 and not fake.writes()
+
+
 def test_cmd_update_labels_with_a_file_sets_body_and_labels(fake):
     fake.add("p1", title="Keep", slug="s", published="P", labels=["L"])
     with pytest.raises(SystemExit) as e:

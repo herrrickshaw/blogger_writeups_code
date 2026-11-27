@@ -353,6 +353,9 @@ def cmd_update(args):
     if body is None:
         body = p.get("content") or ""
         if not body:
+            # find_post lists posts with fetchBodies=false, so the body is not in that result: fetch the post itself
+            body = (api(f"/blogs/{BLOG_ID}/posts/{p['id']}").get("content") or "")
+        if not body:
             sys.exit("the live post came back with no content; refusing a label-only update that would blank it")
     try:
         ok = do_update(p["id"], p["url"], title, body,
