@@ -96,7 +96,7 @@ def fake(monkeypatch):
 def ns(**kw):
     d = dict(slug=None, id=None, file=None, title=None, dry_run=False, out=None, yes=False,
              draft=False, allow_duplicate=False, limit=0, drafts=False, manifest=None,
-             delete_newer=False)
+             delete_newer=False, labels=None)
     d.update(kw)
     return argparse.Namespace(**d)
 
@@ -575,6 +575,33 @@ def test_cmd_update_by_slug_exits_zero_and_uses_post_title(fake):
     assert e.value.code == 0
     sent = fake.writes()[0][2]
     assert sent["title"] == "Keep" and sent["published"] == "P" and sent["labels"] == ["L"]
+
+
+def test_cmd_update_labels_only_adds_labels_and_keeps_the_live_body(fake):
+    fake.add("p1", title="Keep", slug="s", published="P", labels=["L"], content="<p>live</p>")
+    with pytest.raises(SystemExit) as e:
+        b.cmd_update(ns(slug="s", labels="New, L ,Other"))
+    assert e.value.code == 0
+    sent = fake.writes()[0][2]
+    assert sent["labels"] == ["L", "New", "Other"]          # added, existing kept, no duplicate
+    assert "live" in sent["content"] and sent["title"] == "Keep" and sent["published"] == "P"
+
+
+def test_cmd_update_labels_with_a_file_sets_body_and_labels(fake):
+    fake.add("p1", title="Keep", slug="s", published="P", labels=["L"])
+    with pytest.raises(SystemExit) as e:
+        b.cmd_update(ns(slug="s", file=_write(fake, "<p>new</p>"), labels="Extra"))
+    assert e.value.code == 0
+    sent = fake.writes()[0][2]
+    assert sent["labels"] == ["L", "Extra"] and "new" in sent["content"]
+
+
+def test_cmd_update_needs_a_file_or_labels(fake):
+    fake.add("p1", title="Keep", slug="s", published="P", labels=["L"])
+    with pytest.raises(SystemExit) as e:
+        b.cmd_update(ns(slug="s"))
+    assert "needs --file" in str(e.value.code)
+    assert fake.writes() == []
 
 
 def _write(fake, text, name="body.html"):

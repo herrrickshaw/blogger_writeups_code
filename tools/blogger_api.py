@@ -327,7 +327,10 @@ def do_update(post_id, url, title, body, published=None, labels=None, dry_run=Fa
 
 
 def cmd_update(args):
-    body = pathlib.Path(args.file).read_text(encoding="utf-8")
+    add_labels = getattr(args, "labels", None)
+    if not args.file and not add_labels:
+        sys.exit("update needs --file (new body), --labels (add labels), or both")
+    body = pathlib.Path(args.file).read_text(encoding="utf-8") if args.file else None
     if args.id:
         # Two live posts can share a slug — Blogger allows it, and the archive
         # then stores one of them under a "<slug>--<id>" filename that matches
@@ -339,9 +342,21 @@ def cmd_update(args):
     print(f"{args.slug or args.id}  id={p['id']}")
     if args.title:
         print(f"  title: {p['title']!r}\n      -> {args.title!r}")
+    labels = list(p.get("labels") or [])
+    if add_labels:
+        # --labels ADDS to the post's current labels (never removes), so a label-only
+        # update cannot wipe the ones already there; with no --file the live body is kept as it is.
+        add = [x.strip() for x in add_labels.split(",") if x.strip()]
+        new_labels = [x for x in add if x not in labels]
+        print(f"  labels: {labels} -> {labels + new_labels}")
+        labels = labels + new_labels
+    if body is None:
+        body = p.get("content") or ""
+        if not body:
+            sys.exit("the live post came back with no content; refusing a label-only update that would blank it")
     try:
         ok = do_update(p["id"], p["url"], title, body,
-                       published=p.get("published"), labels=p.get("labels"),
+                       published=p.get("published"), labels=labels,
                        dry_run=args.dry_run)
     except Ceiling as e:
         print(f"daily write ceiling reached: {e}")
@@ -765,7 +780,8 @@ def main():
 
     u = sub.add_parser("update"); u.add_argument("--slug")
     u.add_argument("--id", help="post id; use when two live posts share a slug")
-    u.add_argument("--file", required=True); u.add_argument("--dry-run", action="store_true")
+    u.add_argument("--file", help="new post body; omit for a label-only update, which keeps the live body"); u.add_argument("--dry-run", action="store_true")
+    u.add_argument("--labels", help="comma-separated labels to ADD to the post (existing labels are kept)")
     u.add_argument("--title", help="also change the post title (the URL slug is fixed and will not change)")
     u.set_defaults(fn=cmd_update)
 

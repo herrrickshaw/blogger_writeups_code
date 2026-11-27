@@ -778,6 +778,12 @@ def main():
 .artx thead th{font-size:.78rem}
 .artx .revised,.artx .sources{font-size:.84rem}
 .artx .gs-filter-empty{font-size:1rem}
+/*gs-a11y-index-v2: WCAG 2.2 target size (2.5.8, 24 by 24 CSS px) for every link in the lists, and no clipped link text*/
+.artx .ctitle{display:inline-block;min-height:24px;box-sizing:border-box;padding:.1rem 0}
+.artx .csub{line-height:1.9}
+.artx .csub .crel-a{max-width:none;white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;vertical-align:baseline;min-height:24px;box-sizing:border-box;padding:.1rem 0;margin-right:1rem}
+.artx .gs-acc-hub,.artx .topnav-index-link a,.artx .ptitle a,.artx .prel a,.artx .gs-gtable td a,.artx .gs-gtable th a,.artx .gs-latest a{display:inline-block;min-height:24px;box-sizing:border-box;padding:.1rem 0}
+.artx .tw td a,.artx .tw th a,.artx .geoblock li a,.artx h3 a{display:inline-block;min-height:24px;box-sizing:border-box;padding:.1rem 0}
 @media (prefers-reduced-motion:reduce){.artx *{transition:none!important;scroll-behavior:auto!important}}
 @media (forced-colors:active){.artx .cgroup,.artx .gs-skip{border:1px solid CanvasText}}
 </style>
