@@ -153,6 +153,9 @@ def _post_text(slug):
     return clean(heads), clean(raw)
 
 
+HUB_CHIP_MIN, HUB_CHIP_MAX = 4, 60
+
+
 def build_keywords(slugs, top=40):
     """slug -> space-separated lowercase terms: every word in the post's headings
     and captions plus its `top` highest TF-IDF body terms (6-8 digit codes such
@@ -221,6 +224,7 @@ FILTER_JS = """<script>//<![CDATA[
       })
       .catch(function(){ srv={q:qs,slugs:null}; });
   }
+  var hub='';
   function apply(){
     var m=selM.value, d=selD.value, t=selT.value, terms=(q.value||'').toLowerCase().split(/\\s+/).filter(Boolean), shown=0;
     rows.forEach(function(r){
@@ -233,7 +237,8 @@ FILTER_JS = """<script>//<![CDATA[
       }
       var inText=inTitle || viaSrv || terms.every(function(w){ return hay.indexOf(w)!==-1 || kw.indexOf(w)!==-1; });
       var ok=(!m || r.getAttribute('data-ym')===m) && (!d || r.getAttribute('data-date')===d)
-           && (!t || r.getAttribute('data-topic')===t) && inText;
+           && (!t || r.getAttribute('data-topic')===t) && inText
+           && (!hub || (r.getAttribute('data-hubs')||'').indexOf('|'+hub+'|')!==-1);
       r.style.display = ok ? '' : 'none'; if(ok) shown++;
       r.classList.toggle('via-text', !!(ok && terms.length && !inTitle));
     });
@@ -245,8 +250,9 @@ FILTER_JS = """<script>//<![CDATA[
       var any=Array.prototype.some.call(g.querySelectorAll('.crow'), function(r){ return r.style.display!=='none'; });
       g.style.display = any ? '' : 'none';
     });
-    var active = m||d||t||terms.length;
-    countEl.textContent = active ? ('Showing '+shown+' of '+rows.length+' articles') : '';
+    var active = m||d||t||terms.length||hub;
+    countEl.textContent = active ? ('Showing '+shown+' of '+rows.length+' articles'+(hub?(' for keyword \u201c'+hub+'\u201d'):'')) : '';
+    kwChips.forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-hub')===hub ? 'true' : 'false'); });
     if(emptyEl) emptyEl.style.display = shown ? 'none' : 'block';
     if(fullEl){
       var qs=(q.value||'').trim();
@@ -254,11 +260,16 @@ FILTER_JS = """<script>//<![CDATA[
       if(qs) fullA.href='https://blog.vertistratsolution.com/search?q='+encodeURIComponent(qs);
     }
   }
+  var kwChips=Array.prototype.slice.call(document.querySelectorAll('.gs-kwchip'));
+  kwChips.forEach(function(b){ b.setAttribute('aria-pressed','false'); b.addEventListener('click', function(){
+    hub = (hub===b.getAttribute('data-hub')) ? '' : b.getAttribute('data-hub'); apply();
+    var g=document.querySelector('.chrono'); if(hub && g && g.scrollIntoView) g.scrollIntoView({block:'start'});
+  }); });
   [selM,selD,selT].forEach(function(el){ el.addEventListener('change', apply); });
   q.addEventListener('input', function(){ apply(); clearTimeout(srvTimer); srvTimer=setTimeout(lookup, 350); });
   var resetBtn=document.getElementById('gs-f-reset');
   if(resetBtn) resetBtn.addEventListener('click', function(){
-    selM.value=''; selD.value=''; selT.value=''; q.value=''; apply(); q.focus();
+    selM.value=''; selD.value=''; selT.value=''; q.value=''; hub=''; apply(); q.focus();
   });
 })();
 //]]></script>"""
@@ -380,6 +391,7 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--shell-head", default=None)
     ap.add_argument("--shell-tail", default=None)
+    ap.add_argument("--hubs", default=None, help="keyword hubs JSON from tools/index_graph.py --hubs")
     args = ap.parse_args()
 
     posts = json.loads(Path(args.graph).read_text(encoding="utf-8"))
@@ -410,6 +422,19 @@ def main():
             by_state[s].append(slug)
 
     keywords = build_keywords(list(posts))
+    # Keyword hubs: the subjects several articles share. Each becomes a button that filters
+    # the list to exactly those articles (see FILTER_JS), so a reader can move across the
+    # archive by subject rather than by date.
+    hub_chips, hubs_of = [], collections.defaultdict(list)
+    if args.hubs and Path(args.hubs).exists():
+        raw_hubs = json.loads(Path(args.hubs).read_text(encoding="utf-8"))
+        cand = [(k, [x for x in v if x in posts]) for k, v in raw_hubs.items() if len(k) >= 3]
+        cand = [(k, v) for k, v in cand if len(v) >= HUB_CHIP_MIN]
+        cand.sort(key=lambda kv: (-len(kv[1]), kv[0]))
+        hub_chips = cand[:HUB_CHIP_MAX]
+        for k, v in hub_chips:
+            for x in v:
+                hubs_of[x].append(k)
     o = []
     A = o.append
     A('<a class="gs-skip" href="#gs-all">Skip to the article list and search</a>')
@@ -601,6 +626,13 @@ def main():
     A('<h2 id="gs-all">All articles</h2>')
     A('<p class="h2sub">Newest first, grouped by month and then by day. Search the titles and article text, or filter by month, day or topic.</p>')
     A(FILTER_BAR)
+    if hub_chips:
+        A('<p class="gs-kw-lbl" id="gs-kw-lbl">Browse by keyword <span class="gs-kw-hint">'
+          '(select one to list the articles that share it)</span></p>')
+        A('<div class="gs-kwchips" role="group" aria-labelledby="gs-kw-lbl">')
+        for k, v in hub_chips:
+            A(f'<button type="button" class="gs-kwchip" data-hub="{E(k)}">{E(k)} <span class="gs-kwn">{len(v)}</span></button>')
+        A('</div>')
     A('<div class="chrono">')
     ordered = sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True)
     month_counts = collections.Counter(p["published"][:7] for _, p in ordered if p["published"])
@@ -638,7 +670,8 @@ def main():
         tag, tag_cls = (labels[0], "ctag") if labels else ("Unlabelled", "ctag none")
         date_str = _pretty_date(p["published"]) if p["published"] else "?"
         A(f'<li class="crow" data-ym="{E(ym or "")}" data-date="{E(day or "")}" data-topic="{E(tag)}"'
-          f' data-kw="{E(keywords.get(slug, ""))}">')
+          f' data-kw="{E(keywords.get(slug, ""))}"'
+          + (f' data-hubs="|{E("|".join(hubs_of[slug]))}|"' if hubs_of.get(slug) else '') + '>')
         A(f'<time class="cdate" datetime="{E(day or "")}">{E(date_str)}</time>')
         A(f'<span class="{tag_cls}"><span class="sr-only">Topic: </span>{E(tag)}</span>')
         A(f'<a class="ctitle" href="{E(p["url"])}">{E(p["title"])}</a>')
@@ -651,6 +684,8 @@ def main():
             if rel:
                 def _rl(r):
                     t_ = posts[r["slug"]]["title"]
+                    if len(t_) > 64:                      # keeps the 1 MB page near its proven size
+                        t_ = t_[:63].rsplit(" ", 1)[0].rstrip(",:;-") + "\u2026"
                     return f'<a class="crel-a" href="{E(posts[r["slug"]]["url"])}">{E(t_)}</a>'
                 links = " ".join(_rl(r) for r in rel)
                 A(f'<span class="crel-lbl">Related</span> {links}')
@@ -697,6 +732,14 @@ def main():
 .artx .gs-fulltext{grid-column:1/-1;margin:0;font-size:.88rem;color:#3d3d3d}
 .artx .gs-fulltext a{color:#0B3D91;text-decoration:underline}
 .artx .crow.via-text::after{content:"Matched in article text";display:block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:#595959;margin-top:.15rem}
+.artx .gs-kw-lbl{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#3d3d3d;margin:1rem 0 .4rem}
+.artx .gs-kw-hint{font-weight:400;letter-spacing:0;text-transform:none;color:#595959}
+.artx .gs-kwchips{display:flex;flex-wrap:wrap;gap:.45rem;margin:0 0 1.2rem}
+.artx .gs-kwchip{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem;font-weight:600;color:#0B1F2D;background:#F4F7FB;border:1px solid #767676;border-radius:999px;padding:.3rem .8rem;min-height:32px;cursor:pointer}
+.artx .gs-kwchip:hover{background:#e6ecf5}
+.artx .gs-kwchip[aria-pressed=true]{background:#0B3D91;color:#fff;border-color:#0B3D91}
+.artx .gs-kwchip[aria-pressed=true] .gs-kwn{color:#fff}
+.artx .gs-kwn{font-weight:400;color:#595959}
 .artx .gs-filter-empty{display:none;padding:1.2rem .2rem;color:#595959;font-size:.9rem;font-style:italic}
 .artx .chrono{border-top:1px solid #e2e2e2;margin:1.2rem 0 0}
 .artx .cgroup{position:sticky;top:0;z-index:1;display:flex;align-items:baseline;

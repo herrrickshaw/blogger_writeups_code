@@ -29,7 +29,7 @@ def test_check_posts_form_encoded_with_rules(monkeypatch):
     body = n.requests[0]["body"].decode()
     assert "text=hello+world" in body and "language=en-US" in body and "disabledRules=WHITESPACE_RULE" in body
     assert "disabledCategories=TYPOGRAPHY" in body and n.requests[0]["url"] == "https://api.languagetool.org/v2/check"
-    assert n.requests[0]["headers"]["User-agent"] == "masaladeutsch-language-audit/1.0"
+    assert n.requests[0]["headers"]["User-agent"] == "vertistrat-language-audit/1.0"
 
 
 @pytest.fixture

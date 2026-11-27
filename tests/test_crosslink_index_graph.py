@@ -174,7 +174,7 @@ def test_main_thresholds_and_entities_related(site, monkeypatch, tmp_path, capsy
     add("p4", "<h2>Steel</h2><p>" + "steel " * 5 + "</p>", title="P4")
     add("ghost", "<h1>China</h1>", live=False)
     out = tmp / "g.json"
-    assert runi(monkeypatch, "--json", str(out), "--report") == 0
+    assert runi(monkeypatch, "--json", str(out), "--report", "--entity-only") == 0
     d = json.loads(out.read_text(encoding="utf-8"))
     assert set(d) == {"p1", "p2", "p3", "p4"}
     assert d["p1"]["countries"] == ["China"] and d["p1"]["states"] == ["Gujarat"] and "Ethanol" in d["p1"]["entities"]
@@ -214,14 +214,14 @@ def test_related_weights_prefer_rare_entities_and_cap_four(site, monkeypatch, tm
     add("r1", rare)
     add("r2", rare)
     out = tmp / "g.json"
-    runi(monkeypatch, "--json", str(out))
+    runi(monkeypatch, "--json", str(out), "--entity-only")
     d = json.loads(out.read_text())
     assert d["r1"]["related"][0]["slug"] == "r2" and len(d["r1"]["related"]) == 4
     assert d["c0"]["related"][0]["w"] == pytest.approx(1 / 8 * 1)   # ethanol df = 8
     # shared country adds 0.25
     add("g1", "<h1>China</h1><p>" + "china " * 6 + "ethanol " * 5 + "</p>")
     add("g2", "<h1>China</h1><p>" + "china " * 6 + "ethanol " * 5 + "</p>")
-    runi(monkeypatch, "--json", str(out))
+    runi(monkeypatch, "--json", str(out), "--entity-only")
     d = json.loads(out.read_text())
     w = {x["slug"]: x["w"] for x in d["g1"]["related"]}
     assert w["g2"] == pytest.approx(round(1 / 10 + 0.25, 3), abs=1e-3)
@@ -232,3 +232,21 @@ def test_main_without_flags_prints_nothing(site, monkeypatch, capsys):
     tmp, add = site
     add("a", "<p>x</p>")
     assert runi(monkeypatch) == 0 and capsys.readouterr().out == ""
+
+
+def test_default_mode_adds_keywords_and_keyword_based_related_and_hubs(site, monkeypatch, tmp_path):
+    tmp, add = site
+    bat = "<p>" + "sodium-ion cell pack lfp battery density " * 4 + "</p>"
+    oil = "<p>" + "sour crude refinery basket grades " * 4 + "</p>"
+    add("b1", "<h1>Sodium-ion battery pack</h1>" + bat)
+    add("b2", "<h1>LFP battery density</h1>" + bat)
+    add("o1", "<h1>Sour crude refinery</h1>" + oil)
+    add("o2", "<h1>Crude basket grades</h1>" + oil)
+    for i in range(10):
+        add(f"f{i}", f"<h1>Wheat {i}</h1><p>" + f"wheat harvest mandi u{i} v{i} " * 4 + "</p>")
+    out, hubs = tmp / "g.json", tmp / "h.json"
+    assert runi(monkeypatch, "--json", str(out), "--hubs", str(hubs)) == 0
+    d = json.loads(out.read_text())
+    assert d["b1"]["keywords"] and d["b1"]["related"][0]["slug"] == "b2"
+    assert d["o1"]["related"][0]["slug"] == "o2" and d["o1"]["related"][0]["shared"]
+    assert isinstance(json.loads(hubs.read_text()), dict)

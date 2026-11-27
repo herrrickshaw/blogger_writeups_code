@@ -16,7 +16,7 @@ def test_is_live_only_confirmed_404_410_are_dead(monkeypatch):
     assert B.is_live("http://x/p.html") is False
     assert B.is_live("http://x/p.html") is True and B.is_live("http://x/p.html") is True
     assert B.is_live("http://x/p.html") is True and B.is_live("http://x/p.html") is True
-    assert n.requests[0]["headers"]["User-agent"].startswith("masaladeutsch-summary-builder")
+    assert n.requests[0]["headers"]["User-agent"].startswith("vertistrat-summary-builder")
     assert n.requests[0]["kw"]["timeout"] == 8 or n.requests[0]["args"] == (8,)
 
 

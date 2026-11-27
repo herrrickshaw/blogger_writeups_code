@@ -33,6 +33,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import keyword_graph  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 
 COUNTRIES = {
@@ -108,18 +111,22 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--report", action="store_true")
     ap.add_argument("--json", metavar="PATH")
+    ap.add_argument("--entity-only", action="store_true",
+                    help="keep the older entity-overlap related links; skip the keyword graph")
+    ap.add_argument("--hubs", metavar="PATH", help="write the keyword hubs (keyword -> post slugs) here")
     args = ap.parse_args()
 
     manifest = json.loads((ROOT / "meta" / "manifest.json").read_text())["posts"]
     by_slug = {r["slug"]: r for r in manifest.values()}
 
-    posts = {}
+    posts, docs = {}, {}
     for f in sorted(glob.glob(str(ROOT / "posts" / "*.html"))):
         slug = Path(f).stem
         rec = by_slug.get(slug)
         if not rec:
             continue
         head, body, _ = parts(f)
+        docs[slug] = {"head": head, "body": body, "labels": [l for l in (rec.get("labels") or []) if l]}
         g = score(COUNTRIES, head, body)
         st = score(STATES, head, body)
         en = score(ENTITIES, head, body)
@@ -156,6 +163,25 @@ def main():
         sims.sort(reverse=True)
         p["related"] = [{"slug": s, "shared": sh, "w": round(w, 3)} for w, s, sh in sims[:4]]
         p.pop("_g"); p.pop("_e")
+
+    # Keyword graph (tools/keyword_graph.py): learned from the articles, so new subjects
+    # (sodium-ion, earnings drift) link to each other without anyone adding them to ENTITIES.
+    # Entity and geography overlap still count, as a nudge. Posts it cannot place keep the
+    # entity-based links.
+    for slug, d in ({} if args.entity_only else docs).items():
+        d["countries"], d["states"], d["entities"] = (posts[slug]["countries"], posts[slug]["states"],
+                                                      posts[slug]["entities"])
+    for nav in ("article-index-start-here", "about-author"):      # navigation pages, never a reading suggestion
+        docs.pop(nav, None)
+    kg = keyword_graph.compute({} if args.entity_only else docs)
+    for slug, r in kg["posts"].items():
+        posts[slug]["keywords"] = r["keywords"]
+        if r["related"]:
+            posts[slug]["related"] = [{"slug": x["slug"], "shared": x["shared"], "w": x["score"]}
+                                      for x in r["related"]]
+    if args.hubs:
+        Path(args.hubs).write_text(json.dumps(kg["hubs"], indent=1, ensure_ascii=False), encoding="utf-8")
+        print(f"wrote {args.hubs} ({len(kg['hubs'])} keyword hubs)")
 
     if args.json:
         Path(args.json).write_text(json.dumps(posts, indent=1, ensure_ascii=False), encoding="utf-8")

@@ -8,6 +8,8 @@ migrated 14 Nov 2026 -- never write the old domain or name into a post). Blogger
 keeps no usable revision history, so this repo is the only way to see what a post
 used to say, or to put it back.
 
+**Knowledge graph (related links and keyword hubs):** `tools/keyword_graph.py` learns each article's keywords and phrases from the text and pairs articles that share them; `tools/index_graph.py --hubs` feeds the same graph to the index. Rebuild the index with `python3 tools/index_graph.py --json /tmp/graph.json --hubs /tmp/hubs.json`, then `python3 tools/build_index_page.py --graph /tmp/graph.json --hubs /tmp/hubs.json --out /tmp/fresh-index.html`, then the splice step. For a new draft, `python3 tools/keyword_graph.py --suggest <name> --file out/<draft>.html` lists the live articles to link from it, with the shared terms as the reason. `out/knowledge-graph.json` is the full graph (keywords, related links, hubs).
+
 **Titles and section headings follow `docs/HEADLINE_STYLE.md`** (plain reference tone:
 "Subject: what the data shows", sentence case, <= 90 characters, no idioms or teasers),
 so they survive the 15-language translate widget.
