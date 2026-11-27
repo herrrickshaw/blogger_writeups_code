@@ -36,7 +36,7 @@ an actual on-call reference.
 
 ### 09:35 chain, in order
 
-1. **`.md` summary regeneration** — `tools/update_summary_cron.sh` → `tools/build_md_summary.py`. Rebuilds `MASALADEUTSCH_ALL_POSTS_SUMMARY.md` (all published posts, grouped by topic and chronologically, plus a Units and a Glossary reference section), skipping any post whose URL now 404s (a real GET check, not just a local-metadata check — Blogger returns 200 on HEAD even for dead posts, so HEAD alone is not sufficient here). Commits and pushes to GitHub if changed, then `rclone`-copies to `dropbox:archive/vertistrat-archive/`.
+1. **`.md` summary regeneration** — `tools/update_summary_cron.sh` → `tools/build_md_summary.py`. Rebuilds `VERTISTRAT_ALL_POSTS_SUMMARY.md` (all published posts, grouped by topic and chronologically, plus a Units and a Glossary reference section), skipping any post whose URL now 404s (a real GET check, not just a local-metadata check — Blogger returns 200 on HEAD even for dead posts, so HEAD alone is not sufficient here). Commits and pushes to GitHub if changed, then `rclone`-copies to `dropbox:archive/vertistrat-archive/`.
 2. **Language audit** — `tools/language_audit.py`. Structure-aware LanguageTool sweep (title + prose blocks only; table rows excluded, which is what made the pre-2026-08-10 version of this mostly noise). Report-only: writes one `.md` per flagged post to `out/language_audit/`, plus `_summary_latest.md`. **Nothing here is auto-applied** — a manual review on 2026-08-10 found roughly 85% of LanguageTool's own suggestions were false positives (chart captions, code identifiers, valid grammar it misparsed, a few outright wrong-word substitutions), so unattended auto-apply would silently introduce real errors into live posts. Fixes get applied by hand, one confirmed finding at a time, via `tools/blogger_api.py update`.
 3. **GA4 traffic snapshot** — `tools/ga_report.py --days 28`. Pageviews/active-users/country/city/top-pages for the trailing 28 days, with same-post URL aliases merged (see §6). Written to `out/ga_report/YYYY-MM-DD.md` and `out/ga_report/latest.md`, committed and pushed (needed so the cloud routine in §7 can read it — it has no access to this machine's disk).
 
@@ -102,7 +102,7 @@ Mirrored: `README.md`, `CLAUDE.md`, `MAINTENANCE.md`, `DESIGN_LOG.md`,
 `MIRRORED`, not a glob, because this tool publishes to somewhere other people
 read and a glob would sweep in whatever lands in `docs/` next.
 
-Deliberately excluded: `CHANGELOG.md` and `MASALADEUTSCH_ALL_POSTS_SUMMARY.md`.
+Deliberately excluded: `CHANGELOG.md` and `VERTISTRAT_ALL_POSTS_SUMMARY.md`.
 Both are generated, both change daily, and mirroring them would bury the
 hand-written docs in churn.
 

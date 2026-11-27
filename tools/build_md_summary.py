@@ -14,7 +14,7 @@ import glob, html, json, pathlib, re, sys, collections, datetime, urllib.request
 # MAINTENANCE.md used to be runnable only from one laptop. Kept a str, not a
 # Path -- every use below is an f-string join.
 ROOT = str(pathlib.Path(__file__).resolve().parent.parent)
-OUT_PATH = f'{ROOT}/MASALADEUTSCH_ALL_POSTS_SUMMARY.md'
+OUT_PATH = f'{ROOT}/VERTISTRAT_ALL_POSTS_SUMMARY.md'
 SKIP_SLUGS = {'article-index-start-here', 'about-author', 'the-masala-deutsch-shop-books-things'}
 
 sys.path.insert(0, f'{ROOT}/tools')
