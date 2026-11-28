@@ -150,6 +150,30 @@ means5 = "OTBL&rsquo;s pages describe removing hydrocarbons from soil and sludge
 todo5 = "ONGC and Oil India should publish, for each reclaimed site, the hectares returned, the hydrocarbon level before and after, the vegetation established and its survival after five years."
 s5 = insight("OTBL: its pages cover cleaning oily soil and sludge, with no carbon or afforestation claim", chart5 + tbl5, means5, todo5, "otbl")
 
+# ---------------------------------------------------------------- s6: the MoPNG side, net zero and sequestration
+rows6 = [(f"{k} ({v[0]})", float(c.YEARS_TO[k])) for k, v in sorted(c.NZ.items(), key=lambda kv: kv[1][0])]
+intro6 = ('<p>This section uses the Ministry of Petroleum and Natural Gas side: the Energy Transition Advisory Committee&rsquo;s report <i>The Green Shift</i> (February 2023), '
+          'covered in this blog&rsquo;s <a href="https://blog.vertistratsolution.com/2026/08/the-green-shift-what-indias-oil.html">article on the Green Shift report</a>, and the ministry&rsquo;s later table of net-zero dates. '
+          'The earlier articles on <a href="https://blog.vertistratsolution.com/2026/08/where-indias-captured-carbon-would.html">where captured carbon would go</a> and on '
+          '<a href="https://blog.vertistratsolution.com/2026/08/how-india-actually-plans-to-hit-net.html">India&rsquo;s net-zero pathways</a> cover the engineered storage side.</p>')
+chart6 = intro6 + bars("Oil and gas PSUs target net zero for scope 1 and 2 between 2035 and 2046", rows6,
+              accent=["ONGC (2038)", "Oil India (2040)"], unit=" years", vmax=24, from_zero=True,
+              sub="Years from 2026 to each company&rsquo;s net-zero target for its own operations (scope 1 and 2). The national target is 2070. Scope 3, the fuel customers burn, is not covered by these dates.",
+              source="MoPNG table in the Lok Sabha Committee on Public Undertakings report (December 2025); ONGC Integrated Annual Report 2025-26; Oil India Integrated Annual Report 2025-26. Years by this blog.")
+tbl6 = numbers(["Company", "Target year and planned capex", "Removals and sequestration named", "Evidence"],
+               [["ONGC", f"2038; ₹2,00,000 crore planned", f"CCUS with enhanced oil recovery: IOC&rsquo;s Koyali refinery CO2 piped to ONGC&rsquo;s Gandhar field, an estimated {c.KG_LOW} to {c.KG_HIGH} million tonnes stored cumulatively by 2040 and about 10% more oil; ETAC in 2023 had ONGC only &lsquo;aspiring&rsquo; to net zero by 2050", "ETAC report; MoPNG table; ONGC annual report 2025-26"],
+                ["Oil India", "2040; capex not given", "ETAC in 2023: emissions to fall 15% before FY40 and renewable generation avoiding 0.27 million tonnes; 2025-26 report: Green Credit planting on 431 ha, 41,323 trees, no net deforestation by 2027, and credits it says will help offset residual emissions", "ETAC report; Oil India annual report 2025-26"],
+                ["IOCL", "2046; ₹2,47,160 crore planned", "ETAC: more than half of emissions cut by efficiency, fuel switching and renewable power; the balance of 40% or more by CCUS, tree plantation or buying carbon credits; 3.36 million tonnes avoided in FY22, partly by tree planting; 11,890 ha committed under Green Credits", "ETAC report; Mongabay India, December 2024"],
+                ["GAIL", "2035; ₹38,025 crore planned", "Scope 1 and 2 net zero by 2035; scope 3 cut 35% by 2040", "MoPNG table; Committee on Public Undertakings report"],
+                ["BPCL", "2040; ₹99,600 crore planned", "Roadmap with efficiency, renewables, biofuels, CCUS and green hydrogen", "ETAC report; MoPNG table"],
+                ["HPCL", "2040 (scope 1 and 2 only); ₹1,35,347 crore planned", "No removals named in the sources read", "MoPNG table"],
+                ["Pace check, ONGC", f"{c.ONGC_FY26} million tonnes of CO2e in FY26 against {c.ONGC_BASE_FY22} in FY22, a cut of {c.ONGC_CUT_PCT}%", f"A straight line to zero by 2038 needs {c.ONGC_NEEDED} million tonnes a year against {c.ONGC_PACE} achieved, about {c.ONGC_PACE_RATIO} times faster. The Koyali-Gandhar total is {c.KG_SHARE_LOW}% to {c.KG_SHARE_HIGH}% of one year of ONGC&rsquo;s emissions and stores IOC&rsquo;s CO2", "Arithmetic by this blog; the baseline definitions may differ"],
+                ["National sink", "India targets 2.5 to 3.0 billion tonnes of additional carbon sink by 2030, against 1.9 to 2.0 now", "ETAC says the government&rsquo;s sink strategy focuses on better soil quality to store more carbon", "ETAC report, exhibit on India&rsquo;s 2030 goals"]],
+               "Show the company commitments and the pace check")
+means6 = f"The ministry&rsquo;s own table puts oil and gas PSU net-zero dates between 2035 and 2046, but the removals that would close the gap are plans: one CCUS project of {c.KG_LOW} to {c.KG_HIGH} million tonnes by 2040, plantation credits that arrive after five years, and credits that Oil India describes as offsetting residual emissions although the programme says a green credit is not a carbon credit."
+todo6 = "MoPNG and the PSUs should state, for each net-zero date, the tonnes to be cut at source, the tonnes to be removed and which instrument removes them, so that plantation, CCUS and bought credits are not counted as one."
+s6 = insight("MoPNG side: net-zero dates run 2035 to 2046, and sequestration is mostly a plan", chart6 + tbl6, means6, todo6, "mopng")
+
 fixes = '''<h2 class="gb-h2" id="fixes">What would fix this</h2>
 <ol>
 <li><b>DGH and the Ministry of Petroleum and Natural Gas:</b> publish licence area held, area relinquished and area under mining lease by operator each year, with one definition of &lsquo;acreage&rsquo; stated.</li>
@@ -180,6 +204,8 @@ gaps = '''<details class="xv-n"><summary>What this piece could not establish</su
 <li>Surface land. How many hectares ONGC or Oil India actually hold under leases, rights of user and well pads, and how much has been released, was not found in any source read.</li>
 <li>Whether ONGC takes part in the Green Credit Programme and on how many hectares. Oil India&rsquo;s figures are in its reports; for ONGC none was found. Indian Oil&rsquo;s 11,890 ha is a commitment reported in 2024.</li>
 <li>Why Oil India reports 601 ha reserved in 2024-25 and 431 ha registered in 2025-26, and whether its two statements on when credits arrive (within two years of planting; in 2029) are both current.</li>
+<li>The ETAC report is a February 2023 document and the ministry said in May 2023 that no decision had been taken on its recommendations. ONGC&rsquo;s target has since moved from an aspiration for 2050 to 2038. The capex figures are the planned investments the ministry gave a Parliamentary committee, and were not matched to company reports; one line (EIL, ₹49.98 crore) has an unclear unit and is left out.</li>
+<li>Whether the Koyali-Gandhar project has been built or has stored any carbon dioxide: the ETAC report describes it as being worked on, and no later progress report was found. The pace check compares a company-wide figure with one project that stores another company&rsquo;s CO2, so it is a scale comparison only.</li>
 <li>Any tonnes of carbon dioxide sequestered or any soil-carbon measurement for Green Credit parcels. The methodology counts trees and canopy.</li>
 <li>OTBL&rsquo;s microbial enhanced oil recovery and wax-prevention pages, which returned a bot challenge and were not read; the &lsquo;1.5 million tons&rsquo; on its site has no date, and no audit of it was found.</li>
 <li>The ONGC Annual Report 2025-26 acreage pages were not opened. Section figures for ONGC come from the 2022-23 and 2026 reports as described in search excerpts and from the ministry.</li>
@@ -188,7 +214,7 @@ gaps = '''<details class="xv-n"><summary>What this piece could not establish</su
 </ul></details>
 '''
 
-body = STYLE + top + s1 + s2 + s2b + s3 + s4 + s5 + fixes + method + gaps
+body = STYLE + top + s1 + s2 + s2b + s3 + s4 + s5 + s6 + fixes + method + gaps
 
 SOURCES = (
     'DGH, contracts and rules (opened): <a href="https://ndr.dghindia.gov.in/researchInvest">DGH National Data Repository, Research and Invest in India</a>; <a href="https://www.ndrdgh.gov.in/NDR/?page_id=589">DGH NDR, NELP and OALP page</a>; <a href="https://www.dghindia.gov.in/admin/storage/bid_documents/file/s7LhVIl9WIg6wvSgUym3AykTN3m78yXJFE68llcS.pdf">DGH OALP model revenue-sharing contract, 20 December 2025</a>; <a href="https://www.cgihouston.gov.in/content/OALP8_MRSC_May2023_1.pdf">OALP-VIII model contract, May 2023</a>; <a href="https://mopng.gov.in/files/ExpAndProd/Other%20Notifications/3.SiteRestorationandabandonmentguidelinesforPetroleumOperations.pdf">MoPNG site restoration and abandonment guidelines</a>; <a href="https://thc.nic.in/Central%20Governmental%20Rules/Petroleum%20and%20Natural%20Gas%20Rules,%202025.pdf">Petroleum and Natural Gas Rules 2025</a>; <a href="https://ppac.gov.in/download.php?file=rep_studies%2F1778072414_IndiasOilGasRR_FY2025-26.pdf">PPAC India&rsquo;s Oil &amp; Gas Ready Reckoner FY2025-26</a> (tables 2.7A, 2.7B; source DGH); '
@@ -202,6 +228,7 @@ SOURCES = (
     '</p><p class="gb-note" style="margin:.6rem 0 0">Green Credit Programme: <a href="https://egazette.gov.in/WriteReadData/2025/265796.pdf">S.O. 592(E), 29 August 2025</a>; <a href="http://dste.py.gov.in/ppcc/pdf/Notification/Green%20Credit%20Rules%202023.pdf">Green Credit Rules 2023</a>; '
     '<a href="https://www.moefcc-gcp.in/faq">programme FAQ</a>; <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240640">PIB, 16 March 2026</a>; <a href="https://forestsclearance.nic.in/writereaddata/public_display/schemes/142674276%24xyz.pdf">Ministry guidelines on compensatory afforestation, August 2025</a>; '
     '<a href="https://india.mongabay.com/2025/09/green-credit-rules-tweaked-to-favour-canopy-cover-remove-trade-provision">Mongabay India, 4 September 2025</a> and <a href="https://india.mongabay.com/2024/12/green-credit-programme-rolls-out-with-little-clarity-on-exchange-value">December 2024</a>. '
+    '</p><p class="gb-note" style="margin:.6rem 0 0">MoPNG side: <a href="https://mopng.gov.in/files/uploads/ETAC_2023_FINAL_PRINT.pdf">ETAC, The Green Shift (February 2023)</a>; <a href="https://sansad.in/getFile/lsscommittee/Public%20Undertakings/18_Public_Undertakings_21.pdf?source=loksabhadocs">Committee on Public Undertakings, report 21 (December 2025)</a> and <a href="https://sansad.in/getFile/app/lsscommittee/Public%20Undertakings/18_Public_Undertakings_36.pdf?source=app">action-taken report 36 (August 2026)</a>; <a href="https://psuwatch.com/newsupdates/mopng-receives-report-from-etac-committee-etac-gives-suggestions-to-oil-gas-psus">PSU Watch, 9 May 2023</a>; <a href="https://ongcindia.com/documents/77751/2660534/ONGC-AnnualReport_07082026.pdf/1f5e459f-eb42-d890-f166-3ebcd1cb8e3a">ONGC Integrated Annual Report 2025-26</a>. '
     '</p><p class="gb-note" style="margin:.6rem 0 0">OTBL and bioremediation: <a href="https://www.otbl.co.in/">otbl.co.in</a> and <a href="https://www.otbl.co.in/Oilzapper.php">Oilzapper page</a>; <a href="https://www.teriin.org/project/bioremediation-services-assam-and-arunachal-pradesh">TERI, bioremediation services in Assam and Arunachal Pradesh</a>. '
     'Researched 27 and 28 November 2026, with the DGH site read on 28 November. Shares, conversions and comparisons are this blog&rsquo;s work.')
 
@@ -209,6 +236,7 @@ RELATED = [
     (f"{B}/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html", "India's oil and gas exploration blocks: 172 awarded, 1 has reached production"),
     (f"{B}/2026/09/india-let-oil-companies-put-solar-on.html", "ONGC solar on oil leases: under 1 MW built a year after the law, 4 GW bought"),
     (f"{B}/2026/08/where-indias-captured-carbon-would.html", "Carbon storage in India: 2 named pilot wells, basins mapped without identified wells"),
+    (f"{B}/2026/08/how-india-actually-plans-to-hit-net.html", "India's net zero pathways: all 11 scenarios have coal rising before it falls"),
     (f"{B}/2026/08/the-green-shift-what-indias-oil.html", "Oil ministry's Green Shift report: scope 1+2 emissions at about 4% of global CO₂"),
     (f"{B}/2026/08/indias-oil-fields-are-running-down-3696.html", "India's crude oil output: 36.96 to 28.70 MMT in the decade to 2024-25"),
     (f"{B}/2026/11/environmental-clearance-in-india_01652956239.html", "Environmental clearance in India: central or state, NABET's role and a 105-day clock"),

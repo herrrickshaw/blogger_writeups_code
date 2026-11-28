@@ -79,4 +79,20 @@ PEL_SHARE_BASIN, PML_SHARE_BASIN = round(100 * PEL_TOTAL_WITH_OIL / BASIN, 1), r
 assert (PEL_SHARE_BASIN, PML_SHARE_BASIN) == (7.2, 2.2)
 OALP_GRANTED_SHARE = round(100 * OALP_PEL / OALP_AWARDED_AREA)
 assert OALP_GRANTED_SHARE == 60
+
+# MoPNG side: net-zero dates (MoPNG table in the Committee on Public Undertakings report, Dec 2025), ONGC emissions, ETAC (Feb 2023)
+NZ = {"GAIL": (2035, 38025), "ONGC": (2038, 200000), "NRL": (2038, 17000), "Oil India": (2040, None), "BPCL": (2040, 99600), "HPCL": (2040, 135347), "IOCL": (2046, 247160)}
+BASE_YEAR = 2026
+YEARS_TO = {k: v[0] - BASE_YEAR for k, v in NZ.items()}
+assert YEARS_TO == {"GAIL": 9, "ONGC": 12, "NRL": 12, "Oil India": 14, "BPCL": 14, "HPCL": 14, "IOCL": 20}
+ONGC_BASE_FY22, ONGC_FY26 = 9.41, 8.81                 # MMtCO2e, scope 1+2 (ETAC profile via earlier article; ONGC annual report 2025-26)
+ONGC_PACE = round((ONGC_BASE_FY22 - ONGC_FY26) / 4, 2)
+ONGC_NEEDED = round(ONGC_FY26 / (2038 - 2026), 2)
+ONGC_PACE_RATIO = round(ONGC_NEEDED / ONGC_PACE, 1)
+assert (ONGC_PACE, ONGC_NEEDED, ONGC_PACE_RATIO) == (0.15, 0.73, 4.9)
+ONGC_CUT_PCT = round(100 * (ONGC_BASE_FY22 - ONGC_FY26) / ONGC_BASE_FY22, 1)
+assert ONGC_CUT_PCT == 6.4
+KG_LOW, KG_HIGH = 5, 6                                   # Koyali-Gandhar, million tonnes CO2 cumulative by 2040 (ETAC)
+KG_SHARE_LOW, KG_SHARE_HIGH = round(100 * KG_LOW / ONGC_FY26), round(100 * KG_HIGH / ONGC_FY26)
+assert (KG_SHARE_LOW, KG_SHARE_HIGH) == (57, 68)
 print("calc ok", NELP_PCT, OALP_PCT, DSF_PCT, NOM_BOTH, OALP_SHARE_OF_BASIN, SITES_HA, GCP_VS_SITES)
