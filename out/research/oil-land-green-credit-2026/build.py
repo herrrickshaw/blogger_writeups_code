@@ -1,6 +1,6 @@
 """ONGC, Oil India, relinquished blocks, Green Credit afforestation rules and OTBL bioremediation.
 Build from the repo root:  python3 out/research/oil-land-green-credit-2026/build.py   (writes out/post-ongc-oil-india-relinquished-blocks-green-credit-land.html)
-Arithmetic is in calc.py beside this file and asserted there; this file re-asserts what it prints. Researched 27 to 28 November 2026.
+Arithmetic is in calc.py beside this file and asserted there; this file re-asserts what it prints. Researched 27 to 28 November 2026, with the DGH site read on 28 November.
 Opened and read: PPAC Ready Reckoner FY2025-26 (DGH tables 2.7A and 2.7B), Oil India integrated annual report 2025-26 and BRSR 2024-25, MoPNG block-award page and annual report 2024-25,
 Lok Sabha answers 138 (29 Jan 2026), 700 (4 Dec 2025) and 4563 (19 Mar 2026), Rajya Sabha answer 151 (21 Jul 2025), CAG Reports 42 of 2015 and 10 of 2020, the Green Credit Rules 2023 and S.O. 592(E) (29 Aug 2025),
 the Green Credit Programme FAQ, PIB (16 Mar 2026), Mongabay India (2024, 2025), the otbl.co.in home and Oilzapper pages, ONGC's environment pages, the TERI project page.
@@ -23,7 +23,7 @@ assert 55 <= len(TITLE) <= 90, len(TITLE)
 assert (c.NELP_REL, c.NELP_AW, c.OALP_REL, c.OALP_AW, c.GCP_PLANTED_HA, c.SITES_HA) == (222, 254, 43, 172, 431, 44.0)
 
 top = top_line([
-    (f"{c.NELP_REL} of {c.NELP_AW}", f" NELP blocks are relinquished or in that process (DGH, 1 April 2026), against {c.OALP_REL} of {c.OALP_AW} OALP blocks ({c.OALP_PCT:.0f}%). The published tables count blocks, not area, and no total of the area ONGC or Oil India has handed back was found."),
+    (f"{c.NELP_REL} of {c.NELP_AW}", f" NELP blocks are relinquished or in that process (DGH, 1 April 2026), against {c.OALP_REL} of {c.OALP_AW} OALP blocks ({c.OALP_PCT:.0f}%). The tables count blocks, not area, but ONGC&rsquo;s nomination area is {c.ONGC_NOM_2025:,} sq km in the 2024-25 annual report against 94,358 sq km on the ministry&rsquo;s block-award page, a fall of {c.ONGC_CHANGE_PCT:.0f}% that no source labels relinquishment."),
     (f"{c.GCP_PLANTED_HA} ha vs {c.SITES_HA:.0f} ha", f" is Oil India&rsquo;s planting under the Green Credit Programme against the area of its own drilling and operating sites restored in 2025-26 ({c.SITES_N} sites, {c.SITES_SQM:,} sq m). The planting is on State forest land, not on the company&rsquo;s own sites."),
     ("5 years, 40%", " is what the August 2025 methodology requires before any green credit is issued: five years of restoration and a canopy density of 40%. The credits cannot be traded except between a holding company and its subsidiaries."),
 ])
@@ -48,28 +48,47 @@ means1 = f"Relinquishment is the normal fate of an exploration block, with {c.NE
 todo1 = "DGH should publish area relinquished, by operator and year, beside the block counts, because a count cannot say how much licence area has returned to the State."
 s1 = insight(f"Blocks given back: {c.NELP_REL} of {c.NELP_AW} NELP blocks and {c.OALP_REL} of {c.OALP_AW} OALP blocks", chart1 + tbl1, means1, todo1, "relinquished")
 
-# ---------------------------------------------------------------- s2: acreage measures
-rows2 = [("Public-sector PEL acreage, nomination regime (31 Mar 2025)", c.PEL_NOMINATION_PSU),
-         ("PEL acreage held by public, private and joint-venture entities (31 Mar 2025)", c.PEL_ALL_OTHER),
-         ("Oil India, total operating acreage (56 blocks, 31 Mar 2025)", c.OIL_OPERATING),
-         ("ONGC, nomination PELs and mining leases (9 PEL, 334 PML)", c.ONGC_NOM),
-         ("ONGC and Oil India nomination PELs and mining leases together", c.NOM_BOTH),
-         ("All OALP blocks awarded, rounds I to IX (172 blocks)", c.OALP_AWARDED_AREA)]
-chart2 = bars(f"&lsquo;Land allotted for exploration&rsquo; runs from {c.PEL_NOMINATION_PSU:,} to {c.OALP_AWARDED_AREA:,} sq km, by definition", rows2,
-              accent="All OALP blocks awarded, rounds I to IX (172 blocks)", unit=" sq km", vmax=400000, from_zero=True,
-              sub="Six published measures of area, each with a different definition. They are not additive. India&rsquo;s sedimentary basins cover 3.36 million sq km, and the OALP awards equal 11.3% of that if no block had been given back.",
-              source="Lok Sabha answers of 4 December 2025 (no. 700) and 19 March 2026 (no. 4563); MoPNG block-award page and annual report 2024-25; Oil India annual report 2024-25. Sums and shares by this blog.")
-tbl2 = numbers(["Block or licence", "Area (sq km)", "What happened", "Source"],
-               [["Kangra-Mandi PEL (ONGC, nomination)", "3,800", "Awarded 10 November 1997; expired 28 November 2021; no discovery; ₹582 crore spent to 2021-22", "Lok Sabha answer 138, 29 January 2026"],
-                ["West Bengal OALP blocks BP-ONHP-2019/1 and 2019/2 (listed under ONGC&rsquo;s holdings)", f"{c.WB_A:,} and {c.WB_B:,} ({c.WB_SURRENDERED:,} together)", "&lsquo;Operator has surrendered the block&rsquo; for both", "Rajya Sabha answer 151, 21 July 2025"],
-                ["Oil India OALP blocks", "not given", "4 relinquished: 2 in Rajasthan, 1 in Assam, 1 in Odisha", "Oil India annual report 2024-25"],
-                ["Oil India NELP-VI block KG-ONN-2004/1", "not given", "Three gas discoveries judged uneconomic; relinquishment sought; validity ended 16 March 2023", "Oil India annual report 2023-24"],
-                ["Oil India nomination PEL blocks, to 2013-14", "not given", "9 of 16 relinquished after 15 to 26 years without discovery; ₹219.11 crore spent", "CAG Report 42 of 2015"],
-                ["ONGC total exploratory acreage, 31 March 2023", "162,701", "As quoted in this blog&rsquo;s earlier article on ONGC&rsquo;s leases; not rechecked here", "ONGC FY23 disclosure, via earlier article"]],
-               "Show relinquishment examples and the 2023 figure")
-means2 = f"No single figure answers how much land has been allotted for exploration, because licences held by ONGC and Oil India range from {c.PEL_NOMINATION_PSU:,} sq km of exploration licences in the nomination regime to {c.OALP_AWARDED_AREA:,} sq km of cumulative OALP awards, and a sum of the area they have given back could not be built from the published examples."
-todo2 = "DGH and the ministry should state one reconciled acreage table each year, with licence area held, area relinquished and area under mining lease, so that the answers to this question stop depending on the definition."
-s2 = insight("Acreage: six official figures for exploration and licence area differ by a factor of 240", chart2 + tbl2, means2, todo2, "acreage")
+# ---------------------------------------------------------------- s2: acreage, from the DGH and MoPNG tables
+rows2 = [("Exploration licences, OALP (158 PELs granted)", float(c.OALP_PEL)),
+         ("Mining leases, ONGC nomination (325 PMLs)", float(c.ONGC_PML)),
+         ("Mining leases, discovered small fields (56 PMLs)", c.DSF_PML),
+         ("Exploration licences, PSC regime (15 PELs)", c.PSC_PEL),
+         ("Mining leases, PSC regime (67 PMLs)", c.PSC_PML),
+         ("Mining leases, Oil India nomination (25 PMLs)", c.OIL_PML),
+         ("Exploration licences, ONGC nomination (3 PELs)", float(c.ONGC_PEL))]
+TITLE2 = f"Licensed area, March 2025: {c.PEL_TOTAL_WITH_OIL/100000:.1f} lakh sq km of exploration licences, {c.PML_TOTAL/100000:.2f} lakh of leases"
+chart2 = bars(f"Exploration licences cover {c.PEL_TOTAL_WITH_OIL:,.0f} sq km and mining leases {c.PML_TOTAL:,.0f} sq km", rows2,
+              accent=["Exploration licences, OALP (158 PELs granted)", "Exploration licences, PSC regime (15 PELs)", "Exploration licences, ONGC nomination (3 PELs)"], unit=" sq km", vmax=250000, from_zero=True,
+              sub="Area held on 31 March 2025 by instrument and regime, with exploration licences (PEL, blue) set against mining leases (PML, grey). Oil India also holds one nomination PEL of 24.61 sq km, which the table omits.",
+              source="MoPNG Annual Report 2024-25, tables 2.7 to 2.11 (from DGH); sums by this blog. Totals: PEL 241,489 sq km (241,514 with Oil India&rsquo;s PEL); PML 73,846 sq km.")
+tbl2 = numbers(["Measure", "Figure", "Source"],
+               [["Exploration licences, 31 March 2019", "about 99,000 sq km (0.099 million)", "DGH National Data Repository, &lsquo;Research and Invest in India&rsquo;"],
+                ["Mining leases, 31 March 2019", "about 71,000 sq km (0.071 million)", "same"],
+                ["Exploration licences, 31 March 2025", f"{c.PEL_TOTAL_WITH_OIL:,.0f} sq km, {c.PEL_GROWTH} times 2019", "MoPNG Annual Report 2024-25; sum by this blog"],
+                ["Mining leases, 31 March 2025", f"{c.PML_TOTAL:,.0f} sq km, {c.PML_GROWTH_PCT}% above 2019", "same"],
+                ["ONGC nomination area", f"94,358 sq km (9 PEL, 334 PML) on the ministry&rsquo;s block-award page, undated; {c.ONGC_NOM_2025:,} sq km (3 PEL, 325 PML) on 31 March 2025; a fall of {c.ONGC_CHANGE:,} sq km ({c.ONGC_CHANGE_PCT}%)", "MoPNG block-award page; MoPNG Annual Report 2024-25, table 2.7"],
+                ["Oil India nomination area", "5,158 sq km (3 PEL, 22 PML) on the block-award page; 4,828.84 sq km (25 PML) in the annual report, plus one PEL of 24.61 sq km", "MoPNG block-award page and annual report"],
+                ["OALP licences against awards", f"158 PELs granted for {c.OALP_PEL:,} sq km, against {c.OALP_AWARDED_AREA:,} sq km awarded in 172 blocks ({c.OALP_GRANTED_SHARE}%); 177 PELs were due on 144 blocks", "MoPNG Annual Report 2024-25, table 2.11; Lok Sabha answer 4563"],
+                ["Basin area", f"3.36 million sq km: onland 1.63, shallow water 0.41, deep water beyond 400 m 1.32; exploration licences are {c.PEL_SHARE_BASIN}% of it and leases {c.PML_SHARE_BASIN}%", "DGH NDR page; MoPNG Annual Report; shares by this blog"],
+                ["Earlier Parliament figures explained", "1,583 sq km is ONGC&rsquo;s nomination PEL area; 12,539 sq km is the PSC-regime PEL area", "Lok Sabha answer 700 against MoPNG tables 2.7 and 2.9"],
+                ["ONGC total exploratory acreage, 31 March 2023", "162,701 sq km, as quoted in this blog&rsquo;s earlier article; not rechecked", "ONGC FY23 disclosure, via earlier article"]],
+               "Show the DGH and ministry figures")
+means2 = f"DGH and ministry tables put exploration licences at {c.PEL_TOTAL_WITH_OIL:,.0f} sq km and mining leases at {c.PML_TOTAL:,.0f} sq km on 31 March 2025, so licence area has grown {c.PEL_GROWTH} times since 2019 while lease area is about the same, and ONGC&rsquo;s nomination area is about half what an earlier official table shows."
+todo2 = f"DGH should publish the change in nomination area as relinquished, expired or converted area by company, so that a fall such as ONGC&rsquo;s {c.ONGC_CHANGE:,} sq km can be read as land returned or land converted."
+s2 = insight(TITLE2, chart2 + tbl2, means2, todo2, "acreage")
+assert len(TITLE2) <= 90, len(TITLE2)
+
+# ---------------------------------------------------------------- s2b: what the contract says on giving land back
+chart2b = flow([
+    ("Giving area back", "The DGH model revenue-sharing contract for OALP (20 December 2025) lets the contractor relinquish any part of the contract area at any time. Retained area must be whole polygons of a 1 arc-minute grid of the National Data Repository. Relinquishing does not end liabilities incurred before the date."),
+    ("The restoration duty", "On expiry, termination or relinquishment of any part, the contractor must decommission all equipment and installations and perform all site restoration under the contract and the Rules, and may use the site restoration fund."),
+    ("What restoration means", "Returning a site to its state at the start, or making it fit for its intended after-use, including abandoning wells, removing equipment, structures and debris, establishing compatible contours and drainage, replacing top soil and filling excavations. The 2023 OALP model contract adds re-vegetation and slope stabilisation.", True),
+    ("The fund", "Contributions start in the year oil is first produced and collected, by the unit-of-production method. The 2018 guidelines, amended in August 2021, allow a bank guarantee for the first three years after first commercial production, require third-party cost estimates every three years, and release money in phases against utilisation certificates."),
+    ("If it is not done", "The contractor is liable for damages equal to the Government&rsquo;s estimate of the cost of restoration. Under the Petroleum and Natural Gas Rules 2025 the Centre can direct remedial work and, if the lessee fails, do it at the lessee&rsquo;s cost. The national oil companies maintain a fund under the 1999 scheme."),
+])
+means2b = "A relinquished block does not end the operator&rsquo;s duty to remove installations and restore the site, including replacing top soil and drainage, but the fund begins only with production, so on the contract&rsquo;s wording a block relinquished without production has no accrued fund."
+todo2b = "DGH should publish, for each relinquished block, whether site restoration was completed and certified, since the contract and rules assign the duty and no completion record was found."
+s2b = insight("Giving land back: the DGH contract requires restoration, but the fund starts at production", chart2b, means2b, todo2b, "restoration")
 
 # ---------------------------------------------------------------- s3: licence area versus land on the ground
 rows3 = [("Oil India sites restored, 2025-26 (32 sites)", c.SITES_HA), ("Oil India Green Credit planting, registered and planted (Assam, Odisha)", float(c.GCP_PLANTED_HA)),
@@ -145,6 +164,7 @@ method = '''<details class="xv-n"><summary>Method and definitions</summary>
 <ul>
 <li>Block counts and the relinquished shares come from the PPAC Ready Reckoner tables of 1 April 2026, which cite DGH. The NELP column is headed &lsquo;relinquished / proposed for relinquishment / termination notice sent / operational issues / PEL awaited&rsquo;, so it is broader than relinquishment. The OALP and DSF columns are headed &lsquo;relinquished / proposed for relinquishment&rsquo;. The table is saved with this piece.</li>
 <li>The acreage measures are quoted as the sources state them. Exploration licences (PEL) and mining leases (PML) are different instruments. Cumulative awards include blocks later relinquished. None of the six figures is a sum of the others.</li>
+<li>Area under licence and lease is taken from MoPNG Annual Report 2024-25 tables 2.7 to 2.11, which cite DGH, and summed by this blog. OALP licences, PSC-regime licences and nomination licences are added because they are separate instruments; leases are summed the same way. The 2019 figures are DGH&rsquo;s own, as stated on its National Data Repository page.</li>
 <li>A hectare is 10,000 sq m, so Oil India&rsquo;s 440,291 sq m of restored sites is 44.0 ha. The comparison with the planting under the Green Credit Programme is of scale only: different years, different land, different purposes.</li>
 <li>Green Credit rules are read from the Green Credit Rules 2023, the August 2025 methodology (S.O. 592(E)), the programme FAQ and PIB and Lok Sabha statements. The compensatory-afforestation conditions are from the Ministry&rsquo;s guidelines of August 2025.</li>
 <li>OTBL statements are from its own website (home and Oilzapper pages). The figures in the chart have different bases and are not summed.</li>
@@ -154,7 +174,9 @@ method = '''<details class="xv-n"><summary>Method and definitions</summary>
 gaps = '''<details class="xv-n"><summary>What this piece could not establish</summary>
 <ul>
 <li>The total area ONGC or Oil India has relinquished. DGH and PPAC tables count blocks; the area appears only for individual cases found in Parliament answers and annual reports.</li>
-<li>How the 1,583 sq km (public-sector exploration licences, nomination regime) and 12,539 sq km (all other holders) in the Lok Sabha answer of December 2025 square with the 94,358 sq km on the ministry&rsquo;s block-award page and with ONGC&rsquo;s own 162,701 sq km for 2023. They use different definitions, and no reconciliation was found.</li>
+<li>Whether the fall in ONGC&rsquo;s nomination area (94,358 sq km on the ministry&rsquo;s block-award page to 48,473 sq km in the 2024-25 annual report) is relinquishment, expiry, conversion of licences into leases, or a difference in date or definition. The block-award page is undated and no table breaks the change down.</li>
+<li>Larger totals for acreage (5.66 lakh sq km for all companies and 4.3 lakh sq km for ONGC) circulate in other analyses. They were not found in any DGH or ministry table, and the licence and lease areas above sum to about 3.15 lakh sq km on 31 March 2025, so those totals are not used.</li>
+<li>Whether the restoration obligations in the DGH model contract and the 2025 Rules have been met at any relinquished block, and what is held in the site restoration funds. The funds are not published. Only the model contract text was read, not individual contracts.</li>
 <li>Surface land. How many hectares ONGC or Oil India actually hold under leases, rights of user and well pads, and how much has been released, was not found in any source read.</li>
 <li>Whether ONGC takes part in the Green Credit Programme and on how many hectares. Oil India&rsquo;s figures are in its reports; for ONGC none was found. Indian Oil&rsquo;s 11,890 ha is a commitment reported in 2024.</li>
 <li>Why Oil India reports 601 ha reserved in 2024-25 and 431 ha registered in 2025-26, and whether its two statements on when credits arrive (within two years of planting; in 2029) are both current.</li>
@@ -166,12 +188,12 @@ gaps = '''<details class="xv-n"><summary>What this piece could not establish</su
 </ul></details>
 '''
 
-body = STYLE + top + s1 + s2 + s3 + s4 + s5 + fixes + method + gaps
+body = STYLE + top + s1 + s2 + s2b + s3 + s4 + s5 + fixes + method + gaps
 
 SOURCES = (
-    'Acreage and blocks (opened): <a href="https://ppac.gov.in/download.php?file=rep_studies%2F1778072414_IndiasOilGasRR_FY2025-26.pdf">PPAC India&rsquo;s Oil &amp; Gas Ready Reckoner FY2025-26</a> (tables 2.7A, 2.7B; source DGH); '
+    'DGH, contracts and rules (opened): <a href="https://ndr.dghindia.gov.in/researchInvest">DGH National Data Repository, Research and Invest in India</a>; <a href="https://www.ndrdgh.gov.in/NDR/?page_id=589">DGH NDR, NELP and OALP page</a>; <a href="https://www.dghindia.gov.in/admin/storage/bid_documents/file/s7LhVIl9WIg6wvSgUym3AykTN3m78yXJFE68llcS.pdf">DGH OALP model revenue-sharing contract, 20 December 2025</a>; <a href="https://www.cgihouston.gov.in/content/OALP8_MRSC_May2023_1.pdf">OALP-VIII model contract, May 2023</a>; <a href="https://mopng.gov.in/files/ExpAndProd/Other%20Notifications/3.SiteRestorationandabandonmentguidelinesforPetroleumOperations.pdf">MoPNG site restoration and abandonment guidelines</a>; <a href="https://thc.nic.in/Central%20Governmental%20Rules/Petroleum%20and%20Natural%20Gas%20Rules,%202025.pdf">Petroleum and Natural Gas Rules 2025</a>; <a href="https://ppac.gov.in/download.php?file=rep_studies%2F1778072414_IndiasOilGasRR_FY2025-26.pdf">PPAC India&rsquo;s Oil &amp; Gas Ready Reckoner FY2025-26</a> (tables 2.7A, 2.7B; source DGH); '
     '<a href="https://mopng.gov.in/en/exp-and-prod/block-award">MoPNG block-award page</a>; <a href="https://www.mopng.gov.in/files/TableManagements/annual_report24_25.pdf">MoPNG annual report 2024-25</a>; '
-    '<a href="https://sansad.in/getFile/loksabhaquestions/annex/186/AU700_yBA3b9.pdf?source=pqals">Lok Sabha answer 700, 4 December 2025</a>; <a href="https://sansad.in/getFile/loksabhaquestions/annex/187/AU4563_PQuxZl.pdf?source=pqals">answer 4563, 19 March 2026</a>; '
+    '</p><p class="gb-note" style="margin:.6rem 0 0">Parliament and audits (opened): <a href="https://sansad.in/getFile/loksabhaquestions/annex/186/AU700_yBA3b9.pdf?source=pqals">Lok Sabha answer 700, 4 December 2025</a>; <a href="https://sansad.in/getFile/loksabhaquestions/annex/187/AU4563_PQuxZl.pdf?source=pqals">answer 4563, 19 March 2026</a>; '
     '<a href="https://sansad.in/getFile/loksabhaquestions/annex/187/AU138_2194qa.pdf?source=pqals">answer 138, 29 January 2026</a>; <a href="https://sansad.in/getFile/annex/268/AU151_ugFxrM.pdf?source=pqars">Rajya Sabha answer 151, 21 July 2025</a>; '
     '<a href="https://cag.gov.in/uploads/download_audit_report/2020/09%20Chapter%205-of-10-2020-05f809740b07c69.37519230.pdf">CAG Report 10 of 2020</a>; <a href="https://cag.gov.in/webroot/uploads/download_audit_report/2015/Union_Commercial_Performace_Hydrocarbon_Exploration_42_2015_chap_6.pdf">CAG Report 42 of 2015, chapter 6</a>. '
     '</p><p class="gb-note" style="margin:.6rem 0 0">Company reports: <a href="https://www.oil-india.com/files/financial_results_documents/IntegratedAnnualReport2025-26.pdf">Oil India Integrated Annual Report 2025-26</a>; <a href="https://www.oil-india.com/files/investor_services_documents/BRSR-2024-25.pdf">Oil India BRSR 2024-25</a>; '
@@ -181,7 +203,7 @@ SOURCES = (
     '<a href="https://www.moefcc-gcp.in/faq">programme FAQ</a>; <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240640">PIB, 16 March 2026</a>; <a href="https://forestsclearance.nic.in/writereaddata/public_display/schemes/142674276%24xyz.pdf">Ministry guidelines on compensatory afforestation, August 2025</a>; '
     '<a href="https://india.mongabay.com/2025/09/green-credit-rules-tweaked-to-favour-canopy-cover-remove-trade-provision">Mongabay India, 4 September 2025</a> and <a href="https://india.mongabay.com/2024/12/green-credit-programme-rolls-out-with-little-clarity-on-exchange-value">December 2024</a>. '
     '</p><p class="gb-note" style="margin:.6rem 0 0">OTBL and bioremediation: <a href="https://www.otbl.co.in/">otbl.co.in</a> and <a href="https://www.otbl.co.in/Oilzapper.php">Oilzapper page</a>; <a href="https://www.teriin.org/project/bioremediation-services-assam-and-arunachal-pradesh">TERI, bioremediation services in Assam and Arunachal Pradesh</a>. '
-    'Researched 27 and 28 November 2026. Shares, conversions and comparisons are this blog&rsquo;s work.')
+    'Researched 27 and 28 November 2026, with the DGH site read on 28 November. Shares, conversions and comparisons are this blog&rsquo;s work.')
 
 RELATED = [
     (f"{B}/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html", "India's oil and gas exploration blocks: 172 awarded, 1 has reached production"),

@@ -9,3 +9,13 @@ Not opened: otbl.co.in MEOR and WDP pages (bot challenge); ONGC AR 2025-26 acrea
 Open questions: area relinquished by ONGC/OIL in total (not published); reconciliation of 1,583 / 12,539 sq km PEL figures with 94,358 and 162,701; surface land held by operators; ONGC's own Green Credit hectares; why OIL's 601 ha (2024-25) became 431 ha (2025-26).
 
 Check before publishing: the NELP "relinquished" column is broader than relinquishment (it includes termination notices, operational issues, PEL awaited); the post says so.
+
+## Update 28 Nov 2026: DGH site, MoPNG annual report 2024-25, and earlier cloud work on ORDA
+
+DGH / MoPNG figures now used (31 Mar 2025): ONGC nomination 3 PEL 1,583 sq km + 325 PML 46,890 sq km (total 48,473; the ministry block-award page, undated, says 94,358 for 9 PEL + 334 PML); OIL 25 PML 4,828.84 sq km (+1 PEL 24.61 per text); PSC regime 15 PEL 12,539.31 + 67 PML 8,997.53; DSF 56 PML 13,129.80; OALP 158 PELs 227,367 sq km. PEL total ~241,514 sq km, PML total 73,846 sq km; 31 Mar 2019 (DGH NDR): ~99,000 and ~71,000. Lok Sabha answer 700's 1,583 and 12,539 are ONGC nomination PEL and PSC-regime PEL.
+DGH OALP model contract (20 Dec 2025): art. 4 relinquishment (any part, any time; 1' grid polygons; art. 4.3 decommission and site restoration); art. 13.7-13.8 fund and damages. MoPNG site restoration guidelines (2018, amended Aug 2021). PNG Rules 2025 r.43 and r.57.
+
+Earlier cloud work (ORDA = Oilfields (Regulation and Development) Amendment Act 2025):
+- Dropbox: India_Oilfield_Land_Reuse_Legal_Analysis (.docx and .md, several backup copies, Jul-Oct 2026); India_Oilfield_Energy_Transition_Atlas (.docx/.md); cbg_ongc_briefing.
+- Drive: India_Oilfield_Energy_Transition_Atlas (Google doc, 5 Jul 2026); Oilfield_Renewables_Blueprint_Generic (two copies, 9 Jul 2026); India_Power_Gaps_Oilfield_Export_Platform (5 Jul 2026). Titles only; not opened.
+- Problems found in the Dropbox files (do not reuse without correcting): total acreage 5.66 lakh sq km and ONGC 4.30 lakh sq km (not in any DGH/ministry table; DGH licences plus leases sum to ~3.15 lakh sq km); hectare conversions are ten times too high (1 lakh sq km = 1 crore ha, the files write 10 crore); '25% relinquishment at each phase' (DGH model contract says any part, any time); 'DGH must certify restoration before relinquishment' and the s.6(q) numbering were not found in the texts read.
