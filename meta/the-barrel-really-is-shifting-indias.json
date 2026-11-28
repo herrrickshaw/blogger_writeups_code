@@ -4,14 +4,14 @@
   "url": "https://blog.vertistratsolution.com/2026/08/the-barrel-really-is-shifting-indias.html",
   "slug": "the-barrel-really-is-shifting-indias",
   "published": "2026-08-12T20:24:23.000+05:30",
-  "updated": "2026-11-21T16:02:49.142+05:30",
+  "updated": "2026-11-28T06:39:50.615+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 40094,
-  "sha256": "27885396c327ab10d2b30522855047941e7d880aa8af8285ce298b8d19c2fd03",
+  "bytes": 39590,
+  "sha256": "5d239b8d7b91b18b349e367532442ec8f24df9fccf151407929e4971771c58bb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -372,6 +372,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Phase 1 of the indexing recovery (run 21 Nov with out/gsc_index/phase1_run_2026-11-21.sh): 4 merged posts (minor: sections absorbed), 27 relinks and link fixes (patch), article index (major, as every index rebuild), 21 absorbed or dead-end posts reverted to draft"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-11-28T10:49:51+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-1 distinct numbers)",
+      "bytes": [
+        40094,
+        39590
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

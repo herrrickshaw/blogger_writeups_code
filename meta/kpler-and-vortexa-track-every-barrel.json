@@ -4,13 +4,13 @@
   "url": "https://blog.vertistratsolution.com/2026/09/kpler-and-vortexa-track-every-barrel.html",
   "slug": "kpler-and-vortexa-track-every-barrel",
   "published": "2026-09-24T08:43:14.000+05:30",
-  "updated": "2026-11-14T15:48:04.556+05:30",
+  "updated": "2026-11-28T06:39:38.466+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
   "bytes": 40299,
-  "sha256": "a7c2ca2e648a2d42eed2cfbb4f3414b6d48c37a04ba94c8edf05e26f80eb0c3c",
+  "sha256": "03c0cddcdd58962dfbc43cf37e92f7cea70838afdc1ae971cbfe9d474a08a91a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -124,6 +124,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-28T10:49:51+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        40299,
+        40299
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -21204,3 +21204,42 @@ scheduled sync
 - `india-sells-world-about-third-of-its` — 26,609 → 30,771 bytes (+4,162)
 - `a-million-wine-market-behind-150-wall` — 36,991 → 40,689 bytes (+3,698)
 - `article-index-start-here` — 1,003,779 → 1,013,770 bytes (+9,991)
+
+## 2026-11-28T10:49:51+00:00 — 540 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `ongc-oil-india-and-green-credits-blocks` **v1.0.0** — ONGC, Oil India and Green Credits: blocks given back, 431 ha planted, 44 ha restored (58,261 bytes)
+
+**Versions**
+
+- `indias-irrigation-system-recovered-96` **2.0.0 → 2.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `kpler-and-vortexa-track-every-barrel` **2.0.0 → 2.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `the-reactor-nobody-names-how-coal` **4.0.0 → 4.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `three-different-eu-rules-are-making` **2.0.0 → 2.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `the-barrel-really-is-shifting-indias` **3.0.1 → 4.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+- `half-of-indias-import-bill-is` **4.0.1 → 4.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `article-index-start-here` **81.0.0 → 82.0.0** (MAJOR) — figures changed (+5/-2 distinct numbers)
+
+**Changed**
+
+- `indias-irrigation-system-recovered-96` — 24,667 → 24,667 bytes (+0)
+- `kpler-and-vortexa-track-every-barrel` — 40,299 → 40,299 bytes (+0)
+- `the-reactor-nobody-names-how-coal` — 25,583 → 25,583 bytes (+0)
+- `three-different-eu-rules-are-making` — 31,448 → 31,448 bytes (+0)
+- `the-barrel-really-is-shifting-indias` — 40,094 → 39,590 bytes (-504)
+- `half-of-indias-import-bill-is` — 29,721 → 29,711 bytes (-10)
+- `article-index-start-here` — 1,013,770 → 1,132,725 bytes (+118,955)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `nabet-accredited-eia-consultants-256` — 2026-11-27 &rarr; 2026-11-27
+- `telangana-service-delivery-no-general` — 2026-11-27 &rarr; 2026-11-27
+- `sodium-ion-batteries-17-more-mass-per` — 2026-11-27 &rarr; 2026-11-27
+- `post-earnings-drift-by-market-this` — 2026-11-26 &rarr; 2026-11-26
+- `post-earnings-drift-absent-in-large-us` — 2026-11-26 &rarr; 2026-11-26
+- `indias-sour-crude-high-sulphur-grades` — 2026-11-26 &rarr; 2026-11-26
+- `indias-right-to-service-laws-22-states` — 2026-11-21 &rarr; 2026-11-21

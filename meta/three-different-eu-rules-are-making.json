@@ -4,7 +4,7 @@
   "url": "https://blog.vertistratsolution.com/2026/08/three-different-eu-rules-are-making.html",
   "slug": "three-different-eu-rules-are-making",
   "published": "2026-08-28T14:33:49.000+05:30",
-  "updated": "2026-11-14T16:10:02.917+05:30",
+  "updated": "2026-11-28T06:40:16.905+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
@@ -12,7 +12,7 @@
     "Trade & Tariffs"
   ],
   "bytes": 31448,
-  "sha256": "00812c4242b0cf4d1bb4209eb34bdb36f0b86d103f5768a90728bd14d2741a8a",
+  "sha256": "bc9f54ece03b5860af5262498110eccb01d5e5189d81be40a70757ad44681344",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -165,6 +165,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-11-28T10:49:51+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        31448,
+        31448
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
